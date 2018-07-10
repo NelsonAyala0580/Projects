@@ -1,0 +1,12 @@
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.dll.config
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.dll.config
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Release\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Release\GPServicesREF.pdb

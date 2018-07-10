@@ -1,0 +1,75 @@
+2017-06-30 10:49:16,499 [9] DEBUG  - Inicia sincronización de Poliza: 4-05-464530
+2017-06-30 10:50:17,166 [9] DEBUG  - Poliza sincronizada correctamente: 4-05-464530
+2017-06-30 10:50:17,981 [9] DEBUG  - Finaliza la sincronización de Poliza: 4-05-464530
+2017-06-30 10:50:31,378 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-451
+2017-06-30 10:50:49,253 [9] DEBUG  - Poliza sincronizada correctamente: 1-201-451
+2017-06-30 10:50:49,913 [9] DEBUG  - Finaliza la sincronización de Poliza: 1-201-451
+2017-06-30 10:50:51,945 [9] DEBUG  - Inicia sincronización de Poliza: 13-201-477
+2017-06-30 10:52:08,291 [9] ERROR  - Ocurrio un error al crear la clase: C1623081710094. Sql procedure error codes returned: 
+Error Number = 3312  Stored Procedure= taCreateCustomerClass  Error Description = The Accounts Receivable Account (ACCTRECACCT) does not exist in GL00105 table - Account Index Master
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = C1623081710094
+Related Error Code Parameters for Node : taCreateCustomerClass
+ACCTRECACCT = 1302-01-203-1623-00-05-179-10094-00
+
+
+<taCreateCustomerClass>
+  <CLASSID>C1623081710094</CLASSID>
+  <CLASDSCR>C1623081710094</CLASDSCR>
+  <CRLMTTYP>1</CRLMTTYP>
+  <TAXSCHID>DR</TAXSCHID>
+  <ACCTRECACCT>1302-01-203-1623-00-05-179-10094-00</ACCTRECACCT>
+  <KPCALHST>0</KPCALHST>
+  <KPDSTHST>0</KPDSTHST>
+  <KPERHIST>0</KPERHIST>
+  <KPTRXHST>0</KPTRXHST>
+  <Revalue_Customer>0</Revalue_Customer>
+</taCreateCustomerClass>
+
+2017-06-30 10:52:32,998 [9] ERROR  - Ocurrió un error al sincronizar la póliza: 13-201-477. Sql procedure error codes returned: 
+Error Number = 495  Stored Procedure= taUpdateCreateCustomerRcd  Error Description = The Customer Class ID does not exist in the RM Class Master Table
+Node Identifier Parameters: taUpdateCreateCustomerRcd
+CUSTNMBR = 13-201-477
+Related Error Code Parameters for Node : taUpdateCreateCustomerRcd
+CUSTCLAS = C1623081710094
+
+
+<taUpdateCreateCustomerRcd>
+  <CUSTNMBR>13-201-477</CUSTNMBR>
+  <CUSTNAME>Consultans La </CUSTNAME>
+  <SHRTNAME>Consultans </SHRTNAME>
+  <STMTNAME>Consultans </STMTNAME>
+  <CUSTCLAS>C1623081710094</CUSTCLAS>
+  <ADRSCODE>PRIMARY        </ADRSCODE>
+  <ADDRESS1>fdgdfgdg</ADDRESS1>
+  <ADDRESS2>0</ADDRESS2>
+  <ADDRESS3>0</ADDRESS3>
+  <CITY>SANTO DOMINGO DE GUZMAN</CITY>
+  <COUNTRY>REPUBLICA DOMINICANA</COUNTRY>
+  <PHNUMBR1>4545454545</PHNUMBR1>
+  <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+  <UseCustomerClass>1</UseCustomerClass>
+</taUpdateCreateCustomerRcd>
+
+2017-06-30 10:52:33,431 [9] DEBUG  - Finaliza la sincronización de Poliza: 13-201-477
+2017-06-30 10:52:34,855 [9] DEBUG  - Inicia sincronización de Poliza: 16-05-464532
+2017-06-30 10:53:04,685 [9] WARN  - No existe una configuración para la linea de negocio 201 y producto: 0102
+2017-06-30 10:53:29,283 [9] WARN  - No existe una configuración para la linea de negocio 201 y producto: 0102
+2017-06-30 10:53:31,898 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 545
+2017-06-30 10:53:48,313 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 555
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 37
+2017-06-30 10:53:53,374 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 555
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 63
+   at PolicySync.BL.PolicyBL.CreateCustomerClass(String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String custclass) in C:\VSProjects\SysflexIntegration\PolicySync\BL\PolicyBL.cs:line 114
+2017-06-30 10:53:55,007 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 555
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 63
+   at PolicySync.BL.PolicyBL.CreateCustomerClass(String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String custclass) in C:\VSProjects\SysflexIntegration\PolicySync\BL\PolicyBL.cs:line 122
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 40

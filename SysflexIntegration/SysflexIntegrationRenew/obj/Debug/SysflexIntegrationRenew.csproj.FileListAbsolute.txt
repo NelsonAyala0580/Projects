@@ -1,0 +1,47 @@
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.exe.config
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.exe
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\PolicyRenewSync.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\MODEL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\log4net.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\PolicyRenewSync.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\MODEL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\log4net.xml
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.exe
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.exe.config
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.exe
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\PolicyRenewSync.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\PolicyRenewSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.exe
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.pdb
+C:\Temp\SysflexIntegration\SysflexIntegrationRenew\bin\Debug\SysflexIntegrationRenew.exe.config
+C:\Temp\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.exe
+C:\Temp\SysflexIntegration\SysflexIntegrationRenew\obj\Debug\SysflexIntegrationRenew.pdb

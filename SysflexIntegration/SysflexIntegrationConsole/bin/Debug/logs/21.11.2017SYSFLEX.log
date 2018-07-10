@@ -1,0 +1,16 @@
+2017-11-21 14:32:45,537 [10] DEBUG  - Total de Transacciones: 35
+2017-11-21 14:32:54,608 [10] DEBUG  - Contruyendo encabezado
+2017-11-21 14:32:55,155 [10] DEBUG  - Creacion de numero de batch SFNC2111201714
+2017-11-21 14:32:57,780 [10] DEBUG  - Se obtiene el cliente de GP 1-05-481505
+2017-11-21 14:34:29,587 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 69
+2017-11-21 14:39:45,574 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1556
+2017-11-21 14:39:47,864 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1932
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 164
+2017-11-21 14:39:56,852 [10] DEBUG  - Contruyendo encabezado
+2017-11-21 14:39:57,175 [10] DEBUG  - Creacion de numero de batch SFNC2111201714

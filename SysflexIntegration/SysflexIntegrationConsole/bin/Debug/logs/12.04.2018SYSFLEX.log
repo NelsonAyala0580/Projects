@@ -1,0 +1,1917 @@
+2018-04-12 11:40:15,284 [9] DEBUG  - Total de Transacciones: 3
+2018-04-12 11:41:11,115 [9] DEBUG  - Contruyendo encabezado
+2018-04-12 11:41:11,534 [9] DEBUG  - Creacion de numero de batch SFNC2332018
+2018-04-12 11:41:13,478 [9] DEBUG  - Se obtiene el cliente de GP 15-05-485284
+2018-04-12 11:42:05,751 [9] WARN  - Poliza no tiene asignado Canal
+2018-04-12 11:42:05,757 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1086
+2018-04-12 11:42:05,774 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 60
+2018-04-12 11:42:05,777 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 96
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1921
+2018-04-12 11:42:05,782 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 96
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 2363
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 181
+2018-04-12 11:42:44,202 [9] DEBUG  - Contruyendo encabezado
+2018-04-12 11:42:44,831 [9] DEBUG  - Creacion de numero de batch SFNC2732018
+2018-04-12 11:42:47,056 [9] DEBUG  - Se obtiene el cliente de GP 2-05-464710
+2018-04-12 11:43:10,438 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-176-10011-00
+2018-04-12 11:43:10,438 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-12 11:43:21,919 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-65
+2018-04-12 11:43:22,952 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-24
+2018-04-12 11:43:23,983 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-15
+2018-04-12 11:43:25,008 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-04
+2018-04-12 11:43:26,034 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-02
+2018-04-12 11:43:27,061 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-13
+2018-04-12 11:43:28,091 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-06
+2018-04-12 11:43:29,120 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-09
+2018-04-12 11:43:30,143 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-12
+2018-04-12 11:43:31,168 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-07
+2018-04-12 11:43:32,234 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-05
+2018-04-12 11:43:33,260 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-48
+2018-04-12 11:43:34,286 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0205-00-05-176-10011-49
+2018-04-12 11:43:35,309 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-65
+2018-04-12 11:43:36,334 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-24
+2018-04-12 11:43:37,358 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-15
+2018-04-12 11:43:38,387 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-04
+2018-04-12 11:43:39,412 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-02
+2018-04-12 11:43:40,451 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-13
+2018-04-12 11:43:41,485 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-06
+2018-04-12 11:43:42,511 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-09
+2018-04-12 11:43:43,537 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-12
+2018-04-12 11:43:44,567 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-07
+2018-04-12 11:43:45,591 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-05
+2018-04-12 11:43:46,623 [9] DEBUG  - Cuenta de Producto: 4301-06-201-0405-00-05-176-10011-48
+2018-04-12 11:43:54,898 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-65
+2018-04-12 11:43:56,299 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-24
+2018-04-12 11:43:57,755 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-15
+2018-04-12 11:43:59,284 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-04
+2018-04-12 11:44:00,701 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-02
+2018-04-12 11:44:02,097 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-13
+2018-04-12 11:44:03,490 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-06
+2018-04-12 11:44:04,890 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-09
+2018-04-12 11:44:06,293 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-12
+2018-04-12 11:44:07,692 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-07
+2018-04-12 11:44:09,095 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-05
+2018-04-12 11:44:10,496 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-48
+2018-04-12 11:44:11,890 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-176-10011-49
+2018-04-12 11:44:13,323 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-65
+2018-04-12 11:44:14,716 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-24
+2018-04-12 11:44:16,111 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-15
+2018-04-12 11:44:18,861 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-04
+2018-04-12 11:44:20,269 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-02
+2018-04-12 11:44:21,690 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-13
+2018-04-12 11:44:23,102 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-06
+2018-04-12 11:44:24,522 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-09
+2018-04-12 11:44:25,957 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-12
+2018-04-12 11:44:27,446 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-07
+2018-04-12 11:44:28,870 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-05
+2018-04-12 11:44:30,265 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-176-10011-48
+2018-04-12 11:44:31,395 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0205-00-05-176-10011-00
+2018-04-12 11:44:32,336 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0405-00-05-176-10011-00
+2018-04-12 11:45:11,506 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-12 11:45:12,541 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-65
+2018-04-12 11:45:13,567 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-24
+2018-04-12 11:45:14,918 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-15
+2018-04-12 11:45:15,941 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-04
+2018-04-12 11:45:16,990 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-02
+2018-04-12 11:45:18,013 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-13
+2018-04-12 11:45:19,037 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-06
+2018-04-12 11:45:20,059 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-09
+2018-04-12 11:45:21,084 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-12
+2018-04-12 11:45:22,106 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-07
+2018-04-12 11:45:23,129 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-05
+2018-04-12 11:45:24,151 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-48
+2018-04-12 11:45:25,175 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-176-10011-49
+2018-04-12 11:45:26,294 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-65
+2018-04-12 11:45:27,319 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-24
+2018-04-12 11:45:28,512 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-15
+2018-04-12 11:45:29,803 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-04
+2018-04-12 11:45:31,045 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-02
+2018-04-12 11:45:32,069 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-13
+2018-04-12 11:45:33,092 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-06
+2018-04-12 11:45:34,117 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-09
+2018-04-12 11:45:35,146 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-12
+2018-04-12 11:45:36,171 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-07
+2018-04-12 11:45:37,195 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-05
+2018-04-12 11:45:38,220 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-176-10011-48
+2018-04-12 11:45:39,161 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-05-176-10011-00
+2018-04-12 11:45:40,094 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0405-00-05-176-10011-00
+2018-04-12 11:45:48,852 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-176-10011-04
+2018-04-12 11:45:49,939 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-176-10011-04
+2018-04-12 11:45:50,968 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-176-10011-06
+2018-04-12 11:45:51,993 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-176-10011-06
+2018-04-12 11:45:53,017 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-176-10011-07
+2018-04-12 11:45:54,044 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-176-10011-07
+2018-04-12 11:45:55,071 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-176-10011-05
+2018-04-12 11:45:56,096 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-176-10011-05
+2018-04-12 11:45:57,127 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-04
+2018-04-12 11:45:58,149 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-04
+2018-04-12 11:45:59,173 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:00,196 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:01,218 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:02,239 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:03,279 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:04,300 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:05,323 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-04
+2018-04-12 11:46:06,342 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-04
+2018-04-12 11:46:07,364 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:08,387 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:09,409 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:10,532 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:11,599 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:12,765 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:13,842 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0405-00-05-176-10011-00
+2018-04-12 11:46:15,049 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-05-176-10011-00
+2018-04-12 11:46:16,367 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0405-00-05-176-10011-00
+2018-04-12 11:46:17,812 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-05-176-10011-00
+2018-04-12 11:46:19,586 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-176-10011-04
+2018-04-12 11:46:21,499 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-176-10011-06
+2018-04-12 11:46:23,561 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-176-10011-07
+2018-04-12 11:46:25,887 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-176-10011-05
+2018-04-12 11:46:28,190 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-04
+2018-04-12 11:46:30,688 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:32,987 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:34,028 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:35,050 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-04
+2018-04-12 11:46:36,073 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-06
+2018-04-12 11:46:37,097 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-07
+2018-04-12 11:46:38,126 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-176-10011-05
+2018-04-12 11:46:39,061 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0405-00-05-176-10011-00
+2018-04-12 11:46:39,993 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-05-176-10011-00
+2018-04-12 11:46:43,243 [9] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RMTransactionType>
+    <taRMTransactionTaxInsert_Items>
+      <taRMTransactionTaxInsert>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <RMDTYPAL>7</RMDTYPAL>
+        <BACHNUMB>SFNC2732018</BACHNUMB>
+        <TAXDTLID>DR</TAXDTLID>
+        <TAXAMNT>629.90</TAXAMNT>
+        <STAXAMNT>0</STAXAMNT>
+        <TAXDTSLS>3936.83000000</TAXDTSLS>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+      </taRMTransactionTaxInsert>
+    </taRMTransactionTaxInsert_Items>
+    <taRMDistribution_Items>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>3</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0600-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>4566.73000000</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <DEBITAMT>629.90</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-65</ACTNUMST>
+        <DEBITAMT>18.57</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Asistencia Vial Atlantica</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-24</ACTNUMST>
+        <DEBITAMT>119.46</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Casa Del Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-15</ACTNUMST>
+        <DEBITAMT>141.37</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>1004.38</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-02</ACTNUMST>
+        <DEBITAMT>129.96</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-13</ACTNUMST>
+        <DEBITAMT>37.13</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>502.18</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-09</ACTNUMST>
+        <DEBITAMT>148.52</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-12</ACTNUMST>
+        <DEBITAMT>37.13</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Riesgo Comprensivo</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>401.75</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>100.44</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Vehiculo Rentado 15 Dias Compacto</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-48</ACTNUMST>
+        <DEBITAMT>81.98</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Vehiculo Rentado 5 Dias Compacto</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-176-10011-49</ACTNUMST>
+        <DEBITAMT>37.32</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-65</ACTNUMST>
+        <DEBITAMT>8.03</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Asistencia Vial Atlantica</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-24</ACTNUMST>
+        <DEBITAMT>39.86</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Casa Del Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-15</ACTNUMST>
+        <DEBITAMT>47.17</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>441.84</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-02</ACTNUMST>
+        <DEBITAMT>56.21</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-13</ACTNUMST>
+        <DEBITAMT>16.06</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>220.90</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-09</ACTNUMST>
+        <DEBITAMT>64.25</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-12</ACTNUMST>
+        <DEBITAMT>16.06</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Riesgo Comprensivo</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>176.72</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>44.18</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Vehiculo Rentado 15 Dias Compacto</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-176-10011-48</ACTNUMST>
+        <DEBITAMT>45.36</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-65</ACTNUMST>
+        <CRDTAMNT>3.25</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-24</ACTNUMST>
+        <CRDTAMNT>20.91</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-15</ACTNUMST>
+        <CRDTAMNT>24.74</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>175.77</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-02</ACTNUMST>
+        <CRDTAMNT>22.74</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-13</ACTNUMST>
+        <CRDTAMNT>6.50</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>87.88</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-09</ACTNUMST>
+        <CRDTAMNT>25.99</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-12</ACTNUMST>
+        <CRDTAMNT>6.50</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>70.31</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>17.58</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-48</ACTNUMST>
+        <CRDTAMNT>14.35</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-176-10011-49</ACTNUMST>
+        <CRDTAMNT>6.53</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-65</ACTNUMST>
+        <CRDTAMNT>1.41</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-24</ACTNUMST>
+        <CRDTAMNT>6.98</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-15</ACTNUMST>
+        <CRDTAMNT>8.25</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>77.32</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-02</ACTNUMST>
+        <CRDTAMNT>9.84</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-13</ACTNUMST>
+        <CRDTAMNT>2.81</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>38.66</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-09</ACTNUMST>
+        <CRDTAMNT>11.24</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-12</ACTNUMST>
+        <CRDTAMNT>2.81</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>30.93</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>7.73</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-176-10011-48</ACTNUMST>
+        <CRDTAMNT>7.94</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0205-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>483.05</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0405-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>205.92</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-65</ACTNUMST>
+        <CRDTAMNT>7.43</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-24</ACTNUMST>
+        <CRDTAMNT>47.78</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-15</ACTNUMST>
+        <CRDTAMNT>56.55</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>401.75</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-02</ACTNUMST>
+        <CRDTAMNT>51.98</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-13</ACTNUMST>
+        <CRDTAMNT>14.85</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>200.87</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-09</ACTNUMST>
+        <CRDTAMNT>59.41</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-12</ACTNUMST>
+        <CRDTAMNT>14.85</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>160.70</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>40.18</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-48</ACTNUMST>
+        <CRDTAMNT>32.79</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-176-10011-49</ACTNUMST>
+        <CRDTAMNT>14.93</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-65</ACTNUMST>
+        <CRDTAMNT>3.21</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-24</ACTNUMST>
+        <CRDTAMNT>15.94</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-15</ACTNUMST>
+        <CRDTAMNT>18.87</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>176.74</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-02</ACTNUMST>
+        <CRDTAMNT>22.48</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-13</ACTNUMST>
+        <CRDTAMNT>6.42</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>88.36</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-09</ACTNUMST>
+        <CRDTAMNT>25.70</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-12</ACTNUMST>
+        <CRDTAMNT>6.42</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>70.69</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>17.67</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-176-10011-48</ACTNUMST>
+        <CRDTAMNT>18.14</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Pasivo RRC </DistRef>
+        <ACTNUMST>2206-00-201-0205-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>1104.07</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Pasivo RRC </DistRef>
+        <ACTNUMST>2206-00-201-0405-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>470.64</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>353.47</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>106.04</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>176.72</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>53.02</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>141.38</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>42.41</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>35.34</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>10.60</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>634.65</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>190.39</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>317.32</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>95.20</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>253.86</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>76.16</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>63.46</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>19.04</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <CRDTAMNT>168.85</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>50.66</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <CRDTAMNT>84.43</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>25.33</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <CRDTAMNT>67.54</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>20.26</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <CRDTAMNT>16.89</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>5.07</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0405-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>706.91</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0205-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>1607.00</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0405-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>212.07</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0205-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>482.11</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>141.39</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>70.69</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>56.55</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>14.14</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>253.86</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>126.93</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>101.54</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>25.38</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-04</ACTNUMST>
+        <DEBITAMT>67.54</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-06</ACTNUMST>
+        <DEBITAMT>33.77</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-07</ACTNUMST>
+        <DEBITAMT>27.02</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-176-10011-05</ACTNUMST>
+        <DEBITAMT>6.76</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0405-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>282.77</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571659278          </DOCNUMBR>
+        <CUSTNMBR>2-05-464710    </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0205-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>642.80</CRDTAMNT>
+      </taRMDistribution>
+    </taRMDistribution_Items>
+    <taRMTransaction>
+      <RMDTYPAL>7</RMDTYPAL>
+      <DOCNUMBR>2571659278          </DOCNUMBR>
+      <DOCDATE>2018-03-27</DOCDATE>
+      <BACHNUMB>SFNC2732018</BACHNUMB>
+      <CUSTNMBR>2-05-464710    </CUSTNMBR>
+      <DOCAMNT>4566.73000000</DOCAMNT>
+      <SLSAMNT>3936.83000000</SLSAMNT>
+      <DOCDESCR>DESCUENTO PRONTO PAGO                                                      </DOCDESCR>
+      <SLPRSNID>9504</SLPRSNID>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>629.90</TAXAMNT>
+      <DUEDATE>2018-03-27</DUEDATE>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <CREATEDIST>0</CREATEDIST>
+    </taRMTransaction>
+  </RMTransactionType>
+</eConnect>
+2018-04-12 11:57:23,766 [9] DEBUG  - Total de Transacciones: 1
+2018-04-12 11:57:50,349 [9] DEBUG  - Contruyendo encabezado
+2018-04-12 11:57:50,724 [9] DEBUG  - Creacion de numero de batch SFNC2332018
+2018-04-12 11:57:55,082 [9] DEBUG  - Se obtiene el cliente de GP 15-05-485284
+2018-04-12 11:59:46,048 [9] WARN  - Poliza no tiene asignado Canal
+2018-04-12 11:59:46,055 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1086
+2018-04-12 12:04:10,707 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0427-00-03-174-10055-00
+2018-04-12 12:04:10,708 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-12 12:04:14,598 [9] WARN  - Poliza no tiene asignado Canal
+2018-04-12 12:04:14,603 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1086
+2018-04-12 12:04:14,608 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 159
+2018-04-12 12:04:14,613 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 200
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1974
+2018-04-12 12:04:14,618 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetChannelMapping(String channel) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1096
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 200
+   at InvoiceSync.BL.InvoiceBL.CreateRMDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 2363
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 181
+2018-04-12 12:05:00,118 [10] DEBUG  - Total de Transacciones: 1
+2018-04-12 12:05:07,901 [10] DEBUG  - Contruyendo encabezado
+2018-04-12 12:05:08,287 [10] DEBUG  - Creacion de numero de batch SFNC2332018
+2018-04-12 12:05:09,660 [10] DEBUG  - Se obtiene el cliente de GP 15-05-485284
+2018-04-12 12:06:33,762 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0427-00-03-174-10055-00
+2018-04-12 12:06:33,762 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-12 12:06:38,115 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-65
+2018-04-12 12:06:44,290 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-24
+2018-04-12 12:06:46,412 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-15
+2018-04-12 12:06:47,738 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-04
+2018-04-12 12:06:48,769 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-02
+2018-04-12 12:06:49,813 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-13
+2018-04-12 12:06:50,848 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-06
+2018-04-12 12:06:51,875 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-09
+2018-04-12 12:06:52,902 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-12
+2018-04-12 12:06:53,930 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-07
+2018-04-12 12:06:54,956 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-05
+2018-04-12 12:06:55,982 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0427-00-03-174-10055-48
+2018-04-12 12:07:07,330 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-65
+2018-04-12 12:07:08,736 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-24
+2018-04-12 12:07:10,138 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-15
+2018-04-12 12:07:11,557 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-04
+2018-04-12 12:07:12,971 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-02
+2018-04-12 12:07:14,375 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-13
+2018-04-12 12:07:15,777 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-06
+2018-04-12 12:07:17,175 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-09
+2018-04-12 12:07:18,583 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-12
+2018-04-12 12:07:19,981 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-07
+2018-04-12 12:07:21,386 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-05
+2018-04-12 12:07:22,789 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0427-00-03-174-10055-48
+2018-04-12 12:07:23,921 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0427-00-03-174-10055-00
+2018-04-12 12:07:24,602 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-12 12:07:25,643 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-65
+2018-04-12 12:07:26,671 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-24
+2018-04-12 12:07:27,699 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-15
+2018-04-12 12:07:28,726 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-04
+2018-04-12 12:07:29,753 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-02
+2018-04-12 12:07:30,782 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-13
+2018-04-12 12:07:31,809 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-06
+2018-04-12 12:07:32,834 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-09
+2018-04-12 12:07:33,863 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-12
+2018-04-12 12:07:34,892 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-07
+2018-04-12 12:07:35,923 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-05
+2018-04-12 12:07:36,961 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0427-00-03-174-10055-48
+2018-04-12 12:07:37,901 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0427-00-03-174-10055-00
+2018-04-12 12:07:42,341 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0427-00-03-174-10055-04
+2018-04-12 12:07:43,389 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0427-00-03-174-10055-04
+2018-04-12 12:07:44,422 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0427-00-03-174-10055-06
+2018-04-12 12:07:45,449 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0427-00-03-174-10055-06
+2018-04-12 12:07:46,475 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0427-00-03-174-10055-07
+2018-04-12 12:07:47,503 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0427-00-03-174-10055-07
+2018-04-12 12:07:48,532 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0427-00-03-174-10055-05
+2018-04-12 12:07:49,564 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0427-00-03-174-10055-05
+2018-04-12 12:07:50,506 [10] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0427-00-03-174-10055-00
+2018-04-12 12:07:51,439 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0427-00-03-174-10055-00
+2018-04-12 12:07:52,488 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0427-00-03-174-10055-04
+2018-04-12 12:07:53,514 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0427-00-03-174-10055-06
+2018-04-12 12:07:55,071 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0427-00-03-174-10055-07
+2018-04-12 12:07:56,100 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0427-00-03-174-10055-05
+2018-04-12 12:07:57,041 [10] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0427-00-03-174-10055-00
+2018-04-12 12:07:59,264 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RMTransactionType>
+    <taRMTransactionTaxInsert_Items>
+      <taRMTransactionTaxInsert>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <RMDTYPAL>7</RMDTYPAL>
+        <BACHNUMB>SFNC2332018</BACHNUMB>
+        <TAXDTLID>DR</TAXDTLID>
+        <TAXAMNT>241.25</TAXAMNT>
+        <STAXAMNT>0</STAXAMNT>
+        <TAXDTSLS>1507.79000000</TAXDTSLS>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+      </taRMTransactionTaxInsert>
+    </taRMTransactionTaxInsert_Items>
+    <taRMDistribution_Items>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>3</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0427-00-03-174-10055-00</ACTNUMST>
+        <CRDTAMNT>1749.04000000</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <DEBITAMT>241.25</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-65</ACTNUMST>
+        <DEBITAMT>12.92</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Asistencia Vial Atlantica</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-24</ACTNUMST>
+        <DEBITAMT>64.13</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Casa Del Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-15</ACTNUMST>
+        <DEBITAMT>75.90</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <DEBITAMT>545.17</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-02</ACTNUMST>
+        <DEBITAMT>90.44</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-13</ACTNUMST>
+        <DEBITAMT>25.84</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <DEBITAMT>272.59</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-09</ACTNUMST>
+        <DEBITAMT>103.36</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-12</ACTNUMST>
+        <DEBITAMT>25.84</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Riesgo Comprensivo</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <DEBITAMT>218.07</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <DEBITAMT>0.55</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>19</DISTTYPE>
+        <DistRef>Vehiculo Rentado 15 Dias Compacto</DistRef>
+        <ACTNUMST>4301-06-201-0427-00-03-174-10055-48</ACTNUMST>
+        <DEBITAMT>72.98</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-65</ACTNUMST>
+        <CRDTAMNT>2.00</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-24</ACTNUMST>
+        <CRDTAMNT>9.94</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-15</ACTNUMST>
+        <CRDTAMNT>11.76</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <CRDTAMNT>84.50</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-02</ACTNUMST>
+        <CRDTAMNT>14.02</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-13</ACTNUMST>
+        <CRDTAMNT>4.01</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <CRDTAMNT>42.25</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-09</ACTNUMST>
+        <CRDTAMNT>16.02</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-12</ACTNUMST>
+        <CRDTAMNT>4.01</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <CRDTAMNT>33.80</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <CRDTAMNT>0.09</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0427-00-03-174-10055-48</ACTNUMST>
+        <CRDTAMNT>11.31</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0427-00-03-174-10055-00</ACTNUMST>
+        <DEBITAMT>233.71</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-65</ACTNUMST>
+        <CRDTAMNT>5.17</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-24</ACTNUMST>
+        <CRDTAMNT>25.65</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-15</ACTNUMST>
+        <CRDTAMNT>30.36</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <CRDTAMNT>218.07</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-02</ACTNUMST>
+        <CRDTAMNT>36.18</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-13</ACTNUMST>
+        <CRDTAMNT>10.34</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <CRDTAMNT>109.04</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-09</ACTNUMST>
+        <CRDTAMNT>41.34</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-12</ACTNUMST>
+        <CRDTAMNT>10.34</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <CRDTAMNT>87.23</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <CRDTAMNT>0.22</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0427-00-03-174-10055-48</ACTNUMST>
+        <CRDTAMNT>29.19</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Pasivo RRC </DistRef>
+        <ACTNUMST>2206-00-201-0427-00-03-174-10055-00</ACTNUMST>
+        <DEBITAMT>603.13</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <CRDTAMNT>272.58</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <DEBITAMT>81.78</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <CRDTAMNT>136.29</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <DEBITAMT>40.89</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <CRDTAMNT>109.03</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <DEBITAMT>32.71</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <CRDTAMNT>0.27</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <DEBITAMT>0.08</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0427-00-03-174-10055-00</ACTNUMST>
+        <DEBITAMT>518.17</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0427-00-03-174-10055-00</ACTNUMST>
+        <CRDTAMNT>155.46</CRDTAMNT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0427-00-03-174-10055-04</ACTNUMST>
+        <DEBITAMT>109.03</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0427-00-03-174-10055-06</ACTNUMST>
+        <DEBITAMT>54.52</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0427-00-03-174-10055-07</ACTNUMST>
+        <DEBITAMT>43.61</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0427-00-03-174-10055-05</ACTNUMST>
+        <DEBITAMT>0.11</DEBITAMT>
+      </taRMDistribution>
+      <taRMDistribution>
+        <RMDTYPAL>7</RMDTYPAL>
+        <DOCNUMBR>2571656313          </DOCNUMBR>
+        <CUSTNMBR>15-05-485284   </CUSTNMBR>
+        <DISTTYPE>8</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0427-00-03-174-10055-00</ACTNUMST>
+        <CRDTAMNT>207.27</CRDTAMNT>
+      </taRMDistribution>
+    </taRMDistribution_Items>
+    <taRMTransaction>
+      <RMDTYPAL>7</RMDTYPAL>
+      <DOCNUMBR>2571656313          </DOCNUMBR>
+      <DOCDATE>2018-03-23</DOCDATE>
+      <BACHNUMB>SFNC2332018</BACHNUMB>
+      <CUSTNMBR>15-05-485284   </CUSTNMBR>
+      <DOCAMNT>1749.04000000</DOCAMNT>
+      <SLSAMNT>1507.79000000</SLSAMNT>
+      <DOCDESCR>DESCUENTO PRONTO PAGO                                                      </DOCDESCR>
+      <SLPRSNID>14224</SLPRSNID>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>241.25</TAXAMNT>
+      <DUEDATE>2018-03-23</DUEDATE>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <CREATEDIST>0</CREATEDIST>
+    </taRMTransaction>
+  </RMTransactionType>
+</eConnect>

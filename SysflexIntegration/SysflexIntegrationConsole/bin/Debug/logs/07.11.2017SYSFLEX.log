@@ -1,0 +1,563 @@
+2017-11-07 15:41:20,649 [9] DEBUG  - Total de Transacciones: 6
+2017-11-07 15:41:21,337 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:41:21,337 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:41:22,556 [9] DEBUG  - Se obtiene el cliente de GP 1-05-434254
+2017-11-07 15:41:31,572 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:41:32,229 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:41:32,229 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:41:33,510 [9] DEBUG  - Cuenta de comisiones GASTO 6104-06-000-0000-00-00-000-00053-02
+2017-11-07 15:41:33,526 [9] DEBUG  - Cuenta de comisiones PAGO 6101-00-000-0000-00-00-000-00029-02
+2017-11-07 15:41:33,526 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:41:34,151 [9] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:41:34,838 [9] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0301-00-05-176-10051-00
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-05-176-10051-65
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-05-176-10051-02
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-05-176-10051-13
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-05-176-10051-09
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-05-176-10051-12
+2017-11-07 15:41:44,714 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:41:46,339 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-05-176-10051-65
+2017-11-07 15:41:48,449 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-05-176-10051-02
+2017-11-07 15:41:50,668 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-05-176-10051-13
+2017-11-07 15:41:52,449 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-05-176-10051-09
+2017-11-07 15:41:54,200 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-05-176-10051-12
+2017-11-07 15:41:55,543 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0301-00-05-176-10051-00
+2017-11-07 15:41:55,543 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:41:56,809 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-05-176-10051-65
+2017-11-07 15:41:58,106 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-05-176-10051-02
+2017-11-07 15:41:59,090 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-05-176-10051-13
+2017-11-07 15:42:00,028 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-05-176-10051-09
+2017-11-07 15:42:00,966 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-05-176-10051-12
+2017-11-07 15:42:01,778 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0301-00-05-176-10051-00
+2017-11-07 15:42:07,545 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:42:07,545 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:42:08,607 [9] DEBUG  - Se obtiene el cliente de GP 1-05-433615
+2017-11-07 15:42:20,593 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:42:21,218 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:42:21,218 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:42:22,468 [9] DEBUG  - Cuenta de comisiones GASTO 6104-06-000-0000-00-00-000-00053-02
+2017-11-07 15:42:22,468 [9] DEBUG  - Cuenta de comisiones PAGO 6101-00-000-0000-00-00-000-00029-02
+2017-11-07 15:42:22,468 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:42:23,093 [9] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:42:23,796 [9] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-03-176-10096-00
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0501-00-03-176-10096-65
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0501-00-03-176-10096-02
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0501-00-03-176-10096-13
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0501-00-03-176-10096-09
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0501-00-03-176-10096-12
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0202-00-03-176-10096-65
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0202-00-03-176-10096-02
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0202-00-03-176-10096-13
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0202-00-03-176-10096-09
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de producto: 4301-06-201-0202-00-03-176-10096-12
+2017-11-07 15:42:38,797 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:42:40,141 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0501-00-03-176-10096-65
+2017-11-07 15:42:41,892 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0501-00-03-176-10096-02
+2017-11-07 15:42:43,329 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0501-00-03-176-10096-13
+2017-11-07 15:42:44,689 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0501-00-03-176-10096-09
+2017-11-07 15:42:46,017 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0501-00-03-176-10096-12
+2017-11-07 15:42:47,423 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0202-00-03-176-10096-65
+2017-11-07 15:42:48,861 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0202-00-03-176-10096-02
+2017-11-07 15:42:50,720 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0202-00-03-176-10096-13
+2017-11-07 15:42:52,142 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0202-00-03-176-10096-09
+2017-11-07 15:42:53,658 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0202-00-03-176-10096-12
+2017-11-07 15:42:54,814 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0501-00-03-176-10096-00
+2017-11-07 15:42:55,721 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0202-00-03-176-10096-00
+2017-11-07 15:42:55,721 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:42:56,752 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0501-00-03-176-10096-65
+2017-11-07 15:42:57,721 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0501-00-03-176-10096-02
+2017-11-07 15:42:58,752 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0501-00-03-176-10096-13
+2017-11-07 15:42:59,768 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0501-00-03-176-10096-09
+2017-11-07 15:43:00,815 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0501-00-03-176-10096-12
+2017-11-07 15:43:01,831 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0202-00-03-176-10096-65
+2017-11-07 15:43:02,875 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0202-00-03-176-10096-02
+2017-11-07 15:43:03,860 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0202-00-03-176-10096-13
+2017-11-07 15:43:04,954 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0202-00-03-176-10096-09
+2017-11-07 15:43:05,938 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0202-00-03-176-10096-12
+2017-11-07 15:43:06,845 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0501-00-03-176-10096-00
+2017-11-07 15:43:07,782 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0202-00-03-176-10096-00
+2017-11-07 15:43:18,674 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:43:18,674 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:43:18,783 [9] DEBUG  - Se obtiene el cliente de GP 1-05-385338
+2017-11-07 15:43:26,409 [9] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:43:26,424 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:43:26,440 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:43:26,440 [9] ERROR  - Ocurrió un error al generar el invoice para la poliza 1-05-385338
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 698
+   at InvoiceSync.InvoiceSyncTaskRenew.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncRenew.cs:line 83
+2017-11-07 15:43:27,081 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:43:27,081 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:43:28,284 [9] DEBUG  - Se obtiene el cliente de GP 1-05-433354
+2017-11-07 15:43:40,566 [9] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:43:40,582 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:43:40,597 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:43:40,597 [9] ERROR  - Ocurrió un error al generar el invoice para la poliza 1-05-433354
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 698
+   at InvoiceSync.InvoiceSyncTaskRenew.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncRenew.cs:line 83
+2017-11-07 15:43:41,129 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:43:41,129 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:43:42,067 [9] DEBUG  - Se obtiene el cliente de GP 1-05-434414
+2017-11-07 15:43:53,365 [9] WARN  - No se encontró configuracion para el canal Gerente Comercial e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:43:53,380 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:43:53,380 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:43:53,380 [9] ERROR  - Ocurrió un error al generar el invoice para la poliza 1-05-434414
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 698
+   at InvoiceSync.InvoiceSyncTaskRenew.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncRenew.cs:line 83
+2017-11-07 15:43:53,896 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 15:43:53,896 [9] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:43:54,677 [9] DEBUG  - Se obtiene el cliente de GP 1-05-435104
+2017-11-07 15:44:11,647 [9] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:44:11,647 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:44:11,647 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:44:11,647 [9] ERROR  - Ocurrió un error al generar el invoice para la poliza 1-05-435104
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 698
+   at InvoiceSync.InvoiceSyncTaskRenew.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncRenew.cs:line 83
+2017-11-07 15:49:07,947 [10] DEBUG  - Total de Transacciones: 4
+2017-11-07 15:49:17,900 [10] DEBUG  - Contruyendo encabezado
+2017-11-07 15:49:17,900 [10] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:49:18,181 [10] DEBUG  - Se obtiene el cliente de GP 1-05-385338
+2017-11-07 15:49:34,210 [10] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:49:34,225 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:49:34,241 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:49:51,100 [10] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:49:51,100 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:49:51,100 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 296
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 676
+2017-11-07 15:50:06,636 [10] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:50:06,651 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 279
+2017-11-07 15:50:40,792 [10] WARN  - No se encontró configuracion para el canal VENTAS DIRECTAS e Itemnumbr: TOTAL PLUS (FULL)
+2017-11-07 15:51:57,994 [8] DEBUG  - Total de Transacciones: 4
+2017-11-07 15:52:02,939 [8] DEBUG  - Contruyendo encabezado
+2017-11-07 15:52:02,939 [8] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:52:03,205 [8] DEBUG  - Se obtiene el cliente de GP 1-05-385338
+2017-11-07 15:52:17,184 [8] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:52:17,825 [8] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:52:17,825 [8] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:52:17,825 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:52:18,403 [8] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:52:18,997 [8] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:52:24,169 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:52:24,169 [8] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 15:52:24,763 [8] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:52:25,341 [8] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 15:52:25,904 [8] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 15:52:26,810 [8] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta por cobrar: 1302-06-201-0405-00-08-179-10039-00
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-65
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-24
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-15
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-04
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-02
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-13
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-09
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-12
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-08-179-10039-49
+2017-11-07 15:52:57,798 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:52:57,798 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:52:58,734 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-65
+2017-11-07 15:52:59,686 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-24
+2017-11-07 15:53:00,593 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-15
+2017-11-07 15:53:01,499 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-04
+2017-11-07 15:53:02,405 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-02
+2017-11-07 15:53:03,312 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-13
+2017-11-07 15:53:04,218 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-09
+2017-11-07 15:53:05,156 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-12
+2017-11-07 15:53:06,062 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-08-179-10039-49
+2017-11-07 15:53:06,890 [8] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0405-00-08-179-10039-00
+2017-11-07 15:53:07,796 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-08-179-10039-04
+2017-11-07 15:53:08,718 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-08-179-10039-04
+2017-11-07 15:53:09,625 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-08-179-10039-06
+2017-11-07 15:53:10,547 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-08-179-10039-06
+2017-11-07 15:53:11,453 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-08-179-10039-07
+2017-11-07 15:53:12,375 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-08-179-10039-07
+2017-11-07 15:53:13,281 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-08-179-10039-05
+2017-11-07 15:53:14,234 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-08-179-10039-05
+2017-11-07 15:53:15,438 [8] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0405-00-08-179-10039-00
+2017-11-07 15:53:16,282 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0405-00-08-179-10039-00
+2017-11-07 15:53:17,186 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-08-179-10039-04
+2017-11-07 15:53:18,093 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-08-179-10039-06
+2017-11-07 15:53:18,999 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-08-179-10039-07
+2017-11-07 15:53:19,952 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-08-179-10039-05
+2017-11-07 15:53:21,093 [8] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0405-00-08-179-10039-00
+2017-11-07 15:53:39,755 [8] DEBUG  - Contruyendo encabezado
+2017-11-07 15:53:39,755 [8] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:53:40,943 [8] DEBUG  - Se obtiene el cliente de GP 1-05-433354
+2017-11-07 15:54:00,318 [8] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:54:00,880 [8] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:54:00,880 [8] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:54:00,880 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:54:01,474 [8] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:54:02,052 [8] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:54:06,709 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:54:06,709 [8] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 15:54:07,287 [8] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:54:07,865 [8] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 15:54:08,428 [8] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 15:54:10,210 [8] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-08-179-10055-00
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-65
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-24
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-15
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-04
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-02
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-13
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-06
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-09
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-12
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-07
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-05
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10055-48
+2017-11-07 15:54:26,555 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:54:26,555 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:54:27,477 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-65
+2017-11-07 15:54:28,383 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-24
+2017-11-07 15:54:29,274 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-15
+2017-11-07 15:54:30,196 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-04
+2017-11-07 15:54:31,086 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-02
+2017-11-07 15:54:31,977 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-13
+2017-11-07 15:54:32,883 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-06
+2017-11-07 15:54:33,790 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-09
+2017-11-07 15:54:34,681 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-12
+2017-11-07 15:54:35,571 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-07
+2017-11-07 15:54:36,462 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-05
+2017-11-07 15:54:37,384 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10055-48
+2017-11-07 15:54:38,212 [8] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-08-179-10055-00
+2017-11-07 15:54:39,118 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10055-04
+2017-11-07 15:54:40,040 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10055-04
+2017-11-07 15:54:40,947 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10055-06
+2017-11-07 15:54:41,822 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10055-06
+2017-11-07 15:54:42,744 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10055-07
+2017-11-07 15:54:43,666 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10055-07
+2017-11-07 15:54:44,666 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10055-05
+2017-11-07 15:54:46,025 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10055-05
+2017-11-07 15:54:46,838 [8] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-08-179-10055-00
+2017-11-07 15:54:47,666 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-08-179-10055-00
+2017-11-07 15:54:48,541 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10055-04
+2017-11-07 15:54:50,729 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10055-06
+2017-11-07 15:54:51,698 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10055-07
+2017-11-07 15:54:52,901 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10055-05
+2017-11-07 15:54:53,698 [8] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-08-179-10055-00
+2017-11-07 15:55:04,818 [8] DEBUG  - Contruyendo encabezado
+2017-11-07 15:55:04,818 [8] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:55:05,919 [8] DEBUG  - Se obtiene el cliente de GP 1-05-434414
+2017-11-07 15:55:15,911 [8] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:55:16,489 [8] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:55:16,489 [8] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:55:16,489 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:55:17,083 [8] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:55:17,677 [8] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:55:22,786 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:55:22,786 [8] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 15:55:23,349 [8] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:55:23,943 [8] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 15:55:24,584 [8] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 15:55:25,146 [8] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-05-172-10011-00
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-65
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-15
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-04
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-02
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-13
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-06
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-09
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-12
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-07
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-172-10011-05
+2017-11-07 15:55:38,866 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:55:38,866 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:55:39,788 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-65
+2017-11-07 15:55:40,679 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-15
+2017-11-07 15:55:41,616 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-04
+2017-11-07 15:55:42,616 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-02
+2017-11-07 15:55:43,585 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-13
+2017-11-07 15:55:44,476 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-06
+2017-11-07 15:55:45,507 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-09
+2017-11-07 15:55:46,398 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-12
+2017-11-07 15:55:47,289 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-07
+2017-11-07 15:55:48,242 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-172-10011-05
+2017-11-07 15:55:49,055 [8] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-05-172-10011-00
+2017-11-07 15:55:50,258 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-172-10011-04
+2017-11-07 15:55:51,164 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-172-10011-04
+2017-11-07 15:55:52,102 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-172-10011-06
+2017-11-07 15:55:53,008 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-172-10011-06
+2017-11-07 15:55:54,008 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-172-10011-07
+2017-11-07 15:55:54,946 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-172-10011-07
+2017-11-07 15:55:55,852 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-172-10011-05
+2017-11-07 15:55:56,743 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-172-10011-05
+2017-11-07 15:55:57,571 [8] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-05-172-10011-00
+2017-11-07 15:55:58,384 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-05-172-10011-00
+2017-11-07 15:55:59,306 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-172-10011-04
+2017-11-07 15:56:00,227 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-172-10011-06
+2017-11-07 15:56:01,134 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-172-10011-07
+2017-11-07 15:56:02,040 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-172-10011-05
+2017-11-07 15:56:02,900 [8] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-05-172-10011-00
+2017-11-07 15:56:13,682 [8] DEBUG  - Contruyendo encabezado
+2017-11-07 15:56:13,682 [8] DEBUG  - Creacion de numero de batch SFFA711201715
+2017-11-07 15:56:14,916 [8] DEBUG  - Se obtiene el cliente de GP 1-05-435104
+2017-11-07 15:56:31,418 [8] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 15:56:31,996 [8] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 15:56:31,996 [8] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 15:56:31,996 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:56:32,574 [8] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 15:56:33,152 [8] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:56:37,903 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:56:37,903 [8] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 15:56:38,528 [8] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 15:56:39,153 [8] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 15:56:40,091 [8] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 15:56:40,684 [8] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta por cobrar: 1302-06-201-0505-00-08-179-10002-00
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-65
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-15
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-04
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-02
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-13
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-06
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-09
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-12
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-07
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de producto: 4301-06-201-0505-00-08-179-10002-05
+2017-11-07 15:57:01,421 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 15:57:01,421 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 15:57:02,343 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-65
+2017-11-07 15:57:03,249 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-15
+2017-11-07 15:57:04,171 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-04
+2017-11-07 15:57:05,108 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-02
+2017-11-07 15:57:06,046 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-13
+2017-11-07 15:57:06,984 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-06
+2017-11-07 15:57:07,874 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-09
+2017-11-07 15:57:09,093 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-12
+2017-11-07 15:57:10,000 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-07
+2017-11-07 15:57:10,922 [8] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0505-00-08-179-10002-05
+2017-11-07 15:57:11,781 [8] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0505-00-08-179-10002-00
+2017-11-07 15:57:12,703 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0505-00-08-179-10002-04
+2017-11-07 15:57:13,641 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0505-00-08-179-10002-04
+2017-11-07 15:57:14,547 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0505-00-08-179-10002-06
+2017-11-07 15:57:15,438 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0505-00-08-179-10002-06
+2017-11-07 15:57:16,344 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0505-00-08-179-10002-07
+2017-11-07 15:57:17,344 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0505-00-08-179-10002-07
+2017-11-07 15:57:18,250 [8] DEBUG  - Reaseguro Contractual: 5306-06-201-0505-00-08-179-10002-05
+2017-11-07 15:57:19,454 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0505-00-08-179-10002-05
+2017-11-07 15:57:20,266 [8] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0505-00-08-179-10002-00
+2017-11-07 15:57:21,094 [8] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0505-00-08-179-10002-00
+2017-11-07 15:57:22,047 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0505-00-08-179-10002-04
+2017-11-07 15:57:22,938 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0505-00-08-179-10002-06
+2017-11-07 15:57:23,829 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0505-00-08-179-10002-07
+2017-11-07 15:57:24,751 [8] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0505-00-08-179-10002-05
+2017-11-07 15:57:25,579 [8] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0505-00-08-179-10002-00
+2017-11-07 17:07:21,875 [9] DEBUG  - Total de Transacciones: 3
+2017-11-07 17:07:23,859 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 17:07:23,859 [9] DEBUG  - Creacion de numero de batch SFFA711201717
+2017-11-07 17:07:25,109 [9] DEBUG  - Se obtiene el cliente de GP 1-05-435748
+2017-11-07 17:07:38,704 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 17:07:39,298 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 17:07:39,298 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 17:07:39,298 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:07:39,892 [9] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 17:07:40,486 [9] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:07:45,924 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:07:45,924 [9] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 17:07:46,533 [9] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:07:47,174 [9] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 17:07:47,783 [9] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 17:07:48,377 [9] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-08-179-10099-00
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-65
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-24
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-15
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-04
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-02
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-13
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-06
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-09
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-12
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-07
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-05
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10099-48
+2017-11-07 17:08:05,207 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 17:08:05,207 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:08:06,160 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-65
+2017-11-07 17:08:07,066 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-24
+2017-11-07 17:08:08,285 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-15
+2017-11-07 17:08:09,207 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-04
+2017-11-07 17:08:10,114 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-02
+2017-11-07 17:08:11,051 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-13
+2017-11-07 17:08:12,020 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-06
+2017-11-07 17:08:12,942 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-09
+2017-11-07 17:08:13,864 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-12
+2017-11-07 17:08:15,208 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-07
+2017-11-07 17:08:16,161 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-05
+2017-11-07 17:08:17,098 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10099-48
+2017-11-07 17:08:18,411 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-08-179-10099-00
+2017-11-07 17:08:19,349 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10099-04
+2017-11-07 17:08:20,271 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10099-04
+2017-11-07 17:08:21,193 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10099-06
+2017-11-07 17:08:22,115 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10099-06
+2017-11-07 17:08:23,146 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10099-07
+2017-11-07 17:08:24,099 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10099-07
+2017-11-07 17:08:25,037 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10099-05
+2017-11-07 17:08:26,006 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10099-05
+2017-11-07 17:08:26,928 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-08-179-10099-00
+2017-11-07 17:08:27,912 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-08-179-10099-00
+2017-11-07 17:08:28,990 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10099-04
+2017-11-07 17:08:29,944 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10099-06
+2017-11-07 17:08:30,959 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10099-07
+2017-11-07 17:08:32,069 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10099-05
+2017-11-07 17:08:32,897 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-08-179-10099-00
+2017-11-07 17:08:46,133 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 17:08:46,133 [9] DEBUG  - Creacion de numero de batch SFFA711201717
+2017-11-07 17:08:47,461 [9] DEBUG  - Se obtiene el cliente de GP 1-05-435909
+2017-11-07 17:09:00,665 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 17:09:01,306 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 17:09:01,306 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 17:09:01,306 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:09:01,931 [9] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 17:09:02,509 [9] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:09:07,666 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:09:07,666 [9] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 17:09:08,322 [9] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:09:09,416 [9] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 17:09:09,994 [9] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 17:09:10,572 [9] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-08-179-10037-00
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-65
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-24
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-15
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-04
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-02
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-13
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-06
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-09
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-12
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-07
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-05
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-49
+2017-11-07 17:09:29,559 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 17:09:29,559 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:09:30,543 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-65
+2017-11-07 17:09:31,903 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-24
+2017-11-07 17:09:32,965 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-15
+2017-11-07 17:09:33,887 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-04
+2017-11-07 17:09:35,294 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-02
+2017-11-07 17:09:36,419 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-13
+2017-11-07 17:09:37,684 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-06
+2017-11-07 17:09:38,684 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-09
+2017-11-07 17:09:40,262 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-12
+2017-11-07 17:09:41,263 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-07
+2017-11-07 17:09:42,607 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-05
+2017-11-07 17:09:43,560 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-49
+2017-11-07 17:09:44,435 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-08-179-10037-00
+2017-11-07 17:09:45,419 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-04
+2017-11-07 17:09:46,341 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-04
+2017-11-07 17:09:47,373 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-06
+2017-11-07 17:09:48,310 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-06
+2017-11-07 17:09:49,310 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-07
+2017-11-07 17:09:50,326 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-07
+2017-11-07 17:09:51,248 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-05
+2017-11-07 17:09:52,373 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-05
+2017-11-07 17:09:53,342 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-08-179-10037-00
+2017-11-07 17:09:54,279 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-08-179-10037-00
+2017-11-07 17:09:55,326 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-04
+2017-11-07 17:09:56,592 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-06
+2017-11-07 17:09:57,592 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-07
+2017-11-07 17:09:58,577 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-05
+2017-11-07 17:09:59,452 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-08-179-10037-00
+2017-11-07 17:10:11,447 [9] DEBUG  - Contruyendo encabezado
+2017-11-07 17:10:11,447 [9] DEBUG  - Creacion de numero de batch SFFA711201717
+2017-11-07 17:10:12,510 [9] DEBUG  - Se obtiene el cliente de GP 1-05-435909
+2017-11-07 17:10:25,417 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-11-07 17:10:25,980 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-11-07 17:10:25,980 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-11-07 17:10:25,980 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:10:26,589 [9] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-11-07 17:10:27,199 [9] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:10:32,074 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:10:32,074 [9] DEBUG  - Reaseguro Contractual: 6106-06-000-0000-00-00-000-00053-06
+2017-11-07 17:10:32,652 [9] DEBUG  - Reaseguradores del exterior – cuenta corriente: 6106-06-000-0000-00-00-000-00043-02
+2017-11-07 17:10:33,262 [9] DEBUG  - Reaseguradores Comision por Reaseguro Pasivo: 6103-00-000-0000-00-00-000-00024-02
+2017-11-07 17:10:33,856 [9] DEBUG  - RRC para reaseguro INGRESO: 6106-06-000-0000-00-00-000-00043-11
+2017-11-07 17:10:34,449 [9] DEBUG  - RRC para reaseguro PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-08-179-10037-00
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-65
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-24
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-15
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-04
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-02
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-13
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-06
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-09
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-12
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-07
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-05
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-08-179-10037-49
+2017-11-07 17:10:51,279 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-11-07 17:10:51,279 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-11-07 17:10:52,217 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-65
+2017-11-07 17:10:53,154 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-24
+2017-11-07 17:10:54,139 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-15
+2017-11-07 17:10:55,358 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-04
+2017-11-07 17:10:56,295 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-02
+2017-11-07 17:10:57,202 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-13
+2017-11-07 17:10:58,124 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-06
+2017-11-07 17:10:59,061 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-09
+2017-11-07 17:11:00,092 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-12
+2017-11-07 17:11:01,030 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-07
+2017-11-07 17:11:01,968 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-05
+2017-11-07 17:11:03,015 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-08-179-10037-49
+2017-11-07 17:11:04,155 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-08-179-10037-00
+2017-11-07 17:11:05,077 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-04
+2017-11-07 17:11:06,015 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-04
+2017-11-07 17:11:06,968 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-06
+2017-11-07 17:11:08,843 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-06
+2017-11-07 17:11:09,765 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-07
+2017-11-07 17:11:11,109 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-07
+2017-11-07 17:11:12,047 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-08-179-10037-05
+2017-11-07 17:11:13,000 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-08-179-10037-05
+2017-11-07 17:11:14,250 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-08-179-10037-00
+2017-11-07 17:11:15,110 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-08-179-10037-00
+2017-11-07 17:11:16,094 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-04
+2017-11-07 17:11:17,094 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-06
+2017-11-07 17:11:18,375 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-07
+2017-11-07 17:11:19,422 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-08-179-10037-05
+2017-11-07 17:11:20,298 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-08-179-10037-00

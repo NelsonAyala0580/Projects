@@ -1,0 +1,40 @@
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\MODEL.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\log4net.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\MODEL.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\log4net.xml
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.dll.config
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\PolicyRenewSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\bin\Debug\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicyRenewSync\obj\Debug\PolicyRenewSync.pdb

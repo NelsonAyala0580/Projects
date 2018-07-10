@@ -1,0 +1,78 @@
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll.config
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.pdb
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\log4net.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\MODEL.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.pdb
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\MODEL.pdb
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.pdb
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.xml
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.xml
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\bin\Debug\log4net.xml
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.csprojResolveAssemblyReference.cache
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll.config
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\PolicySync.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\log4net.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\MODEL.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\MODEL.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\log4net.xml
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.dll
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Debug\PolicySync.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\PolicySync.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Debug\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Debug\PolicySync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Debug\PolicySync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Debug\PolicySync.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll.config
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\PolicySync.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\PolicySync.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\log4net.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\MODEL.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\GPServicesREF.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\Log4NetMR.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\MODEL.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.xml
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\EntityFramework.SqlServer.xml
+C:\Temp\SysflexIntegration\PolicySync\bin\Debug\log4net.xml
+C:\Temp\SysflexIntegration\PolicySync\obj\Debug\PolicySync.csprojResolveAssemblyReference.cache
+C:\Temp\SysflexIntegration\PolicySync\obj\Debug\PolicySync.dll
+C:\Temp\SysflexIntegration\PolicySync\obj\Debug\PolicySync.pdb

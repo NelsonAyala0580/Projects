@@ -1,0 +1,18 @@
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.csprojResolveAssemblyReference.cache
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll.config
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll.config
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll.config
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\bin\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\GPServicesREF\obj\Debug\GPServicesREF.pdb

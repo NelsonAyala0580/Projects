@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATLANModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ST_CLIENT_TABLE_SYNC">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="LAST_GP_UPDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ST_CUSTOMER_ADDITIONAL">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ZONE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VEHICLE_TYPE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="POLICY_TYPE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="POLICY_NUMBER" Type="String" MaxLength="14" FixedLength="false" Unicode="true" />
+    <Property Name="COUNT_VEHICLE" Type="Int32" />
+    <Property Name="INITAL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="DUE_DATE" Type="DateTime" Precision="3" />
+    <Property Name="CLIENT_ID" Type="Int32" />
+    <Property Name="SUPERVISOR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AGENT_ID" Type="Int16" />
+    <Property Name="AGENT_CODE" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="AGENT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MPV_total_bruto" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MPV_Descuento_flota" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MPV_Descuento_Experiencia" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MPV_ITBIS" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="POLICY_STATUS" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="CREATED_USER" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="MODIFIED_USER" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="COMMENT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CHANNEL" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="DATE_OF_BIRTH" Type="DateTime" Precision="3" />
+    <Property Name="CORE_CREATION_DATE" Type="DateTime" Precision="3" />
+    <Property Name="POLICY_CANCELLATION_DATE" Type="DateTime" Precision="3" />
+    <Property Name="INSURED_QUANTITY" Type="Decimal" Precision="19" Scale="5" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+    <Key>
+      <PropertyRef Name="ROW_ID" />
+    </Key>
+    <Property Name="ROW_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TYPEID" Type="Int32" Nullable="false" />
+    <Property Name="SEGMENT1" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SEGMENT2" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LINE_OF_BUSINESS" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRODUCT" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ST_GL_MAPPING_ACCOUNT_TYPE" Relationship="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE" FromRole="ST_GL_MAPPING_ACCOUNT_SETTINGS" ToRole="ST_GL_MAPPING_ACCOUNT_TYPE" />
+    <Property Name="UNIT_ACCOUNT1" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT_ACCOUNT2" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT_ACCOUNT3" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_ACCOUNT_TYPE">
+    <Key>
+      <PropertyRef Name="TYPEID" />
+    </Key>
+    <Property Name="TYPEID" Type="Int32" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ST_GL_MAPPING_ACCOUNT_SETTINGS" Relationship="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE" FromRole="ST_GL_MAPPING_ACCOUNT_TYPE" ToRole="ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_CHANNEL">
+    <Key>
+      <PropertyRef Name="CHANNEL" />
+    </Key>
+    <Property Name="CHANNEL" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="UNIT_ACCOUNT" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_COUNTRY">
+    <Key>
+      <PropertyRef Name="COUNTRY" />
+    </Key>
+    <Property Name="COUNTRY" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_COVERAGE">
+    <Key>
+      <PropertyRef Name="COVERAGE" />
+    </Key>
+    <Property Name="COVERAGE" Type="String" MaxLength="200" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_LINE_OF_BUSINESS">
+    <Key>
+      <PropertyRef Name="LINE_OF_BUSINESS" />
+    </Key>
+    <Property Name="LINE_OF_BUSINESS" Type="String" MaxLength="60" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_CODE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_POLICY_TYPE">
+    <Key>
+      <PropertyRef Name="POLICY_TYPE" />
+    </Key>
+    <Property Name="POLICY_TYPE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_VEHICLE_TYPE">
+    <Key>
+      <PropertyRef Name="VEHICLE_TYPE" />
+    </Key>
+    <Property Name="VEHICLE_TYPE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_ZONE">
+    <Key>
+      <PropertyRef Name="ZONE" />
+    </Key>
+    <Property Name="ZONE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_ITEM_SALESPERSON_COMMISSION">
+    <Key>
+      <PropertyRef Name="SLPRSNID" />
+      <PropertyRef Name="ITEMNMBR" />
+    </Key>
+    <Property Name="ROW_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SLPRSNID" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ITEMNMBR" Type="String" MaxLength="31" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="COMMISSION_PERCENT" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ST_POLICY_TABLE_SYNC">
+    <Key>
+      <PropertyRef Name="POLICY_NUMBER" />
+    </Key>
+    <Property Name="POLICY_NUMBER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="LAST_GP_UPDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ST_TRANSACTION_SYNC">
+    <Key>
+      <PropertyRef Name="ROW_ID" />
+    </Key>
+    <Property Name="ROW_ID" Type="Guid" Nullable="false" />
+    <Property Name="POLICY_NUMBER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TRANS_TYPE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="TRANS_DESC" Type="String" MaxLength="75" FixedLength="true" Unicode="false" />
+    <Property Name="TRANS_DATE" Type="DateTime" Precision="3" />
+    <Property Name="TRANS_AMOUNT" Type="Decimal" Precision="19" Scale="5" />
+    <Property Name="DOCUMENT_NUMBER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ACTUAL_BALANCE" Type="Decimal" Precision="19" Scale="5" />
+    <Property Name="COMMENT" Type="String" MaxLength="75" FixedLength="true" Unicode="false" />
+    <Property Name="TRANS_USER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="SYNC_CREATE_DATE" Type="DateTime" Precision="3" />
+    <Property Name="GP_PROCESS_DATE" Type="DateTime" Precision="3" />
+    <Property Name="GP_PROCESS_USER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="GP_MODULE" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="GP_DOCTYPE" Type="Int32" />
+    <Property Name="GP_DOCNUMBR" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="RENEWAL_TYPE" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DOCUMENT_TYPE" Type="Int32" />
+    <Property Name="DOCUMENT_CANCELLED" Type="Boolean" />
+    <Property Name="NCF" Type="String" MaxLength="19" FixedLength="true" Unicode="false" />
+    <Property Name="ASSIGNED_DOC_NUMBER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="TRANSACTION_SEQUENCE" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+    <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" Type="Self.ST_GL_MAPPING_ACCOUNT_TYPE" Multiplicity="1" />
+    <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" Type="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_GL_MAPPING_ACCOUNT_TYPE">
+        <PropertyRef Name="TYPEID" />
+      </Principal>
+      <Dependent Role="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+        <PropertyRef Name="TYPEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ATLANEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ST_CLIENT_TABLE_SYNC" EntityType="Self.ST_CLIENT_TABLE_SYNC" />
+    <EntitySet Name="ST_CUSTOMER_ADDITIONAL" EntityType="Self.ST_CUSTOMER_ADDITIONAL" />
+    <EntitySet Name="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntityType="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+    <EntitySet Name="ST_GL_MAPPING_ACCOUNT_TYPE" EntityType="Self.ST_GL_MAPPING_ACCOUNT_TYPE" />
+    <EntitySet Name="ST_GL_MAPPING_CHANNEL" EntityType="Self.ST_GL_MAPPING_CHANNEL" />
+    <EntitySet Name="ST_GL_MAPPING_COUNTRY" EntityType="Self.ST_GL_MAPPING_COUNTRY" />
+    <EntitySet Name="ST_GL_MAPPING_COVERAGE" EntityType="Self.ST_GL_MAPPING_COVERAGE" />
+    <EntitySet Name="ST_GL_MAPPING_LINE_OF_BUSINESS" EntityType="Self.ST_GL_MAPPING_LINE_OF_BUSINESS" />
+    <EntitySet Name="ST_GL_MAPPING_POLICY_TYPE" EntityType="Self.ST_GL_MAPPING_POLICY_TYPE" />
+    <EntitySet Name="ST_GL_MAPPING_VEHICLE_TYPE" EntityType="Self.ST_GL_MAPPING_VEHICLE_TYPE" />
+    <EntitySet Name="ST_GL_MAPPING_ZONE" EntityType="Self.ST_GL_MAPPING_ZONE" />
+    <EntitySet Name="ST_ITEM_SALESPERSON_COMMISSION" EntityType="Self.ST_ITEM_SALESPERSON_COMMISSION" />
+    <EntitySet Name="ST_POLICY_TABLE_SYNC" EntityType="Self.ST_POLICY_TABLE_SYNC" />
+    <EntitySet Name="ST_TRANSACTION_SYNC" EntityType="Self.ST_TRANSACTION_SYNC" />
+    <AssociationSet Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE" Association="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+      <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" EntitySet="ST_GL_MAPPING_ACCOUNT_TYPE" />
+      <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntitySet="ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+    </AssociationSet>
+    <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" ReturnType="Collection(String)">
+      <Parameter Name="LINE_OF_BUSINESS" Mode="In" Type="String" />
+      <Parameter Name="POLICY_TYPE" Mode="In" Type="String" />
+      <Parameter Name="VEHICLE_TYPE" Mode="In" Type="String" />
+      <Parameter Name="ZONE" Mode="In" Type="String" />
+      <Parameter Name="COUNTRY" Mode="In" Type="String" />
+      <Parameter Name="CHANNEL" Mode="In" Type="String" />
+      <Parameter Name="SUPERVISOR" Mode="In" Type="String" />
+      <Parameter Name="GPProductID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS" ReturnType="Collection(ATLANModel.SYSFLEX_CUSTOMER)" />
+    <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY" ReturnType="Collection(ATLANModel.SYSFLEX_POLICY)" />
+    <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO" ReturnType="Collection(ATLANModel.SYSFLEX_POLICY)">
+      <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB">
+      <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+      <Parameter Name="TRANS_TYPE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE" ReturnType="Collection(ATLANModel.TRANSACTION_BY_COVERAGE)">
+      <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+      <Parameter Name="Transaction_Secuence" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ST_SYSFLEX_GET_TRANSACTIONS" ReturnType="Collection(ATLANModel.TRANSACTION_INVOICE)" />
+    <FunctionImport Name="usp_ST_SYSFLEX_POLICY_GET_PARENT" ReturnType="Collection(ATLANModel.SYSFLEX_CUSTOMER)">
+      <Parameter Name="CLIENTID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="RM00201" EntityType="ATLANModel.RM00201" />
+    <FunctionImport Name="usp_ST_SYSFLEX_INSERT_TRANSACTIONS" />
+    <EntitySet Name="IV00101" EntityType="ATLANModel.IV00101" />
+    <EntitySet Name="RM00101" EntityType="ATLANModel.RM00101" />
+    <FunctionImport Name="usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE" ReturnType="Collection(ATLANModel.SYSFLEX_REINSURANCE_BY_COVERAGE)">
+      <Parameter Name="CUSTNMBR" Mode="In" Type="String" />
+      <Parameter Name="Transaction_Secuence" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC">
+      <Parameter Name="DOCTYPE" Mode="In" Type="Int32" />
+      <Parameter Name="MODULE" Mode="In" Type="String" />
+      <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+      <Parameter Name="TRANSACTION_SEQUENCE" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="ST_ITEMNMBR_ACCOUNT_CODE" EntityType="ATLANModel.ST_ITEMNMBR_ACCOUNT_CODE" />
+    <EntitySet Name="ST_GL_MAPPING_SUPERVISOR" EntityType="ATLANModel.ST_GL_MAPPING_SUPERVISOR" />
+    <EntitySet Name="ST_GL_MAPPING_REINSURANCE" EntityType="ATLANModel.ST_GL_MAPPING_REINSURANCE" />
+    <FunctionImport Name="pSP_CREAR_CUENTAS">
+      <Parameter Name="ACTNUMST" Mode="In" Type="String" />
+      <Parameter Name="ACTDESCR" Mode="In" Type="String" />
+      <Parameter Name="TPCLBLNC" Mode="In" Type="Int32" />
+      <Parameter Name="PSTNGTYP" Mode="In" Type="Int32" />
+      <Parameter Name="ACCTTYPE" Mode="In" Type="Int32" />
+      <Parameter Name="CATEGORY" Mode="In" Type="String" />
+      <Parameter Name="DECPLACS" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="RM00301" EntityType="ATLANModel.RM00301" />
+    <EntitySet Name="Accounts" EntityType="ATLANModel.Accounts" />
+    <EntitySet Name="ST_ITEM_CHANNEL_COMMISSION" EntityType="ATLANModel.ST_ITEM_CHANNEL_COMMISSION" />
+    <EntitySet Name="ST_SYSFLEX_POLICY_RENEW" EntityType="ATLANModel.ST_SYSFLEX_POLICY_RENEW" />
+    <FunctionImport Name="usp_SYSFLEX_CHANGE_STATE_CUSTOMER">
+      <Parameter Name="CUSTNMBR" Mode="In" Type="String" />
+      <Parameter Name="STATUS" Mode="In" Type="Byte" />
+    </FunctionImport>
+    <FunctionImport Name="usp_SYSFLEX_DELETE_RESERVE">
+      <Parameter Name="SOPNUMBE" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SYSFLEX_CUSTOMER">
+    <Property Type="Decimal" Name="CUSTNMBR" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="CPRCSTNM" Nullable="true" />
+    <Property Type="Int32" Name="HOLD" Nullable="true" />
+    <Property Type="Byte" Name="INACTIVE" Nullable="true" />
+    <Property Type="String" Name="CUSTNAME" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="SHRTNAME" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="STMTNAME" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CUSTCLAS" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="CUSTPRIORITY" Nullable="true" />
+    <Property Type="Int32" Name="ADRSCODE" Nullable="true" />
+    <Property Type="String" Name="CNTCPRSN" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ADDRESS1" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="ADDRESS2" Nullable="true" />
+    <Property Type="Int32" Name="ADDRESS3" Nullable="true" />
+    <Property Type="String" Name="CITY" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="STATE" Nullable="true" />
+    <Property Type="Int32" Name="ZIPCODE" Nullable="true" />
+    <Property Type="Int32" Name="CCode" Nullable="true" />
+    <Property Type="String" Name="COUNTRY" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="PHNUMBR1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PHNUMBR2" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PHNUMBR3" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="fax" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UPSZONE" Nullable="true" />
+    <Property Type="Int32" Name="SHIPMTHD" Nullable="true" />
+    <Property Type="Int32" Name="TAXSCHID" Nullable="true" />
+    <Property Type="Int32" Name="SHIPCOMPLETE" Nullable="true" />
+    <Property Type="Int32" Name="PRSTADCD" Nullable="true" />
+    <Property Type="Int32" Name="PRBTADCD" Nullable="true" />
+    <Property Type="Int32" Name="STADDRCD" Nullable="true" />
+    <Property Type="Int32" Name="SLPRSNID" Nullable="true" />
+    <Property Type="Int32" Name="SALSTERR" Nullable="true" />
+    <Property Type="Int32" Name="USERDEF1" Nullable="true" />
+    <Property Type="Int32" Name="USERDEF2" Nullable="true" />
+    <Property Type="Int32" Name="COMMENT1" Nullable="true" />
+    <Property Type="Int32" Name="COMMENT2" Nullable="true" />
+    <Property Type="Int32" Name="CUSTDISC" Nullable="true" />
+    <Property Type="Int32" Name="PYMTRMID" Nullable="true" />
+    <Property Type="Int32" Name="DISGRPER" Nullable="true" />
+    <Property Type="Int32" Name="DUEGRPER" Nullable="true" />
+    <Property Type="Int32" Name="PRCLEVEL" Nullable="true" />
+    <Property Type="Int32" Name="NOTETEXT" Nullable="true" />
+    <Property Type="Int32" Name="BALNCTYP" Nullable="true" />
+    <Property Type="Int32" Name="FNCHATYP" Nullable="true" />
+    <Property Type="Int32" Name="FNCHPCNT" Nullable="true" />
+    <Property Type="Int32" Name="FINCHDLR" Nullable="true" />
+    <Property Type="Int32" Name="MINPYTYP" Nullable="true" />
+    <Property Type="Int32" Name="MINPYPCT" Nullable="true" />
+    <Property Type="Int32" Name="MINPYDLR" Nullable="true" />
+    <Property Type="Int32" Name="CRLMTTYP" Nullable="true" />
+    <Property Type="Int32" Name="CRLMTAMT" Nullable="true" />
+    <Property Type="Int32" Name="CRLMTPER" Nullable="true" />
+    <Property Type="Int32" Name="CRLMTPAM" Nullable="true" />
+    <Property Type="Int32" Name="MXWOFTYP" Nullable="true" />
+    <Property Type="Int32" Name="MXWROFAM" Nullable="true" />
+    <Property Type="Int32" Name="Revalue_Customer" Nullable="true" />
+    <Property Type="Int32" Name="Post_Results_To" Nullable="true" />
+    <Property Type="Int32" Name="ORDERFULFILLDEFAULT" Nullable="true" />
+    <Property Type="Int32" Name="INCLUDEINDP" Nullable="true" />
+    <Property Type="Int32" Name="CRCARDID" Nullable="true" />
+    <Property Type="Int32" Name="CRCRDNUM" Nullable="true" />
+    <Property Type="Int32" Name="CCRDXPDT" Nullable="true" />
+    <Property Type="Int32" Name="BANKNAME" Nullable="true" />
+    <Property Type="Int32" Name="BNKBRNCH" Nullable="true" />
+    <Property Type="Int32" Name="USERLANG" Nullable="true" />
+    <Property Type="Int32" Name="TAXEXMT1" Nullable="true" />
+    <Property Type="Int32" Name="TAXEXMT2" Nullable="true" />
+    <Property Type="Int32" Name="TXRGNNUM" Nullable="true" />
+    <Property Type="Int32" Name="CURNCYID" Nullable="true" />
+    <Property Type="Int32" Name="RATETPID" Nullable="true" />
+    <Property Type="Int32" Name="STMTCYCL" Nullable="true" />
+    <Property Type="Int32" Name="KPCALHST" Nullable="true" />
+    <Property Type="Int32" Name="KPERHIST" Nullable="true" />
+    <Property Type="Int32" Name="KPTRXHST" Nullable="true" />
+    <Property Type="Int32" Name="KPDSTHST" Nullable="true" />
+    <Property Type="Int32" Name="Send_Email_Statements" Nullable="true" />
+    <Property Type="Int32" Name="ToEmail_Recipient" Nullable="true" />
+    <Property Type="Int32" Name="CcEmail_Recipient" Nullable="true" />
+    <Property Type="Int32" Name="BccEmail_Recipient" Nullable="true" />
+    <Property Type="Int32" Name="CHEKBKID" Nullable="true" />
+    <Property Type="Int32" Name="DEFCACTY" Nullable="true" />
+    <Property Type="Int32" Name="RMCSHACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMARACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMSLSACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMCOSACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMIVACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMTAKACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMAVACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMFCGACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMWRACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMSORACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="RMOvrpymtWrtoffACTNUMST" Nullable="true" />
+    <Property Type="Int32" Name="GPSFOINTEGRATIONID" Nullable="true" />
+    <Property Type="Int32" Name="INTEGRATIONSOURCE" Nullable="true" />
+    <Property Type="Int32" Name="INTEGRATIONID" Nullable="true" />
+    <Property Type="String" Name="INET1" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="SYSTEMCREATEDDATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="TRGCREATEDDATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="TRGMODIFIEDDATE" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Ubicacion" Nullable="true" />
+    <Property Type="Int32" Name="NCF_TYPE" Nullable="true" />
+    <Property Type="String" Name="ID" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ID_TYPE" Nullable="true" MaxLength="9" />
+    <Property Type="DateTime" Name="DATEOFBIRTH" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="SYSFLEX_POLICY">
+    <Property Type="String" Name="LINE_OF_BUSINESS" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="ZONE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="POLICY_TYPE" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="COUNT_VEHICLE" Nullable="false" />
+    <Property Type="DateTime" Name="INITAL_DATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="DUE_DATE" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="CLIENT_ID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="SUPERVISOR" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="AGENT_ID" Nullable="true" />
+    <Property Type="Int32" Name="AGENT_CODE" Nullable="true" />
+    <Property Type="String" Name="AGENT" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CHANNEL" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="MPV_total_bruto" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="MPV_Descuento_flota" Nullable="false" Precision="2" Scale="2" />
+    <Property Type="Decimal" Name="MPV_Descuento_Experiencia" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="MPV_ITBIS" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="String" Name="POLICY_STATUS" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="CREATED_USER" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MODIFIED_USER" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="4000" />
+    <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="CREATE_DATE" Nullable="true" Precision="23" />
+    <Property Type="String" Name="GpProductID" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="In_Coaseguro" Nullable="false" />
+    <Property Type="Int32" Name="Primary_Company" Nullable="false" />
+    <Property Type="Int32" Name="SUPERVISOR_CODE" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="RM00201">
+    <Key>
+      <PropertyRef Name="CLASSID" />
+    </Key>
+    <Property Name="CLASSID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CLASDSCR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="CRLMTTYP" Type="Int16" Nullable="false" />
+    <Property Name="CRLMTAMT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CRLMTPER" Type="Int16" Nullable="false" />
+    <Property Name="CRLMTPAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="DEFLTCLS" Type="Byte" Nullable="false" />
+    <Property Name="BALNCTYP" Type="Int16" Nullable="false" />
+    <Property Name="CHEKBKID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="BANKNAME" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="TAXSCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SHIPMTHD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="PYMTRMID" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="CUSTDISC" Type="Int16" Nullable="false" />
+    <Property Name="CSTPRLVL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="MINPYTYP" Type="Int16" Nullable="false" />
+    <Property Name="MINPYDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="MINPYPCT" Type="Int16" Nullable="false" />
+    <Property Name="MXWOFTYP" Type="Int16" Nullable="false" />
+    <Property Name="MXWROFAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="FINCHARG" Type="Byte" Nullable="false" />
+    <Property Name="FNCHATYP" Type="Int16" Nullable="false" />
+    <Property Name="FINCHDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="FNCHPCNT" Type="Int16" Nullable="false" />
+    <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="CURNCYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="RATETPID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DEFCACTY" Type="Int16" Nullable="false" />
+    <Property Name="RMCSHACC" Type="Int32" Nullable="false" />
+    <Property Name="RMARACC" Type="Int32" Nullable="false" />
+    <Property Name="RMCOSACC" Type="Int32" Nullable="false" />
+    <Property Name="RMIVACC" Type="Int32" Nullable="false" />
+    <Property Name="RMSLSACC" Type="Int32" Nullable="false" />
+    <Property Name="RMAVACC" Type="Int32" Nullable="false" />
+    <Property Name="RMTAKACC" Type="Int32" Nullable="false" />
+    <Property Name="RMFCGACC" Type="Int32" Nullable="false" />
+    <Property Name="RMWRACC" Type="Int32" Nullable="false" />
+    <Property Name="RMSORACC" Type="Int32" Nullable="false" />
+    <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="STMTCYCL" Type="Int16" Nullable="false" />
+    <Property Name="SNDSTMNT" Type="Byte" Nullable="false" />
+    <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+    <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+    <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+    <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+    <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+    <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Revalue_Customer" Type="Byte" Nullable="false" />
+    <Property Name="Post_Results_To" Type="Int16" Nullable="false" />
+    <Property Name="DISGRPER" Type="Int16" Nullable="false" />
+    <Property Name="DUEGRPER" Type="Int16" Nullable="false" />
+    <Property Name="ORDERFULFILLDEFAULT" Type="Int16" Nullable="false" />
+    <Property Name="CUSTPRIORITY" Type="Int16" Nullable="false" />
+    <Property Name="RMOvrpymtWrtoffAcctIdx" Type="Int32" Nullable="false" />
+    <Property Name="CBVAT" Type="Byte" Nullable="false" />
+    <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+    <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <ComplexType Name="SYSFLEX_TRANSACTIONS">
+    <Property Type="String" Name="POLICYNUMBER" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Type" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="AMOUNT" Nullable="true" Precision="20" Scale="2" />
+    <Property Type="String" Name="DOCUMENT_NUMBER" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="DOCUMENT_TYPE" Nullable="false" />
+    <Property Type="String" Name="DOCUMENT_CANCELED" Nullable="false" MaxLength="5" />
+    <Property Type="Decimal" Name="ACTUAL_BALANCE" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="USER" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+    <Property Type="String" Name="NCF" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NCF_GP_TYPE" Nullable="true" MaxLength="2" />
+    <Property Type="Byte" Name="NCF_SYSFLEX_TYPE" Nullable="true" />
+    <Property Type="String" Name="GP_DOCUMENT_NUMBER" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="TRANSACTION_BY_COVERAGE">
+    <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Type" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Item_number" Nullable="true" />
+    <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Trans_Tax_Amount" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="USER" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Product_type" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="Coverage_Desc" Nullable="true" MaxLength="250" />
+    <Property Type="Int32" Name="Coverage_ID" Nullable="true" />
+    <Property Type="String" Name="Coverage_Group" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Coverage_Amount" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Coverage_Percent" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="TRANSACTION_INVOICE">
+    <Property Type="Guid" Name="ROW_ID" Nullable="false" />
+    <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="75" />
+    <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="19" Scale="5" />
+    <Property Type="String" Name="DOCUMENT_NUMBER" Nullable="true" MaxLength="20" />
+    <Property Type="Decimal" Name="ACTUAL_BALANCE" Nullable="true" Precision="19" Scale="5" />
+    <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="75" />
+    <Property Type="String" Name="TRANS_USER" Nullable="true" MaxLength="15" />
+    <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="SYNC_CREATE_DATE" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="GP_PROCESS_DATE" Nullable="true" Precision="23" />
+    <Property Type="String" Name="GP_PROCESS_USER" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="GP_MODULE" Nullable="true" MaxLength="3" />
+    <Property Type="Int32" Name="GP_DOCTYPE" Nullable="true" />
+    <Property Type="String" Name="GP_DOCNUMBR" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="RENEWAL_TYPE" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="DOCUMENT_TYPE" Nullable="true" />
+    <Property Type="Boolean" Name="DOCUMENT_CANCELLED" Nullable="true" />
+    <Property Type="String" Name="NCF" Nullable="true" MaxLength="19" />
+    <Property Type="String" Name="ASSIGNED_DOC_NUMBER" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="TRANSACTION_SEQUENCE" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="IV00101">
+    <Key>
+      <PropertyRef Name="ITEMNMBR" />
+    </Key>
+    <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="ITEMDESC" Type="String" Nullable="false" MaxLength="101" FixedLength="true" Unicode="false" />
+    <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="ITMSHNAM" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="ITEMTYPE" Type="Int16" Nullable="false" />
+    <Property Name="ITMGEDSC" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="STNDCOST" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CURRCOST" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="ITEMSHWT" Type="Int32" Nullable="false" />
+    <Property Name="DECPLQTY" Type="Int16" Nullable="false" />
+    <Property Name="DECPLCUR" Type="Int16" Nullable="false" />
+    <Property Name="ITMTSHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TAXOPTNS" Type="Int16" Nullable="false" />
+    <Property Name="IVIVINDX" Type="Int32" Nullable="false" />
+    <Property Name="IVIVOFIX" Type="Int32" Nullable="false" />
+    <Property Name="IVCOGSIX" Type="Int32" Nullable="false" />
+    <Property Name="IVSLSIDX" Type="Int32" Nullable="false" />
+    <Property Name="IVSLDSIX" Type="Int32" Nullable="false" />
+    <Property Name="IVSLRNIX" Type="Int32" Nullable="false" />
+    <Property Name="IVINUSIX" Type="Int32" Nullable="false" />
+    <Property Name="IVINSVIX" Type="Int32" Nullable="false" />
+    <Property Name="IVDMGIDX" Type="Int32" Nullable="false" />
+    <Property Name="IVVARIDX" Type="Int32" Nullable="false" />
+    <Property Name="DPSHPIDX" Type="Int32" Nullable="false" />
+    <Property Name="PURPVIDX" Type="Int32" Nullable="false" />
+    <Property Name="UPPVIDX" Type="Int32" Nullable="false" />
+    <Property Name="IVRETIDX" Type="Int32" Nullable="false" />
+    <Property Name="ASMVRIDX" Type="Int32" Nullable="false" />
+    <Property Name="ITMCLSCD" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="ITMTRKOP" Type="Int16" Nullable="false" />
+    <Property Name="LOTTYPE" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+    <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+    <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+    <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+    <Property Name="ALWBKORD" Type="Byte" Nullable="false" />
+    <Property Name="VCTNMTHD" Type="Int16" Nullable="false" />
+    <Property Name="UOMSCHDL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="ALTITEM1" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="ALTITEM2" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_1" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_2" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_3" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_4" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_5" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="USCATVLS_6" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="MSTRCDTY" Type="Int16" Nullable="false" />
+    <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="WRNTYDYS" Type="Int16" Nullable="false" />
+    <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="LOCNCODE" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="PINFLIDX" Type="Int32" Nullable="false" />
+    <Property Name="PURMCIDX" Type="Int32" Nullable="false" />
+    <Property Name="IVINFIDX" Type="Int32" Nullable="false" />
+    <Property Name="INVMCIDX" Type="Int32" Nullable="false" />
+    <Property Name="CGSINFLX" Type="Int32" Nullable="false" />
+    <Property Name="CGSMCIDX" Type="Int32" Nullable="false" />
+    <Property Name="ITEMCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TCC" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="PriceGroup" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="PRICMTHD" Type="Int16" Nullable="false" />
+    <Property Name="PRCHSUOM" Type="String" Nullable="false" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="SELNGUOM" Type="String" Nullable="false" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="KTACCTSR" Type="Int16" Nullable="false" />
+    <Property Name="LASTGENSN" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="ABCCODE" Type="Int16" Nullable="false" />
+    <Property Name="Revalue_Inventory" Type="Byte" Nullable="false" />
+    <Property Name="Tolerance_Percentage" Type="Int32" Nullable="false" />
+    <Property Name="Purchase_Item_Tax_Schedu" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Purchase_Tax_Options" Type="Int16" Nullable="false" />
+    <Property Name="ITMPLNNNGTYP" Type="Int16" Nullable="false" />
+    <Property Name="STTSTCLVLPRCNTG" Type="Int16" Nullable="false" />
+    <Property Name="CNTRYORGN" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+    <Property Name="MINSHELF1" Type="Int16" Nullable="false" />
+    <Property Name="MINSHELF2" Type="Int16" Nullable="false" />
+    <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+    <Property Name="LOTEXPWARN" Type="Byte" Nullable="false" />
+    <Property Name="LOTEXPWARNDAYS" Type="Int16" Nullable="false" />
+    <Property Name="LASTGENLOT" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="Lot_Split_Quantity" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="UseQtyOverageTolerance" Type="Byte" Nullable="false" />
+    <Property Name="UseQtyShortageTolerance" Type="Byte" Nullable="false" />
+    <Property Name="QtyOverTolerancePercent" Type="Int32" Nullable="false" />
+    <Property Name="QtyShortTolerancePercent" Type="Int32" Nullable="false" />
+    <Property Name="IVSCRVIX" Type="Int32" Nullable="false" />
+    <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="RM00101">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CUSTNAME" Type="String" Nullable="false" MaxLength="65" FixedLength="true" Unicode="false" />
+    <Property Name="CUSTCLAS" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CPRCSTNM" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CNTCPRSN" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="STMTNAME" Type="String" Nullable="false" MaxLength="65" FixedLength="true" Unicode="false" />
+    <Property Name="SHRTNAME" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="ADRSCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="UPSZONE" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="SHIPMTHD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TAXSCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS1" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS2" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS3" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="COUNTRY" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="CITY" Type="String" Nullable="false" MaxLength="35" FixedLength="true" Unicode="false" />
+    <Property Name="STATE" Type="String" Nullable="false" MaxLength="29" FixedLength="true" Unicode="false" />
+    <Property Name="ZIP" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE3" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="FAX" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="PRBTADCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="PRSTADCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="STADDRCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CHEKBKID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="PYMTRMID" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="CRLMTTYP" Type="Int16" Nullable="false" />
+    <Property Name="CRLMTAMT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CRLMTPER" Type="Int16" Nullable="false" />
+    <Property Name="CRLMTPAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CURNCYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="RATETPID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CUSTDISC" Type="Int16" Nullable="false" />
+    <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="MINPYTYP" Type="Int16" Nullable="false" />
+    <Property Name="MINPYDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="MINPYPCT" Type="Int16" Nullable="false" />
+    <Property Name="FNCHATYP" Type="Int16" Nullable="false" />
+    <Property Name="FNCHPCNT" Type="Int16" Nullable="false" />
+    <Property Name="FINCHDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="MXWOFTYP" Type="Int16" Nullable="false" />
+    <Property Name="MXWROFAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="COMMENT1" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="COMMENT2" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="USERDEF1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="USERDEF2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="TAXEXMT1" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="TAXEXMT2" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="TXRGNNUM" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="BALNCTYP" Type="Int16" Nullable="false" />
+    <Property Name="STMTCYCL" Type="Int16" Nullable="false" />
+    <Property Name="BANKNAME" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="BNKBRNCH" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DEFCACTY" Type="Int16" Nullable="false" />
+    <Property Name="RMCSHACC" Type="Int32" Nullable="false" />
+    <Property Name="RMARACC" Type="Int32" Nullable="false" />
+    <Property Name="RMSLSACC" Type="Int32" Nullable="false" />
+    <Property Name="RMIVACC" Type="Int32" Nullable="false" />
+    <Property Name="RMCOSACC" Type="Int32" Nullable="false" />
+    <Property Name="RMTAKACC" Type="Int32" Nullable="false" />
+    <Property Name="RMAVACC" Type="Int32" Nullable="false" />
+    <Property Name="RMFCGACC" Type="Int32" Nullable="false" />
+    <Property Name="RMWRACC" Type="Int32" Nullable="false" />
+    <Property Name="RMSORACC" Type="Int32" Nullable="false" />
+    <Property Name="FRSTINDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+    <Property Name="HOLD" Type="Byte" Nullable="false" />
+    <Property Name="CRCARDID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="CRCRDNUM" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="CCRDXPDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+    <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+    <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+    <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+    <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Revalue_Customer" Type="Byte" Nullable="false" />
+    <Property Name="Post_Results_To" Type="Int16" Nullable="false" />
+    <Property Name="FINCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="GOVCRPID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="GOVINDID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="DISGRPER" Type="Int16" Nullable="false" />
+    <Property Name="DUEGRPER" Type="Int16" Nullable="false" />
+    <Property Name="DOCFMTID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Send_Email_Statements" Type="Byte" Nullable="false" />
+    <Property Name="USERLANG" Type="Int16" Nullable="false" />
+    <Property Name="GPSFOINTEGRATIONID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="INTEGRATIONSOURCE" Type="Int16" Nullable="false" />
+    <Property Name="INTEGRATIONID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="ORDERFULFILLDEFAULT" Type="Int16" Nullable="false" />
+    <Property Name="CUSTPRIORITY" Type="Int16" Nullable="false" />
+    <Property Name="CCode" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="DECLID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="RMOvrpymtWrtoffAcctIdx" Type="Int32" Nullable="false" />
+    <Property Name="SHIPCOMPLETE" Type="Byte" Nullable="false" />
+    <Property Name="CBVAT" Type="Byte" Nullable="false" />
+    <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+    <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <ComplexType Name="SYSFLEX_REINSURANCE_BY_COVERAGE">
+    <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Type" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Item_number" Nullable="true" />
+    <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Trans_Tax_Amount" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="USER" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Product_type" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="Coverage_Desc" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="Coverage_ID" Nullable="true" />
+    <Property Type="Decimal" Name="Coverage_Limit" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="String" Name="Coverage_Group" Nullable="true" MaxLength="150" />
+    <Property Type="Decimal" Name="Coverage_Amount" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Coverage_Percent" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Reinsurance_Percent_Commission" Nullable="false" Precision="18" Scale="6" />
+    <Property Type="Decimal" Name="Reinsurance_Amount_Commission" Nullable="true" Precision="38" Scale="13" />
+    <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="false" />
+    <Property Type="Int32" Name="Company" Nullable="false" />
+    <Property Type="String" Name="Name_Company" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Type_identifierr" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Number_Identifierr" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Number_Contrat" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="Type_Contrat" Nullable="false" MaxLength="150" />
+    <Property Type="Int32" Name="Company_is_Local" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="ST_ITEMNMBR_ACCOUNT_CODE">
+    <Key>
+      <PropertyRef Name="ITEMNMBR" />
+      <PropertyRef Name="ACCOUNT_CODE" />
+    </Key>
+    <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+    <Property Name="ACCOUNT_CODE" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_SUPERVISOR">
+    <Key>
+      <PropertyRef Name="SUPERVISOR" />
+    </Key>
+    <Property Name="SUPERVISOR_CODE" Type="Int32" />
+    <Property Name="SUPERVISOR" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ZONE_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="CHANNEL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_GL_MAPPING_REINSURANCE">
+    <Key>
+      <PropertyRef Name="ROW_ID" />
+    </Key>
+    <Property Name="ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsLocal" Type="Boolean" Nullable="false" />
+    <Property Name="IsFacult" Type="Boolean" Nullable="false" />
+    <Property Name="SEGMENT1" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="SEGMENT2" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="SEGMENT1_COMM" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="SEGMENT2_COMM" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT_ACCOUNT" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="RM00301">
+    <Key>
+      <PropertyRef Name="SLPRSNID" />
+    </Key>
+    <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="EMPLOYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="VENDORID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SLPRSNFN" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SPRSNSMN" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="SPRSNSLN" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS1" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS2" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="ADDRESS3" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="CITY" Type="String" Nullable="false" MaxLength="35" FixedLength="true" Unicode="false" />
+    <Property Name="STATE" Type="String" Nullable="false" MaxLength="29" FixedLength="true" Unicode="false" />
+    <Property Name="ZIP" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="COUNTRY" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="PHONE3" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="FAX" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+    <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="COMMCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="COMPRCNT" Type="Int16" Nullable="false" />
+    <Property Name="STDCPRCT" Type="Int16" Nullable="false" />
+    <Property Name="COMAPPTO" Type="Int16" Nullable="false" />
+    <Property Name="COSTTODT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="CSTLSTYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="TTLCOMTD" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="TTLCOMLY" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="COMSLTDT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="COMSLLYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="NCOMSLTD" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="NCOMSLYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+    <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+    <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="COMMDEST" Type="Int16" Nullable="false" />
+    <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="Account_Index" />
+      <PropertyRef Name="Created_Date" />
+      <PropertyRef Name="Historical_Rate" />
+      <PropertyRef Name="Inflation_Equity_Account_Index" />
+      <PropertyRef Name="Inflation_Revenue_Account_Index" />
+      <PropertyRef Name="Modified_Date" />
+      <PropertyRef Name="Note_Index" />
+      <PropertyRef Name="Segment1" />
+      <PropertyRef Name="Segment2" />
+      <PropertyRef Name="Segment3" />
+      <PropertyRef Name="Segment4" />
+      <PropertyRef Name="Segment5" />
+      <PropertyRef Name="Segment6" />
+      <PropertyRef Name="Segment7" />
+      <PropertyRef Name="Segment8" />
+      <PropertyRef Name="Segment9" />
+      <PropertyRef Name="Segments" />
+    </Key>
+    <Property Name="Account_Number" Type="String" MaxLength="129" FixedLength="false" Unicode="false" />
+    <Property Name="Account_Description" Type="String" MaxLength="51" FixedLength="false" Unicode="false" />
+    <Property Name="Posting_Type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Account_Category_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Account_Alias" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+    <Property Name="Account_Index" Type="Int32" Nullable="false" />
+    <Property Name="Account_Type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Active" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Adjust_for_Inflation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Allow_Account_Entry" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Balance_For_Calculation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Conversion_Method" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Created_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Decimal_Places" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Fixed_Or_Variable" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Historical_Rate" Type="Decimal" Nullable="false" Precision="19" Scale="7" />
+    <Property Name="Inflation_Equity_Account_Index" Type="Int32" Nullable="false" />
+    <Property Name="Inflation_Revenue_Account_Index" Type="Int32" Nullable="false" />
+    <Property Name="Main_Account_Segment" Type="String" MaxLength="67" FixedLength="false" Unicode="false" />
+    <Property Name="Modified_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Note_Index" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="Post_Inventory_In" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Post_Payroll_In" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Post_Purchasing_In" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Post_Sales_In" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Segment1" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment2" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment3" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment4" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment5" Type="String" Nullable="false" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="Segment6" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment7" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment8" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Segment9" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Typical_Balance" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="User_Defined_1" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+    <Property Name="User_Defined_2" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+    <Property Name="User_Defined_String_1" Type="String" MaxLength="31" FixedLength="false" Unicode="false" />
+    <Property Name="User_Defined_String_2" Type="String" MaxLength="31" FixedLength="false" Unicode="false" />
+    <Property Name="Segments" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Clear_Balance" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Account_Index_For_Drillback" Type="String" MaxLength="2047" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST_ITEM_CHANNEL_COMMISSION">
+    <Key>
+      <PropertyRef Name="ITEMNMBR" />
+      <PropertyRef Name="CHANNEL_GL_MAPPING" />
+    </Key>
+    <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="CHANNEL_GL_MAPPING" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="COMMISSION_PERCENT" Type="Decimal" Precision="19" Scale="5" />
+  </EntityType>
+  <EntityType Name="ST_SYSFLEX_POLICY_RENEW">
+    <Key>
+      <PropertyRef Name="ROWID" />
+    </Key>
+    <Property Name="ROWID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="INITIAL_DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TRANSACTION_SEQ" Type="Int32" Nullable="false" />
+    <Property Name="DOCUMENT_NUMBER" Type="Decimal" Nullable="false" Precision="20" Scale="0" />
+    <Property Name="SOPNUMBE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DISTTYPE" Type="Int16" Nullable="false" />
+    <Property Name="DistRef" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACTNUMST" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DEBITAMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="CRDTAMNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PROCESS" Type="Boolean" Nullable="false" />
+    <Property Name="PROCESS_DATE" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

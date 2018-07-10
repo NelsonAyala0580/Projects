@@ -1,0 +1,10 @@
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Release\SysflexIntegrationUTIL.pdb

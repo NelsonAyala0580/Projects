@@ -1,0 +1,31 @@
+2017-09-01 09:12:11,995 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 09:12:12,338 [10] DEBUG  - Creacion de numero de batch SF09:12 192017
+2017-09-01 09:12:15,988 [10] DEBUG  - Se obtiene el cliente de GP 1-05-376225
+2017-09-01 09:13:14,484 [10] WARN  - Poliza no tiene supervisor Asignado
+2017-09-01 09:13:15,029 [10] WARN  - Poliza no tiene supervisor Asignado
+2017-09-01 09:22:20,236 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 09:22:20,512 [10] DEBUG  - Creacion de numero de batch SF09:22 192017
+2017-09-01 09:22:22,758 [10] DEBUG  - Se obtiene el cliente de GP 1-05-376225
+2017-09-01 12:19:13,045 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 12:19:14,978 [10] DEBUG  - Creacion de numero de batch SF12:19 192017
+2017-09-01 12:19:23,082 [10] DEBUG  - Se obtiene el cliente de GP 05-276638-2012
+2017-09-01 20:07:48,790 [10] DEBUG  - Total de Transacciones: 1263
+2017-09-01 20:08:32,155 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 20:08:32,155 [10] DEBUG  - Creacion de numero de batch SF19201720:8
+2017-09-01 20:08:32,772 [10] DEBUG  - Se obtiene el cliente de GP 05-358918-2014
+2017-09-01 20:08:32,780 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateRMHeader(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 187
+2017-09-01 20:08:59,106 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 20:09:04,623 [10] DEBUG  - Creacion de numero de batch SF19201720:9
+2017-09-01 20:09:07,804 [10] DEBUG  - Se obtiene el cliente de GP 05-358918-2014
+2017-09-01 20:16:08,897 [8] DEBUG  - Total de Transacciones: 1263
+2017-09-01 20:16:21,724 [8] DEBUG  - Contruyendo encabezado
+2017-09-01 20:16:22,625 [8] DEBUG  - Creacion de numero de batch SF19201720:16
+2017-09-01 20:16:24,920 [8] DEBUG  - Se obtiene el cliente de GP 05-358918-2014
+2017-09-01 20:21:19,731 [10] DEBUG  - Total de Transacciones: 1263
+2017-09-01 20:21:33,243 [10] DEBUG  - Contruyendo encabezado
+2017-09-01 20:21:34,031 [10] DEBUG  - Creacion de numero de batch SF19201720:21
+2017-09-01 20:21:36,226 [10] DEBUG  - Se obtiene el cliente de GP 05-358918-2014
+2017-09-01 20:22:42,702 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0201-00-01-174-10112-00
+2017-09-01 20:22:52,680 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40

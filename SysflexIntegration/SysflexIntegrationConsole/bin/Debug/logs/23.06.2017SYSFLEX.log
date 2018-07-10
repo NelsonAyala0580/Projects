@@ -1,0 +1,157 @@
+2017-06-23 09:46:12,706 [10] DEBUG  - Sincronización de Cliente 87068
+2017-06-23 09:46:56,531 [10] DEBUG  - Customer Actualizado 87068
+2017-06-23 09:47:02,062 [10] DEBUG  - EXITO
+2017-06-23 09:47:05,344 [10] DEBUG  - Sincronización de Cliente 1265934
+2017-06-23 09:47:27,456 [10] DEBUG  - Customer Actualizado 1265934
+2017-06-23 09:47:31,655 [10] DEBUG  - EXITO
+2017-06-23 09:47:33,565 [10] DEBUG  - Sincronización de Cliente 1300981
+2017-06-23 09:47:51,268 [10] DEBUG  - Customer Actualizado 1300981
+2017-06-23 09:47:53,764 [10] DEBUG  - EXITO
+2017-06-23 09:47:56,136 [10] DEBUG  - Sincronización de Cliente 1319835
+2017-06-23 09:49:31,519 [10] DEBUG  - Customer Actualizado 1319835
+2017-06-23 09:49:35,344 [10] DEBUG  - EXITO
+2017-06-23 09:49:38,736 [10] DEBUG  - Sincronización de Cliente 1319952
+2017-06-23 09:49:58,745 [10] DEBUG  - Customer Actualizado 1319952
+2017-06-23 09:50:01,617 [10] DEBUG  - EXITO
+2017-06-23 09:50:03,346 [10] DEBUG  - Sincronización de Cliente 1320182
+2017-06-23 09:50:17,841 [10] DEBUG  - Customer Actualizado 1320182
+2017-06-23 09:50:20,032 [10] DEBUG  - EXITO
+2017-06-23 10:45:47,861 [10] DEBUG  - Sql procedure error codes returned: 
+Error Number = 3300  Stored Procedure= taCreateCustomerClass  Error Description = The Statement Cycle (STMTCYCL) value is invalid - 1 through 7 are valid
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+STMTCYCL = 0
+
+
+Error Number = 6310  Stored Procedure= taCreateCustomerClass  Error Description = The customer priority value (CUSTPRIORITY) is invalid - 1 to 100 are valid
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+CUSTPRIORITY = 0
+
+
+Error Number = 6326  Stored Procedure= taCreateCustomerClass  Error Description = The Order Fulfillment Shortage Default (ORDERFULFILLDEFAULT) passed is invalid - 1=none & 2=Back Order Remaining & 3=Cancel Remaining
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+ORDERFULFILLDEFAULT = 0
+
+
+<taCreateCustomerClass>
+  <CLASSID>A0401051710011</CLASSID>
+  <CLASDSCR>A0401051710011</CLASDSCR>
+  <CRLMTTYP>1</CRLMTTYP>
+  <TAXSCHID>DR</TAXSCHID>
+  <ACCTRECACCT>1302-06-201-0401-00-05-174-10011-00</ACCTRECACCT>
+  <STMTCYCL>0</STMTCYCL>
+  <KPCALHST>0</KPCALHST>
+  <KPDSTHST>0</KPDSTHST>
+  <KPERHIST>0</KPERHIST>
+  <KPTRXHST>0</KPTRXHST>
+  <Revalue_Customer>0</Revalue_Customer>
+  <ORDERFULFILLDEFAULT>0</ORDERFULFILLDEFAULT>
+  <CUSTPRIORITY>0</CUSTPRIORITY>
+</taCreateCustomerClass>
+
+2017-06-23 10:45:51,781 [10] ERROR  - Ocurrio un error al crear la clase: A0401051710011. Sql procedure error codes returned: 
+Error Number = 3300  Stored Procedure= taCreateCustomerClass  Error Description = The Statement Cycle (STMTCYCL) value is invalid - 1 through 7 are valid
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+STMTCYCL = 0
+
+
+Error Number = 6310  Stored Procedure= taCreateCustomerClass  Error Description = The customer priority value (CUSTPRIORITY) is invalid - 1 to 100 are valid
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+CUSTPRIORITY = 0
+
+
+Error Number = 6326  Stored Procedure= taCreateCustomerClass  Error Description = The Order Fulfillment Shortage Default (ORDERFULFILLDEFAULT) passed is invalid - 1=none & 2=Back Order Remaining & 3=Cancel Remaining
+Node Identifier Parameters: taCreateCustomerClass
+CLASSID = A0401051710011
+Related Error Code Parameters for Node : taCreateCustomerClass
+ORDERFULFILLDEFAULT = 0
+
+
+<taCreateCustomerClass>
+  <CLASSID>A0401051710011</CLASSID>
+  <CLASDSCR>A0401051710011</CLASDSCR>
+  <CRLMTTYP>1</CRLMTTYP>
+  <TAXSCHID>DR</TAXSCHID>
+  <ACCTRECACCT>1302-06-201-0401-00-05-174-10011-00</ACCTRECACCT>
+  <STMTCYCL>0</STMTCYCL>
+  <KPCALHST>0</KPCALHST>
+  <KPDSTHST>0</KPDSTHST>
+  <KPERHIST>0</KPERHIST>
+  <KPTRXHST>0</KPTRXHST>
+  <Revalue_Customer>0</Revalue_Customer>
+  <ORDERFULFILLDEFAULT>0</ORDERFULFILLDEFAULT>
+  <CUSTPRIORITY>0</CUSTPRIORITY>
+</taCreateCustomerClass>
+
+2017-06-23 10:46:03,758 [10] ERROR  - Ocurrió un error al sincronizar la póliza: 1-05-457237. Sql procedure error codes returned: 
+Error Number = 495  Stored Procedure= taUpdateCreateCustomerRcd  Error Description = The Customer Class ID does not exist in the RM Class Master Table
+Node Identifier Parameters: taUpdateCreateCustomerRcd
+CUSTNMBR = 1-05-457237
+Related Error Code Parameters for Node : taUpdateCreateCustomerRcd
+CUSTCLAS = A0401051710011
+
+
+<taUpdateCreateCustomerRcd>
+  <CUSTNMBR>1-05-457237</CUSTNMBR>
+  <CUSTNAME>Rafael Estarlin Nivar Puello</CUSTNAME>
+  <SHRTNAME>Rafael Nivar Puello</SHRTNAME>
+  <STMTNAME>Rafael Nivar Puello</STMTNAME>
+  <CUSTCLAS>A0401051710011</CUSTCLAS>
+  <ADRSCODE>PRIMARY        </ADRSCODE>
+  <ADDRESS1>c/ principal no. 7, la cuaba</ADDRESS1>
+  <ADDRESS2>0</ADDRESS2>
+  <ADDRESS3>0</ADDRESS3>
+  <CITY>SANTO DOMINGO DE GUZMAN</CITY>
+  <COUNTRY>REPUBLICA DOMINICANA</COUNTRY>
+  <PHNUMBR1>829-308-4612</PHNUMBR1>
+  <PHNUMBR2>809-816-4848                                      </PHNUMBR2>
+  <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+  <UseCustomerClass>1</UseCustomerClass>
+  <CreateAddress>0</CreateAddress>
+</taUpdateCreateCustomerRcd>
+
+2017-06-23 10:46:04,674 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 31
+2017-06-23 11:13:15,503 [10] DEBUG  - Clase creada: A0401051710011
+2017-06-23 11:13:55,649 [10] ERROR  - Ocurrió un error al sincronizar la póliza: 1-05-457237. Sql procedure error codes returned: 
+Error Number = 7876  Stored Procedure= taParentIDChild  Error Description = The Customer Number is already part of a Parent/National Account
+Node Identifier Parameters: taParentIDChild
+CPRCSTNM = 87068
+Related Error Code Parameters for Node : taParentIDChild
+CPRCSTNM = 87068
+
+
+<taParentIDChild>
+  <CPRCSTNM>87068</CPRCSTNM>
+  <CUSTNMBR>1-05-457237</CUSTNMBR>
+</taParentIDChild>
+
+2017-06-23 11:17:00,128 [9] ERROR  - Ocurrió un error al sincronizar la póliza: 1-05-457237. Sql procedure error codes returned: 
+Error Number = 7876  Stored Procedure= taParentIDChild  Error Description = The Customer Number is already part of a Parent/National Account
+Node Identifier Parameters: taParentIDChild
+CPRCSTNM = 87068
+Related Error Code Parameters for Node : taParentIDChild
+CPRCSTNM = 87068
+
+
+<taParentIDChild>
+  <CPRCSTNM>87068</CPRCSTNM>
+  <CUSTNMBR>1-05-457237</CUSTNMBR>
+</taParentIDChild>
+
+2017-06-23 12:55:52,838 [9] ERROR  - Ocurrió un error al sincronizar la póliza: 1-05-457237. Procedure or function 'taCreateParentID' expects parameter '@I_vCPRCSTNM', which was not supplied.
+2017-06-23 13:05:39,489 [8] DEBUG  - Poliza sincronizada correctamente: 1-05-457237
+2017-06-23 13:06:00,313 [8] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 31
+2017-06-23 13:07:11,959 [10] DEBUG  - Poliza sincronizada correctamente: 1-05-457237

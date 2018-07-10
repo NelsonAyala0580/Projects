@@ -1,0 +1,140 @@
+2018-04-06 09:18:42,439 [10] DEBUG  - Contruyendo encabezado
+2018-04-06 09:18:42,733 [10] DEBUG  - Creacion de numero de batch SFNC2932018
+2018-04-06 09:18:44,311 [10] DEBUG  - Se obtiene el cliente de GP 5-05-459090
+2018-04-06 09:19:05,602 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-7000-00-04-176-10039-00
+2018-04-06 09:19:05,602 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-06 09:20:58,835 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-24
+2018-04-06 09:20:59,865 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-15
+2018-04-06 09:21:01,052 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-04
+2018-04-06 09:21:02,631 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-06
+2018-04-06 09:21:03,658 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-07
+2018-04-06 09:21:04,685 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-05
+2018-04-06 09:21:05,711 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-49
+2018-04-06 09:21:06,806 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-65
+2018-04-06 09:21:07,927 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-24
+2018-04-06 09:21:08,958 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-15
+2018-04-06 09:21:09,983 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-04
+2018-04-06 09:21:11,337 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-02
+2018-04-06 09:21:12,918 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-13
+2018-04-06 09:21:13,952 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-06
+2018-04-06 09:21:14,988 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-09
+2018-04-06 09:21:16,026 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-12
+2018-04-06 09:21:17,061 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-07
+2018-04-06 09:21:18,087 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-05
+2018-04-06 09:21:19,113 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0270-00-04-176-10039-49
+2018-04-06 09:21:20,279 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-65
+2018-04-06 09:21:21,833 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-15
+2018-04-06 09:21:23,246 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-04
+2018-04-06 09:21:24,275 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-02
+2018-04-06 09:21:25,299 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-13
+2018-04-06 09:21:26,327 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-06
+2018-04-06 09:21:27,351 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-09
+2018-04-06 09:21:28,391 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-12
+2018-04-06 09:21:29,443 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-07
+2018-04-06 09:21:30,472 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-66
+2018-04-06 09:21:31,795 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-05
+2018-04-06 09:21:32,905 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-65
+2018-04-06 09:21:33,933 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-24
+2018-04-06 09:21:34,957 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-15
+2018-04-06 09:21:35,981 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-04
+2018-04-06 09:21:37,006 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-02
+2018-04-06 09:21:38,035 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-13
+2018-04-06 09:21:39,060 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-06
+2018-04-06 09:21:40,090 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-09
+2018-04-06 09:21:43,706 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-12
+2018-04-06 09:21:45,100 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-07
+2018-04-06 09:21:46,461 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-05
+2018-04-06 09:21:47,505 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0370-00-04-176-10039-49
+2018-04-06 09:21:48,944 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-65
+2018-04-06 09:21:49,974 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-24
+2018-04-06 09:21:51,108 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-15
+2018-04-06 09:21:52,449 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-04
+2018-04-06 09:21:53,838 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-02
+2018-04-06 09:21:54,863 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-13
+2018-04-06 09:21:55,889 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-06
+2018-04-06 09:21:56,915 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-09
+2018-04-06 09:21:57,938 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-12
+2018-04-06 09:21:58,999 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-07
+2018-04-06 09:22:00,029 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-05
+2018-04-06 09:22:01,300 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0470-00-04-176-10039-49
+2018-04-06 09:22:02,545 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-24
+2018-04-06 09:22:03,574 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-15
+2018-04-06 09:22:04,600 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-04
+2018-04-06 09:22:05,626 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-06
+2018-04-06 09:22:06,653 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-07
+2018-04-06 09:22:07,697 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-05
+2018-04-06 09:22:08,723 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-49
+2018-04-06 09:22:09,753 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-65
+2018-04-06 09:22:10,779 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-24
+2018-04-06 09:22:12,196 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-15
+2018-04-06 09:22:13,221 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-04
+2018-04-06 09:22:14,375 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-02
+2018-04-06 09:22:15,485 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-13
+2018-04-06 09:22:16,513 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-06
+2018-04-06 09:22:17,543 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-09
+2018-04-06 09:22:18,567 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-12
+2018-04-06 09:22:19,593 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-07
+2018-04-06 09:22:20,624 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-05
+2018-04-06 09:22:21,818 [10] DEBUG  - Cuenta de Producto: 4301-06-201-0570-00-04-176-10039-49
+2018-04-06 09:23:47,481 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-24
+2018-04-06 09:23:48,700 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-15
+2018-04-06 09:23:49,920 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-04
+2018-04-06 09:23:51,134 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-06
+2018-04-06 09:23:52,482 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-07
+2018-04-06 09:23:53,707 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-05
+2018-04-06 09:23:54,925 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0570-00-04-176-10039-49
+2018-04-06 09:23:56,314 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-65
+2018-04-06 09:23:57,528 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-24
+2018-04-06 09:23:58,904 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-15
+2018-04-06 09:24:00,121 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-04
+2018-04-06 09:24:01,432 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-02
+2018-04-06 09:24:02,643 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-13
+2018-04-06 09:24:03,854 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-06
+2018-04-06 09:24:05,075 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-09
+2018-04-06 09:24:06,308 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-12
+2018-04-06 09:24:07,525 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-07
+2018-04-06 09:24:11,379 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-05
+2018-04-06 09:24:13,386 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0270-00-04-176-10039-49
+2018-04-06 09:24:14,641 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-65
+2018-04-06 09:24:15,858 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-15
+2018-04-06 09:24:17,067 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-04
+2018-04-06 09:24:18,280 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-02
+2018-04-06 09:24:19,490 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-13
+2018-04-06 09:24:20,701 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-06
+2018-04-06 09:24:21,915 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-09
+2018-04-06 09:24:23,126 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-12
+2018-04-06 09:24:24,336 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-07
+2018-04-06 09:24:25,550 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-66
+2018-04-06 09:24:26,764 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-05
+2018-04-06 09:24:27,978 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-65
+2018-04-06 09:24:29,195 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-24
+2018-04-06 09:24:30,409 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-15
+2018-04-06 09:24:31,657 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-04
+2018-04-06 09:24:32,873 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-02
+2018-04-06 09:24:34,083 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-13
+2018-04-06 09:24:35,294 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-06
+2018-04-06 09:24:36,504 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0370-00-04-176-10039-09
+2018-04-06 09:25:27,792 [10] DEBUG  - Total de Transacciones: 2
+2018-04-06 09:25:46,250 [10] DEBUG  - Contruyendo encabezado
+2018-04-06 09:25:46,531 [10] DEBUG  - Creacion de numero de batch SFNC2932018
+2018-04-06 09:25:49,104 [10] DEBUG  - Se obtiene el cliente de GP 5-05-459090
+2018-04-06 09:26:56,492 [10] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2018-04-06 09:26:56,866 [10] WARN  - No existe una configuración para la linea de negocio 201 y producto: 7000
+2018-04-06 09:26:56,872 [10] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1204
+2018-04-06 09:26:56,880 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1214
+   at MODEL.AccountBuilder.BuildUnitAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 250
+2018-04-06 09:26:56,884 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1214
+   at MODEL.AccountBuilder.BuildUnitAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 271
+   at InvoiceSync.BL.InvoiceBL.CreateRMUnitDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1538
+2018-04-06 09:26:56,888 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1214
+   at MODEL.AccountBuilder.BuildUnitAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 271
+   at InvoiceSync.BL.InvoiceBL.CreateRMUnitDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, RMDocumentTaxes[] taxes, RMTransactionHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 1873
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 176

@@ -1,0 +1,7 @@
+2017-11-21 14:23:47,848 [9] DEBUG  - Total de Transacciones: 32
+2017-11-21 14:23:58,588 [9] DEBUG  - Contruyendo encabezado
+2017-11-21 14:23:59,447 [9] DEBUG  - Creacion de numero de batch SFNC2111201714
+2017-11-21 14:24:01,401 [9] DEBUG  - Se obtiene el cliente de GP 1-05-481505
+2017-11-21 14:25:07,363 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 69

@@ -1,0 +1,16 @@
+2017-07-03 17:34:16,699 [9] DEBUG  - Contruyendo encabezado
+2017-07-03 17:34:18,299 [9] DEBUG  - Creacion de numero de batch SF17:34 372017
+2017-07-03 17:34:20,709 [9] DEBUG  - Se obtiene el cliente de GP 1-201-451
+2017-07-03 17:35:56,904 [9] WARN  - No se encontró la covertura asignada Terremoto y/o Temblor de Tierra
+2017-07-03 17:36:01,108 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 128
+2017-07-03 17:36:10,178 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 149
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 178
+2017-07-03 17:36:10,996 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 149
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 200
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 73

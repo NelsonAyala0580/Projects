@@ -1,0 +1,460 @@
+2018-04-02 19:45:07,632 [8] DEBUG  - Total de Transacciones: 3
+2018-04-02 19:45:12,990 [8] DEBUG  - Contruyendo encabezado
+2018-04-02 19:45:12,991 [8] DEBUG  - Creacion de numero de batch SFFA2832018
+2018-04-02 19:45:13,845 [8] DEBUG  - Se obtiene el cliente de GP 1-802-461176
+2018-04-02 19:46:45,629 [8] DEBUG  - Cuenta por cobrar: 1302-08-201-2456-00-05-176-10011-00
+2018-04-02 19:46:45,629 [8] DEBUG  - Cuenta de producto: 4301-08-201-2456-00-05-176-10011-14
+2018-04-02 19:46:45,629 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-02 19:46:46,657 [8] DEBUG  - Cuenta de comisiones GASTO 5302-08-201-2456-00-05-176-10011-14
+2018-04-02 19:46:47,601 [8] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-2456-00-05-176-10011-00
+2018-04-02 19:46:47,601 [8] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-02 19:46:48,440 [8] DEBUG  - Cuenta para RRC GASTO: 5311-08-201-2456-00-05-176-10011-14
+2018-04-02 19:46:49,194 [8] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-2456-00-05-176-10011-00
+2018-04-02 19:48:05,970 [10] DEBUG  - Total de Transacciones: 3
+2018-04-02 19:48:15,304 [10] DEBUG  - Contruyendo encabezado
+2018-04-02 19:48:15,304 [10] DEBUG  - Creacion de numero de batch SFFA2832018
+2018-04-02 19:48:16,537 [10] DEBUG  - Se obtiene el cliente de GP 1-802-461176
+2018-04-02 19:48:30,239 [10] DEBUG  - Cuenta por cobrar: 1302-08-201-2456-00-05-176-10011-00
+2018-04-02 19:48:30,239 [10] DEBUG  - Cuenta de producto: 4301-08-201-2456-00-05-176-10011-14
+2018-04-02 19:48:30,239 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-02 19:48:31,270 [10] DEBUG  - Cuenta de comisiones GASTO 5302-08-201-2456-00-05-176-10011-14
+2018-04-02 19:48:32,215 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-2456-00-05-176-10011-00
+2018-04-02 19:48:32,215 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-02 19:48:33,060 [10] DEBUG  - Cuenta para RRC GASTO: 5311-08-201-2456-00-05-176-10011-14
+2018-04-02 19:48:33,812 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-2456-00-05-176-10011-00
+2018-04-02 19:49:31,120 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+        <DOCDATE>2018-03-28</DOCDATE>
+        <USERDATE>2018-04-02</USERDATE>
+        <ITEMNMBR>EXCESS LIABILITY               </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>2365.00</UNITPRCE>
+        <XTNDPRCE>2365.00</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>R.C. En Exceso De Póliza Básica</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-08-201-2456-00-05-176-10011-14</INVINDX>
+        <CSLSINDX>4301-08-201-2456-00-05-176-10011-14</CSLSINDX>
+        <SLSINDX>4301-08-201-2456-00-05-176-10011-14</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>10343</SLPRSNID>
+        <SALSTERR>05             </SALSTERR>
+        <COMMAMNT>413.88</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>378.40</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-08-201-2456-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>2743.40</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>R.C. En Exceso De Póliza Básica</DistRef>
+        <ACTNUMST>4301-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <CRDTAMNT>2365.00</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>378.40</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <DEBITAMT>413.88</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-2456-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>413.88</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <DEBITAMT>946.00</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448233          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-2456-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>946.00</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2448233          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>378.40</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2018-03-28</DOCDATE>
+      <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      <CITY>SANTO DOMINGO DE GUZMAN            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>2365.00</SUBTOTAL>
+      <DOCAMNT>2743.40</DOCAMNT>
+      <SLPRSNID>10343</SLPRSNID>
+      <BACHNUMB>SFFA2832018</BACHNUMB>
+      <DUEDATE>2018-03-28</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>413.88</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2018-04-02 19:49:32,950 [10] DEBUG  - Contruyendo encabezado
+2018-04-02 19:49:32,950 [10] DEBUG  - Creacion de numero de batch SFFA2832018
+2018-04-02 19:49:34,084 [10] DEBUG  - Se obtiene el cliente de GP 1-802-461176
+2018-04-02 19:50:04,583 [10] DEBUG  - Cuenta por cobrar: 1302-08-201-2456-00-05-176-10011-00
+2018-04-02 19:50:04,583 [10] DEBUG  - Cuenta de producto: 4301-08-201-2456-00-05-176-10011-14
+2018-04-02 19:50:04,583 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-02 19:50:05,618 [10] DEBUG  - Cuenta de comisiones GASTO 5302-08-201-2456-00-05-176-10011-14
+2018-04-02 19:50:06,557 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-2456-00-05-176-10011-00
+2018-04-02 19:50:06,557 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-02 19:50:07,405 [10] DEBUG  - Cuenta para RRC GASTO: 5311-08-201-2456-00-05-176-10011-14
+2018-04-02 19:50:08,158 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-2456-00-05-176-10011-00
+2018-04-02 19:50:47,045 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+        <DOCDATE>2018-03-28</DOCDATE>
+        <USERDATE>2018-04-02</USERDATE>
+        <ITEMNMBR>EXCESS LIABILITY               </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>2365.00</UNITPRCE>
+        <XTNDPRCE>2365.00</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>R.C. En Exceso De Póliza Básica</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-08-201-2456-00-05-176-10011-14</INVINDX>
+        <CSLSINDX>4301-08-201-2456-00-05-176-10011-14</CSLSINDX>
+        <SLSINDX>4301-08-201-2456-00-05-176-10011-14</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>10343</SLPRSNID>
+        <SALSTERR>05             </SALSTERR>
+        <COMMAMNT>413.88</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>378.40</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-08-201-2456-00-05-176-10011-00</ACTNUMST>
+        <DEBITAMT>2743.40</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>R.C. En Exceso De Póliza Básica</DistRef>
+        <ACTNUMST>4301-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <CRDTAMNT>2365.00</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>378.40</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <DEBITAMT>413.88</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-2456-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>413.88</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-08-201-2456-00-05-176-10011-14</ACTNUMST>
+        <DEBITAMT>946.00</DEBITAMT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2448277          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-2456-00-05-176-10011-00</ACTNUMST>
+        <CRDTAMNT>946.00</CRDTAMNT>
+        <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2448277          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>378.40</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2018-03-28</DOCDATE>
+      <CUSTNMBR>1-802-461176   </CUSTNMBR>
+      <CITY>SANTO DOMINGO DE GUZMAN            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>2365.00</SUBTOTAL>
+      <DOCAMNT>2743.40</DOCAMNT>
+      <SLPRSNID>10343</SLPRSNID>
+      <BACHNUMB>SFFA2832018</BACHNUMB>
+      <DUEDATE>2018-03-28</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>413.88</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2018-04-02 19:50:49,080 [10] DEBUG  - Contruyendo encabezado
+2018-04-02 19:50:49,080 [10] DEBUG  - Creacion de numero de batch SFFA2832018
+2018-04-02 19:50:50,154 [10] DEBUG  - Se obtiene el cliente de GP 1-802-488488
+2018-04-02 19:51:15,300 [10] DEBUG  - Cuenta por cobrar: 1302-08-201-2456-00-03-176-10055-00
+2018-04-02 19:51:15,300 [10] DEBUG  - Cuenta de producto: 4301-08-201-2456-00-03-176-10055-14
+2018-04-02 19:51:15,300 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-02 19:51:16,331 [10] DEBUG  - Cuenta de comisiones GASTO 5302-08-201-2456-00-03-176-10055-14
+2018-04-02 19:51:17,269 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-2456-00-03-176-10055-00
+2018-04-02 19:51:17,269 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-02 19:51:18,114 [10] DEBUG  - Cuenta para RRC GASTO: 5311-08-201-2456-00-03-176-10055-14
+2018-04-02 19:51:18,864 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-2456-00-03-176-10055-00
+2018-04-02 19:51:25,282 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+        <DOCDATE>2018-03-28</DOCDATE>
+        <USERDATE>2018-04-02</USERDATE>
+        <ITEMNMBR>EXCESS LIABILITY               </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>690.41</UNITPRCE>
+        <XTNDPRCE>690.41</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>R.C. En Exceso De Póliza Básica</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-08-201-2456-00-03-176-10055-14</INVINDX>
+        <CSLSINDX>4301-08-201-2456-00-03-176-10055-14</CSLSINDX>
+        <SLSINDX>4301-08-201-2456-00-03-176-10055-14</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>11245</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>120.82</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>110.47</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-08-201-2456-00-03-176-10055-00</ACTNUMST>
+        <DEBITAMT>800.88</DEBITAMT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>R.C. En Exceso De Póliza Básica</DistRef>
+        <ACTNUMST>4301-08-201-2456-00-03-176-10055-14</ACTNUMST>
+        <CRDTAMNT>690.41</CRDTAMNT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>110.47</CRDTAMNT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-08-201-2456-00-03-176-10055-14</ACTNUMST>
+        <DEBITAMT>120.82</DEBITAMT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-2456-00-03-176-10055-00</ACTNUMST>
+        <CRDTAMNT>120.82</CRDTAMNT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-08-201-2456-00-03-176-10055-14</ACTNUMST>
+        <DEBITAMT>276.16</DEBITAMT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2447948          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-2456-00-03-176-10055-00</ACTNUMST>
+        <CRDTAMNT>276.16</CRDTAMNT>
+        <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2447948          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>110.47</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2018-03-28</DOCDATE>
+      <CUSTNMBR>1-802-488488   </CUSTNMBR>
+      <CITY>NO DEFINIDO                        </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>690.41</SUBTOTAL>
+      <DOCAMNT>800.88</DOCAMNT>
+      <SLPRSNID>11245</SLPRSNID>
+      <BACHNUMB>SFFA2832018</BACHNUMB>
+      <DUEDATE>2018-03-28</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>120.82</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>

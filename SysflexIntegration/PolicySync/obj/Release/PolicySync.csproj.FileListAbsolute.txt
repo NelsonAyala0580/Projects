@@ -1,0 +1,40 @@
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\PolicySync.dll.config
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\PolicySync.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\PolicySync.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\log4net.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\MODEL.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\MODEL.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\PolicySync\bin\Release\log4net.xml
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Release\PolicySync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Release\PolicySync.dll
+C:\VSProjects\SysflexIntegration\PolicySync\obj\Release\PolicySync.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\PolicySync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\PolicySync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\PolicySync.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\bin\Release\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Release\PolicySync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Release\PolicySync.dll
+C:\VSProjects GP2018\SysflexIntegration\PolicySync\obj\Release\PolicySync.pdb

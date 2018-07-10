@@ -1,0 +1,204 @@
+
+2017-07-01 12:11:23,230 [9] DEBUG  - Sincronización de Cliente 1312065
+2017-07-01 12:11:46,487 [9] DEBUG  - Customer Actualizado 1312065
+2017-07-01 12:11:49,731 [9] DEBUG  - EXITO
+2017-07-01 12:11:52,343 [9] DEBUG  - Sincronización de Cliente 1324718
+2017-07-01 12:12:12,994 [9] DEBUG  - Customer Actualizado 1324718
+2017-07-01 12:12:16,319 [9] DEBUG  - EXITO
+2017-07-01 12:12:18,575 [9] DEBUG  - Sincronización de Cliente 1324972
+2017-07-01 12:12:37,418 [9] DEBUG  - Customer Actualizado 1324972
+2017-07-01 12:12:42,331 [9] DEBUG  - EXITO
+2017-07-01 12:12:44,569 [9] DEBUG  - Sincronización de Cliente 1324973
+2017-07-01 12:22:43,774 [9] DEBUG  - Customer Actualizado 1324973
+2017-07-01 12:22:45,878 [9] DEBUG  - EXITO
+2017-07-01 12:22:47,592 [9] DEBUG  - Sincronización de Cliente 1324963
+2017-07-01 12:23:05,043 [9] DEBUG  - Customer Actualizado 1324963
+2017-07-01 12:23:08,844 [9] DEBUG  - EXITO
+2017-07-01 12:23:11,356 [9] DEBUG  - Sincronización de Cliente 1324975
+2017-07-01 12:23:31,350 [9] DEBUG  - Customer Actualizado 1324975
+2017-07-01 12:23:34,748 [9] DEBUG  - EXITO
+2017-07-01 12:24:41,354 [9] DEBUG  - Inicia sincronización de Poliza: 4-05-464530
+2017-07-01 12:25:04,187 [9] DEBUG  - Poliza sincronizada correctamente: 4-05-464530
+2017-07-01 12:25:04,908 [9] DEBUG  - Finaliza la sincronización de Poliza: 4-05-464530
+2017-07-01 12:25:06,932 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-451
+2017-07-01 12:25:30,998 [9] DEBUG  - Poliza sincronizada correctamente: 1-201-451
+2017-07-01 12:25:31,677 [9] DEBUG  - Finaliza la sincronización de Poliza: 1-201-451
+2017-07-01 12:25:33,644 [9] DEBUG  - Inicia sincronización de Poliza: 13-201-477
+2017-07-01 12:26:04,488 [9] DEBUG  - Poliza sincronizada correctamente: 13-201-477
+2017-07-01 12:26:05,479 [9] DEBUG  - Finaliza la sincronización de Poliza: 13-201-477
+2017-07-01 12:26:07,922 [9] DEBUG  - Inicia sincronización de Poliza: 16-05-464532
+2017-07-01 12:26:27,128 [9] DEBUG  - Poliza sincronizada correctamente: 16-05-464532
+2017-07-01 12:26:27,621 [9] DEBUG  - Finaliza la sincronización de Poliza: 16-05-464532
+2017-07-01 12:26:29,050 [9] DEBUG  - Inicia sincronización de Poliza: 1-05-464533
+2017-07-01 12:26:47,049 [9] DEBUG  - Poliza sincronizada correctamente: 1-05-464533
+2017-07-01 12:26:47,568 [9] DEBUG  - Finaliza la sincronización de Poliza: 1-05-464533
+2017-07-01 12:26:49,106 [9] DEBUG  - Inicia sincronización de Poliza: 13-201-478
+2017-07-01 12:27:08,715 [9] DEBUG  - Poliza sincronizada correctamente: 13-201-478
+2017-07-01 12:27:09,282 [9] DEBUG  - Finaliza la sincronización de Poliza: 13-201-478
+2017-07-01 12:27:44,497 [9] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at MODEL.ATLANEntities.usp_ST_SYSFLEX_GET_TRANSACTIONS() in C:\VSProjects\SysflexIntegration\MODEL\ATLAN.Context.cs:line 134
+   at InvoiceSync.DAL.InvoiceDAL.GetTransactions() in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 30
+2017-07-01 12:28:20,955 [9] DEBUG  - Contruyendo encabezado
+2017-07-01 12:28:22,132 [9] DEBUG  - Creacion de numero de batch SF12:28 172017
+2017-07-01 12:28:23,454 [9] DEBUG  - Se obtiene el cliente de GP 1-05-464533
+2017-07-01 12:33:41,002 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0205-00-05-177-10011-00
+2017-07-01 12:33:44,499 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-11
+2017-07-01 12:33:48,095 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-17
+2017-07-01 12:33:51,706 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-24
+2017-07-01 12:33:55,140 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-10
+2017-07-01 12:33:58,363 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-28
+2017-07-01 12:34:01,848 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-16
+2017-07-01 12:34:05,045 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-13
+2017-07-01 12:34:08,327 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-01
+2017-07-01 12:34:11,720 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-34
+2017-07-01 12:34:15,567 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-31
+2017-07-01 12:34:19,118 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-07
+2017-07-01 12:34:23,018 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-177-10011-05
+2017-07-01 12:34:39,834 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-177-10011-00
+2017-07-01 12:34:39,946 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0205-00-05-177-10011-00
+2017-07-01 12:34:45,166 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-01 12:34:58,333 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-177-10011-00
+2017-07-01 12:35:43,787 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:35:49,753 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-05
+2017-07-01 12:35:54,979 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:36:01,745 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-07
+2017-07-01 12:36:04,516 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:36:11,103 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-31
+2017-07-01 12:36:17,950 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:36:23,359 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-34
+2017-07-01 12:36:32,255 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:36:37,955 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-01
+2017-07-01 12:36:41,234 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:36:46,209 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-13
+2017-07-01 12:36:50,048 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:41:14,786 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-16
+2017-07-01 12:41:18,539 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:41:24,470 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-28
+2017-07-01 12:41:55,705 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:42:04,434 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-10
+2017-07-01 12:42:13,842 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:42:18,971 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-24
+2017-07-01 12:42:22,953 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:42:30,330 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-17
+2017-07-01 12:42:33,916 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:42:45,077 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-177-10011-11
+2017-07-01 12:42:48,801 [9] DEBUG  - Reaseguro Cuenta Corriente 2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:43:03,012 [9] DEBUG  - RRC para reaseguro GASTO4311-06-201-0205-00-05-177-10011-00
+2017-07-01 12:43:06,105 [9] DEBUG  - RRC para reaseguro PASIVO2201-00-201-0205-00-05-177-10011-00
+2017-07-01 12:43:10,186 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 908  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Sales Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268667
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+SLSINDX = 4301-06-201-0205-00-05-177-10011-11
+
+
+Error Number = 929  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Inventory Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268667
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+INVINDX = 4301-06-201-0205-00-05-177-10011-11
+
+
+Error Number = 930  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Cost of Goods Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268667
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+CSLSINDX = 4301-06-201-0205-00-05-177-10011-11
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>3</SOPTYPE>
+  <CUSTNMBR>1-05-464533    </CUSTNMBR>
+  <DOCDATE>6/27/2017</DOCDATE>
+  <USERDATE>7/1/2017</USERDATE>
+  <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>1569.78</UNITPRCE>
+  <XTNDPRCE>1569.78</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+  <DOCID>INV</DOCID>
+  <INVINDX>4301-06-201-0205-00-05-177-10011-11</INVINDX>
+  <CSLSINDX>4301-06-201-0205-00-05-177-10011-11</CSLSINDX>
+  <SLSINDX>4301-06-201-0205-00-05-177-10011-11</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+  <SOPNUMBE>INV2268667</SOPNUMBE>
+</taSopLineIvcInsert>
+
+2017-07-01 12:43:15,699 [9] DEBUG  - Contruyendo encabezado
+2017-07-01 12:43:16,126 [9] DEBUG  - Creacion de numero de batch SF12:43 172017
+2017-07-01 12:43:17,264 [9] DEBUG  - Se obtiene el cliente de GP 1-201-451
+2017-07-01 12:45:25,468 [9] DEBUG  - Cuenta por cobrar: 1302-01-203-1623-00-05-174-10011-00
+2017-07-01 12:45:31,127 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-01 12:45:39,985 [9] DEBUG  - Cuenta de comisiones GASTO 5302-01-203-1623-00-05-174-10011-00
+2017-07-01 12:45:40,257 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-203-1623-00-05-174-10011-00
+2017-07-01 12:45:42,049 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-01 12:45:49,343 [9] DEBUG  - Cuenta para RRC GASTO: 5311-01-203-1623-00-05-174-10011-00
+2017-07-01 12:45:53,694 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-203-1623-00-05-174-10011-00
+2017-07-01 12:45:58,041 [9] WARN  - No se encontró la covertura asignada Colapso y/o Derrumbe
+2017-07-01 12:45:58,046 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 128
+2017-07-01 12:48:38,328 [9] DEBUG  - RRC para reaseguro GASTO4311-01-203-1623-00-05-174-10011-00
+2017-07-01 12:48:55,412 [9] DEBUG  - RRC para reaseguro PASIVO2201-00-203-1623-00-05-174-10011-00
+2017-07-01 12:49:15,345 [9] ERROR  - Ocurrió un error: Procedure or function 'taSopCommissions' expects parameter '@I_vSLPRSNID', which was not supplied.
+2017-07-01 12:50:04,867 [9] DEBUG  - Contruyendo encabezado
+2017-07-01 12:50:06,243 [9] DEBUG  - Creacion de numero de batch SF12:50 172017
+2017-07-01 12:50:07,744 [9] DEBUG  - Se obtiene el cliente de GP 13-201-477
+2017-07-01 12:51:03,379 [9] DEBUG  - Cuenta por cobrar: 1302-01-203-1623-00-05-179-10094-00
+2017-07-01 12:51:12,872 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-01 12:51:26,017 [9] DEBUG  - Cuenta de comisiones GASTO 5302-01-203-1623-00-05-179-10094-00
+2017-07-01 12:51:26,534 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-203-1623-00-05-179-10094-00
+2017-07-01 12:51:34,148 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-01 12:51:46,615 [9] DEBUG  - Cuenta para RRC GASTO: 5311-01-203-1623-00-05-179-10094-00
+2017-07-01 12:52:00,988 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-203-1623-00-05-179-10094-00
+2017-07-01 12:52:04,766 [9] ERROR  - Ocurrió un error: Procedure or function 'taSopCommissions' expects parameter '@I_vSLPRSNID', which was not supplied.
+2017-07-01 12:52:08,961 [9] DEBUG  - Contruyendo encabezado
+2017-07-01 12:52:09,448 [9] DEBUG  - Creacion de numero de batch SF12:52 172017
+2017-07-01 12:52:10,429 [9] DEBUG  - Se obtiene el cliente de GP 13-201-478
+2017-07-01 12:52:41,409 [9] DEBUG  - Cuenta por cobrar: 1302-01-203-1623-00-05-179-10094-00
+2017-07-01 12:52:45,408 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-01 12:53:03,323 [9] DEBUG  - Cuenta de comisiones GASTO 5302-01-203-1623-00-05-179-10094-00
+2017-07-01 12:53:03,856 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-203-1623-00-05-179-10094-00
+2017-07-01 12:53:11,311 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-01 12:53:24,209 [9] DEBUG  - Cuenta para RRC GASTO: 5311-01-203-1623-00-05-179-10094-00
+2017-07-01 12:53:45,955 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-203-1623-00-05-179-10094-00
+2017-07-01 12:53:48,639 [9] WARN  - No se encontró la covertura asignada Derrumbe de Barrica
+2017-07-01 12:53:48,644 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 128

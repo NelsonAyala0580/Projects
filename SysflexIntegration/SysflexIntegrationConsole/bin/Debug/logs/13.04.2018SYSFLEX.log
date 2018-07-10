@@ -1,0 +1,1628 @@
+2018-04-13 17:04:59,202 [9] DEBUG  - Total de Transacciones: 2
+2018-04-13 17:05:03,889 [9] DEBUG  - Contruyendo encabezado
+2018-04-13 17:05:03,889 [9] DEBUG  - Creacion de numero de batch SFFA2032018
+2018-04-13 17:05:05,135 [9] DEBUG  - Se obtiene el cliente de GP 1-05-466108
+2018-04-13 17:06:13,691 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-177-10011-00
+2018-04-13 17:06:13,691 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-65
+2018-04-13 17:06:13,691 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-24
+2018-04-13 17:06:13,691 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-15
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-04
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-02
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-13
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-06
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-09
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-12
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-07
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-05
+2018-04-13 17:06:13,700 [9] DEBUG  - Cuenta de producto: 4301-06-201-0405-00-05-177-10011-48
+2018-04-13 17:06:13,701 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-13 17:06:17,121 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-65
+2018-04-13 17:06:21,365 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-24
+2018-04-13 17:06:25,884 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-15
+2018-04-13 17:06:30,674 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-04
+2018-04-13 17:06:35,673 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-02
+2018-04-13 17:06:41,238 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-13
+2018-04-13 17:06:47,174 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-06
+2018-04-13 17:06:53,455 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-09
+2018-04-13 17:07:00,480 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-12
+2018-04-13 17:07:07,208 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-07
+2018-04-13 17:07:14,193 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-05
+2018-04-13 17:07:21,116 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0405-00-05-177-10011-48
+2018-04-13 17:07:26,810 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0405-00-05-177-10011-00
+2018-04-13 17:07:26,810 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-13 17:07:31,953 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-65
+2018-04-13 17:07:36,554 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-24
+2018-04-13 17:07:37,695 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-15
+2018-04-13 17:07:39,008 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-04
+2018-04-13 17:07:40,938 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-02
+2018-04-13 17:07:41,941 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-13
+2018-04-13 17:07:43,066 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-06
+2018-04-13 17:07:44,350 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-09
+2018-04-13 17:07:45,760 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-12
+2018-04-13 17:07:46,739 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-07
+2018-04-13 17:07:47,840 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-05
+2018-04-13 17:07:49,037 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0405-00-05-177-10011-48
+2018-04-13 17:07:50,290 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0405-00-05-177-10011-00
+2018-04-13 17:07:51,504 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-177-10011-04
+2018-04-13 17:07:52,688 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-177-10011-04
+2018-04-13 17:07:54,308 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-177-10011-06
+2018-04-13 17:07:55,232 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-177-10011-06
+2018-04-13 17:07:56,170 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-177-10011-07
+2018-04-13 17:07:57,102 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-177-10011-07
+2018-04-13 17:07:58,029 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0405-00-05-177-10011-05
+2018-04-13 17:07:58,951 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0405-00-05-177-10011-05
+2018-04-13 17:07:59,790 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0405-00-05-177-10011-00
+2018-04-13 17:08:00,630 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0405-00-05-177-10011-00
+2018-04-13 17:08:01,628 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-177-10011-04
+2018-04-13 17:08:02,561 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-177-10011-06
+2018-04-13 17:08:03,498 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-177-10011-07
+2018-04-13 17:08:04,431 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0405-00-05-177-10011-05
+2018-04-13 17:08:05,273 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0405-00-05-177-10011-00
+2018-04-13 17:08:36,961 [9] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>34.90</UNITPRCE>
+        <XTNDPRCE>34.90</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-65</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>134.21</UNITPRCE>
+        <XTNDPRCE>134.21</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Asistencia Vial Atlantica</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-24</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-24</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-24</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>158.82</UNITPRCE>
+        <XTNDPRCE>158.82</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Casa Del Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-15</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-15</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-15</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>4397.14</UNITPRCE>
+        <XTNDPRCE>4397.14</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Colision y Vuelco</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-04</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-04</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-04</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>244.31</UNITPRCE>
+        <XTNDPRCE>244.31</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-02</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>69.80</UNITPRCE>
+        <XTNDPRCE>69.80</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-13</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>2198.57</UNITPRCE>
+        <XTNDPRCE>2198.57</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Incendio y Robo</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-06</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-06</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-06</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>279.21</UNITPRCE>
+        <XTNDPRCE>279.21</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-09</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>69.80</UNITPRCE>
+        <XTNDPRCE>69.80</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-12</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1758.86</UNITPRCE>
+        <XTNDPRCE>1758.86</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Riesgo Comprensivo</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-07</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-07</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-07</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>439.72</UNITPRCE>
+        <XTNDPRCE>439.72</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Rotura de Cristales</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-05</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-05</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-05</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <DOCDATE>2018-03-20</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>JEEP - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>152.71</UNITPRCE>
+        <XTNDPRCE>152.71</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Vehiculo Rentado 15 Dias Compacto</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0405-00-05-177-10011-48</INVINDX>
+        <CSLSINDX>4301-06-201-0405-00-05-177-10011-48</CSLSINDX>
+        <SLSINDX>4301-06-201-0405-00-05-177-10011-48</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>8337</SLPRSNID>
+        <SALSTERR>05             </SALSTERR>
+        <COMMAMNT>1739.16</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>1590.09</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0600-00-05-177-10011-00</ACTNUMST>
+        <DEBITAMT>11528.14</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-65</ACTNUMST>
+        <CRDTAMNT>34.90</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Asistencia Vial Atlantica</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-24</ACTNUMST>
+        <CRDTAMNT>134.21</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Casa Del Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-15</ACTNUMST>
+        <CRDTAMNT>158.82</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <CRDTAMNT>4397.14</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-02</ACTNUMST>
+        <CRDTAMNT>244.31</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-13</ACTNUMST>
+        <CRDTAMNT>69.80</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <CRDTAMNT>2198.57</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-09</ACTNUMST>
+        <CRDTAMNT>279.21</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-12</ACTNUMST>
+        <CRDTAMNT>69.80</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Riesgo Comprensivo</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <CRDTAMNT>1758.86</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <CRDTAMNT>439.72</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Vehiculo Rentado 15 Dias Compacto</DistRef>
+        <ACTNUMST>4301-06-201-0405-00-05-177-10011-48</ACTNUMST>
+        <CRDTAMNT>152.71</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>1590.09</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-65</ACTNUMST>
+        <DEBITAMT>6.11</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-24</ACTNUMST>
+        <DEBITAMT>23.49</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-15</ACTNUMST>
+        <DEBITAMT>27.79</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <DEBITAMT>769.50</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-02</ACTNUMST>
+        <DEBITAMT>42.75</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-13</ACTNUMST>
+        <DEBITAMT>12.22</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <DEBITAMT>384.75</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-09</ACTNUMST>
+        <DEBITAMT>48.86</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-12</ACTNUMST>
+        <DEBITAMT>12.22</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <DEBITAMT>307.80</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <DEBITAMT>76.95</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0405-00-05-177-10011-48</ACTNUMST>
+        <DEBITAMT>26.72</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0405-00-05-177-10011-00</ACTNUMST>
+        <CRDTAMNT>1739.16</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-65</ACTNUMST>
+        <DEBITAMT>13.96</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-24</ACTNUMST>
+        <DEBITAMT>53.68</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-15</ACTNUMST>
+        <DEBITAMT>63.53</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <DEBITAMT>1758.86</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-02</ACTNUMST>
+        <DEBITAMT>97.72</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-13</ACTNUMST>
+        <DEBITAMT>27.92</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <DEBITAMT>879.43</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-09</ACTNUMST>
+        <DEBITAMT>111.68</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-12</ACTNUMST>
+        <DEBITAMT>27.92</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <DEBITAMT>703.54</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <DEBITAMT>175.89</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0405-00-05-177-10011-48</ACTNUMST>
+        <DEBITAMT>61.08</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0405-00-05-177-10011-00</ACTNUMST>
+        <CRDTAMNT>3975.21</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <DEBITAMT>2198.57000000</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <CRDTAMNT>659.570000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <DEBITAMT>1099.29000000</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <CRDTAMNT>329.790000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <DEBITAMT>879.43000000</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <CRDTAMNT>263.830000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <DEBITAMT>219.86000000</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <CRDTAMNT>65.960000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0405-00-05-177-10011-00</ACTNUMST>
+        <CRDTAMNT>4397.15000000</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0405-00-05-177-10011-00</ACTNUMST>
+        <DEBITAMT>1319.150000000000000</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-177-10011-04</ACTNUMST>
+        <CRDTAMNT>879.43</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-177-10011-06</ACTNUMST>
+        <CRDTAMNT>439.72</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-177-10011-07</ACTNUMST>
+        <CRDTAMNT>351.77</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0405-00-05-177-10011-05</ACTNUMST>
+        <CRDTAMNT>87.94</CRDTAMNT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451116          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0405-00-05-177-10011-00</ACTNUMST>
+        <DEBITAMT>1758.86</DEBITAMT>
+        <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2451116          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>1590.09</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2018-03-20</DOCDATE>
+      <CUSTNMBR>1-05-466108    </CUSTNMBR>
+      <CITY>SANTO DOMINGO DE GUZMAN            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>9938.05</SUBTOTAL>
+      <DOCAMNT>11528.14</DOCAMNT>
+      <SLPRSNID>8337</SLPRSNID>
+      <BACHNUMB>SFFA2032018</BACHNUMB>
+      <DUEDATE>2018-03-20</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>1739.16</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2018-04-13 17:08:39,978 [9] DEBUG  - Contruyendo encabezado
+2018-04-13 17:08:39,978 [9] DEBUG  - Creacion de numero de batch SFFA2132018
+2018-04-13 17:08:40,740 [9] DEBUG  - Se obtiene el cliente de GP 12-05-518190
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-174-10118-00
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-65
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-24
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-15
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-04
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-02
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-13
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-06
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-09
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-12
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-07
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de producto: 4301-06-201-0205-00-05-174-10118-05
+2018-04-13 17:10:31,020 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2018-04-13 17:10:32,131 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-65
+2018-04-13 17:10:33,394 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-24
+2018-04-13 17:10:34,686 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-15
+2018-04-13 17:10:35,957 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-04
+2018-04-13 17:10:37,215 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-02
+2018-04-13 17:10:38,479 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-13
+2018-04-13 17:10:39,802 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-06
+2018-04-13 17:10:41,091 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-09
+2018-04-13 17:10:42,351 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-12
+2018-04-13 17:10:43,612 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-07
+2018-04-13 17:10:44,888 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0205-00-05-174-10118-05
+2018-04-13 17:10:45,911 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0205-00-05-174-10118-00
+2018-04-13 17:10:45,911 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2018-04-13 17:10:46,863 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-65
+2018-04-13 17:10:47,799 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-24
+2018-04-13 17:10:48,726 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-15
+2018-04-13 17:10:49,659 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-04
+2018-04-13 17:10:50,589 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-02
+2018-04-13 17:10:51,526 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-13
+2018-04-13 17:10:52,462 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-06
+2018-04-13 17:10:53,392 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-09
+2018-04-13 17:10:54,318 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-12
+2018-04-13 17:10:55,242 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-07
+2018-04-13 17:10:56,163 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0205-00-05-174-10118-05
+2018-04-13 17:10:57,010 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0205-00-05-174-10118-00
+2018-04-13 17:10:57,930 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-174-10118-04
+2018-04-13 17:10:58,860 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-174-10118-04
+2018-04-13 17:10:59,785 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-174-10118-06
+2018-04-13 17:11:00,711 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-174-10118-06
+2018-04-13 17:11:01,651 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-174-10118-07
+2018-04-13 17:11:02,574 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-174-10118-07
+2018-04-13 17:11:03,533 [9] DEBUG  - Reaseguro Contractual: 5306-06-201-0205-00-05-174-10118-05
+2018-04-13 17:11:04,465 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0205-00-05-174-10118-05
+2018-04-13 17:11:05,321 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0205-00-05-174-10118-00
+2018-04-13 17:11:06,172 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0205-00-05-174-10118-00
+2018-04-13 17:11:07,106 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-174-10118-04
+2018-04-13 17:11:08,041 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-174-10118-06
+2018-04-13 17:11:08,972 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-174-10118-07
+2018-04-13 17:11:09,899 [9] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0205-00-05-174-10118-05
+2018-04-13 17:11:10,765 [9] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0205-00-05-174-10118-00
+2018-04-13 17:11:38,361 [9] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>230.37</UNITPRCE>
+        <XTNDPRCE>230.37</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-65</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1482.40</UNITPRCE>
+        <XTNDPRCE>1482.40</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Asistencia Vial Atlantica</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-24</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-24</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-24</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1754.32</UNITPRCE>
+        <XTNDPRCE>1754.32</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Casa Del Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-15</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-15</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-15</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>8769.23</UNITPRCE>
+        <XTNDPRCE>8769.23</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Colision y Vuelco</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-04</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-04</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-04</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1612.61</UNITPRCE>
+        <XTNDPRCE>1612.61</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-02</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>460.75</UNITPRCE>
+        <XTNDPRCE>460.75</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-13</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>4384.61</UNITPRCE>
+        <XTNDPRCE>4384.61</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Incendio y Robo</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-06</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-06</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-06</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1842.98</UNITPRCE>
+        <XTNDPRCE>1842.98</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-09</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>460.75</UNITPRCE>
+        <XTNDPRCE>460.75</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-12</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>3507.69</UNITPRCE>
+        <XTNDPRCE>3507.69</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Riesgo Comprensivo</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-07</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-07</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-07</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <DOCDATE>2018-03-21</DOCDATE>
+        <USERDATE>2018-04-13</USERDATE>
+        <ITEMNMBR>AUTO - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>87.69</UNITPRCE>
+        <XTNDPRCE>87.69</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Rotura de Cristales</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0205-00-05-174-10118-05</INVINDX>
+        <CSLSINDX>4301-06-201-0205-00-05-174-10118-05</CSLSINDX>
+        <SLSINDX>4301-06-201-0205-00-05-174-10118-05</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>14692</SLPRSNID>
+        <SALSTERR>08             </SALSTERR>
+        <COMMAMNT>3811.97</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>3934.94</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0600-00-05-174-10118-00</ACTNUMST>
+        <DEBITAMT>28528.34</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-65</ACTNUMST>
+        <CRDTAMNT>230.37</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Asistencia Vial Atlantica</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-24</ACTNUMST>
+        <CRDTAMNT>1482.40</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Casa Del Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-15</ACTNUMST>
+        <CRDTAMNT>1754.32</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <CRDTAMNT>8769.23</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-02</ACTNUMST>
+        <CRDTAMNT>1612.61</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-13</ACTNUMST>
+        <CRDTAMNT>460.75</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <CRDTAMNT>4384.61</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-09</ACTNUMST>
+        <CRDTAMNT>1842.98</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-12</ACTNUMST>
+        <CRDTAMNT>460.75</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Riesgo Comprensivo</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <CRDTAMNT>3507.69</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <CRDTAMNT>87.69</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>3934.94</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-65</ACTNUMST>
+        <DEBITAMT>35.71</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-24</ACTNUMST>
+        <DEBITAMT>229.77</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-15</ACTNUMST>
+        <DEBITAMT>271.92</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <DEBITAMT>1359.23</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-02</ACTNUMST>
+        <DEBITAMT>249.95</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-13</ACTNUMST>
+        <DEBITAMT>71.42</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <DEBITAMT>679.61</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-09</ACTNUMST>
+        <DEBITAMT>285.66</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-12</ACTNUMST>
+        <DEBITAMT>71.42</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <DEBITAMT>543.69</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <DEBITAMT>13.59</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0205-00-05-174-10118-00</ACTNUMST>
+        <CRDTAMNT>3811.97</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-65</ACTNUMST>
+        <DEBITAMT>92.15</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-24</ACTNUMST>
+        <DEBITAMT>592.96</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-15</ACTNUMST>
+        <DEBITAMT>701.73</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <DEBITAMT>3507.69</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-02</ACTNUMST>
+        <DEBITAMT>645.04</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-13</ACTNUMST>
+        <DEBITAMT>184.30</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <DEBITAMT>1753.84</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-09</ACTNUMST>
+        <DEBITAMT>737.19</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-12</ACTNUMST>
+        <DEBITAMT>184.30</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <DEBITAMT>1403.08</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <DEBITAMT>35.08</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0205-00-05-174-10118-00</ACTNUMST>
+        <CRDTAMNT>9837.36</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <DEBITAMT>4384.61000000</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <CRDTAMNT>1315.380000000000000</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <DEBITAMT>2192.31000000</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <CRDTAMNT>657.690000000000000</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <DEBITAMT>1753.85000000</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <CRDTAMNT>526.150000000000000</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <DEBITAMT>43.85000000</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <CRDTAMNT>13.150000000000000</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0205-00-05-174-10118-00</ACTNUMST>
+        <CRDTAMNT>8374.62000000</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0205-00-05-174-10118-00</ACTNUMST>
+        <DEBITAMT>2512.370000000000000</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-174-10118-04</ACTNUMST>
+        <CRDTAMNT>1753.84</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-174-10118-06</ACTNUMST>
+        <CRDTAMNT>876.92</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-174-10118-07</ACTNUMST>
+        <CRDTAMNT>701.54</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0205-00-05-174-10118-05</ACTNUMST>
+        <CRDTAMNT>17.54</CRDTAMNT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2451118          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0205-00-05-174-10118-00</ACTNUMST>
+        <DEBITAMT>3349.84</DEBITAMT>
+        <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2451118          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>3934.94</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2018-03-21</DOCDATE>
+      <CUSTNMBR>12-05-518190   </CUSTNMBR>
+      <CITY>NO DEFINIDO                        </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>24593.40</SUBTOTAL>
+      <DOCAMNT>28528.34</DOCAMNT>
+      <SLPRSNID>14692</SLPRSNID>
+      <BACHNUMB>SFFA2132018</BACHNUMB>
+      <DUEDATE>2018-03-21</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>3811.97</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>

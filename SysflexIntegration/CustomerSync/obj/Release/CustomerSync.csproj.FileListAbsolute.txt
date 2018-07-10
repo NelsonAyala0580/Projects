@@ -1,0 +1,40 @@
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.dll.config
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\log4net.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\MODEL.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\MODEL.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Release\log4net.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\CustomerSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Release\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Release\CustomerSync.pdb

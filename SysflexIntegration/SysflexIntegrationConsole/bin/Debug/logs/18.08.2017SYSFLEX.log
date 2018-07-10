@@ -1,0 +1,77 @@
+2017-08-18 16:35:32,228 [10] DEBUG  - Contruyendo encabezado
+2017-08-18 16:35:32,228 [10] DEBUG  - Creacion de numero de batch SF16:35 1882017
+2017-08-18 16:35:32,962 [10] DEBUG  - Se obtiene el cliente de GP 05-050365-2007
+2017-08-18 16:35:37,876 [10] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-08-18 16:37:44,270 [10] DEBUG  - Contruyendo encabezado
+2017-08-18 16:37:44,270 [10] DEBUG  - Creacion de numero de batch SF16:37 1882017
+2017-08-18 16:37:45,208 [10] DEBUG  - Se obtiene el cliente de GP 05-050365-2007
+2017-08-18 16:44:04,546 [9] DEBUG  - Contruyendo encabezado
+2017-08-18 16:44:04,561 [9] DEBUG  - Creacion de numero de batch SF16:44 1882017
+2017-08-18 16:44:05,436 [9] DEBUG  - Se obtiene el cliente de GP 05-050365-2007
+2017-08-18 16:48:28,396 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-08-18 16:49:06,577 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0301-00-06-174-10052-00
+2017-08-18 16:49:10,421 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-06-174-10052-11
+2017-08-18 16:49:18,311 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-06-174-10052-17
+2017-08-18 16:49:22,858 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-06-174-10052-24
+2017-08-18 16:49:26,405 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-06-174-10052-13
+2017-08-18 16:49:29,968 [9] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-06-174-10052-01
+2017-08-18 16:49:34,447 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-08-18 16:50:13,898 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-06-174-10052-00
+2017-08-18 16:50:14,195 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0301-00-06-174-10052-00
+2017-08-18 16:50:15,507 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-18 16:50:31,998 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-06-174-10052-11
+2017-08-18 16:50:51,738 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-06-174-10052-17
+2017-08-18 16:51:06,932 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-06-174-10052-24
+2017-08-18 16:51:25,110 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-06-174-10052-13
+2017-08-18 16:51:43,808 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-06-174-10052-01
+2017-08-18 16:52:07,542 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0301-00-06-174-10052-00
+2017-08-18 16:52:24,377 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0301-00-06-174-10052-00
+2017-08-18 16:52:41,101 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0301-00-06-174-10052-00
+2017-08-18 16:52:49,111 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 908  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Sales Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2388250          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+SLSINDX = 4301-06-201-0301-00-06-174-10052-11
+
+
+Error Number = 929  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Inventory Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2388250          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+INVINDX = 4301-06-201-0301-00-06-174-10052-11
+
+
+Error Number = 930  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Cost of Goods Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2388250          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+CSLSINDX = 4301-06-201-0301-00-06-174-10052-11
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>3</SOPTYPE>
+  <SOPNUMBE>INV2388250          </SOPNUMBE>
+  <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+  <DOCDATE>8/9/2017</DOCDATE>
+  <USERDATE>8/18/2017</USERDATE>
+  <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>850.23</UNITPRCE>
+  <XTNDPRCE>850.23</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+  <DOCID>INV</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0301-00-06-174-10052-11</INVINDX>
+  <CSLSINDX>4301-06-201-0301-00-06-174-10052-11</CSLSINDX>
+  <SLSINDX>4301-06-201-0301-00-06-174-10052-11</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+</taSopLineIvcInsert>
+
+2017-08-18 16:52:53,508 [9] DEBUG  - Contruyendo encabezado
+2017-08-18 16:52:53,508 [9] DEBUG  - Creacion de numero de batch SF16:52 1882017
+2017-08-18 16:52:54,133 [9] DEBUG  - Se obtiene el cliente de GP 05-123382-2009

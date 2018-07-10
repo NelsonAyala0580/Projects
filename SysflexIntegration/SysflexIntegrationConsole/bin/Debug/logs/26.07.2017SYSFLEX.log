@@ -1,0 +1,391 @@
+2017-07-26 09:35:52,693 [10] DEBUG  - Contruyendo encabezado
+2017-07-26 09:35:52,702 [10] DEBUG  - Creacion de numero de batch SF09:35 2672017
+2017-07-26 09:35:59,488 [10] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 09:36:11,459 [10] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 09:37:06,010 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 09:37:06,011 [10] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 09:37:07,394 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:37:07,394 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 09:37:07,394 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 09:37:08,058 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 09:37:08,720 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 09:37:09,383 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 09:37:10,070 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 09:37:10,930 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 09:37:11,648 [10] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 09:37:12,664 [10] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 09:37:13,405 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 09:55:21,537 [10] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 908  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Sales Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+SLSINDX = 4301-06-201-0600-00-05-179-10099-11
+
+
+Error Number = 929  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Inventory Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+INVINDX = 4301-06-201-0600-00-05-179-10099-11
+
+
+Error Number = 930  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Cost of Goods Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+CSLSINDX = 4301-06-201-0600-00-05-179-10099-11
+
+
+Error Number = 2221  Stored Procedure= taSopLineIvcInsert  Error Description = Duplicate document number. If adding or updating lines to an existing document, UpdateIfExists must = 1
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+UpdateIfExists = Note: This parameter was not passed in, no value for the parameter will be returned.
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>3</SOPTYPE>
+  <SOPNUMBE>INV2268692          </SOPNUMBE>
+  <CUSTNMBR>1-05-418625    </CUSTNMBR>
+  <DOCDATE>7/18/2017</DOCDATE>
+  <USERDATE>7/26/2017</USERDATE>
+  <ITEMNMBR>FLOTILLA                       </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>506.88</UNITPRCE>
+  <XTNDPRCE>506.88</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+  <DOCID>INV</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0600-00-05-179-10099-11</INVINDX>
+  <CSLSINDX>4301-06-201-0600-00-05-179-10099-11</CSLSINDX>
+  <SLSINDX>4301-06-201-0600-00-05-179-10099-11</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+</taSopLineIvcInsert>
+
+2017-07-26 09:55:27,407 [10] DEBUG  - Contruyendo encabezado
+2017-07-26 09:55:27,407 [10] DEBUG  - Creacion de numero de batch SF09:55 2672017
+2017-07-26 09:55:27,888 [10] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 09:55:37,592 [10] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 09:55:47,722 [10] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 09:55:48,962 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:55:48,963 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 09:55:48,963 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 09:55:49,642 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 09:55:50,298 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 09:55:50,957 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 09:55:51,626 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 09:55:52,286 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 09:55:52,900 [10] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 09:55:53,534 [10] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 09:55:54,135 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 09:57:30,803 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:58:28,993 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 09:58:33,510 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 09:58:36,641 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 09:58:41,825 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 09:58:47,541 [10] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 09:58:59,130 [10] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 09:59:52,181 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 09:59:52,377 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 09:59:53,840 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 09:59:57,672 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 10:00:02,071 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 10:00:06,586 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 10:00:11,517 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 10:00:16,065 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 10:00:20,465 [10] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 10:00:26,579 [10] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 10:23:29,139 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:07:06,527 [9] DEBUG  - Contruyendo encabezado
+2017-07-26 16:07:06,535 [9] DEBUG  - Creacion de numero de batch SF16:07 2672017
+2017-07-26 16:07:07,190 [9] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 16:07:12,435 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 16:07:35,936 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:07:39,879 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:07:43,863 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:07:51,105 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:07:59,692 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:08:03,503 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:08:07,792 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:08:16,331 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:08:16,560 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:08:18,042 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:08:23,030 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:08:27,598 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:08:32,795 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:08:39,798 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:08:44,542 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:08:49,226 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:08:54,383 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:08:59,801 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:09:43,260 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 2221  Stored Procedure= taSopLineIvcInsert  Error Description = Duplicate document number. If adding or updating lines to an existing document, UpdateIfExists must = 1
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+UpdateIfExists = Note: This parameter was not passed in, no value for the parameter will be returned.
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>3</SOPTYPE>
+  <SOPNUMBE>INV2268692          </SOPNUMBE>
+  <CUSTNMBR>1-05-418625    </CUSTNMBR>
+  <DOCDATE>7/18/2017</DOCDATE>
+  <USERDATE>7/26/2017</USERDATE>
+  <ITEMNMBR>FLOTILLA                       </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>506.88</UNITPRCE>
+  <XTNDPRCE>506.88</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+  <DOCID>INV</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0600-00-05-179-10099-11</INVINDX>
+  <CSLSINDX>4301-06-201-0600-00-05-179-10099-11</CSLSINDX>
+  <SLSINDX>4301-06-201-0600-00-05-179-10099-11</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+</taSopLineIvcInsert>
+
+2017-07-26 16:09:46,149 [9] DEBUG  - Contruyendo encabezado
+2017-07-26 16:09:46,149 [9] DEBUG  - Creacion de numero de batch SF16:09 2672017
+2017-07-26 16:09:47,124 [9] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 16:10:00,269 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 16:10:28,809 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:10:32,663 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:10:36,441 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:10:40,454 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:10:44,410 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:10:48,317 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:10:53,086 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:11:01,801 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:11:02,050 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:11:04,585 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:11:09,387 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:11:15,235 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:11:19,578 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:11:23,988 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:11:28,267 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:11:42,593 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:11:46,295 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:11:51,107 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:13:22,198 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:13:26,184 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:13:30,072 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:13:33,975 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:13:38,249 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:14:24,388 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:14:28,274 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:14:36,606 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:14:36,829 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:14:38,072 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:14:43,230 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:14:47,913 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:14:52,635 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:14:57,261 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:15:01,814 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:15:06,005 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:15:11,263 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:15:15,562 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:15:17,965 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 908  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Sales Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269331
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+SLSINDX = 4301-06-201-0600-00-05-179-10099-24
+
+
+Error Number = 929  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Inventory Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269331
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+INVINDX = 4301-06-201-0600-00-05-179-10099-24
+
+
+Error Number = 930  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Cost of Goods Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269331
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+CSLSINDX = 4301-06-201-0600-00-05-179-10099-24
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>4</SOPTYPE>
+  <CUSTNMBR>1-05-418625    </CUSTNMBR>
+  <DOCDATE>7/18/2017</DOCDATE>
+  <USERDATE>7/26/2017</USERDATE>
+  <ITEMNMBR>FLOTILLA                       </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>-11.11</UNITPRCE>
+  <XTNDPRCE>-11.11</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+  <DOCID>RTN</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0600-00-05-179-10099-24</INVINDX>
+  <CSLSINDX>4301-06-201-0600-00-05-179-10099-24</CSLSINDX>
+  <SLSINDX>4301-06-201-0600-00-05-179-10099-24</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+  <SOPNUMBE>INV2269331</SOPNUMBE>
+</taSopLineIvcInsert>
+
+2017-07-26 16:16:31,034 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:16:34,470 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:16:37,637 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:16:41,103 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:16:45,179 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:16:49,178 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:16:53,464 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:17:04,194 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:17:04,486 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:17:06,707 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:17:11,771 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:17:16,301 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:17:20,533 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:17:24,930 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:17:30,196 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:17:37,988 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:17:42,548 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:17:46,556 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:17:48,427 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 908  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Sales Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269332
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+SLSINDX = 4301-06-201-0600-00-05-179-10099-13
+
+
+Error Number = 929  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Inventory Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269332
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+INVINDX = 4301-06-201-0600-00-05-179-10099-13
+
+
+Error Number = 930  Stored Procedure= taSopLineIvcInsert  Error Description = Invalid Cost of Goods Account
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2269332
+SOPTYPE = 4
+Related Error Code Parameters for Node : taSopLineIvcInsert
+CSLSINDX = 4301-06-201-0600-00-05-179-10099-13
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>4</SOPTYPE>
+  <CUSTNMBR>1-05-418625    </CUSTNMBR>
+  <DOCDATE>7/18/2017</DOCDATE>
+  <USERDATE>7/26/2017</USERDATE>
+  <ITEMNMBR>FLOTILLA                       </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>-11.11</UNITPRCE>
+  <XTNDPRCE>-11.11</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+  <DOCID>RTN</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0600-00-05-179-10099-13</INVINDX>
+  <CSLSINDX>4301-06-201-0600-00-05-179-10099-13</CSLSINDX>
+  <SLSINDX>4301-06-201-0600-00-05-179-10099-13</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+  <SOPNUMBE>INV2269332</SOPNUMBE>
+</taSopLineIvcInsert>
+
+2017-07-26 16:17:49,571 [9] DEBUG  - Contruyendo encabezado
+2017-07-26 16:17:49,571 [9] DEBUG  - Creacion de numero de batch SF16:17 2672017
+2017-07-26 16:17:50,391 [9] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 16:17:57,509 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 16:25:17,274 [9] DEBUG  - Contruyendo encabezado
+2017-07-26 16:25:17,286 [9] DEBUG  - Creacion de numero de batch SF16:25 2672017
+2017-07-26 16:25:17,973 [9] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 16:25:23,464 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 16:25:39,576 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:26:50,603 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:26:54,502 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:26:57,725 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:27:00,983 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:27:04,115 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:27:09,559 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:27:17,935 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:27:18,134 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:27:21,911 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:27:26,905 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:27:32,686 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:27:36,754 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:27:41,406 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:27:45,714 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:27:49,816 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:27:53,881 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:27:57,808 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:28:32,743 [9] ERROR  - Ocurrió un error: Sql procedure error codes returned: 
+Error Number = 2221  Stored Procedure= taSopLineIvcInsert  Error Description = Duplicate document number. If adding or updating lines to an existing document, UpdateIfExists must = 1
+Node Identifier Parameters: taSopLineIvcInsert
+SOPNUMBE = INV2268692          
+SOPTYPE = 3
+Related Error Code Parameters for Node : taSopLineIvcInsert
+UpdateIfExists = Note: This parameter was not passed in, no value for the parameter will be returned.
+
+
+<taSopLineIvcInsert>
+  <SOPTYPE>3</SOPTYPE>
+  <SOPNUMBE>INV2268692          </SOPNUMBE>
+  <CUSTNMBR>1-05-418625    </CUSTNMBR>
+  <DOCDATE>7/18/2017</DOCDATE>
+  <USERDATE>7/26/2017</USERDATE>
+  <ITEMNMBR>FLOTILLA                       </ITEMNMBR>
+  <AutoAssignBin>0</AutoAssignBin>
+  <UNITPRCE>506.88</UNITPRCE>
+  <XTNDPRCE>506.88</XTNDPRCE>
+  <QUANTITY>1</QUANTITY>
+  <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+  <DOCID>INV</DOCID>
+  <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+  <INVINDX>4301-06-201-0600-00-05-179-10099-11</INVINDX>
+  <CSLSINDX>4301-06-201-0600-00-05-179-10099-11</CSLSINDX>
+  <SLSINDX>4301-06-201-0600-00-05-179-10099-11</SLSINDX>
+  <QtyShrtOpt>1</QtyShrtOpt>
+</taSopLineIvcInsert>
+
+2017-07-26 16:29:04,901 [9] DEBUG  - Contruyendo encabezado
+2017-07-26 16:29:04,901 [9] DEBUG  - Creacion de numero de batch SF16:29 2672017
+2017-07-26 16:29:05,465 [9] DEBUG  - Se obtiene el cliente de GP 1-05-418625
+2017-07-26 16:29:10,741 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-07-26 16:29:37,471 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:29:41,425 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-11
+2017-07-26 16:29:44,254 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-17
+2017-07-26 16:29:45,971 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-24
+2017-07-26 16:29:46,917 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-13
+2017-07-26 16:29:47,922 [9] DEBUG  - Cuenta de producto: 4301-06-201-0600-00-05-179-10099-01
+2017-07-26 16:29:49,041 [9] DEBUG  - Cuenta de impuestos: 2701-00-000-0000-00-00-171-00001-00
+2017-07-26 16:29:53,404 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0600-00-05-179-10099-00
+2017-07-26 16:29:53,460 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-05-179-10099-00
+2017-07-26 16:29:53,855 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-07-26 16:29:56,995 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-11
+2017-07-26 16:30:00,086 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-17
+2017-07-26 16:30:03,240 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-24
+2017-07-26 16:30:07,837 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-13
+2017-07-26 16:30:12,063 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-05-179-10099-01
+2017-07-26 16:30:14,961 [9] DEBUG  - Cuenta para RRC PASIVO: 2201-00-201-0600-00-05-179-10099-00
+2017-07-26 16:30:17,443 [9] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0600-00-05-179-10099-00
+2017-07-26 16:30:23,168 [9] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0600-00-05-179-10099-00

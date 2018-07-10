@@ -1,0 +1,18 @@
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.exe.config
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.exe
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.frmSysflexIntegration.resources
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.Properties.Resources.resources
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.csproj.GenerateResource.Cache
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.exe
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.exe.config
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.exe
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\bin\Debug\SysflexIntegrationUI.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.frmSysflexIntegration.resources
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.Properties.Resources.resources
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.csproj.GenerateResource.Cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.exe
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUI\obj\Debug\SysflexIntegrationUI.pdb

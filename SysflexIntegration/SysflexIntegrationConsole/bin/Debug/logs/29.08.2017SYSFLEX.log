@@ -1,0 +1,66 @@
+2017-08-29 18:44:14,938 [10] DEBUG  - Contruyendo encabezado
+2017-08-29 18:44:14,947 [10] DEBUG  - Creacion de numero de batch SF18:44 2982017
+2017-08-29 18:44:18,805 [10] DEBUG  - Se obtiene el cliente de GP 05-007626-2003
+2017-08-29 18:46:07,813 [10] WARN  - No se ha encontrado el ITEMNMBR adecuado
+2017-08-29 18:47:06,647 [10] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2017-08-29 18:47:15,580 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:47:23,182 [10] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-08-29 18:48:01,122 [10] DEBUG  - Cuenta de comisiones GASTO 6104-06-000-0000-00-00-000-00053-02
+2017-08-29 18:48:03,046 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-29 18:48:09,651 [10] DEBUG  - Cuenta para RRC GASTO: 6106-06-000-0000-00-00-000-00053-11
+2017-08-29 18:48:17,202 [10] DEBUG  - Cuenta para RRC PASIVO: 6104-06-000-0000-00-00-000-00022-06
+2017-08-29 18:48:29,284 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 
+2017-08-29 18:48:37,940 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 6103-00-000-0000-00-00-000-00024-02
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-175-10011-00
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:48:46,448 [10] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01
+2017-08-29 18:48:50,623 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-2
+2017-08-29 18:48:55,287 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-2
+2017-08-29 18:48:59,340 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-9
+2017-08-29 18:49:03,896 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-9
+2017-08-29 18:49:08,137 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-12
+2017-08-29 18:49:12,708 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-12
+2017-08-29 18:49:17,016 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-13
+2017-08-29 18:49:22,164 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-13
+2017-08-29 18:49:26,308 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-65
+2017-08-29 18:49:30,562 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-65
+2017-08-29 18:49:34,453 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-16
+2017-08-29 18:49:38,734 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-05-175-10011-16
+2017-08-29 18:49:40,541 [10] WARN  - No se encontró la covertura asignada Isc
+2017-08-29 18:49:40,557 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildAccountCommission(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 517
+2017-08-29 18:49:40,569 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildAccountCommission(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 543
+   at InvoiceSync.BL.InvoiceBL.CreateDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, SOPDetail[] detail, SOPCommissions[] commission, SOPTax[] taxes, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 626
+2017-08-29 18:50:12,345 [10] ERROR  - Ocurrió un error al generar el invoice para la poliza 05-007626-2003
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildAccountCommission(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 543
+   at InvoiceSync.BL.InvoiceBL.CreateDistribution(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionCoverage, SOPDetail[] detail, SOPCommissions[] commission, SOPTax[] taxes, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 930
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 94
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-05-175-10011-00
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2017-08-29 18:50:51,621 [10] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01

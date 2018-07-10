@@ -1,0 +1,1848 @@
+2017-08-31 12:14:52,229 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 12:14:52,237 [10] DEBUG  - Creacion de numero de batch SF12:14 3182017
+2017-08-31 12:14:53,552 [10] DEBUG  - Se obtiene el cliente de GP 05-050365-2007
+2017-08-31 12:15:46,944 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 274
+2017-08-31 12:15:46,960 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 290
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 587
+2017-08-31 12:16:59,472 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 274
+2017-08-31 12:27:32,800 [10] DEBUG  - Sincronización de Cliente 4
+2017-08-31 12:27:52,089 [10] DEBUG  - Customer Actualizado 4
+2017-08-31 12:27:55,517 [10] DEBUG  - EXITO
+2017-08-31 12:28:37,946 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 12:28:37,953 [10] DEBUG  - Creacion de numero de batch SF12:28 3182017
+2017-08-31 12:28:38,639 [10] DEBUG  - Se obtiene el cliente de GP 05-050365-2007
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0301-00-03-174-10052-00
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-65
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-02
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-13
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-09
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-12
+2017-08-31 12:30:55,773 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 12:31:08,930 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-65
+2017-08-31 12:31:49,491 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-02
+2017-08-31 12:32:06,705 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-13
+2017-08-31 12:32:26,328 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-09
+2017-08-31 12:32:33,403 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-12
+2017-08-31 12:32:51,283 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0301-00-03-174-10052-00
+2017-08-31 12:32:54,030 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 12:33:04,428 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-65
+2017-08-31 12:33:44,487 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-02
+2017-08-31 12:33:53,194 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-13
+2017-08-31 12:34:05,512 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-09
+2017-08-31 12:34:13,013 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-12
+2017-08-31 12:34:24,003 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0301-00-03-174-10052-00
+2017-08-31 12:34:35,561 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <DOCDATE>8/9/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>121.46</UNITPRCE>
+        <XTNDPRCE>121.46</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0301-00-03-174-10052-65</INVINDX>
+        <CSLSINDX>4301-06-201-0301-00-03-174-10052-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0301-00-03-174-10052-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <DOCDATE>8/9/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>850.23</UNITPRCE>
+        <XTNDPRCE>850.23</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0301-00-03-174-10052-02</INVINDX>
+        <CSLSINDX>4301-06-201-0301-00-03-174-10052-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0301-00-03-174-10052-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <DOCDATE>8/9/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>242.92</UNITPRCE>
+        <XTNDPRCE>242.92</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0301-00-03-174-10052-13</INVINDX>
+        <CSLSINDX>4301-06-201-0301-00-03-174-10052-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0301-00-03-174-10052-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <DOCDATE>8/9/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>971.69</UNITPRCE>
+        <XTNDPRCE>971.69</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0301-00-03-174-10052-09</INVINDX>
+        <CSLSINDX>4301-06-201-0301-00-03-174-10052-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0301-00-03-174-10052-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <DOCDATE>8/9/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>242.92</UNITPRCE>
+        <XTNDPRCE>242.92</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0301-00-03-174-10052-12</INVINDX>
+        <CSLSINDX>4301-06-201-0301-00-03-174-10052-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0301-00-03-174-10052-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>3002</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>563.58</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>388.68</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0301-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>2817.90</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0301-00-03-174-10052-65</ACTNUMST>
+        <CRDTAMNT>121.46</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0301-00-03-174-10052-02</ACTNUMST>
+        <CRDTAMNT>850.23</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0301-00-03-174-10052-13</ACTNUMST>
+        <CRDTAMNT>242.92</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0301-00-03-174-10052-09</ACTNUMST>
+        <CRDTAMNT>971.69</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0301-00-03-174-10052-12</ACTNUMST>
+        <CRDTAMNT>242.92</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>388.68</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0301-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>28.18</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0301-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>197.25</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0301-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>56.36</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0301-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>225.43</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0301-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>56.36</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0301-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>563.58</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0301-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>48.58</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0301-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>340.09</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0301-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>97.17</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0301-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>388.68</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0301-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>97.17</DEBITAMT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2388250          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0301-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>971.69</CRDTAMNT>
+        <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2388250          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>388.68</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>8/9/2017</DOCDATE>
+      <CUSTNMBR>05-050365-2007 </CUSTNMBR>
+      <CITY>CABRERA                            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>2429.22</SUBTOTAL>
+      <DOCAMNT>2817.90</DOCAMNT>
+      <SLPRSNID>3002</SLPRSNID>
+      <BACHNUMB>SF12:28 3182017</BACHNUMB>
+      <DUEDATE>8/9/2017</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>563.58</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2017-08-31 12:34:43,766 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 12:34:43,766 [10] DEBUG  - Creacion de numero de batch SF12:34 3182017
+2017-08-31 12:34:44,281 [10] DEBUG  - Se obtiene el cliente de GP 05-058456-2007
+2017-08-31 12:36:17,403 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0201-00-03-174-10052-00
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-65
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-02
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-13
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-09
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-12
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-03-174-10052-16
+2017-08-31 12:36:17,404 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 12:36:28,532 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-65
+2017-08-31 12:36:39,783 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-02
+2017-08-31 12:36:44,212 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-13
+2017-08-31 12:36:48,844 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-09
+2017-08-31 12:36:53,313 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-12
+2017-08-31 12:36:57,300 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-03-174-10052-16
+2017-08-31 12:37:36,099 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0201-00-03-174-10052-00
+2017-08-31 12:37:42,248 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 12:37:51,971 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-65
+2017-08-31 12:38:01,412 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-02
+2017-08-31 12:38:12,451 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-13
+2017-08-31 12:38:20,640 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-09
+2017-08-31 12:38:28,883 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-12
+2017-08-31 12:38:36,360 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0201-00-03-174-10052-16
+2017-08-31 12:38:43,287 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0201-00-03-174-10052-00
+2017-08-31 12:38:59,271 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>77.97</UNITPRCE>
+        <XTNDPRCE>77.97</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-65</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>545.76</UNITPRCE>
+        <XTNDPRCE>545.76</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-02</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>155.93</UNITPRCE>
+        <XTNDPRCE>155.93</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-13</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>623.72</UNITPRCE>
+        <XTNDPRCE>623.72</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-09</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>155.93</UNITPRCE>
+        <XTNDPRCE>155.93</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-12</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <DOCDATE>8/15/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>AUTO - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>431.03</UNITPRCE>
+        <XTNDPRCE>431.03</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Servicio de Grua</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0201-00-03-174-10052-16</INVINDX>
+        <CSLSINDX>4301-06-201-0201-00-03-174-10052-16</CSLSINDX>
+        <SLSINDX>4301-06-201-0201-00-03-174-10052-16</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>3029</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>461.76</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>318.45</STAXAMNT>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0201-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>2308.79</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-65</ACTNUMST>
+        <CRDTAMNT>77.97</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-02</ACTNUMST>
+        <CRDTAMNT>545.76</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-13</ACTNUMST>
+        <CRDTAMNT>155.93</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-09</ACTNUMST>
+        <CRDTAMNT>623.72</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-12</ACTNUMST>
+        <CRDTAMNT>155.93</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Servicio de Grua</DistRef>
+        <ACTNUMST>4301-06-201-0201-00-03-174-10052-16</ACTNUMST>
+        <CRDTAMNT>431.03</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>318.45</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>18.09</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>126.62</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>36.18</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>144.70</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>36.18</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0201-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>100.00</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0201-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>461.76</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>31.19</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>218.30</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>62.37</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>249.49</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>62.37</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0201-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>172.41</DEBITAMT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0201-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>796.13</CRDTAMNT>
+        <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+        <SOPNUMBE>INV2271017</SOPNUMBE>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>318.45</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>8/15/2017</DOCDATE>
+      <CUSTNMBR>05-058456-2007 </CUSTNMBR>
+      <CITY>Nagua                              </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>1990.34</SUBTOTAL>
+      <DOCAMNT>2308.79</DOCAMNT>
+      <SLPRSNID>3029</SLPRSNID>
+      <BACHNUMB>SF12:34 3182017</BACHNUMB>
+      <DUEDATE>8/15/2017</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>461.76</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+      <SOPNUMBE>INV2271017</SOPNUMBE>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2017-08-31 12:39:05,942 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 12:39:05,942 [10] DEBUG  - Creacion de numero de batch SF12:39 3182017
+2017-08-31 12:39:06,489 [10] DEBUG  - Se obtiene el cliente de GP 05-079524-2008
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0401-00-03-174-10052-00
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-65
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-02
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-13
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-09
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-12
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-16
+2017-08-31 12:39:54,696 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 12:39:59,315 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-65
+2017-08-31 12:40:03,757 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-02
+2017-08-31 12:40:08,162 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-13
+2017-08-31 12:40:12,803 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-09
+2017-08-31 12:40:17,305 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-12
+2017-08-31 12:40:21,462 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-16
+2017-08-31 12:40:33,644 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0401-00-03-174-10052-00
+2017-08-31 12:40:36,636 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 12:40:47,596 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-65
+2017-08-31 12:40:51,843 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-02
+2017-08-31 12:40:56,090 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-13
+2017-08-31 12:41:00,517 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-09
+2017-08-31 12:41:04,709 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-12
+2017-08-31 12:41:09,008 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-16
+2017-08-31 12:42:44,415 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0401-00-03-174-10052-00
+2017-08-31 12:42:52,595 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>100.57</UNITPRCE>
+        <XTNDPRCE>100.57</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-65</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>703.98</UNITPRCE>
+        <XTNDPRCE>703.98</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-02</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>201.14</UNITPRCE>
+        <XTNDPRCE>201.14</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-13</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>804.55</UNITPRCE>
+        <XTNDPRCE>804.55</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-09</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>201.14</UNITPRCE>
+        <XTNDPRCE>201.14</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-12</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <DOCDATE>8/17/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>431.03</UNITPRCE>
+        <XTNDPRCE>431.03</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Servicio de Grua</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-16</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-16</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-16</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>3002</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>566.64</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>390.79</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0401-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>2833.20</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <CRDTAMNT>100.57</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <CRDTAMNT>703.98</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <CRDTAMNT>201.14</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <CRDTAMNT>804.55</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <CRDTAMNT>201.14</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Servicio de Grua</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-16</ACTNUMST>
+        <CRDTAMNT>431.03</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>390.79</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>23.33</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>163.32</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>46.66</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>186.66</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>46.66</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>100.00</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0401-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>566.64</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>40.23</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>281.59</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>80.46</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>321.82</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>80.46</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>172.41</DEBITAMT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2390341          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0401-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>976.97</CRDTAMNT>
+        <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2390341          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>390.79</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>8/17/2017</DOCDATE>
+      <CUSTNMBR>05-079524-2008 </CUSTNMBR>
+      <CITY>CABRERA                            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>2442.41</SUBTOTAL>
+      <DOCAMNT>2833.20</DOCAMNT>
+      <SLPRSNID>3002</SLPRSNID>
+      <BACHNUMB>SF12:39 3182017</BACHNUMB>
+      <DUEDATE>8/17/2017</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>566.64</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2017-08-31 13:09:06,192 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 13:09:06,192 [10] DEBUG  - Creacion de numero de batch SF13:09 3182017
+2017-08-31 13:09:06,664 [10] DEBUG  - Se obtiene el cliente de GP 05-080995-2008
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0401-00-03-174-10052-00
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-65
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-02
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-13
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-09
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-03-174-10052-12
+2017-08-31 13:10:08,555 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 13:10:13,601 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-65
+2017-08-31 13:10:18,291 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-02
+2017-08-31 13:10:22,771 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-13
+2017-08-31 13:10:27,229 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-09
+2017-08-31 13:10:31,617 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-03-174-10052-12
+2017-08-31 13:10:41,920 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0401-00-03-174-10052-00
+2017-08-31 13:10:46,411 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 13:11:07,271 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-65
+2017-08-31 13:11:28,359 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-02
+2017-08-31 13:11:41,995 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-13
+2017-08-31 13:11:46,417 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-09
+2017-08-31 13:11:51,070 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0401-00-03-174-10052-12
+2017-08-31 13:12:06,167 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0401-00-03-174-10052-00
+2017-08-31 13:12:23,034 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <DOCDATE>8/14/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>100.57</UNITPRCE>
+        <XTNDPRCE>100.57</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-65</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <DOCDATE>8/14/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>703.98</UNITPRCE>
+        <XTNDPRCE>703.98</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-02</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <DOCDATE>8/14/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>201.14</UNITPRCE>
+        <XTNDPRCE>201.14</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-13</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <DOCDATE>8/14/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>804.55</UNITPRCE>
+        <XTNDPRCE>804.55</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-09</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <DOCDATE>8/14/2017</DOCDATE>
+        <USERDATE>8/31/2017</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>201.14</UNITPRCE>
+        <XTNDPRCE>201.14</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0401-00-03-174-10052-12</INVINDX>
+        <CSLSINDX>4301-06-201-0401-00-03-174-10052-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0401-00-03-174-10052-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>3002</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>466.64</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>321.82</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0401-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>2333.20</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <CRDTAMNT>100.57</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <CRDTAMNT>703.98</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <CRDTAMNT>201.14</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <CRDTAMNT>804.55</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <CRDTAMNT>201.14</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>321.82</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>23.33</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>163.32</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>46.66</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>186.66</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>46.66</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0401-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>466.64</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>40.23</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>281.59</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>80.46</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>321.82</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0401-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>80.46</DEBITAMT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2389413          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0401-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>804.56</CRDTAMNT>
+        <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2389413          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>321.82</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>8/14/2017</DOCDATE>
+      <CUSTNMBR>05-080995-2008 </CUSTNMBR>
+      <CITY>CABRERA                            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>2011.38</SUBTOTAL>
+      <DOCAMNT>2333.20</DOCAMNT>
+      <SLPRSNID>3002</SLPRSNID>
+      <BACHNUMB>SF13:09 3182017</BACHNUMB>
+      <DUEDATE>8/14/2017</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>466.64</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2017-08-31 13:12:26,347 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 13:12:26,347 [10] DEBUG  - Creacion de numero de batch SF13:12 3182017
+2017-08-31 13:12:26,832 [10] DEBUG  - Se obtiene el cliente de GP 05-081343-2008
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0301-00-03-174-10052-00
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-65
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-02
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-13
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-09
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-12
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de producto: 4301-06-201-0301-00-03-174-10052-66
+2017-08-31 13:13:53,412 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 13:13:57,930 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-65
+2017-08-31 13:14:02,307 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-02
+2017-08-31 13:14:06,771 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-13
+2017-08-31 13:14:11,255 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-09
+2017-08-31 13:14:15,728 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-12
+2017-08-31 13:14:19,701 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0301-00-03-174-10052-66
+2017-08-31 13:15:32,826 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0301-00-03-174-10052-00
+2017-08-31 13:15:36,361 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 13:15:44,064 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-65
+2017-08-31 13:15:48,412 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-02
+2017-08-31 13:15:52,722 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-13
+2017-08-31 13:15:56,860 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-09
+2017-08-31 13:16:01,063 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-12
+2017-08-31 13:16:05,314 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0301-00-03-174-10052-66
+2017-08-31 13:16:14,700 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0301-00-03-174-10052-00
+2017-08-31 17:06:26,089 [9] DEBUG  - Contruyendo encabezado
+2017-08-31 17:06:26,095 [9] DEBUG  - Creacion de numero de batch SF17:06 3182017
+2017-08-31 17:06:26,841 [9] DEBUG  - Se obtiene el cliente de GP 1-201-534
+2017-08-31 17:06:26,848 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateHeader(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 111
+2017-08-31 17:06:56,651 [9] DEBUG  - Contruyendo encabezado
+2017-08-31 17:06:58,957 [9] DEBUG  - Creacion de numero de batch SF17:06 3182017
+2017-08-31 17:11:45,930 [9] DEBUG  - Sincronización de Cliente 1266402
+2017-08-31 17:12:47,574 [9] DEBUG  - Customer Actualizado 1266402
+2017-08-31 17:12:53,674 [9] DEBUG  - EXITO
+2017-08-31 17:13:02,969 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-534
+2017-08-31 17:17:06,022 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-534
+2017-08-31 17:54:04,349 [9] DEBUG  - Sincronización de Cliente 1299956
+2017-08-31 17:54:38,000 [9] DEBUG  - Customer Actualizado 1299956
+2017-08-31 17:54:44,008 [9] DEBUG  - EXITO
+2017-08-31 17:54:55,364 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-534
+2017-08-31 17:57:44,415 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 44
+2017-08-31 17:57:56,516 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 44
+2017-08-31 18:00:32,033 [9] DEBUG  - Sincronización de Cliente 1299956
+2017-08-31 18:00:56,977 [9] DEBUG  - Customer Actualizado 1299956
+2017-08-31 18:01:01,185 [9] DEBUG  - EXITO
+2017-08-31 18:01:10,054 [9] DEBUG  - Inicia sincronización de Poliza: 1-201-534
+2017-08-31 18:01:32,430 [9] WARN  - No existe una configuración para la linea de negocio 202 y producto: 2222
+2017-08-31 18:01:32,436 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1069
+2017-08-31 18:01:32,445 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1079
+   at MODEL.AccountBuilder.BuildARAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 47
+2017-08-31 18:02:18,715 [9] WARN  - No existe una configuración para la linea de negocio 202 y producto: 2222
+2017-08-31 18:02:18,719 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetSegment1(String segment3, String segment4, Int32 type) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1069
+2017-08-31 18:10:54,918 [10] DEBUG  - Sincronización de Cliente 1302830
+2017-08-31 18:11:12,549 [10] DEBUG  - Customer Actualizado 1302830
+2017-08-31 18:11:15,212 [10] DEBUG  - EXITO
+2017-08-31 18:11:16,919 [10] DEBUG  - Sincronización de Cliente 1300562
+2017-08-31 18:11:33,312 [10] DEBUG  - Customer Actualizado 1300562
+2017-08-31 18:11:36,352 [10] DEBUG  - EXITO
+2017-08-31 18:11:41,988 [10] DEBUG  - Inicia sincronización de Poliza: 1-801-138
+2017-08-31 18:11:58,925 [10] DEBUG  - Poliza sincronizada correctamente: 1-801-138
+2017-08-31 18:12:00,790 [10] DEBUG  - Inicia sincronización de Poliza: 1-801-146
+2017-08-31 18:12:55,807 [10] DEBUG  - Clase creada: C24580817910111
+2017-08-31 18:13:09,503 [10] DEBUG  - Poliza sincronizada correctamente: 1-801-146
+2017-08-31 18:13:31,797 [10] DEBUG  - Sincronización de Cliente 1302830
+2017-08-31 18:13:35,159 [10] DEBUG  - Customer Actualizado 1302830
+2017-08-31 18:13:35,159 [10] DEBUG  - EXITO
+2017-08-31 18:13:35,159 [10] DEBUG  - Sincronización de Cliente 1300562
+2017-08-31 18:13:37,347 [10] DEBUG  - Customer Actualizado 1300562
+2017-08-31 18:13:37,347 [10] DEBUG  - EXITO
+2017-08-31 18:29:26,294 [10] DEBUG  - Sincronización de Cliente 1339160
+2017-08-31 18:29:47,641 [10] DEBUG  - Customer Actualizado 1339160
+2017-08-31 18:29:49,723 [10] DEBUG  - EXITO
+2017-08-31 18:29:54,009 [10] DEBUG  - Sincronización de Cliente 1294972
+2017-08-31 18:53:37,644 [10] DEBUG  - Customer Actualizado 1294972
+2017-08-31 18:53:39,800 [10] DEBUG  - EXITO
+2017-08-31 18:53:47,401 [10] DEBUG  - Inicia sincronización de Poliza: 1-3D-00028
+2017-08-31 18:54:15,551 [10] DEBUG  - Poliza sincronizada correctamente: 1-3D-00028
+2017-08-31 18:54:17,122 [10] DEBUG  - Inicia sincronización de Poliza: 1-802-488488
+2017-08-31 18:54:40,789 [10] DEBUG  - Poliza sincronizada correctamente: 1-802-488488
+2017-08-31 18:55:01,935 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 18:55:02,294 [10] DEBUG  - Creacion de numero de batch SF18:55 3182017
+2017-08-31 18:55:07,877 [10] DEBUG  - Se obtiene el cliente de GP 1-3D-00028
+2017-08-31 18:55:16,214 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 266
+2017-08-31 18:55:26,681 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 266
+2017-08-31 18:55:42,841 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 266
+2017-08-31 19:33:52,887 [10] ERROR  - Ocurrió un error: 
+System.InvalidOperationException: The 'Coverage_Limit' property on 'TRANSACTION_BY_COVERAGE' could not be set to a 'System.String' value. You must set this property to a non-null value of type 'System.Decimal'. 
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetCoverageDistribution(String policy, Int32 transaction_secuence) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 62
+2017-08-31 19:34:24,072 [10] ERROR  - Ocurrió un error: 
+System.InvalidOperationException: The 'Coverage_Limit' property on 'TRANSACTION_BY_COVERAGE' could not be set to a 'System.String' value. You must set this property to a non-null value of type 'System.Decimal'. 
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetCoverageDistribution(String policy, Int32 transaction_secuence) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 62
+2017-08-31 19:34:47,966 [10] ERROR  - Ocurrió un error: 
+System.InvalidOperationException: The 'Coverage_Limit' property on 'TRANSACTION_BY_COVERAGE' could not be set to a 'System.String' value. You must set this property to a non-null value of type 'System.Decimal'. 
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetCoverageDistribution(String policy, Int32 transaction_secuence) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 62
+2017-08-31 19:35:31,441 [10] ERROR  - Ocurrió un error: 
+System.InvalidOperationException: The 'Coverage_Limit' property on 'TRANSACTION_BY_COVERAGE' could not be set to a 'System.String' value. You must set this property to a non-null value of type 'System.Decimal'. 
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetCoverageDistribution(String policy, Int32 transaction_secuence) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 62
+2017-08-31 19:44:21,068 [9] DEBUG  - Contruyendo encabezado
+2017-08-31 19:44:21,685 [9] DEBUG  - Creacion de numero de batch SF19:44 3182017
+2017-08-31 19:44:23,546 [9] DEBUG  - Se obtiene el cliente de GP 1-3D-00028
+2017-08-31 19:45:01,431 [9] WARN  - No se encontró la covertura asignada Falsificación Cheques Recibidos
+2017-08-31 19:45:02,254 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 154
+2017-08-31 19:45:39,801 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 19:45:40,119 [10] DEBUG  - Creacion de numero de batch SF19:45 3182017
+2017-08-31 19:45:41,229 [10] DEBUG  - Se obtiene el cliente de GP 1-3D-00028
+2017-08-31 19:46:44,271 [10] FATAL  - Ocurrió un error: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ST_GL_MAPPING_COVERAGE'. Cannot insert duplicate key in object 'dbo.ST_GL_MAPPING_COVERAGE'. The duplicate key value is (Falsificación Cheques Recibidos                                                                                                                                                                         ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MODEL.AccountBuilder.AddCoverage(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1239
+2017-08-31 19:46:44,282 [10] FATAL  - Ocurrió un error: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ST_GL_MAPPING_COVERAGE'. Cannot insert duplicate key in object 'dbo.ST_GL_MAPPING_COVERAGE'. The duplicate key value is (Falsificación Cheques Recibidos                                                                                                                                                                         ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MODEL.AccountBuilder.AddCoverage(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1249
+   at MODEL.AccountBuilder.GetCoverageMapping(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1202
+2017-08-31 19:52:29,679 [10] ERROR  - Ocurrió un error: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ST_GL_MAPPING_COVERAGE'. Cannot insert duplicate key in object 'dbo.ST_GL_MAPPING_COVERAGE'. The duplicate key value is (Falsificación Cheques Recibidos                                                                                                                                                                         ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MODEL.AccountBuilder.AddCoverage(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1249
+   at MODEL.AccountBuilder.GetCoverageMapping(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1215
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 152
+2017-08-31 19:52:30,958 [10] ERROR  - Ocurrió un error: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ST_GL_MAPPING_COVERAGE'. Cannot insert duplicate key in object 'dbo.ST_GL_MAPPING_COVERAGE'. The duplicate key value is (Falsificación Cheques Recibidos                                                                                                                                                                         ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MODEL.AccountBuilder.AddCoverage(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1249
+   at MODEL.AccountBuilder.GetCoverageMapping(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1215
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 179
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 273
+2017-08-31 19:52:31,806 [10] ERROR  - Ocurrió un error al generar el invoice para la poliza 1-3D-00028
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ST_GL_MAPPING_COVERAGE'. Cannot insert duplicate key in object 'dbo.ST_GL_MAPPING_COVERAGE'. The duplicate key value is (Falsificación Cheques Recibidos                                                                                                                                                                         ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MODEL.AccountBuilder.AddCoverage(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1249
+   at MODEL.AccountBuilder.GetCoverageMapping(String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 1215
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, Nullable`1 supervisor_code, String coverage, String GpProductID) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 179
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 296
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 96
+2017-08-31 19:52:38,907 [10] DEBUG  - Contruyendo encabezado
+2017-08-31 19:52:39,353 [10] DEBUG  - Creacion de numero de batch SF19:52 3182017
+2017-08-31 19:52:39,960 [10] DEBUG  - Se obtiene el cliente de GP 1-802-488488
+2017-08-31 19:55:31,708 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-03-176-10055-00
+2017-08-31 19:55:35,766 [10] DEBUG  - Cuenta de producto: 4301-06-201-0256-00-03-176-10055-14
+2017-08-31 19:55:39,598 [10] DEBUG  - Cuenta de producto: 4301-06-201-0256-00-03-176-10055-14
+2017-08-31 19:55:46,118 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-08-31 19:56:11,500 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0256-00-03-176-10055-14
+2017-08-31 19:56:22,630 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0256-00-03-176-10055-14
+2017-08-31 19:56:33,989 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0600-00-03-176-10055-00
+2017-08-31 19:58:51,029 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-08-31 19:58:59,841 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-03-176-10055-14
+2017-08-31 19:59:07,485 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-03-176-10055-14
+2017-08-31 19:59:28,841 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0600-00-03-176-10055-00

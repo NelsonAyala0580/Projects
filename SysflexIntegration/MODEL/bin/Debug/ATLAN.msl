@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ATLANModelStoreContainer" CdmEntityContainer="ATLANEntities">
+    <EntitySetMapping Name="ST_CLIENT_TABLE_SYNC">
+      <EntityTypeMapping TypeName="ATLANModel.ST_CLIENT_TABLE_SYNC">
+        <MappingFragment StoreEntitySet="ST_CLIENT_TABLE_SYNC">
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+          <ScalarProperty Name="LAST_GP_UPDATE" ColumnName="LAST_GP_UPDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_CUSTOMER_ADDITIONAL">
+      <EntityTypeMapping TypeName="ATLANModel.ST_CUSTOMER_ADDITIONAL">
+        <MappingFragment StoreEntitySet="ST_CUSTOMER_ADDITIONAL">
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+          <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+          <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+          <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+          <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+          <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+          <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+          <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+          <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+          <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+          <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+          <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+          <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+          <ScalarProperty Name="DATE_OF_BIRTH" ColumnName="DATE_OF_BIRTH" />
+          <ScalarProperty Name="CORE_CREATION_DATE" ColumnName="CORE_CREATION_DATE" />
+          <ScalarProperty Name="POLICY_CANCELLATION_DATE" ColumnName="POLICY_CANCELLATION_DATE" />
+          <ScalarProperty Name="INSURED_QUANTITY" ColumnName="INSURED_QUANTITY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ACCOUNT_SETTINGS">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+          <ScalarProperty Name="UNIT_ACCOUNT3" ColumnName="UNIT_ACCOUNT3" />
+          <ScalarProperty Name="UNIT_ACCOUNT2" ColumnName="UNIT_ACCOUNT2" />
+          <ScalarProperty Name="UNIT_ACCOUNT1" ColumnName="UNIT_ACCOUNT1" />
+          <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+          <ScalarProperty Name="TYPEID" ColumnName="TYPEID" />
+          <ScalarProperty Name="SEGMENT1" ColumnName="SEGMENT1" />
+          <ScalarProperty Name="SEGMENT2" ColumnName="SEGMENT2" />
+          <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+          <ScalarProperty Name="PRODUCT" ColumnName="PRODUCT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_ACCOUNT_TYPE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ACCOUNT_TYPE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_ACCOUNT_TYPE">
+          <ScalarProperty Name="TYPEID" ColumnName="TYPEID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_CHANNEL">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_CHANNEL">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_CHANNEL">
+          <ScalarProperty Name="UNIT_ACCOUNT" ColumnName="UNIT_ACCOUNT" />
+          <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_COUNTRY">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_COUNTRY">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_COUNTRY">
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_COVERAGE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_COVERAGE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_COVERAGE">
+          <ScalarProperty Name="COVERAGE" ColumnName="COVERAGE" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_LINE_OF_BUSINESS">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_LINE_OF_BUSINESS">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_LINE_OF_BUSINESS">
+          <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+          <ScalarProperty Name="CLASS_CODE" ColumnName="CLASS_CODE" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_POLICY_TYPE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_POLICY_TYPE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_POLICY_TYPE">
+          <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_VEHICLE_TYPE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_VEHICLE_TYPE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_VEHICLE_TYPE">
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_ZONE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ZONE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_ZONE">
+          <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_ITEM_SALESPERSON_COMMISSION">
+      <EntityTypeMapping TypeName="ATLANModel.ST_ITEM_SALESPERSON_COMMISSION">
+        <MappingFragment StoreEntitySet="ST_ITEM_SALESPERSON_COMMISSION">
+          <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+          <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+          <ScalarProperty Name="COMMISSION_PERCENT" ColumnName="COMMISSION_PERCENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_POLICY_TABLE_SYNC">
+      <EntityTypeMapping TypeName="ATLANModel.ST_POLICY_TABLE_SYNC">
+        <MappingFragment StoreEntitySet="ST_POLICY_TABLE_SYNC">
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="LAST_GP_UPDATE" ColumnName="LAST_GP_UPDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_TRANSACTION_SYNC">
+      <EntityTypeMapping TypeName="ATLANModel.ST_TRANSACTION_SYNC">
+        <MappingFragment StoreEntitySet="ST_TRANSACTION_SYNC">
+          <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+          <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+          <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+          <ScalarProperty Name="ACTUAL_BALANCE" ColumnName="ACTUAL_BALANCE" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="TRANS_USER" ColumnName="TRANS_USER" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="SYNC_CREATE_DATE" ColumnName="SYNC_CREATE_DATE" />
+          <ScalarProperty Name="GP_PROCESS_DATE" ColumnName="GP_PROCESS_DATE" />
+          <ScalarProperty Name="GP_PROCESS_USER" ColumnName="GP_PROCESS_USER" />
+          <ScalarProperty Name="GP_MODULE" ColumnName="GP_MODULE" />
+          <ScalarProperty Name="GP_DOCTYPE" ColumnName="GP_DOCTYPE" />
+          <ScalarProperty Name="GP_DOCNUMBR" ColumnName="GP_DOCNUMBR" />
+          <ScalarProperty Name="RENEWAL_TYPE" ColumnName="RENEWAL_TYPE" />
+          <ScalarProperty Name="DOCUMENT_TYPE" ColumnName="DOCUMENT_TYPE" />
+          <ScalarProperty Name="DOCUMENT_CANCELLED" ColumnName="DOCUMENT_CANCELLED" />
+          <ScalarProperty Name="NCF" ColumnName="NCF" />
+          <ScalarProperty Name="ASSIGNED_DOC_NUMBER" ColumnName="ASSIGNED_DOC_NUMBER" />
+          <ScalarProperty Name="TRANSACTION_SEQUENCE" ColumnName="TRANSACTION_SEQUENCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" />
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_CUSTOMER">
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+          <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+          <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+          <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+          <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+          <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+          <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+          <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+          <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="ZIPCODE" ColumnName="ZIPCODE" />
+          <ScalarProperty Name="CCode" ColumnName="CCode" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="PHNUMBR1" ColumnName="PHNUMBR1" />
+          <ScalarProperty Name="PHNUMBR2" ColumnName="PHNUMBR2" />
+          <ScalarProperty Name="PHNUMBR3" ColumnName="PHNUMBR3" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+          <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+          <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+          <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+          <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+          <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+          <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+          <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+          <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+          <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+          <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+          <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+          <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+          <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+          <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+          <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+          <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+          <ScalarProperty Name="NOTETEXT" ColumnName="NOTETEXT" />
+          <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+          <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+          <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+          <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+          <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+          <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+          <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+          <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+          <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+          <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+          <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+          <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+          <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+          <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+          <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+          <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+          <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+          <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+          <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+          <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+          <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+          <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+          <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+          <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+          <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+          <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+          <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+          <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+          <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+          <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+          <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+          <ScalarProperty Name="ToEmail_Recipient" ColumnName="ToEmail_Recipient" />
+          <ScalarProperty Name="CcEmail_Recipient" ColumnName="CcEmail_Recipient" />
+          <ScalarProperty Name="BccEmail_Recipient" ColumnName="BccEmail_Recipient" />
+          <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+          <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+          <ScalarProperty Name="RMCSHACTNUMST" ColumnName="RMCSHACTNUMST" />
+          <ScalarProperty Name="RMARACTNUMST" ColumnName="RMARACTNUMST" />
+          <ScalarProperty Name="RMSLSACTNUMST" ColumnName="RMSLSACTNUMST" />
+          <ScalarProperty Name="RMCOSACTNUMST" ColumnName="RMCOSACTNUMST" />
+          <ScalarProperty Name="RMIVACTNUMST" ColumnName="RMIVACTNUMST" />
+          <ScalarProperty Name="RMTAKACTNUMST" ColumnName="RMTAKACTNUMST" />
+          <ScalarProperty Name="RMAVACTNUMST" ColumnName="RMAVACTNUMST" />
+          <ScalarProperty Name="RMFCGACTNUMST" ColumnName="RMFCGACTNUMST" />
+          <ScalarProperty Name="RMWRACTNUMST" ColumnName="RMWRACTNUMST" />
+          <ScalarProperty Name="RMSORACTNUMST" ColumnName="RMSORACTNUMST" />
+          <ScalarProperty Name="RMOvrpymtWrtoffACTNUMST" ColumnName="RMOvrpymtWrtoffACTNUMST" />
+          <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+          <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+          <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+          <ScalarProperty Name="INET1" ColumnName="INET1" />
+          <ScalarProperty Name="SYSTEMCREATEDDATE" ColumnName="SYSTEMCREATEDDATE" />
+          <ScalarProperty Name="TRGCREATEDDATE" ColumnName="TRGCREATEDDATE" />
+          <ScalarProperty Name="TRGMODIFIEDDATE" ColumnName="TRGMODIFIEDDATE" />
+          <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+          <ScalarProperty Name="NCF_TYPE" ColumnName="NCF_TYPE" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_TYPE" ColumnName="ID_TYPE" />
+          <ScalarProperty Name="DATEOFBIRTH" ColumnName="DATEOFBIRTH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_POLICY">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_POLICY">
+          <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+          <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+          <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+          <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+          <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+          <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+          <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+          <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+          <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+          <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+          <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+          <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+          <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+          <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="GpProductID" ColumnName="GpProductID" />
+          <ScalarProperty Name="In_Coaseguro" ColumnName="In_Coaseguro" />
+          <ScalarProperty Name="Primary_Company" ColumnName="Primary_Company" />
+          <ScalarProperty Name="SUPERVISOR_CODE" ColumnName="SUPERVISOR_CODE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_POLICY">
+          <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+          <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+          <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+          <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+          <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+          <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+          <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+          <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+          <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+          <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+          <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+          <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+          <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+          <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="GpProductID" ColumnName="GpProductID" />
+          <ScalarProperty Name="In_Coaseguro" ColumnName="In_Coaseguro" />
+          <ScalarProperty Name="Primary_Company" ColumnName="Primary_Company" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB" />
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.TRANSACTION_BY_COVERAGE">
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+          <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="Item_number" ColumnName="Item_number" />
+          <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+          <ScalarProperty Name="Trans_Tax_Amount" ColumnName="Trans_Tax_Amount" />
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="USER" ColumnName="USER" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="Product_type" ColumnName="Product_type" />
+          <ScalarProperty Name="Coverage_Desc" ColumnName="Coverage_Desc" />
+          <ScalarProperty Name="Coverage_ID" ColumnName="Coverage_ID" />
+          <ScalarProperty Name="Coverage_Group" ColumnName="Coverage_Group" />
+          <ScalarProperty Name="Coverage_Amount" ColumnName="Coverage_Amount" />
+          <ScalarProperty Name="Coverage_Percent" ColumnName="Coverage_Percent" />
+          <ScalarProperty Name="Policy_Transaction_secuence" ColumnName="Policy_Transaction_secuence" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_TRANSACTIONS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_TRANSACTIONS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.TRANSACTION_INVOICE">
+          <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+          <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+          <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+          <ScalarProperty Name="ACTUAL_BALANCE" ColumnName="ACTUAL_BALANCE" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="TRANS_USER" ColumnName="TRANS_USER" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="SYNC_CREATE_DATE" ColumnName="SYNC_CREATE_DATE" />
+          <ScalarProperty Name="GP_PROCESS_DATE" ColumnName="GP_PROCESS_DATE" />
+          <ScalarProperty Name="GP_PROCESS_USER" ColumnName="GP_PROCESS_USER" />
+          <ScalarProperty Name="GP_MODULE" ColumnName="GP_MODULE" />
+          <ScalarProperty Name="GP_DOCTYPE" ColumnName="GP_DOCTYPE" />
+          <ScalarProperty Name="GP_DOCNUMBR" ColumnName="GP_DOCNUMBR" />
+          <ScalarProperty Name="RENEWAL_TYPE" ColumnName="RENEWAL_TYPE" />
+          <ScalarProperty Name="DOCUMENT_TYPE" ColumnName="DOCUMENT_TYPE" />
+          <ScalarProperty Name="DOCUMENT_CANCELLED" ColumnName="DOCUMENT_CANCELLED" />
+          <ScalarProperty Name="NCF" ColumnName="NCF" />
+          <ScalarProperty Name="ASSIGNED_DOC_NUMBER" ColumnName="ASSIGNED_DOC_NUMBER" />
+          <ScalarProperty Name="TRANSACTION_SEQUENCE" ColumnName="TRANSACTION_SEQUENCE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_POLICY_GET_PARENT" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_POLICY_GET_PARENT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_CUSTOMER">
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+          <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+          <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+          <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+          <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+          <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+          <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+          <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+          <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="ZIPCODE" ColumnName="ZIPCODE" />
+          <ScalarProperty Name="CCode" ColumnName="CCode" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="PHNUMBR1" ColumnName="PHNUMBR1" />
+          <ScalarProperty Name="PHNUMBR2" ColumnName="PHNUMBR2" />
+          <ScalarProperty Name="PHNUMBR3" ColumnName="PHNUMBR3" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+          <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+          <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+          <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+          <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+          <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+          <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+          <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+          <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+          <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+          <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+          <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+          <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+          <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+          <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+          <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+          <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+          <ScalarProperty Name="NOTETEXT" ColumnName="NOTETEXT" />
+          <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+          <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+          <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+          <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+          <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+          <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+          <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+          <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+          <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+          <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+          <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+          <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+          <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+          <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+          <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+          <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+          <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+          <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+          <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+          <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+          <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+          <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+          <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+          <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+          <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+          <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+          <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+          <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+          <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+          <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+          <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+          <ScalarProperty Name="ToEmail_Recipient" ColumnName="ToEmail_Recipient" />
+          <ScalarProperty Name="CcEmail_Recipient" ColumnName="CcEmail_Recipient" />
+          <ScalarProperty Name="BccEmail_Recipient" ColumnName="BccEmail_Recipient" />
+          <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+          <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+          <ScalarProperty Name="RMCSHACTNUMST" ColumnName="RMCSHACTNUMST" />
+          <ScalarProperty Name="RMARACTNUMST" ColumnName="RMARACTNUMST" />
+          <ScalarProperty Name="RMSLSACTNUMST" ColumnName="RMSLSACTNUMST" />
+          <ScalarProperty Name="RMCOSACTNUMST" ColumnName="RMCOSACTNUMST" />
+          <ScalarProperty Name="RMIVACTNUMST" ColumnName="RMIVACTNUMST" />
+          <ScalarProperty Name="RMTAKACTNUMST" ColumnName="RMTAKACTNUMST" />
+          <ScalarProperty Name="RMAVACTNUMST" ColumnName="RMAVACTNUMST" />
+          <ScalarProperty Name="RMFCGACTNUMST" ColumnName="RMFCGACTNUMST" />
+          <ScalarProperty Name="RMWRACTNUMST" ColumnName="RMWRACTNUMST" />
+          <ScalarProperty Name="RMSORACTNUMST" ColumnName="RMSORACTNUMST" />
+          <ScalarProperty Name="RMOvrpymtWrtoffACTNUMST" ColumnName="RMOvrpymtWrtoffACTNUMST" />
+          <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+          <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+          <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+          <ScalarProperty Name="INET1" ColumnName="INET1" />
+          <ScalarProperty Name="SYSTEMCREATEDDATE" ColumnName="SYSTEMCREATEDDATE" />
+          <ScalarProperty Name="TRGCREATEDDATE" ColumnName="TRGCREATEDDATE" />
+          <ScalarProperty Name="TRGMODIFIEDDATE" ColumnName="TRGMODIFIEDDATE" />
+          <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+          <ScalarProperty Name="NCF_TYPE" ColumnName="NCF_TYPE" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_TYPE" ColumnName="ID_TYPE" />
+          <ScalarProperty Name="DATEOFBIRTH" ColumnName="DATEOFBIRTH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="RM00201">
+      <EntityTypeMapping TypeName="ATLANModel.RM00201">
+        <MappingFragment StoreEntitySet="RM00201">
+          <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+          <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+          <ScalarProperty Name="CBVAT" ColumnName="CBVAT" />
+          <ScalarProperty Name="RMOvrpymtWrtoffAcctIdx" ColumnName="RMOvrpymtWrtoffAcctIdx" />
+          <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+          <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+          <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+          <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+          <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+          <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+          <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+          <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+          <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+          <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="SNDSTMNT" ColumnName="SNDSTMNT" />
+          <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+          <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+          <ScalarProperty Name="RMSORACC" ColumnName="RMSORACC" />
+          <ScalarProperty Name="RMWRACC" ColumnName="RMWRACC" />
+          <ScalarProperty Name="RMFCGACC" ColumnName="RMFCGACC" />
+          <ScalarProperty Name="RMTAKACC" ColumnName="RMTAKACC" />
+          <ScalarProperty Name="RMAVACC" ColumnName="RMAVACC" />
+          <ScalarProperty Name="RMSLSACC" ColumnName="RMSLSACC" />
+          <ScalarProperty Name="RMIVACC" ColumnName="RMIVACC" />
+          <ScalarProperty Name="RMCOSACC" ColumnName="RMCOSACC" />
+          <ScalarProperty Name="RMARACC" ColumnName="RMARACC" />
+          <ScalarProperty Name="RMCSHACC" ColumnName="RMCSHACC" />
+          <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+          <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+          <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+          <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+          <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+          <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+          <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+          <ScalarProperty Name="FINCHARG" ColumnName="FINCHARG" />
+          <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+          <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+          <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+          <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+          <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+          <ScalarProperty Name="CSTPRLVL" ColumnName="CSTPRLVL" />
+          <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+          <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+          <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+          <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+          <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+          <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+          <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+          <ScalarProperty Name="DEFLTCLS" ColumnName="DEFLTCLS" />
+          <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+          <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+          <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+          <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+          <ScalarProperty Name="CLASDSCR" ColumnName="CLASDSCR" />
+          <ScalarProperty Name="CLASSID" ColumnName="CLASSID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_INSERT_TRANSACTIONS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_INSERT_TRANSACTIONS" />
+    <EntitySetMapping Name="IV00101">
+      <EntityTypeMapping TypeName="ATLANModel.IV00101">
+        <MappingFragment StoreEntitySet="IV00101">
+          <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+          <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+          <ScalarProperty Name="IVSCRVIX" ColumnName="IVSCRVIX" />
+          <ScalarProperty Name="QtyShortTolerancePercent" ColumnName="QtyShortTolerancePercent" />
+          <ScalarProperty Name="QtyOverTolerancePercent" ColumnName="QtyOverTolerancePercent" />
+          <ScalarProperty Name="UseQtyShortageTolerance" ColumnName="UseQtyShortageTolerance" />
+          <ScalarProperty Name="UseQtyOverageTolerance" ColumnName="UseQtyOverageTolerance" />
+          <ScalarProperty Name="Lot_Split_Quantity" ColumnName="Lot_Split_Quantity" />
+          <ScalarProperty Name="LASTGENLOT" ColumnName="LASTGENLOT" />
+          <ScalarProperty Name="LOTEXPWARNDAYS" ColumnName="LOTEXPWARNDAYS" />
+          <ScalarProperty Name="LOTEXPWARN" ColumnName="LOTEXPWARN" />
+          <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+          <ScalarProperty Name="MINSHELF2" ColumnName="MINSHELF2" />
+          <ScalarProperty Name="MINSHELF1" ColumnName="MINSHELF1" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="CNTRYORGN" ColumnName="CNTRYORGN" />
+          <ScalarProperty Name="STTSTCLVLPRCNTG" ColumnName="STTSTCLVLPRCNTG" />
+          <ScalarProperty Name="ITMPLNNNGTYP" ColumnName="ITMPLNNNGTYP" />
+          <ScalarProperty Name="Purchase_Tax_Options" ColumnName="Purchase_Tax_Options" />
+          <ScalarProperty Name="Purchase_Item_Tax_Schedu" ColumnName="Purchase_Item_Tax_Schedu" />
+          <ScalarProperty Name="Tolerance_Percentage" ColumnName="Tolerance_Percentage" />
+          <ScalarProperty Name="Revalue_Inventory" ColumnName="Revalue_Inventory" />
+          <ScalarProperty Name="ABCCODE" ColumnName="ABCCODE" />
+          <ScalarProperty Name="LASTGENSN" ColumnName="LASTGENSN" />
+          <ScalarProperty Name="KTACCTSR" ColumnName="KTACCTSR" />
+          <ScalarProperty Name="SELNGUOM" ColumnName="SELNGUOM" />
+          <ScalarProperty Name="PRCHSUOM" ColumnName="PRCHSUOM" />
+          <ScalarProperty Name="PRICMTHD" ColumnName="PRICMTHD" />
+          <ScalarProperty Name="PriceGroup" ColumnName="PriceGroup" />
+          <ScalarProperty Name="TCC" ColumnName="TCC" />
+          <ScalarProperty Name="ITEMCODE" ColumnName="ITEMCODE" />
+          <ScalarProperty Name="CGSMCIDX" ColumnName="CGSMCIDX" />
+          <ScalarProperty Name="CGSINFLX" ColumnName="CGSINFLX" />
+          <ScalarProperty Name="INVMCIDX" ColumnName="INVMCIDX" />
+          <ScalarProperty Name="IVINFIDX" ColumnName="IVINFIDX" />
+          <ScalarProperty Name="PURMCIDX" ColumnName="PURMCIDX" />
+          <ScalarProperty Name="PINFLIDX" ColumnName="PINFLIDX" />
+          <ScalarProperty Name="LOCNCODE" ColumnName="LOCNCODE" />
+          <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+          <ScalarProperty Name="WRNTYDYS" ColumnName="WRNTYDYS" />
+          <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+          <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+          <ScalarProperty Name="MSTRCDTY" ColumnName="MSTRCDTY" />
+          <ScalarProperty Name="USCATVLS_6" ColumnName="USCATVLS_6" />
+          <ScalarProperty Name="USCATVLS_5" ColumnName="USCATVLS_5" />
+          <ScalarProperty Name="USCATVLS_4" ColumnName="USCATVLS_4" />
+          <ScalarProperty Name="USCATVLS_3" ColumnName="USCATVLS_3" />
+          <ScalarProperty Name="USCATVLS_2" ColumnName="USCATVLS_2" />
+          <ScalarProperty Name="USCATVLS_1" ColumnName="USCATVLS_1" />
+          <ScalarProperty Name="ALTITEM2" ColumnName="ALTITEM2" />
+          <ScalarProperty Name="ALTITEM1" ColumnName="ALTITEM1" />
+          <ScalarProperty Name="UOMSCHDL" ColumnName="UOMSCHDL" />
+          <ScalarProperty Name="VCTNMTHD" ColumnName="VCTNMTHD" />
+          <ScalarProperty Name="ALWBKORD" ColumnName="ALWBKORD" />
+          <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="LOTTYPE" ColumnName="LOTTYPE" />
+          <ScalarProperty Name="ITMTRKOP" ColumnName="ITMTRKOP" />
+          <ScalarProperty Name="ITMCLSCD" ColumnName="ITMCLSCD" />
+          <ScalarProperty Name="ASMVRIDX" ColumnName="ASMVRIDX" />
+          <ScalarProperty Name="IVRETIDX" ColumnName="IVRETIDX" />
+          <ScalarProperty Name="UPPVIDX" ColumnName="UPPVIDX" />
+          <ScalarProperty Name="PURPVIDX" ColumnName="PURPVIDX" />
+          <ScalarProperty Name="DPSHPIDX" ColumnName="DPSHPIDX" />
+          <ScalarProperty Name="IVVARIDX" ColumnName="IVVARIDX" />
+          <ScalarProperty Name="IVDMGIDX" ColumnName="IVDMGIDX" />
+          <ScalarProperty Name="IVINSVIX" ColumnName="IVINSVIX" />
+          <ScalarProperty Name="IVINUSIX" ColumnName="IVINUSIX" />
+          <ScalarProperty Name="IVSLRNIX" ColumnName="IVSLRNIX" />
+          <ScalarProperty Name="IVSLDSIX" ColumnName="IVSLDSIX" />
+          <ScalarProperty Name="IVSLSIDX" ColumnName="IVSLSIDX" />
+          <ScalarProperty Name="IVCOGSIX" ColumnName="IVCOGSIX" />
+          <ScalarProperty Name="IVIVOFIX" ColumnName="IVIVOFIX" />
+          <ScalarProperty Name="IVIVINDX" ColumnName="IVIVINDX" />
+          <ScalarProperty Name="TAXOPTNS" ColumnName="TAXOPTNS" />
+          <ScalarProperty Name="ITMTSHID" ColumnName="ITMTSHID" />
+          <ScalarProperty Name="DECPLCUR" ColumnName="DECPLCUR" />
+          <ScalarProperty Name="DECPLQTY" ColumnName="DECPLQTY" />
+          <ScalarProperty Name="ITEMSHWT" ColumnName="ITEMSHWT" />
+          <ScalarProperty Name="CURRCOST" ColumnName="CURRCOST" />
+          <ScalarProperty Name="STNDCOST" ColumnName="STNDCOST" />
+          <ScalarProperty Name="ITMGEDSC" ColumnName="ITMGEDSC" />
+          <ScalarProperty Name="ITEMTYPE" ColumnName="ITEMTYPE" />
+          <ScalarProperty Name="ITMSHNAM" ColumnName="ITMSHNAM" />
+          <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+          <ScalarProperty Name="ITEMDESC" ColumnName="ITEMDESC" />
+          <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RM00101">
+      <EntityTypeMapping TypeName="ATLANModel.RM00101">
+        <MappingFragment StoreEntitySet="RM00101">
+          <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+          <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+          <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+          <ScalarProperty Name="CBVAT" ColumnName="CBVAT" />
+          <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+          <ScalarProperty Name="RMOvrpymtWrtoffAcctIdx" ColumnName="RMOvrpymtWrtoffAcctIdx" />
+          <ScalarProperty Name="DECLID" ColumnName="DECLID" />
+          <ScalarProperty Name="CCode" ColumnName="CCode" />
+          <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+          <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+          <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+          <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+          <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+          <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+          <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+          <ScalarProperty Name="DOCFMTID" ColumnName="DOCFMTID" />
+          <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+          <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+          <ScalarProperty Name="GOVINDID" ColumnName="GOVINDID" />
+          <ScalarProperty Name="GOVCRPID" ColumnName="GOVCRPID" />
+          <ScalarProperty Name="FINCHID" ColumnName="FINCHID" />
+          <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+          <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+          <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+          <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+          <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+          <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+          <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+          <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+          <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+          <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="FRSTINDT" ColumnName="FRSTINDT" />
+          <ScalarProperty Name="RMSORACC" ColumnName="RMSORACC" />
+          <ScalarProperty Name="RMWRACC" ColumnName="RMWRACC" />
+          <ScalarProperty Name="RMFCGACC" ColumnName="RMFCGACC" />
+          <ScalarProperty Name="RMAVACC" ColumnName="RMAVACC" />
+          <ScalarProperty Name="RMTAKACC" ColumnName="RMTAKACC" />
+          <ScalarProperty Name="RMCOSACC" ColumnName="RMCOSACC" />
+          <ScalarProperty Name="RMIVACC" ColumnName="RMIVACC" />
+          <ScalarProperty Name="RMSLSACC" ColumnName="RMSLSACC" />
+          <ScalarProperty Name="RMARACC" ColumnName="RMARACC" />
+          <ScalarProperty Name="RMCSHACC" ColumnName="RMCSHACC" />
+          <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+          <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+          <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+          <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+          <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+          <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+          <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+          <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+          <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+          <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+          <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+          <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+          <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+          <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+          <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+          <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+          <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+          <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+          <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+          <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+          <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+          <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+          <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+          <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+          <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+          <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+          <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+          <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+          <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+          <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+          <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+          <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+          <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+          <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="PHONE3" ColumnName="PHONE3" />
+          <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+          <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+          <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+          <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+          <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+          <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+          <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+          <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+          <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+          <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+          <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+          <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_REINSURANCE_BY_COVERAGE">
+          <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+          <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+          <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="Item_number" ColumnName="Item_number" />
+          <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+          <ScalarProperty Name="Trans_Tax_Amount" ColumnName="Trans_Tax_Amount" />
+          <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="USER" ColumnName="USER" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="Product_type" ColumnName="Product_type" />
+          <ScalarProperty Name="Coverage_Desc" ColumnName="Coverage_Desc" />
+          <ScalarProperty Name="Coverage_ID" ColumnName="Coverage_ID" />
+          <ScalarProperty Name="Coverage_Limit" ColumnName="Coverage_Limit" />
+          <ScalarProperty Name="Coverage_Group" ColumnName="Coverage_Group" />
+          <ScalarProperty Name="Coverage_Amount" ColumnName="Coverage_Amount" />
+          <ScalarProperty Name="Coverage_Percent" ColumnName="Coverage_Percent" />
+          <ScalarProperty Name="Reinsurance_Percent_Commission" ColumnName="Reinsurance_Percent_Commission" />
+          <ScalarProperty Name="Reinsurance_Amount_Commission" ColumnName="Reinsurance_Amount_Commission" />
+          <ScalarProperty Name="Policy_Transaction_secuence" ColumnName="Policy_Transaction_secuence" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Name_Company" ColumnName="Name_Company" />
+          <ScalarProperty Name="Type_identifierr" ColumnName="Type_identifierr" />
+          <ScalarProperty Name="Number_Identifierr" ColumnName="Number_Identifierr" />
+          <ScalarProperty Name="Number_Contrat" ColumnName="Number_Contrat" />
+          <ScalarProperty Name="Type_Contrat" ColumnName="Type_Contrat" />
+          <ScalarProperty Name="Company_is_Local" ColumnName="Company_is_Local" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC" />
+    <EntitySetMapping Name="ST_ITEMNMBR_ACCOUNT_CODE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_ITEMNMBR_ACCOUNT_CODE">
+        <MappingFragment StoreEntitySet="ST_ITEMNMBR_ACCOUNT_CODE">
+          <ScalarProperty Name="ACCOUNT_CODE" ColumnName="ACCOUNT_CODE" />
+          <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_SUPERVISOR">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_SUPERVISOR">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_SUPERVISOR">
+          <ScalarProperty Name="CHANNEL_MAPPING" ColumnName="CHANNEL_MAPPING" />
+          <ScalarProperty Name="ZONE_MAPPING" ColumnName="ZONE_MAPPING" />
+          <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="SUPERVISOR_CODE" ColumnName="SUPERVISOR_CODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_GL_MAPPING_REINSURANCE">
+      <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_REINSURANCE">
+        <MappingFragment StoreEntitySet="ST_GL_MAPPING_REINSURANCE">
+          <ScalarProperty Name="UNIT_ACCOUNT" ColumnName="UNIT_ACCOUNT" />
+          <ScalarProperty Name="SEGMENT2_COMM" ColumnName="SEGMENT2_COMM" />
+          <ScalarProperty Name="SEGMENT1_COMM" ColumnName="SEGMENT1_COMM" />
+          <ScalarProperty Name="SEGMENT2" ColumnName="SEGMENT2" />
+          <ScalarProperty Name="SEGMENT1" ColumnName="SEGMENT1" />
+          <ScalarProperty Name="IsFacult" ColumnName="IsFacult" />
+          <ScalarProperty Name="IsLocal" ColumnName="IsLocal" />
+          <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pSP_CREAR_CUENTAS" FunctionName="ATLANModel.Store.pSP_CREAR_CUENTAS" />
+    <EntitySetMapping Name="RM00301">
+      <EntityTypeMapping TypeName="ATLANModel.RM00301">
+        <MappingFragment StoreEntitySet="RM00301">
+          <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+          <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+          <ScalarProperty Name="COMMDEST" ColumnName="COMMDEST" />
+          <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+          <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+          <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+          <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+          <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+          <ScalarProperty Name="NCOMSLYR" ColumnName="NCOMSLYR" />
+          <ScalarProperty Name="NCOMSLTD" ColumnName="NCOMSLTD" />
+          <ScalarProperty Name="COMSLLYR" ColumnName="COMSLLYR" />
+          <ScalarProperty Name="COMSLTDT" ColumnName="COMSLTDT" />
+          <ScalarProperty Name="TTLCOMLY" ColumnName="TTLCOMLY" />
+          <ScalarProperty Name="TTLCOMTD" ColumnName="TTLCOMTD" />
+          <ScalarProperty Name="CSTLSTYR" ColumnName="CSTLSTYR" />
+          <ScalarProperty Name="COSTTODT" ColumnName="COSTTODT" />
+          <ScalarProperty Name="COMAPPTO" ColumnName="COMAPPTO" />
+          <ScalarProperty Name="STDCPRCT" ColumnName="STDCPRCT" />
+          <ScalarProperty Name="COMPRCNT" ColumnName="COMPRCNT" />
+          <ScalarProperty Name="COMMCODE" ColumnName="COMMCODE" />
+          <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+          <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="PHONE3" ColumnName="PHONE3" />
+          <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+          <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="SPRSNSLN" ColumnName="SPRSNSLN" />
+          <ScalarProperty Name="SPRSNSMN" ColumnName="SPRSNSMN" />
+          <ScalarProperty Name="SLPRSNFN" ColumnName="SLPRSNFN" />
+          <ScalarProperty Name="VENDORID" ColumnName="VENDORID" />
+          <ScalarProperty Name="EMPLOYID" ColumnName="EMPLOYID" />
+          <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="ATLANModel.Accounts">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="Account_Index_For_Drillback" ColumnName="Account Index For Drillback" />
+          <ScalarProperty Name="Clear_Balance" ColumnName="Clear Balance" />
+          <ScalarProperty Name="Segments" ColumnName="Segments" />
+          <ScalarProperty Name="User_Defined_String_2" ColumnName="User Defined String 2" />
+          <ScalarProperty Name="User_Defined_String_1" ColumnName="User Defined String 1" />
+          <ScalarProperty Name="User_Defined_2" ColumnName="User Defined 2" />
+          <ScalarProperty Name="User_Defined_1" ColumnName="User Defined 1" />
+          <ScalarProperty Name="Typical_Balance" ColumnName="Typical Balance" />
+          <ScalarProperty Name="Segment9" ColumnName="Segment9" />
+          <ScalarProperty Name="Segment8" ColumnName="Segment8" />
+          <ScalarProperty Name="Segment7" ColumnName="Segment7" />
+          <ScalarProperty Name="Segment6" ColumnName="Segment6" />
+          <ScalarProperty Name="Segment5" ColumnName="Segment5" />
+          <ScalarProperty Name="Segment4" ColumnName="Segment4" />
+          <ScalarProperty Name="Segment3" ColumnName="Segment3" />
+          <ScalarProperty Name="Segment2" ColumnName="Segment2" />
+          <ScalarProperty Name="Segment1" ColumnName="Segment1" />
+          <ScalarProperty Name="Post_Sales_In" ColumnName="Post Sales In" />
+          <ScalarProperty Name="Post_Purchasing_In" ColumnName="Post Purchasing In" />
+          <ScalarProperty Name="Post_Payroll_In" ColumnName="Post Payroll In" />
+          <ScalarProperty Name="Post_Inventory_In" ColumnName="Post Inventory In" />
+          <ScalarProperty Name="Note_Index" ColumnName="Note Index" />
+          <ScalarProperty Name="Modified_Date" ColumnName="Modified Date" />
+          <ScalarProperty Name="Main_Account_Segment" ColumnName="Main Account Segment" />
+          <ScalarProperty Name="Inflation_Revenue_Account_Index" ColumnName="Inflation Revenue Account Index" />
+          <ScalarProperty Name="Inflation_Equity_Account_Index" ColumnName="Inflation Equity Account Index" />
+          <ScalarProperty Name="Historical_Rate" ColumnName="Historical Rate" />
+          <ScalarProperty Name="Fixed_Or_Variable" ColumnName="Fixed Or Variable" />
+          <ScalarProperty Name="Decimal_Places" ColumnName="Decimal Places" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Conversion_Method" ColumnName="Conversion Method" />
+          <ScalarProperty Name="Balance_For_Calculation" ColumnName="Balance For Calculation" />
+          <ScalarProperty Name="Allow_Account_Entry" ColumnName="Allow Account Entry" />
+          <ScalarProperty Name="Adjust_for_Inflation" ColumnName="Adjust for Inflation" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Account_Type" ColumnName="Account Type" />
+          <ScalarProperty Name="Account_Index" ColumnName="Account Index" />
+          <ScalarProperty Name="Account_Alias" ColumnName="Account Alias" />
+          <ScalarProperty Name="Account_Category_Number" ColumnName="Account Category Number" />
+          <ScalarProperty Name="Posting_Type" ColumnName="Posting Type" />
+          <ScalarProperty Name="Account_Description" ColumnName="Account Description" />
+          <ScalarProperty Name="Account_Number" ColumnName="Account Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_ITEM_CHANNEL_COMMISSION">
+      <EntityTypeMapping TypeName="ATLANModel.ST_ITEM_CHANNEL_COMMISSION">
+        <MappingFragment StoreEntitySet="ST_ITEM_CHANNEL_COMMISSION">
+          <ScalarProperty Name="COMMISSION_PERCENT" ColumnName="COMMISSION_PERCENT" />
+          <ScalarProperty Name="CHANNEL_GL_MAPPING" ColumnName="CHANNEL_GL_MAPPING" />
+          <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_SYSFLEX_POLICY_RENEW">
+      <EntityTypeMapping TypeName="ATLANModel.ST_SYSFLEX_POLICY_RENEW">
+        <MappingFragment StoreEntitySet="ST_SYSFLEX_POLICY_RENEW">
+          <ScalarProperty Name="PROCESS_DATE" ColumnName="PROCESS_DATE" />
+          <ScalarProperty Name="PROCESS" ColumnName="PROCESS" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+          <ScalarProperty Name="CRDTAMNT" ColumnName="CRDTAMNT" />
+          <ScalarProperty Name="DEBITAMT" ColumnName="DEBITAMT" />
+          <ScalarProperty Name="ACTNUMST" ColumnName="ACTNUMST" />
+          <ScalarProperty Name="DistRef" ColumnName="DistRef" />
+          <ScalarProperty Name="DISTTYPE" ColumnName="DISTTYPE" />
+          <ScalarProperty Name="SOPNUMBE" ColumnName="SOPNUMBE" />
+          <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+          <ScalarProperty Name="TRANSACTION_SEQ" ColumnName="TRANSACTION_SEQ" />
+          <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+          <ScalarProperty Name="INITIAL_DATE" ColumnName="INITIAL_DATE" />
+          <ScalarProperty Name="ROWID" ColumnName="ROWID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_SYSFLEX_CHANGE_STATE_CUSTOMER" FunctionName="ATLANModel.Store.usp_SYSFLEX_CHANGE_STATE_CUSTOMER" />
+    <FunctionImportMapping FunctionImportName="usp_SYSFLEX_DELETE_RESERVE" FunctionName="ATLANModel.Store.usp_SYSFLEX_DELETE_RESERVE" />
+  </EntityContainerMapping>
+</Mapping>

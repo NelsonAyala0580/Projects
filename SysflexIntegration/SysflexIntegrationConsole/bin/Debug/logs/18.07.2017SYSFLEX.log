@@ -1,0 +1,64 @@
+2017-07-18 13:46:30,872 [9] DEBUG  - Sincronización de Cliente 1312065
+2017-07-18 13:46:58,465 [9] DEBUG  - Customer Actualizado 1312065
+2017-07-18 13:46:59,702 [9] DEBUG  - EXITO
+2017-07-18 13:47:11,821 [9] DEBUG  - Sincronización de Cliente 1324718
+2017-07-18 13:47:48,089 [9] DEBUG  - Customer Actualizado 1324718
+2017-07-18 13:47:48,307 [9] DEBUG  - EXITO
+2017-07-18 13:47:51,589 [9] DEBUG  - Sincronización de Cliente 1324972
+2017-07-18 13:48:00,733 [9] DEBUG  - Customer Actualizado 1324972
+2017-07-18 13:48:01,119 [9] DEBUG  - EXITO
+2017-07-18 13:48:05,442 [9] DEBUG  - Sincronización de Cliente 1324973
+2017-07-18 13:48:19,988 [9] DEBUG  - Customer Actualizado 1324973
+2017-07-18 13:48:20,254 [9] DEBUG  - EXITO
+2017-07-18 13:48:21,019 [9] DEBUG  - Sincronización de Cliente 1324963
+2017-07-18 13:48:23,645 [9] DEBUG  - Customer Actualizado 1324963
+2017-07-18 13:48:23,691 [9] DEBUG  - EXITO
+2017-07-18 13:48:24,020 [9] DEBUG  - Sincronización de Cliente 1324975
+2017-07-18 13:48:26,817 [9] DEBUG  - Customer Actualizado 1324975
+2017-07-18 13:48:26,848 [9] DEBUG  - EXITO
+2017-07-18 13:48:28,286 [9] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'ATLANModel.SYSFLEX_POLICY'. A member of the type, 'SUPERVISOR_CODE', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at MODEL.ATLANEntities.usp_ST_SYSFLEX_CUSTOMER_GET_POLICY() in C:\VSProjects\SysflexIntegration\MODEL\ATLAN.Context.cs:line 95
+   at PolicySync.DAL.PolicyDAL.GetPolicy() in C:\VSProjects\SysflexIntegration\PolicySync\DAL\PolicyDAL.cs:line 32
+2017-07-18 14:04:25,994 [8] DEBUG  - Sincronización de Cliente 1312065
+2017-07-18 14:04:40,832 [8] DEBUG  - Customer Actualizado 1312065
+2017-07-18 14:04:40,894 [8] DEBUG  - EXITO
+2017-07-18 14:04:41,316 [8] DEBUG  - Sincronización de Cliente 1324718
+2017-07-18 14:04:55,958 [8] DEBUG  - Customer Actualizado 1324718
+2017-07-18 14:04:56,020 [8] DEBUG  - EXITO
+2017-07-18 14:04:58,765 [8] DEBUG  - Sincronización de Cliente 1324972
+2017-07-18 14:05:11,907 [8] DEBUG  - Customer Actualizado 1324972
+2017-07-18 14:05:12,377 [8] DEBUG  - EXITO
+2017-07-18 14:05:14,616 [8] DEBUG  - Sincronización de Cliente 1324973
+2017-07-18 14:05:35,412 [8] DEBUG  - Customer Actualizado 1324973
+2017-07-18 14:05:35,474 [8] DEBUG  - EXITO
+2017-07-18 14:05:37,460 [8] DEBUG  - Sincronización de Cliente 1324963
+2017-07-18 14:05:44,637 [8] DEBUG  - Customer Actualizado 1324963
+2017-07-18 14:05:44,700 [8] DEBUG  - EXITO
+2017-07-18 14:05:45,106 [8] DEBUG  - Sincronización de Cliente 1324975
+2017-07-18 14:06:02,009 [8] DEBUG  - Customer Actualizado 1324975
+2017-07-18 14:06:02,792 [8] DEBUG  - EXITO
+2017-07-18 14:06:31,961 [8] DEBUG  - Inicia sincronización de Poliza: 4-05-464530
+2017-07-18 14:06:58,699 [8] DEBUG  - Inicia sincronización de Poliza: 4-05-464530
+2017-07-18 14:51:54,646 [8] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 32
+2017-07-18 15:04:50,964 [9] DEBUG  - Contruyendo encabezado
+2017-07-18 15:04:50,979 [9] DEBUG  - Creacion de numero de batch SF15:04 1872017
+2017-07-18 15:04:51,698 [9] DEBUG  - Se obtiene el cliente de GP 1-05-464533
+2017-07-18 15:05:11,812 [9] WARN  - No se ha encontrado el ITEMNMBR adecuado

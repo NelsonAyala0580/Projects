@@ -1,0 +1,30 @@
+2017-08-24 09:25:08,112 [9] DEBUG  - Inicia sincronización de Poliza: 1-05-485830
+2017-08-24 09:31:37,158 [10] DEBUG  - Inicia sincronización de Poliza: 1-05-485830
+2017-08-24 09:31:39,120 [10] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'ATLANModel.SYSFLEX_CUSTOMER'. A member of the type, 'COUNTRY', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at MODEL.ATLANEntities.usp_ST_SYSFLEX_POLICY_GET_PARENT(Nullable`1 cLIENTID) in C:\VSProjects\SysflexIntegration\MODEL\ATLAN.Context.cs:line 147
+   at PolicySync.DAL.PolicyDAL.GetPolicyParent(Int32 custnmbr) in C:\VSProjects\SysflexIntegration\PolicySync\DAL\PolicyDAL.cs:line 63
+2017-08-24 09:32:23,684 [10] DEBUG  - Inicia sincronización de Poliza: 1-05-485830
+2017-08-24 09:33:53,873 [10] DEBUG  - Poliza sincronizada correctamente: 1-05-485830
+2017-08-24 09:33:55,275 [10] DEBUG  - Finaliza la sincronización de Poliza: 1-05-485830
+2017-08-24 09:33:57,305 [10] DEBUG  - Inicia sincronización de Poliza: 1-05-425735
+2017-08-24 09:35:33,246 [10] DEBUG  - Inicia sincronización de Poliza: 1-05-485830
+2017-08-24 09:36:35,282 [10] DEBUG  - Poliza sincronizada correctamente: 1-05-485830
+2017-08-24 09:36:36,176 [10] DEBUG  - Finaliza la sincronización de Poliza: 1-05-485830
+2017-08-24 09:36:38,407 [10] DEBUG  - Inicia sincronización de Poliza: 1-05-425735
+2017-08-24 10:01:09,375 [10] DEBUG  - Poliza sincronizada correctamente: 1-05-425735

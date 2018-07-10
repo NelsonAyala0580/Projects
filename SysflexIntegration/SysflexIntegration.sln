@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysflexIntegrationTask", "SysflexIntegrationTask\SysflexIntegrationTask.csproj", "{BD59395C-CB05-44E5-B24C-477BF560DDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySync", "PolicySync\PolicySync.csproj", "{BEE08CD7-1EF1-4F0F-90EE-CA32A7DB1168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceSync", "InvoiceSync\InvoiceSync.csproj", "{6BA211BE-B115-447C-88E7-BCFD516E91BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPServicesREF", "GPServicesREF\GPServicesREF.csproj", "{63171933-59FB-4A1E-9F29-8858E2B21F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODEL", "MODEL\MODEL.csproj", "{BF0149A3-48EA-47DB-997C-ED8E54EFD2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysflexIntegrationConsole", "SysflexIntegrationConsole\SysflexIntegrationConsole.csproj", "{6D72BE8F-BDC0-44F9-A99E-95E1C9743F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysflexIntegrationUI", "SysflexIntegrationUI\SysflexIntegrationUI.csproj", "{9DEA94E4-F047-47D8-ADA0-8BA30CC43C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysflexIntegrationUTIL", "SysflexIntegrationUTIL\SysflexIntegrationUTIL.csproj", "{C031975F-B357-4DA1-807A-DB13D3EEB5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetMR", "Log4NetMR\Log4NetMR.csproj", "{94831F7B-EA17-4EDD-8291-2119F329F48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysflexIntegrationRenew", "SysflexIntegrationRenew\SysflexIntegrationRenew.csproj", "{CDB6F1AC-9B71-4172-BD3D-31E8585234A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyRenewSync", "PolicyRenewSync\PolicyRenewSync.csproj", "{0F77571D-86D2-4CB7-BB09-7F308788767C}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD59395C-CB05-44E5-B24C-477BF560DDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD59395C-CB05-44E5-B24C-477BF560DDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD59395C-CB05-44E5-B24C-477BF560DDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD59395C-CB05-44E5-B24C-477BF560DDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE08CD7-1EF1-4F0F-90EE-CA32A7DB1168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE08CD7-1EF1-4F0F-90EE-CA32A7DB1168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE08CD7-1EF1-4F0F-90EE-CA32A7DB1168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE08CD7-1EF1-4F0F-90EE-CA32A7DB1168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA211BE-B115-447C-88E7-BCFD516E91BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA211BE-B115-447C-88E7-BCFD516E91BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA211BE-B115-447C-88E7-BCFD516E91BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA211BE-B115-447C-88E7-BCFD516E91BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63171933-59FB-4A1E-9F29-8858E2B21F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63171933-59FB-4A1E-9F29-8858E2B21F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63171933-59FB-4A1E-9F29-8858E2B21F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63171933-59FB-4A1E-9F29-8858E2B21F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0149A3-48EA-47DB-997C-ED8E54EFD2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0149A3-48EA-47DB-997C-ED8E54EFD2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0149A3-48EA-47DB-997C-ED8E54EFD2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0149A3-48EA-47DB-997C-ED8E54EFD2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D72BE8F-BDC0-44F9-A99E-95E1C9743F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D72BE8F-BDC0-44F9-A99E-95E1C9743F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D72BE8F-BDC0-44F9-A99E-95E1C9743F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D72BE8F-BDC0-44F9-A99E-95E1C9743F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEA94E4-F047-47D8-ADA0-8BA30CC43C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEA94E4-F047-47D8-ADA0-8BA30CC43C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEA94E4-F047-47D8-ADA0-8BA30CC43C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEA94E4-F047-47D8-ADA0-8BA30CC43C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C031975F-B357-4DA1-807A-DB13D3EEB5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C031975F-B357-4DA1-807A-DB13D3EEB5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C031975F-B357-4DA1-807A-DB13D3EEB5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C031975F-B357-4DA1-807A-DB13D3EEB5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94831F7B-EA17-4EDD-8291-2119F329F48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94831F7B-EA17-4EDD-8291-2119F329F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94831F7B-EA17-4EDD-8291-2119F329F48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94831F7B-EA17-4EDD-8291-2119F329F48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB6F1AC-9B71-4172-BD3D-31E8585234A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB6F1AC-9B71-4172-BD3D-31E8585234A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB6F1AC-9B71-4172-BD3D-31E8585234A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB6F1AC-9B71-4172-BD3D-31E8585234A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F77571D-86D2-4CB7-BB09-7F308788767C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F77571D-86D2-4CB7-BB09-7F308788767C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F77571D-86D2-4CB7-BB09-7F308788767C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F77571D-86D2-4CB7-BB09-7F308788767C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

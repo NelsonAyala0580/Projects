@@ -1,0 +1,32 @@
+2017-06-28 13:12:32,095 [9] DEBUG  - Contruyendo encabezado
+2017-06-28 13:12:33,227 [9] DEBUG  - Creacion de numero de batch SF13:12 2862017
+2017-06-28 13:12:37,422 [9] DEBUG  - Se obtiene el cliente de GP 1-05-464533
+2017-06-28 13:14:33,957 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetCountryMapping(String country) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 372
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 122
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 158
+2017-06-28 13:14:34,876 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetCountryMapping(String country) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 372
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 122
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 180
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 50
+2017-06-28 14:27:14,971 [9] DEBUG  - Contruyendo encabezado
+2017-06-28 14:27:16,047 [9] DEBUG  - Creacion de numero de batch SF14:27 2862017
+2017-06-28 14:27:20,779 [9] DEBUG  - Se obtiene el cliente de GP 1-05-464533
+2017-06-28 14:28:02,635 [9] WARN  - Poliza no tiene pais asignado
+2017-06-28 14:28:02,649 [9] FATAL  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetCountryMapping(String country) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 380
+2017-06-28 14:28:06,463 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetCountryMapping(String country) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 390
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 125
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 158
+2017-06-28 14:28:16,785 [9] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MODEL.AccountBuilder.GetCountryMapping(String country) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 390
+   at MODEL.AccountBuilder.BuildSalesAccount(Int32 typeAccount, String line_of_business, String policy_type, String vehicle_type, String zone, String country, String channel, String supervisor, String coverage) in C:\VSProjects\SysflexIntegration\MODEL\AccountBuilder.cs:line 125
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 180
+   at InvoiceSync.InvoiceSyncTask.Process() in C:\VSProjects\SysflexIntegration\InvoiceSync\InvoiceSyncTask.cs:line 50

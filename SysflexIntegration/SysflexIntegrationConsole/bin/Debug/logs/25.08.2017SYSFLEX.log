@@ -1,0 +1,8 @@
+2017-08-25 12:19:35,646 [9] DEBUG  - Contruyendo encabezado
+2017-08-25 12:19:35,646 [9] DEBUG  - Creacion de numero de batch SF12:19 2582017
+2017-08-25 12:19:36,362 [9] DEBUG  - Se obtiene el cliente de GP 05-049809-2007
+2017-08-25 12:19:52,604 [9] WARN  - Poliza no tiene supervisor Asignado
+2017-08-25 12:19:58,909 [9] WARN  - Poliza no tiene supervisor Asignado
+2017-08-25 12:28:28,309 [9] DEBUG  - Contruyendo encabezado
+2017-08-25 12:28:28,316 [9] DEBUG  - Creacion de numero de batch SF12:28 2582017
+2017-08-25 12:28:29,028 [9] DEBUG  - Se obtiene el cliente de GP 05-049809-2007

@@ -1,0 +1,44 @@
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.dll.config
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\log4net.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\MODEL.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\PolicySync.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\MODEL.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\PolicySync.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\InvoiceSync\bin\Release\log4net.xml
+C:\VSProjects\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.dll
+C:\VSProjects\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\InvoiceSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\PolicySync.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\PolicySync.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\bin\Release\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.dll
+C:\VSProjects GP2018\SysflexIntegration\InvoiceSync\obj\Release\InvoiceSync.pdb

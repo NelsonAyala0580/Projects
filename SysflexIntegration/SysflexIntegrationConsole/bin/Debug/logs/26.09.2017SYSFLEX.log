@@ -1,0 +1,21 @@
+2017-09-26 10:00:43,906 [9] DEBUG  - Total de Transacciones: 1
+2017-09-26 10:01:11,593 [9] DEBUG  - Contruyendo encabezado
+2017-09-26 10:01:14,150 [9] DEBUG  - Creacion de numero de batch SF269201710:1
+2017-09-26 10:01:28,433 [9] DEBUG  - Se obtiene el cliente de GP 1-05-490452
+2017-09-26 17:01:47,987 [10] DEBUG  - Total de Transacciones: 3312
+2017-09-26 17:02:04,252 [10] DEBUG  - Contruyendo encabezado
+2017-09-26 17:02:04,568 [10] DEBUG  - Creacion de numero de batch SF269201717:2
+2017-09-26 17:02:07,169 [10] DEBUG  - Se obtiene el cliente de GP 1-05-430745
+2017-09-26 17:03:15,474 [10] DEBUG  - Total de Transacciones: 3314
+2017-09-26 17:04:01,167 [10] DEBUG  - Total de Transacciones: 1
+2017-09-26 17:04:13,830 [10] DEBUG  - Contruyendo encabezado
+2017-09-26 17:04:14,246 [10] DEBUG  - Creacion de numero de batch SF269201717
+2017-09-26 17:04:16,392 [10] DEBUG  - Se obtiene el cliente de GP 12-05-481515
+2017-09-26 17:09:56,971 [9] DEBUG  - Total de Transacciones: 1
+2017-09-26 17:10:03,592 [9] DEBUG  - Contruyendo encabezado
+2017-09-26 17:10:04,024 [9] DEBUG  - Creacion de numero de batch SF269201717
+2017-09-26 17:10:07,158 [9] DEBUG  - Se obtiene el cliente de GP 12-05-481515
+2017-09-26 17:17:38,568 [9] DEBUG  - Total de Transacciones: 1
+2017-09-26 17:17:47,320 [9] DEBUG  - Contruyendo encabezado
+2017-09-26 17:17:47,758 [9] DEBUG  - Creacion de numero de batch SF269201717
+2017-09-26 17:17:49,706 [9] DEBUG  - Se obtiene el cliente de GP 12-05-481515

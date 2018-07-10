@@ -1,0 +1,126 @@
+2017-07-31 17:01:46,919 [10] DEBUG  - Sincronización de Cliente 1296377
+2017-07-31 17:02:07,973 [10] DEBUG  - Customer Actualizado 1296377
+2017-07-31 17:02:08,085 [10] DEBUG  - EXITO
+2017-07-31 17:02:10,400 [10] DEBUG  - Sincronización de Cliente 1324702
+2017-07-31 17:02:21,868 [10] DEBUG  - Customer Actualizado 1324702
+2017-07-31 17:02:21,868 [10] DEBUG  - EXITO
+2017-07-31 17:02:21,868 [10] DEBUG  - Sincronización de Cliente 1324718
+2017-07-31 17:02:22,381 [10] DEBUG  - Customer Actualizado 1324718
+2017-07-31 17:02:22,381 [10] DEBUG  - EXITO
+2017-07-31 17:02:22,381 [10] DEBUG  - Sincronización de Cliente 1324972
+2017-07-31 17:02:22,909 [10] DEBUG  - Customer Actualizado 1324972
+2017-07-31 17:02:22,909 [10] DEBUG  - EXITO
+2017-07-31 17:02:22,909 [10] DEBUG  - Sincronización de Cliente 1324973
+2017-07-31 17:02:23,518 [10] DEBUG  - Customer Actualizado 1324973
+2017-07-31 17:02:23,518 [10] DEBUG  - EXITO
+2017-07-31 17:02:23,518 [10] DEBUG  - Sincronización de Cliente 1324975
+2017-07-31 17:02:24,002 [10] DEBUG  - Customer Actualizado 1324975
+2017-07-31 17:02:24,002 [10] DEBUG  - EXITO
+2017-07-31 17:02:24,002 [10] DEBUG  - Sincronización de Cliente 1266019
+2017-07-31 17:02:24,545 [10] DEBUG  - Customer Actualizado 1266019
+2017-07-31 17:02:24,545 [10] DEBUG  - EXITO
+2017-07-31 17:02:24,545 [10] DEBUG  - Sincronización de Cliente 1321624
+2017-07-31 17:02:25,232 [10] DEBUG  - Customer Actualizado 1321624
+2017-07-31 17:02:25,232 [10] DEBUG  - EXITO
+2017-07-31 17:02:25,232 [10] DEBUG  - Sincronización de Cliente 1304122
+2017-07-31 17:02:25,684 [10] DEBUG  - Customer Actualizado 1304122
+2017-07-31 17:02:25,684 [10] DEBUG  - EXITO
+2017-07-31 17:02:25,684 [10] DEBUG  - Sincronización de Cliente 1287181
+2017-07-31 17:02:26,126 [10] DEBUG  - Customer Actualizado 1287181
+2017-07-31 17:02:26,126 [10] DEBUG  - EXITO
+2017-07-31 17:02:26,126 [10] DEBUG  - Sincronización de Cliente 1286008
+2017-07-31 17:02:26,547 [10] DEBUG  - Customer Actualizado 1286008
+2017-07-31 17:02:26,547 [10] DEBUG  - EXITO
+2017-07-31 17:02:26,547 [10] DEBUG  - Sincronización de Cliente 259774
+2017-07-31 17:02:27,024 [10] DEBUG  - Customer Actualizado 259774
+2017-07-31 17:02:27,024 [10] DEBUG  - EXITO
+2017-07-31 17:02:27,024 [10] DEBUG  - Sincronización de Cliente 4587
+2017-07-31 17:02:27,440 [10] DEBUG  - Customer Actualizado 4587
+2017-07-31 17:02:27,440 [10] DEBUG  - EXITO
+2017-07-31 17:02:27,440 [10] DEBUG  - Sincronización de Cliente 48833
+2017-07-31 17:02:27,954 [10] DEBUG  - Customer Actualizado 48833
+2017-07-31 17:02:27,955 [10] DEBUG  - EXITO
+2017-07-31 17:02:27,955 [10] DEBUG  - Sincronización de Cliente 11
+2017-07-31 17:02:28,494 [10] DEBUG  - Customer Actualizado 11
+2017-07-31 17:02:28,494 [10] DEBUG  - EXITO
+2017-07-31 17:02:28,494 [10] DEBUG  - Sincronización de Cliente 1324971
+2017-07-31 17:02:28,989 [10] DEBUG  - Customer Actualizado 1324971
+2017-07-31 17:02:28,989 [10] DEBUG  - EXITO
+2017-07-31 17:02:28,989 [10] DEBUG  - Sincronización de Cliente 1324948
+2017-07-31 17:02:29,627 [10] DEBUG  - Customer Actualizado 1324948
+2017-07-31 17:02:29,627 [10] DEBUG  - EXITO
+2017-07-31 17:02:29,627 [10] DEBUG  - Sincronización de Cliente 1323798
+2017-07-31 17:02:30,146 [10] DEBUG  - Customer Actualizado 1323798
+2017-07-31 17:02:30,146 [10] DEBUG  - EXITO
+2017-07-31 17:02:30,146 [10] DEBUG  - Sincronización de Cliente 1312065
+2017-07-31 17:02:30,617 [10] DEBUG  - Customer Actualizado 1312065
+2017-07-31 17:02:30,617 [10] DEBUG  - EXITO
+2017-07-31 17:02:30,617 [10] DEBUG  - Sincronización de Cliente 11325042
+2017-07-31 17:02:30,861 [10] ERROR  - Ocurrió un error: Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 65
+2017-07-31 17:02:30,888 [10] ERROR  - Ocurrió un error con el customer 11325042
+2017-07-31 17:02:30,888 [10] ERROR  - Detalle del error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 96
+   at CustomerSync.BL.CustomerBL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\BL\CustomerBL.cs:line 38
+   at CustomerSync.CustomerSyncTask.Process() in C:\VSProjects\SysflexIntegration\CustomerSync\CustomerSyncTask.cs:line 136
+2017-07-31 17:02:30,889 [10] DEBUG  - Sincronización de Cliente 11325044
+2017-07-31 17:02:31,138 [10] ERROR  - Ocurrió un error: Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 65
+2017-07-31 17:02:31,142 [10] ERROR  - Ocurrió un error con el customer 11325044
+2017-07-31 17:02:31,142 [10] ERROR  - Detalle del error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 96
+   at CustomerSync.BL.CustomerBL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\BL\CustomerBL.cs:line 38
+   at CustomerSync.CustomerSyncTask.Process() in C:\VSProjects\SysflexIntegration\CustomerSync\CustomerSyncTask.cs:line 136
+2017-07-31 17:02:31,142 [10] DEBUG  - Sincronización de Cliente 11325049
+2017-07-31 17:02:31,370 [10] ERROR  - Ocurrió un error: Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 65
+2017-07-31 17:02:31,373 [10] ERROR  - Ocurrió un error con el customer 11325049
+2017-07-31 17:02:31,373 [10] ERROR  - Detalle del error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.DAL.CustomerDAL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\DAL\CustomerDAL.cs:line 96
+   at CustomerSync.BL.CustomerBL.Customer_UpdateLastUpdate(ST_CLIENT_TABLE_SYNC customer) in C:\VSProjects\SysflexIntegration\CustomerSync\BL\CustomerBL.cs:line 38
+   at CustomerSync.CustomerSyncTask.Process() in C:\VSProjects\SysflexIntegration\CustomerSync\CustomerSyncTask.cs:line 136
+2017-07-31 17:02:31,373 [10] DEBUG  - Sincronización de Cliente 1324963
+2017-07-31 17:02:31,841 [10] DEBUG  - Customer Actualizado 1324963
+2017-07-31 17:02:31,841 [10] DEBUG  - EXITO
+2017-07-31 17:02:31,841 [10] DEBUG  - Sincronización de Cliente 1303939
+2017-07-31 17:02:32,306 [10] DEBUG  - Customer Actualizado 1303939
+2017-07-31 17:02:32,306 [10] DEBUG  - EXITO
+2017-07-31 17:02:32,306 [10] DEBUG  - Sincronización de Cliente 1297995
+2017-07-31 17:02:32,761 [10] DEBUG  - Customer Actualizado 1297995
+2017-07-31 17:02:32,761 [10] DEBUG  - EXITO
+2017-07-31 17:02:32,761 [10] DEBUG  - Sincronización de Cliente 1317247
+2017-07-31 17:02:33,401 [10] DEBUG  - Customer Actualizado 1317247
+2017-07-31 17:02:33,401 [10] DEBUG  - EXITO
+2017-07-31 17:02:33,401 [10] DEBUG  - Sincronización de Cliente 1308568
+2017-07-31 17:02:34,005 [10] DEBUG  - Customer Actualizado 1308568
+2017-07-31 17:02:34,005 [10] DEBUG  - EXITO
+2017-07-31 17:02:34,005 [10] DEBUG  - Sincronización de Cliente 53808
+2017-07-31 17:02:34,672 [10] DEBUG  - Customer Actualizado 53808
+2017-07-31 17:02:34,672 [10] DEBUG  - EXITO
+2017-07-31 17:02:34,672 [10] DEBUG  - Sincronización de Cliente 1274351
+2017-07-31 17:02:35,166 [10] DEBUG  - Customer Actualizado 1274351
+2017-07-31 17:02:35,166 [10] DEBUG  - EXITO
+2017-07-31 17:02:35,166 [10] DEBUG  - Sincronización de Cliente 1310760
+2017-07-31 17:02:35,590 [10] DEBUG  - Customer Actualizado 1310760
+2017-07-31 17:02:35,590 [10] DEBUG  - EXITO
+2017-07-31 17:02:35,590 [10] DEBUG  - Sincronización de Cliente 1319636
+2017-07-31 17:02:36,016 [10] DEBUG  - Customer Actualizado 1319636
+2017-07-31 17:02:36,016 [10] DEBUG  - EXITO
+2017-07-31 17:02:55,375 [10] DEBUG  - Inicia sincronización de Poliza: 5-1201-896
+2017-07-31 17:03:02,093 [10] ERROR  - Error al sincronizar la poliza: 5-1201-896
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 35
+2017-07-31 17:03:04,072 [10] DEBUG  - Inicia sincronización de Poliza: 5-1201-897
+2017-07-31 17:03:05,530 [10] ERROR  - Error al sincronizar la poliza: 5-1201-897
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 35
+2017-07-31 17:03:06,890 [10] DEBUG  - Inicia sincronización de Poliza: 5-1002-5
+2017-07-31 17:03:08,534 [10] ERROR  - Error al sincronizar la poliza: 5-1002-5
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PolicySync.PolicySyncTask.Process() in C:\VSProjects\SysflexIntegration\PolicySync\PolicySyncTask.cs:line 35

@@ -1,0 +1,20 @@
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.csprojResolveAssemblyReference.cache
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.pdb
+C:\Temp\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.dll
+C:\Temp\SysflexIntegration\SysflexIntegrationTask\bin\Debug\SysflexIntegrationTask.pdb
+C:\Temp\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.csprojResolveAssemblyReference.cache
+C:\Temp\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.dll
+C:\Temp\SysflexIntegration\SysflexIntegrationTask\obj\Debug\SysflexIntegrationTask.pdb

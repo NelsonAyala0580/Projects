@@ -1,0 +1,7 @@
+2018-02-06 17:55:25,335 [9] DEBUG  - Total de Transacciones: 1
+2018-02-06 17:57:10,241 [9] DEBUG  - Contruyendo encabezado
+2018-02-06 17:57:16,979 [9] DEBUG  - Creacion de numero de batch SFNC2612018
+2018-02-06 17:57:23,013 [9] DEBUG  - Se obtiene el cliente de GP 1-05-454936
+2018-02-06 17:58:12,260 [9] DEBUG  - Cuenta por cobrar: 6104-06-000-0000-00-00-000-00013-02
+2018-02-06 17:58:15,896 [9] DEBUG  - Cuenta de producto: 6104-06-000-0000-00-00-000-00043-01
+2018-02-06 18:02:21,470 [9] DEBUG  - Cuenta de impuestos: 6101-00-000-0000-00-00-000-00029-01

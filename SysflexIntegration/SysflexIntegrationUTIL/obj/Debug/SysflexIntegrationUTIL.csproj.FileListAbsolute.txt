@@ -1,0 +1,15 @@
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.pdb
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.csprojResolveAssemblyReference.cache
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\SysflexIntegrationUTIL\obj\Debug\SysflexIntegrationUTIL.pdb

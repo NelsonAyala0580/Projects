@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83c71b0fee0c42a98484898355004f13" Name="Diagram1">
+        <EntityTypeShape EntityType="ATLANModel.ST_CLIENT_TABLE_SYNC" Width="2.875" PointX="0.5" PointY="2" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_CUSTOMER_ADDITIONAL" Width="3" PointX="8.125" PointY="1.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_ACCOUNT_SETTINGS" Width="3" PointX="4.25" PointY="0.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_ACCOUNT_TYPE" Width="2.875" PointX="0.5" PointY="0.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_COUNTRY" Width="2.875" PointX="0.5" PointY="1" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_COVERAGE" Width="3" PointX="4.25" PointY="1" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_LINE_OF_BUSINESS" Width="3" PointX="4.25" PointY="1.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_POLICY_TYPE" Width="2.875" PointX="0.5" PointY="1.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_VEHICLE_TYPE" Width="3" PointX="4.25" PointY="3.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_ZONE" Width="3" PointX="8.125" PointY="0.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_ITEM_SALESPERSON_COMMISSION" Width="3" PointX="4.25" PointY="3" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_POLICY_TABLE_SYNC" Width="3" PointX="4.25" PointY="2.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_TRANSACTION_SYNC" Width="3" PointX="8.125" PointY="1" IsExpanded="false" />
+        <AssociationConnector Association="ATLANModel.FK_ST_GL_MAPPING_ACCOUNT_TYPE" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ATLANModel.RM00201" Width="2.875" PointX="0.5" PointY="2.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.IV00101" Width="3" PointX="4.25" PointY="2" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.RM00101" Width="2.875" PointX="0.5" PointY="3" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_SUPERVISOR" Width="3" PointX="4.25" PointY="4" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_REINSURANCE" Width="3" PointX="4.25" PointY="4.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.RM00301" Width="3" PointX="8.125" PointY="2" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_SYSFLEX_POLICY_RENEW" Width="3" PointX="8.125" PointY="2.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_GL_MAPPING_CHANNEL" Width="2.875" PointX="0.5" PointY="3.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_ITEMNMBR_ACCOUNT_CODE" Width="2.875" PointX="0.5" PointY="4" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_ITEM_CHANNEL_COMMISSION" Width="2.875" PointX="0.5" PointY="4.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="ATLANModel.ST_CHANNEL_NO_COMMISSION" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="ATLANModel.ST_SYSFLEX_POLICY_RENEW_NC" Width="3" PointX="8.125" PointY="3" IsExpanded="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,24 @@
+C:\VSProjects\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll.config
+C:\VSProjects\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\Log4NetMR\bin\Debug\log4net.dll
+C:\VSProjects\SysflexIntegration\Log4NetMR\bin\Debug\log4net.xml
+C:\VSProjects\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll.config
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\bin\Debug\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\bin\Debug\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.pdb
+C:\Temp\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll.config
+C:\Temp\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.dll
+C:\Temp\SysflexIntegration\Log4NetMR\bin\Debug\Log4NetMR.pdb
+C:\Temp\SysflexIntegration\Log4NetMR\bin\Debug\log4net.dll
+C:\Temp\SysflexIntegration\Log4NetMR\bin\Debug\log4net.xml
+C:\Temp\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.csprojResolveAssemblyReference.cache
+C:\Temp\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.dll
+C:\Temp\SysflexIntegration\Log4NetMR\obj\Debug\Log4NetMR.pdb

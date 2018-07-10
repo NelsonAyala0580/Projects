@@ -1,0 +1,58 @@
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll.config
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\MODEL.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\MODEL.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.xml
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.xml
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.csprojResolveAssemblyReference.cache
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.pdb
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\log4net.dll
+\\stsv-srv12\users\nayala\documents\visual studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\log4net.xml
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.dll
+\\stsv-srv12\users\nayala\Documents\Visual Studio 2015\Projects\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll.config
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\log4net.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\MODEL.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\MODEL.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\log4net.xml
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.pdb
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\CustomerSync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll.config
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\CustomerSync.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\GPServicesREF.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\bin\Debug\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.dll
+C:\VSProjects GP2018\SysflexIntegration\CustomerSync\obj\Debug\CustomerSync.pdb

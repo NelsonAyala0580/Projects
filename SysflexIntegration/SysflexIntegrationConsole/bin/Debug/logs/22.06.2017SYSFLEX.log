@@ -1,0 +1,5 @@
+2017-06-22 18:44:55,674 [8] WARN  - Customer Actualizado 87068
+2017-06-22 18:44:58,858 [8] WARN  - EXITO
+2017-06-22 18:45:02,194 [8] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerSync.CustomerSyncTask.Process() in C:\VSProjects\SysflexIntegration\CustomerSync\CustomerSyncTask.cs:line 34

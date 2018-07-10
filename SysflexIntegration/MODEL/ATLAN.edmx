@@ -1,0 +1,2617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ATLANModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="IV00101">
+          <Key>
+            <PropertyRef Name="ITEMNMBR" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="ITEMDESC" Type="char" MaxLength="101" Nullable="false" />
+          <Property Name="NOTEINDX" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="ITMSHNAM" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="ITEMTYPE" Type="smallint" Nullable="false" />
+          <Property Name="ITMGEDSC" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="STNDCOST" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CURRCOST" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="ITEMSHWT" Type="int" Nullable="false" />
+          <Property Name="DECPLQTY" Type="smallint" Nullable="false" />
+          <Property Name="DECPLCUR" Type="smallint" Nullable="false" />
+          <Property Name="ITMTSHID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="TAXOPTNS" Type="smallint" Nullable="false" />
+          <Property Name="IVIVINDX" Type="int" Nullable="false" />
+          <Property Name="IVIVOFIX" Type="int" Nullable="false" />
+          <Property Name="IVCOGSIX" Type="int" Nullable="false" />
+          <Property Name="IVSLSIDX" Type="int" Nullable="false" />
+          <Property Name="IVSLDSIX" Type="int" Nullable="false" />
+          <Property Name="IVSLRNIX" Type="int" Nullable="false" />
+          <Property Name="IVINUSIX" Type="int" Nullable="false" />
+          <Property Name="IVINSVIX" Type="int" Nullable="false" />
+          <Property Name="IVDMGIDX" Type="int" Nullable="false" />
+          <Property Name="IVVARIDX" Type="int" Nullable="false" />
+          <Property Name="DPSHPIDX" Type="int" Nullable="false" />
+          <Property Name="PURPVIDX" Type="int" Nullable="false" />
+          <Property Name="UPPVIDX" Type="int" Nullable="false" />
+          <Property Name="IVRETIDX" Type="int" Nullable="false" />
+          <Property Name="ASMVRIDX" Type="int" Nullable="false" />
+          <Property Name="ITMCLSCD" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="ITMTRKOP" Type="smallint" Nullable="false" />
+          <Property Name="LOTTYPE" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="KPERHIST" Type="tinyint" Nullable="false" />
+          <Property Name="KPTRXHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPCALHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPDSTHST" Type="tinyint" Nullable="false" />
+          <Property Name="ALWBKORD" Type="tinyint" Nullable="false" />
+          <Property Name="VCTNMTHD" Type="smallint" Nullable="false" />
+          <Property Name="UOMSCHDL" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="ALTITEM1" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="ALTITEM2" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="USCATVLS_1" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="USCATVLS_2" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="USCATVLS_3" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="USCATVLS_4" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="USCATVLS_5" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="USCATVLS_6" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="MSTRCDTY" Type="smallint" Nullable="false" />
+          <Property Name="MODIFDT" Type="datetime" Nullable="false" />
+          <Property Name="CREATDDT" Type="datetime" Nullable="false" />
+          <Property Name="WRNTYDYS" Type="smallint" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="LOCNCODE" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="PINFLIDX" Type="int" Nullable="false" />
+          <Property Name="PURMCIDX" Type="int" Nullable="false" />
+          <Property Name="IVINFIDX" Type="int" Nullable="false" />
+          <Property Name="INVMCIDX" Type="int" Nullable="false" />
+          <Property Name="CGSINFLX" Type="int" Nullable="false" />
+          <Property Name="CGSMCIDX" Type="int" Nullable="false" />
+          <Property Name="ITEMCODE" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="TCC" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="PriceGroup" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="PRICMTHD" Type="smallint" Nullable="false" />
+          <Property Name="PRCHSUOM" Type="char" MaxLength="9" Nullable="false" />
+          <Property Name="SELNGUOM" Type="char" MaxLength="9" Nullable="false" />
+          <Property Name="KTACCTSR" Type="smallint" Nullable="false" />
+          <Property Name="LASTGENSN" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="ABCCODE" Type="smallint" Nullable="false" />
+          <Property Name="Revalue_Inventory" Type="tinyint" Nullable="false" />
+          <Property Name="Tolerance_Percentage" Type="int" Nullable="false" />
+          <Property Name="Purchase_Item_Tax_Schedu" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="Purchase_Tax_Options" Type="smallint" Nullable="false" />
+          <Property Name="ITMPLNNNGTYP" Type="smallint" Nullable="false" />
+          <Property Name="STTSTCLVLPRCNTG" Type="smallint" Nullable="false" />
+          <Property Name="CNTRYORGN" Type="char" MaxLength="7" Nullable="false" />
+          <Property Name="INACTIVE" Type="tinyint" Nullable="false" />
+          <Property Name="MINSHELF1" Type="smallint" Nullable="false" />
+          <Property Name="MINSHELF2" Type="smallint" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="tinyint" Nullable="false" />
+          <Property Name="LOTEXPWARN" Type="tinyint" Nullable="false" />
+          <Property Name="LOTEXPWARNDAYS" Type="smallint" Nullable="false" />
+          <Property Name="LASTGENLOT" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="Lot_Split_Quantity" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="UseQtyOverageTolerance" Type="tinyint" Nullable="false" />
+          <Property Name="UseQtyShortageTolerance" Type="tinyint" Nullable="false" />
+          <Property Name="QtyOverTolerancePercent" Type="int" Nullable="false" />
+          <Property Name="QtyShortTolerancePercent" Type="int" Nullable="false" />
+          <Property Name="IVSCRVIX" Type="int" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="datetime" Nullable="false" />
+          <Property Name="DEX_ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RM00101">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CUSTNAME" Type="char" MaxLength="65" Nullable="false" />
+          <Property Name="CUSTCLAS" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CPRCSTNM" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CNTCPRSN" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="STMTNAME" Type="char" MaxLength="65" Nullable="false" />
+          <Property Name="SHRTNAME" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="ADRSCODE" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="UPSZONE" Type="char" MaxLength="3" Nullable="false" />
+          <Property Name="SHIPMTHD" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="TAXSCHID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="ADDRESS1" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="ADDRESS2" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="ADDRESS3" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="COUNTRY" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="CITY" Type="char" MaxLength="35" Nullable="false" />
+          <Property Name="STATE" Type="char" MaxLength="29" Nullable="false" />
+          <Property Name="ZIP" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="PHONE1" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="PHONE2" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="PHONE3" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="FAX" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="PRBTADCD" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="PRSTADCD" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="STADDRCD" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SLPRSNID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CHEKBKID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="PYMTRMID" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="CRLMTTYP" Type="smallint" Nullable="false" />
+          <Property Name="CRLMTAMT" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CRLMTPER" Type="smallint" Nullable="false" />
+          <Property Name="CRLMTPAM" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CURNCYID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="RATETPID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CUSTDISC" Type="smallint" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="MINPYTYP" Type="smallint" Nullable="false" />
+          <Property Name="MINPYDLR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="MINPYPCT" Type="smallint" Nullable="false" />
+          <Property Name="FNCHATYP" Type="smallint" Nullable="false" />
+          <Property Name="FNCHPCNT" Type="smallint" Nullable="false" />
+          <Property Name="FINCHDLR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="MXWOFTYP" Type="smallint" Nullable="false" />
+          <Property Name="MXWROFAM" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="COMMENT1" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="COMMENT2" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="USERDEF1" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="USERDEF2" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="TAXEXMT1" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="TAXEXMT2" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="TXRGNNUM" Type="char" MaxLength="25" Nullable="false" />
+          <Property Name="BALNCTYP" Type="smallint" Nullable="false" />
+          <Property Name="STMTCYCL" Type="smallint" Nullable="false" />
+          <Property Name="BANKNAME" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="BNKBRNCH" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="SALSTERR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="DEFCACTY" Type="smallint" Nullable="false" />
+          <Property Name="RMCSHACC" Type="int" Nullable="false" />
+          <Property Name="RMARACC" Type="int" Nullable="false" />
+          <Property Name="RMSLSACC" Type="int" Nullable="false" />
+          <Property Name="RMIVACC" Type="int" Nullable="false" />
+          <Property Name="RMCOSACC" Type="int" Nullable="false" />
+          <Property Name="RMTAKACC" Type="int" Nullable="false" />
+          <Property Name="RMAVACC" Type="int" Nullable="false" />
+          <Property Name="RMFCGACC" Type="int" Nullable="false" />
+          <Property Name="RMWRACC" Type="int" Nullable="false" />
+          <Property Name="RMSORACC" Type="int" Nullable="false" />
+          <Property Name="FRSTINDT" Type="datetime" Nullable="false" />
+          <Property Name="INACTIVE" Type="tinyint" Nullable="false" />
+          <Property Name="HOLD" Type="tinyint" Nullable="false" />
+          <Property Name="CRCARDID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CRCRDNUM" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="CCRDXPDT" Type="datetime" Nullable="false" />
+          <Property Name="KPDSTHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPCALHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPERHIST" Type="tinyint" Nullable="false" />
+          <Property Name="KPTRXHST" Type="tinyint" Nullable="false" />
+          <Property Name="NOTEINDX" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CREATDDT" Type="datetime" Nullable="false" />
+          <Property Name="MODIFDT" Type="datetime" Nullable="false" />
+          <Property Name="Revalue_Customer" Type="tinyint" Nullable="false" />
+          <Property Name="Post_Results_To" Type="smallint" Nullable="false" />
+          <Property Name="FINCHID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="GOVCRPID" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="GOVINDID" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="DISGRPER" Type="smallint" Nullable="false" />
+          <Property Name="DUEGRPER" Type="smallint" Nullable="false" />
+          <Property Name="DOCFMTID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="Send_Email_Statements" Type="tinyint" Nullable="false" />
+          <Property Name="USERLANG" Type="smallint" Nullable="false" />
+          <Property Name="GPSFOINTEGRATIONID" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="INTEGRATIONSOURCE" Type="smallint" Nullable="false" />
+          <Property Name="INTEGRATIONID" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="ORDERFULFILLDEFAULT" Type="smallint" Nullable="false" />
+          <Property Name="CUSTPRIORITY" Type="smallint" Nullable="false" />
+          <Property Name="CCode" Type="char" MaxLength="7" Nullable="false" />
+          <Property Name="DECLID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="RMOvrpymtWrtoffAcctIdx" Type="int" Nullable="false" />
+          <Property Name="SHIPCOMPLETE" Type="tinyint" Nullable="false" />
+          <Property Name="CBVAT" Type="tinyint" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="tinyint" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="datetime" Nullable="false" />
+          <Property Name="DEX_ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RM00201">
+          <Key>
+            <PropertyRef Name="CLASSID" />
+          </Key>
+          <Property Name="CLASSID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="CLASDSCR" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="CRLMTTYP" Type="smallint" Nullable="false" />
+          <Property Name="CRLMTAMT" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CRLMTPER" Type="smallint" Nullable="false" />
+          <Property Name="CRLMTPAM" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="DEFLTCLS" Type="tinyint" Nullable="false" />
+          <Property Name="BALNCTYP" Type="smallint" Nullable="false" />
+          <Property Name="CHEKBKID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="BANKNAME" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="TAXSCHID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SHIPMTHD" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="PYMTRMID" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="CUSTDISC" Type="smallint" Nullable="false" />
+          <Property Name="CSTPRLVL" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="MINPYTYP" Type="smallint" Nullable="false" />
+          <Property Name="MINPYDLR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="MINPYPCT" Type="smallint" Nullable="false" />
+          <Property Name="MXWOFTYP" Type="smallint" Nullable="false" />
+          <Property Name="MXWROFAM" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="FINCHARG" Type="tinyint" Nullable="false" />
+          <Property Name="FNCHATYP" Type="smallint" Nullable="false" />
+          <Property Name="FINCHDLR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="FNCHPCNT" Type="smallint" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="CURNCYID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="RATETPID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="DEFCACTY" Type="smallint" Nullable="false" />
+          <Property Name="RMCSHACC" Type="int" Nullable="false" />
+          <Property Name="RMARACC" Type="int" Nullable="false" />
+          <Property Name="RMCOSACC" Type="int" Nullable="false" />
+          <Property Name="RMIVACC" Type="int" Nullable="false" />
+          <Property Name="RMSLSACC" Type="int" Nullable="false" />
+          <Property Name="RMAVACC" Type="int" Nullable="false" />
+          <Property Name="RMTAKACC" Type="int" Nullable="false" />
+          <Property Name="RMFCGACC" Type="int" Nullable="false" />
+          <Property Name="RMWRACC" Type="int" Nullable="false" />
+          <Property Name="RMSORACC" Type="int" Nullable="false" />
+          <Property Name="SALSTERR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SLPRSNID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="STMTCYCL" Type="smallint" Nullable="false" />
+          <Property Name="SNDSTMNT" Type="tinyint" Nullable="false" />
+          <Property Name="INACTIVE" Type="tinyint" Nullable="false" />
+          <Property Name="KPCALHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPDSTHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPERHIST" Type="tinyint" Nullable="false" />
+          <Property Name="KPTRXHST" Type="tinyint" Nullable="false" />
+          <Property Name="NOTEINDX" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="MODIFDT" Type="datetime" Nullable="false" />
+          <Property Name="CREATDDT" Type="datetime" Nullable="false" />
+          <Property Name="Revalue_Customer" Type="tinyint" Nullable="false" />
+          <Property Name="Post_Results_To" Type="smallint" Nullable="false" />
+          <Property Name="DISGRPER" Type="smallint" Nullable="false" />
+          <Property Name="DUEGRPER" Type="smallint" Nullable="false" />
+          <Property Name="ORDERFULFILLDEFAULT" Type="smallint" Nullable="false" />
+          <Property Name="CUSTPRIORITY" Type="smallint" Nullable="false" />
+          <Property Name="RMOvrpymtWrtoffAcctIdx" Type="int" Nullable="false" />
+          <Property Name="CBVAT" Type="tinyint" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="tinyint" Nullable="false" />
+          <Property Name="DEX_ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RM00301">
+          <Key>
+            <PropertyRef Name="SLPRSNID" />
+          </Key>
+          <Property Name="SLPRSNID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="EMPLOYID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="VENDORID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SLPRSNFN" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SPRSNSMN" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="SPRSNSLN" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="ADDRESS1" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="ADDRESS2" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="ADDRESS3" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="CITY" Type="char" MaxLength="35" Nullable="false" />
+          <Property Name="STATE" Type="char" MaxLength="29" Nullable="false" />
+          <Property Name="ZIP" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="COUNTRY" Type="char" MaxLength="61" Nullable="false" />
+          <Property Name="PHONE1" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="PHONE2" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="PHONE3" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="FAX" Type="char" MaxLength="21" Nullable="false" />
+          <Property Name="INACTIVE" Type="tinyint" Nullable="false" />
+          <Property Name="SALSTERR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="COMMCODE" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="COMPRCNT" Type="smallint" Nullable="false" />
+          <Property Name="STDCPRCT" Type="smallint" Nullable="false" />
+          <Property Name="COMAPPTO" Type="smallint" Nullable="false" />
+          <Property Name="COSTTODT" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="CSTLSTYR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="TTLCOMTD" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="TTLCOMLY" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="COMSLTDT" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="COMSLLYR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="NCOMSLTD" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="NCOMSLYR" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="KPCALHST" Type="tinyint" Nullable="false" />
+          <Property Name="KPERHIST" Type="tinyint" Nullable="false" />
+          <Property Name="NOTEINDX" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+          <Property Name="MODIFDT" Type="datetime" Nullable="false" />
+          <Property Name="CREATDDT" Type="datetime" Nullable="false" />
+          <Property Name="COMMDEST" Type="smallint" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="datetime" Nullable="false" />
+          <Property Name="DEX_ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_CHANNEL_NO_COMMISSION">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CHANNEL" Type="char" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_CLIENT_TABLE_SYNC">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="LAST_GP_UPDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ST_CUSTOMER_ADDITIONAL">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="ZONE" Type="nvarchar" MaxLength="50" />
+          <Property Name="VEHICLE_TYPE" Type="nvarchar" MaxLength="30" />
+          <Property Name="POLICY_TYPE" Type="nvarchar" MaxLength="30" />
+          <Property Name="POLICY_NUMBER" Type="nvarchar" MaxLength="14" />
+          <Property Name="COUNT_VEHICLE" Type="int" />
+          <Property Name="INITAL_DATE" Type="datetime" />
+          <Property Name="DUE_DATE" Type="datetime" />
+          <Property Name="CLIENT_ID" Type="int" />
+          <Property Name="SUPERVISOR" Type="nvarchar" MaxLength="50" />
+          <Property Name="AGENT_ID" Type="smallint" />
+          <Property Name="AGENT_CODE" Type="nvarchar" MaxLength="5" />
+          <Property Name="AGENT" Type="nvarchar" MaxLength="50" />
+          <Property Name="MPV_total_bruto" Type="money" />
+          <Property Name="MPV_Descuento_flota" Type="money" />
+          <Property Name="MPV_Descuento_Experiencia" Type="money" />
+          <Property Name="MPV_ITBIS" Type="money" />
+          <Property Name="POLICY_STATUS" Type="nvarchar" MaxLength="2" />
+          <Property Name="CREATED_USER" Type="nvarchar" MaxLength="15" />
+          <Property Name="MODIFIED_USER" Type="nvarchar" MaxLength="15" />
+          <Property Name="COMMENT" Type="nvarchar" MaxLength="50" />
+          <Property Name="CHANNEL" Type="nvarchar" MaxLength="30" />
+          <Property Name="DATE_OF_BIRTH" Type="datetime" />
+          <Property Name="CORE_CREATION_DATE" Type="datetime" />
+          <Property Name="POLICY_CANCELLATION_DATE" Type="datetime" />
+          <Property Name="INSURED_QUANTITY" Type="decimal" Precision="19" Scale="5" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TYPEID" Type="int" Nullable="false" />
+          <Property Name="SEGMENT1" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="SEGMENT2" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="LINE_OF_BUSINESS" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="PRODUCT" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="UNIT_ACCOUNT1" Type="varchar" MaxLength="80" />
+          <Property Name="UNIT_ACCOUNT2" Type="varchar" MaxLength="80" />
+          <Property Name="UNIT_ACCOUNT3" Type="varchar" MaxLength="80" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ACCOUNT_TYPE">
+          <Key>
+            <PropertyRef Name="TYPEID" />
+          </Key>
+          <Property Name="TYPEID" Type="int" Nullable="false" />
+          <Property Name="NAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_CHANNEL">
+          <Key>
+            <PropertyRef Name="CHANNEL" />
+          </Key>
+          <Property Name="CHANNEL" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_COUNTRY">
+          <Key>
+            <PropertyRef Name="COUNTRY" />
+          </Key>
+          <Property Name="COUNTRY" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_COVERAGE">
+          <Key>
+            <PropertyRef Name="COVERAGE" />
+          </Key>
+          <Property Name="COVERAGE" Type="char" MaxLength="200" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_LINE_OF_BUSINESS">
+          <Key>
+            <PropertyRef Name="LINE_OF_BUSINESS" />
+          </Key>
+          <Property Name="LINE_OF_BUSINESS" Type="char" MaxLength="60" Nullable="false" />
+          <Property Name="CLASS_CODE" Type="char" MaxLength="1" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_POLICY_TYPE">
+          <Key>
+            <PropertyRef Name="POLICY_TYPE" />
+          </Key>
+          <Property Name="POLICY_TYPE" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_REINSURANCE">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsLocal" Type="bit" Nullable="false" />
+          <Property Name="IsFacult" Type="bit" Nullable="false" />
+          <Property Name="SEGMENT1" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="SEGMENT2" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="SEGMENT1_COMM" Type="varchar" MaxLength="6" />
+          <Property Name="SEGMENT2_COMM" Type="varchar" MaxLength="6" />
+          <Property Name="UNIT_ACCOUNT" Type="varchar" MaxLength="80" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_SUPERVISOR">
+          <Key>
+            <PropertyRef Name="SUPERVISOR" />
+          </Key>
+          <Property Name="SUPERVISOR_CODE" Type="int" />
+          <Property Name="SUPERVISOR" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+          <Property Name="ZONE_MAPPING" Type="char" MaxLength="10" />
+          <Property Name="CHANNEL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_VEHICLE_TYPE">
+          <Key>
+            <PropertyRef Name="VEHICLE_TYPE" />
+          </Key>
+          <Property Name="VEHICLE_TYPE" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ZONE">
+          <Key>
+            <PropertyRef Name="ZONE" />
+          </Key>
+          <Property Name="ZONE" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="ST_ITEM_CHANNEL_COMMISSION">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="char" MaxLength="50" Nullable="false" />
+          <Property Name="CHANNEL_GL_MAPPING" Type="char" MaxLength="50" Nullable="false" />
+          <Property Name="COMMISSION_PERCENT" Type="numeric" Precision="19" Scale="5" />
+          <Property Name="ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_ITEM_SALESPERSON_COMMISSION">
+          <Key>
+            <PropertyRef Name="SLPRSNID" />
+            <PropertyRef Name="ITEMNMBR" />
+          </Key>
+          <Property Name="ROW_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SLPRSNID" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="ITEMNMBR" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="COMMISSION_PERCENT" Type="decimal" Precision="18" Scale="5" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_ITEMNMBR_ACCOUNT_CODE">
+          <Key>
+            <PropertyRef Name="ITEMNMBR" />
+            <PropertyRef Name="ACCOUNT_CODE" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="char" MaxLength="31" Nullable="false" />
+          <Property Name="ACCOUNT_CODE" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="ROW_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_POLICY_TABLE_SYNC">
+          <Key>
+            <PropertyRef Name="POLICY_NUMBER" />
+          </Key>
+          <Property Name="POLICY_NUMBER" Type="char" MaxLength="15" Nullable="false" />
+          <Property Name="LAST_GP_UPDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ST_SYSFLEX_POLICY_RENEW">
+          <Key>
+            <PropertyRef Name="ROWID" />
+          </Key>
+          <Property Name="ROWID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INITIAL_DATE" Type="datetime" Nullable="false" />
+          <Property Name="CUSTNMBR" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="TRANSACTION_SEQ" Type="int" Nullable="false" />
+          <Property Name="DOCUMENT_NUMBER" Type="numeric" Precision="20" Scale="0" Nullable="false" />
+          <Property Name="SOPNUMBE" Type="varchar" MaxLength="20" />
+          <Property Name="DISTTYPE" Type="smallint" Nullable="false" />
+          <Property Name="DistRef" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ACTNUMST" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DEBITAMT" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CRDTAMNT" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CREATE_DATE" Type="datetime" Nullable="false" />
+          <Property Name="PROCESS" Type="bit" Nullable="false" />
+          <Property Name="PROCESS_DATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ST_SYSFLEX_POLICY_RENEW_NC">
+          <Key>
+            <PropertyRef Name="ROWID" />
+          </Key>
+          <Property Name="ROWID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INITIAL_DATE" Type="datetime" Nullable="false" />
+          <Property Name="CUSTNMBR" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="TRANSACTION_SEQ" Type="int" Nullable="false" />
+          <Property Name="DOCUMENT_NUMBER" Type="numeric" Precision="20" Scale="0" Nullable="false" />
+          <Property Name="NCNUMBER" Type="varchar" MaxLength="20" />
+          <Property Name="DISTTYPE" Type="smallint" Nullable="false" />
+          <Property Name="DistRef" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ACTNUMST" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DEBITAMT" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CRDTAMNT" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CREATE_DATE" Type="datetime" Nullable="false" />
+          <Property Name="PROCESS" Type="bit" Nullable="false" />
+          <Property Name="PROCESS_DATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ST_TRANSACTION_SYNC">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="POLICY_NUMBER" Type="char" MaxLength="15" />
+          <Property Name="TRANS_TYPE" Type="char" MaxLength="1" />
+          <Property Name="TRANS_DESC" Type="char" MaxLength="75" />
+          <Property Name="TRANS_DATE" Type="datetime" />
+          <Property Name="TRANS_AMOUNT" Type="numeric" Precision="19" Scale="5" />
+          <Property Name="DOCUMENT_NUMBER" Type="char" MaxLength="20" />
+          <Property Name="ACTUAL_BALANCE" Type="numeric" Precision="19" Scale="5" />
+          <Property Name="COMMENT" Type="char" MaxLength="75" />
+          <Property Name="TRANS_USER" Type="char" MaxLength="15" />
+          <Property Name="MODIFIED_DATE" Type="datetime" />
+          <Property Name="SYNC_CREATE_DATE" Type="datetime" />
+          <Property Name="GP_PROCESS_DATE" Type="datetime" />
+          <Property Name="GP_PROCESS_USER" Type="char" MaxLength="15" />
+          <Property Name="GP_MODULE" Type="char" MaxLength="3" />
+          <Property Name="GP_DOCTYPE" Type="int" />
+          <Property Name="GP_DOCNUMBR" Type="char" MaxLength="20" />
+          <Property Name="RENEWAL_TYPE" Type="char" MaxLength="10" />
+          <Property Name="DOCUMENT_TYPE" Type="int" />
+          <Property Name="DOCUMENT_CANCELLED" Type="bit" />
+          <Property Name="NCF" Type="char" MaxLength="19" />
+          <Property Name="ASSIGNED_DOC_NUMBER" Type="char" MaxLength="20" />
+          <Property Name="TRANSACTION_SEQUENCE" Type="int" />
+        </EntityType>
+        <Association Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+          <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" Type="Self.ST_GL_MAPPING_ACCOUNT_TYPE" Multiplicity="1" />
+          <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" Type="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ST_GL_MAPPING_ACCOUNT_TYPE">
+              <PropertyRef Name="TYPEID" />
+            </Principal>
+            <Dependent Role="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+              <PropertyRef Name="TYPEID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="pSP_CREAR_CUENTAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ACTNUMST" Type="varchar" Mode="In" />
+          <Parameter Name="ACTDESCR" Type="varchar" Mode="In" />
+          <Parameter Name="TPCLBLNC" Type="int" Mode="In" />
+          <Parameter Name="PSTNGTYP" Type="int" Mode="In" />
+          <Parameter Name="ACCTTYPE" Type="int" Mode="In" />
+          <Parameter Name="CATEGORY" Type="char" Mode="In" />
+          <Parameter Name="DECPLACS" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_GL_VERIFY_ACCOUNT_EXISTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ACTNUMST" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="LINE_OF_BUSINESS" Type="varchar" Mode="In" />
+          <Parameter Name="POLICY_TYPE" Type="varchar" Mode="In" />
+          <Parameter Name="VEHICLE_TYPE" Type="varchar" Mode="In" />
+          <Parameter Name="ZONE" Type="varchar" Mode="In" />
+          <Parameter Name="COUNTRY" Type="varchar" Mode="In" />
+          <Parameter Name="CHANNEL" Type="varchar" Mode="In" />
+          <Parameter Name="SUPERVISOR" Type="varchar" Mode="In" />
+          <Parameter Name="GPProductID" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="POLICY_NUMBER" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="POLICY_NUMBER" Type="varchar" Mode="In" />
+          <Parameter Name="TRANS_TYPE" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CUSTNMBR" Type="varchar" Mode="In" />
+          <Parameter Name="Transaction_Secuence" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_RENEW_DATES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="YEAR" Type="int" Mode="In" />
+          <Parameter Name="MONTH" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_RENEW_INVOICES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="INITIAL_DATE" Type="date" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="POLICY_NUMBER" Type="varchar" Mode="In" />
+          <Parameter Name="Transaction_Secuence" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_GET_TRANSACTIONS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="usp_ST_SYSFLEX_INSERT_TRANSACTIONS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="usp_ST_SYSFLEX_POLICY_GET_PARENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CLIENTID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_ST_SYSFLEX_UPDATE_COMMISSION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DOCTYPE" Type="int" Mode="In" />
+          <Parameter Name="MODULE" Type="varchar" Mode="In" />
+          <Parameter Name="POLICY_NUMBER" Type="varchar" Mode="In" />
+          <Parameter Name="TRANSACTION_SEQUENCE" Type="int" Mode="In" />
+        </Function>
+        <Function Name="usp_SYSFLEX_CHANGE_STATE_CUSTOMER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CUSTNMBR" Type="varchar" Mode="In" />
+          <Parameter Name="STATUS" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="usp_SYSFLEX_DELETE_RESERVE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="SOPNUMBE" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_SYSFLEX_GET_POSTING_DITRIBUTION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="SOPNUMBE" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_SYSFLEX_GET_UNIT_DISTRIBUTION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="SOPNUMBE" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="usp_SYSFLEX_RENEW_UPDATE_STATE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="INITIAL_DATE" Type="date" Mode="In" />
+        </Function>
+        <EntityContainer Name="ATLANModelStoreContainer">
+          <EntitySet Name="IV00101" EntityType="Self.IV00101" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RM00101" EntityType="Self.RM00101" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RM00201" EntityType="Self.RM00201" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RM00301" EntityType="Self.RM00301" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_CHANNEL_NO_COMMISSION" EntityType="Self.ST_CHANNEL_NO_COMMISSION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_CLIENT_TABLE_SYNC" EntityType="Self.ST_CLIENT_TABLE_SYNC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_CUSTOMER_ADDITIONAL" EntityType="Self.ST_CUSTOMER_ADDITIONAL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntityType="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_ACCOUNT_TYPE" EntityType="Self.ST_GL_MAPPING_ACCOUNT_TYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_CHANNEL" EntityType="Self.ST_GL_MAPPING_CHANNEL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_COUNTRY" EntityType="Self.ST_GL_MAPPING_COUNTRY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_COVERAGE" EntityType="Self.ST_GL_MAPPING_COVERAGE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_LINE_OF_BUSINESS" EntityType="Self.ST_GL_MAPPING_LINE_OF_BUSINESS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_POLICY_TYPE" EntityType="Self.ST_GL_MAPPING_POLICY_TYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_REINSURANCE" EntityType="Self.ST_GL_MAPPING_REINSURANCE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_SUPERVISOR" EntityType="Self.ST_GL_MAPPING_SUPERVISOR" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_VEHICLE_TYPE" EntityType="Self.ST_GL_MAPPING_VEHICLE_TYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_GL_MAPPING_ZONE" EntityType="Self.ST_GL_MAPPING_ZONE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_ITEM_CHANNEL_COMMISSION" EntityType="Self.ST_ITEM_CHANNEL_COMMISSION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_ITEM_SALESPERSON_COMMISSION" EntityType="Self.ST_ITEM_SALESPERSON_COMMISSION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_ITEMNMBR_ACCOUNT_CODE" EntityType="Self.ST_ITEMNMBR_ACCOUNT_CODE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_POLICY_TABLE_SYNC" EntityType="Self.ST_POLICY_TABLE_SYNC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_SYSFLEX_POLICY_RENEW" EntityType="Self.ST_SYSFLEX_POLICY_RENEW" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_SYSFLEX_POLICY_RENEW_NC" EntityType="Self.ST_SYSFLEX_POLICY_RENEW_NC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ST_TRANSACTION_SYNC" EntityType="Self.ST_TRANSACTION_SYNC" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE" Association="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+            <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" EntitySet="ST_GL_MAPPING_ACCOUNT_TYPE" />
+            <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntitySet="ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ATLANModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ST_CLIENT_TABLE_SYNC">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LAST_GP_UPDATE" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="ST_CUSTOMER_ADDITIONAL">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ZONE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VEHICLE_TYPE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="POLICY_TYPE" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="POLICY_NUMBER" Type="String" MaxLength="14" FixedLength="false" Unicode="true" />
+          <Property Name="COUNT_VEHICLE" Type="Int32" />
+          <Property Name="INITAL_DATE" Type="DateTime" Precision="3" />
+          <Property Name="DUE_DATE" Type="DateTime" Precision="3" />
+          <Property Name="CLIENT_ID" Type="Int32" />
+          <Property Name="SUPERVISOR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AGENT_ID" Type="Int16" />
+          <Property Name="AGENT_CODE" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="AGENT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MPV_total_bruto" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MPV_Descuento_flota" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MPV_Descuento_Experiencia" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MPV_ITBIS" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="POLICY_STATUS" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="CREATED_USER" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="MODIFIED_USER" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="COMMENT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CHANNEL" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="DATE_OF_BIRTH" Type="DateTime" Precision="3" />
+          <Property Name="CORE_CREATION_DATE" Type="DateTime" Precision="3" />
+          <Property Name="POLICY_CANCELLATION_DATE" Type="DateTime" Precision="3" />
+          <Property Name="INSURED_QUANTITY" Type="Decimal" Precision="19" Scale="5" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TYPEID" Type="Int32" Nullable="false" />
+          <Property Name="SEGMENT1" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SEGMENT2" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LINE_OF_BUSINESS" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PRODUCT" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ST_GL_MAPPING_ACCOUNT_TYPE" Relationship="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE" FromRole="ST_GL_MAPPING_ACCOUNT_SETTINGS" ToRole="ST_GL_MAPPING_ACCOUNT_TYPE" />
+          <Property Name="UNIT_ACCOUNT1" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="UNIT_ACCOUNT2" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="UNIT_ACCOUNT3" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ACCOUNT_TYPE">
+          <Key>
+            <PropertyRef Name="TYPEID" />
+          </Key>
+          <Property Name="TYPEID" Type="Int32" Nullable="false" />
+          <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ST_GL_MAPPING_ACCOUNT_SETTINGS" Relationship="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE" FromRole="ST_GL_MAPPING_ACCOUNT_TYPE" ToRole="ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_COUNTRY">
+          <Key>
+            <PropertyRef Name="COUNTRY" />
+          </Key>
+          <Property Name="COUNTRY" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_COVERAGE">
+          <Key>
+            <PropertyRef Name="COVERAGE" />
+          </Key>
+          <Property Name="COVERAGE" Type="String" MaxLength="200" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_LINE_OF_BUSINESS">
+          <Key>
+            <PropertyRef Name="LINE_OF_BUSINESS" />
+          </Key>
+          <Property Name="LINE_OF_BUSINESS" Type="String" MaxLength="60" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CLASS_CODE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_POLICY_TYPE">
+          <Key>
+            <PropertyRef Name="POLICY_TYPE" />
+          </Key>
+          <Property Name="POLICY_TYPE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_VEHICLE_TYPE">
+          <Key>
+            <PropertyRef Name="VEHICLE_TYPE" />
+          </Key>
+          <Property Name="VEHICLE_TYPE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_ZONE">
+          <Key>
+            <PropertyRef Name="ZONE" />
+          </Key>
+          <Property Name="ZONE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_ITEM_SALESPERSON_COMMISSION">
+          <Key>
+            <PropertyRef Name="SLPRSNID" />
+            <PropertyRef Name="ITEMNMBR" />
+          </Key>
+          <Property Name="ROW_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SLPRSNID" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ITEMNMBR" Type="String" MaxLength="31" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="COMMISSION_PERCENT" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ST_POLICY_TABLE_SYNC">
+          <Key>
+            <PropertyRef Name="POLICY_NUMBER" />
+          </Key>
+          <Property Name="POLICY_NUMBER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LAST_GP_UPDATE" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="ST_TRANSACTION_SYNC">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="Guid" Nullable="false" />
+          <Property Name="POLICY_NUMBER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="TRANS_TYPE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="TRANS_DESC" Type="String" MaxLength="75" FixedLength="true" Unicode="false" />
+          <Property Name="TRANS_DATE" Type="DateTime" Precision="3" />
+          <Property Name="TRANS_AMOUNT" Type="Decimal" Precision="19" Scale="5" />
+          <Property Name="DOCUMENT_NUMBER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="ACTUAL_BALANCE" Type="Decimal" Precision="19" Scale="5" />
+          <Property Name="COMMENT" Type="String" MaxLength="75" FixedLength="true" Unicode="false" />
+          <Property Name="TRANS_USER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" Precision="3" />
+          <Property Name="SYNC_CREATE_DATE" Type="DateTime" Precision="3" />
+          <Property Name="GP_PROCESS_DATE" Type="DateTime" Precision="3" />
+          <Property Name="GP_PROCESS_USER" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="GP_MODULE" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="GP_DOCTYPE" Type="Int32" />
+          <Property Name="GP_DOCNUMBR" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="RENEWAL_TYPE" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="DOCUMENT_TYPE" Type="Int32" />
+          <Property Name="DOCUMENT_CANCELLED" Type="Boolean" />
+          <Property Name="NCF" Type="String" MaxLength="19" FixedLength="true" Unicode="false" />
+          <Property Name="ASSIGNED_DOC_NUMBER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="TRANSACTION_SEQUENCE" Type="Int32" />
+        </EntityType>
+        <Association Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+          <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" Type="Self.ST_GL_MAPPING_ACCOUNT_TYPE" Multiplicity="1" />
+          <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" Type="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ST_GL_MAPPING_ACCOUNT_TYPE">
+              <PropertyRef Name="TYPEID" />
+            </Principal>
+            <Dependent Role="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+              <PropertyRef Name="TYPEID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ATLANEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ST_CLIENT_TABLE_SYNC" EntityType="Self.ST_CLIENT_TABLE_SYNC" />
+          <EntitySet Name="ST_CUSTOMER_ADDITIONAL" EntityType="Self.ST_CUSTOMER_ADDITIONAL" />
+          <EntitySet Name="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntityType="Self.ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+          <EntitySet Name="ST_GL_MAPPING_ACCOUNT_TYPE" EntityType="Self.ST_GL_MAPPING_ACCOUNT_TYPE" />
+          <EntitySet Name="ST_GL_MAPPING_COUNTRY" EntityType="Self.ST_GL_MAPPING_COUNTRY" />
+          <EntitySet Name="ST_GL_MAPPING_COVERAGE" EntityType="Self.ST_GL_MAPPING_COVERAGE" />
+          <EntitySet Name="ST_GL_MAPPING_LINE_OF_BUSINESS" EntityType="Self.ST_GL_MAPPING_LINE_OF_BUSINESS" />
+          <EntitySet Name="ST_GL_MAPPING_POLICY_TYPE" EntityType="Self.ST_GL_MAPPING_POLICY_TYPE" />
+          <EntitySet Name="ST_GL_MAPPING_VEHICLE_TYPE" EntityType="Self.ST_GL_MAPPING_VEHICLE_TYPE" />
+          <EntitySet Name="ST_GL_MAPPING_ZONE" EntityType="Self.ST_GL_MAPPING_ZONE" />
+          <EntitySet Name="ST_ITEM_SALESPERSON_COMMISSION" EntityType="Self.ST_ITEM_SALESPERSON_COMMISSION" />
+          <EntitySet Name="ST_POLICY_TABLE_SYNC" EntityType="Self.ST_POLICY_TABLE_SYNC" />
+          <EntitySet Name="ST_TRANSACTION_SYNC" EntityType="Self.ST_TRANSACTION_SYNC" />
+          <AssociationSet Name="FK_ST_GL_MAPPING_ACCOUNT_TYPE" Association="Self.FK_ST_GL_MAPPING_ACCOUNT_TYPE">
+            <End Role="ST_GL_MAPPING_ACCOUNT_TYPE" EntitySet="ST_GL_MAPPING_ACCOUNT_TYPE" />
+            <End Role="ST_GL_MAPPING_ACCOUNT_SETTINGS" EntitySet="ST_GL_MAPPING_ACCOUNT_SETTINGS" />
+          </AssociationSet>
+          <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" ReturnType="Collection(String)">
+            <Parameter Name="LINE_OF_BUSINESS" Mode="In" Type="String" />
+            <Parameter Name="POLICY_TYPE" Mode="In" Type="String" />
+            <Parameter Name="VEHICLE_TYPE" Mode="In" Type="String" />
+            <Parameter Name="ZONE" Mode="In" Type="String" />
+            <Parameter Name="COUNTRY" Mode="In" Type="String" />
+            <Parameter Name="CHANNEL" Mode="In" Type="String" />
+            <Parameter Name="SUPERVISOR" Mode="In" Type="String" />
+            <Parameter Name="GPProductID" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS" ReturnType="Collection(ATLANModel.SYSFLEX_CUSTOMER)" />
+          <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY" ReturnType="Collection(ATLANModel.SYSFLEX_POLICY)" />
+          <FunctionImport Name="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO" ReturnType="Collection(ATLANModel.SYSFLEX_POLICY)">
+          <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB">
+            <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+            <Parameter Name="TRANS_TYPE" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE" ReturnType="Collection(ATLANModel.TRANSACTION_BY_COVERAGE)">
+            <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+            <Parameter Name="Transaction_Secuence" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_TRANSACTIONS" ReturnType="Collection(ATLANModel.TRANSACTION_INVOICE)" />
+          <FunctionImport Name="usp_ST_SYSFLEX_POLICY_GET_PARENT" ReturnType="Collection(ATLANModel.SYSFLEX_CUSTOMER)">
+          <Parameter Name="CLIENTID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="RM00201" EntityType="ATLANModel.RM00201" />
+          <FunctionImport Name="usp_ST_SYSFLEX_INSERT_TRANSACTIONS" />
+          <EntitySet Name="IV00101" EntityType="ATLANModel.IV00101" />
+          <EntitySet Name="RM00101" EntityType="ATLANModel.RM00101" />
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE" ReturnType="Collection(ATLANModel.SYSFLEX_REINSURANCE_BY_COVERAGE)">
+            <Parameter Name="CUSTNMBR" Mode="In" Type="String" />
+            <Parameter Name="Transaction_Secuence" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC">
+            <Parameter Name="DOCTYPE" Mode="In" Type="Int32" />
+            <Parameter Name="MODULE" Mode="In" Type="String" />
+            <Parameter Name="POLICY_NUMBER" Mode="In" Type="String" />
+            <Parameter Name="TRANSACTION_SEQUENCE" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="ST_GL_MAPPING_SUPERVISOR" EntityType="ATLANModel.ST_GL_MAPPING_SUPERVISOR" />
+          <EntitySet Name="ST_GL_MAPPING_REINSURANCE" EntityType="ATLANModel.ST_GL_MAPPING_REINSURANCE" />
+          <FunctionImport Name="pSP_CREAR_CUENTAS">
+            <Parameter Name="ACTNUMST" Mode="In" Type="String" />
+            <Parameter Name="ACTDESCR" Mode="In" Type="String" />
+            <Parameter Name="TPCLBLNC" Mode="In" Type="Int32" />
+            <Parameter Name="PSTNGTYP" Mode="In" Type="Int32" />
+            <Parameter Name="ACCTTYPE" Mode="In" Type="Int32" />
+            <Parameter Name="CATEGORY" Mode="In" Type="String" />
+            <Parameter Name="DECPLACS" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="RM00301" EntityType="ATLANModel.RM00301" />
+          <EntitySet Name="ST_SYSFLEX_POLICY_RENEW" EntityType="ATLANModel.ST_SYSFLEX_POLICY_RENEW" />
+          <FunctionImport Name="usp_SYSFLEX_CHANGE_STATE_CUSTOMER">
+            <Parameter Name="CUSTNMBR" Mode="In" Type="String" />
+            <Parameter Name="STATUS" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="usp_SYSFLEX_DELETE_RESERVE">
+          <Parameter Name="SOPNUMBE" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_GL_VERIFY_ACCOUNT_EXISTS" ReturnType="Collection(Boolean)">
+          <Parameter Name="ACTNUMST" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="ST_GL_MAPPING_CHANNEL" EntityType="ATLANModel.ST_GL_MAPPING_CHANNEL" />
+          <EntitySet Name="ST_ITEMNMBR_ACCOUNT_CODE" EntityType="ATLANModel.ST_ITEMNMBR_ACCOUNT_CODE" />
+          <EntitySet Name="ST_ITEM_CHANNEL_COMMISSION" EntityType="ATLANModel.ST_ITEM_CHANNEL_COMMISSION" />
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_RENEW_DATES" ReturnType="Collection(DateTime)">
+            <Parameter Name="YEAR" Mode="In" Type="Int32" />
+            <Parameter Name="MONTH" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="usp_ST_SYSFLEX_GET_RENEW_INVOICES" ReturnType="Collection(String)">
+          <Parameter Name="INITIAL_DATE" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="usp_SYSFLEX_GET_POSTING_DITRIBUTION" ReturnType="Collection(ATLANModel.POSTING_DITRIBUTION)">
+          <Parameter Name="SOPNUMBE" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_SYSFLEX_GET_UNIT_DISTRIBUTION" ReturnType="Collection(ATLANModel.UNIT_DISTRIBUTION)">
+          <Parameter Name="SOPNUMBE" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="usp_SYSFLEX_RENEW_UPDATE_STATE">
+          <Parameter Name="INITIAL_DATE" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <EntitySet Name="ST_CHANNEL_NO_COMMISSION" EntityType="ATLANModel.ST_CHANNEL_NO_COMMISSION" />
+          <FunctionImport Name="usp_ST_SYSFLEX_UPDATE_COMMISSION" />
+          <EntitySet Name="ST_SYSFLEX_POLICY_RENEW_NC" EntityType="ATLANModel.ST_SYSFLEX_POLICY_RENEW_NC" />
+        </EntityContainer>
+        <ComplexType Name="SYSFLEX_CUSTOMER">
+          <Property Type="Decimal" Name="CUSTNMBR" Nullable="true" Precision="18" Scale="0" />
+          <Property Type="Int32" Name="CPRCSTNM" Nullable="true" />
+          <Property Type="Int32" Name="HOLD" Nullable="true" />
+          <Property Type="Byte" Name="INACTIVE" Nullable="true" />
+          <Property Type="String" Name="CUSTNAME" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="SHRTNAME" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="STMTNAME" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="CUSTCLAS" Nullable="false" MaxLength="1" />
+          <Property Type="Int32" Name="CUSTPRIORITY" Nullable="true" />
+          <Property Type="Int32" Name="ADRSCODE" Nullable="true" />
+          <Property Type="String" Name="CNTCPRSN" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="ADDRESS1" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="ADDRESS2" Nullable="true" />
+          <Property Type="Int32" Name="ADDRESS3" Nullable="true" />
+          <Property Type="String" Name="CITY" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="STATE" Nullable="true" />
+          <Property Type="Int32" Name="ZIPCODE" Nullable="true" />
+          <Property Type="Int32" Name="CCode" Nullable="true" />
+          <Property Type="String" Name="COUNTRY" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="PHNUMBR1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="PHNUMBR2" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="PHNUMBR3" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="fax" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="UPSZONE" Nullable="true" />
+          <Property Type="Int32" Name="SHIPMTHD" Nullable="true" />
+          <Property Type="Int32" Name="TAXSCHID" Nullable="true" />
+          <Property Type="Int32" Name="SHIPCOMPLETE" Nullable="true" />
+          <Property Type="Int32" Name="PRSTADCD" Nullable="true" />
+          <Property Type="Int32" Name="PRBTADCD" Nullable="true" />
+          <Property Type="Int32" Name="STADDRCD" Nullable="true" />
+          <Property Type="Int32" Name="SLPRSNID" Nullable="true" />
+          <Property Type="Int32" Name="SALSTERR" Nullable="true" />
+          <Property Type="Int32" Name="USERDEF1" Nullable="true" />
+          <Property Type="Int32" Name="USERDEF2" Nullable="true" />
+          <Property Type="Int32" Name="COMMENT1" Nullable="true" />
+          <Property Type="Int32" Name="COMMENT2" Nullable="true" />
+          <Property Type="Int32" Name="CUSTDISC" Nullable="true" />
+          <Property Type="Int32" Name="PYMTRMID" Nullable="true" />
+          <Property Type="Int32" Name="DISGRPER" Nullable="true" />
+          <Property Type="Int32" Name="DUEGRPER" Nullable="true" />
+          <Property Type="Int32" Name="PRCLEVEL" Nullable="true" />
+          <Property Type="Int32" Name="NOTETEXT" Nullable="true" />
+          <Property Type="Int32" Name="BALNCTYP" Nullable="true" />
+          <Property Type="Int32" Name="FNCHATYP" Nullable="true" />
+          <Property Type="Int32" Name="FNCHPCNT" Nullable="true" />
+          <Property Type="Int32" Name="FINCHDLR" Nullable="true" />
+          <Property Type="Int32" Name="MINPYTYP" Nullable="true" />
+          <Property Type="Int32" Name="MINPYPCT" Nullable="true" />
+          <Property Type="Int32" Name="MINPYDLR" Nullable="true" />
+          <Property Type="Int32" Name="CRLMTTYP" Nullable="true" />
+          <Property Type="Int32" Name="CRLMTAMT" Nullable="true" />
+          <Property Type="Int32" Name="CRLMTPER" Nullable="true" />
+          <Property Type="Int32" Name="CRLMTPAM" Nullable="true" />
+          <Property Type="Int32" Name="MXWOFTYP" Nullable="true" />
+          <Property Type="Int32" Name="MXWROFAM" Nullable="true" />
+          <Property Type="Int32" Name="Revalue_Customer" Nullable="true" />
+          <Property Type="Int32" Name="Post_Results_To" Nullable="true" />
+          <Property Type="Int32" Name="ORDERFULFILLDEFAULT" Nullable="true" />
+          <Property Type="Int32" Name="INCLUDEINDP" Nullable="true" />
+          <Property Type="Int32" Name="CRCARDID" Nullable="true" />
+          <Property Type="Int32" Name="CRCRDNUM" Nullable="true" />
+          <Property Type="Int32" Name="CCRDXPDT" Nullable="true" />
+          <Property Type="Int32" Name="BANKNAME" Nullable="true" />
+          <Property Type="Int32" Name="BNKBRNCH" Nullable="true" />
+          <Property Type="Int32" Name="USERLANG" Nullable="true" />
+          <Property Type="Int32" Name="TAXEXMT1" Nullable="true" />
+          <Property Type="Int32" Name="TAXEXMT2" Nullable="true" />
+          <Property Type="Int32" Name="TXRGNNUM" Nullable="true" />
+          <Property Type="Int32" Name="CURNCYID" Nullable="true" />
+          <Property Type="Int32" Name="RATETPID" Nullable="true" />
+          <Property Type="Int32" Name="STMTCYCL" Nullable="true" />
+          <Property Type="Int32" Name="KPCALHST" Nullable="true" />
+          <Property Type="Int32" Name="KPERHIST" Nullable="true" />
+          <Property Type="Int32" Name="KPTRXHST" Nullable="true" />
+          <Property Type="Int32" Name="KPDSTHST" Nullable="true" />
+          <Property Type="Int32" Name="Send_Email_Statements" Nullable="true" />
+          <Property Type="Int32" Name="ToEmail_Recipient" Nullable="true" />
+          <Property Type="Int32" Name="CcEmail_Recipient" Nullable="true" />
+          <Property Type="Int32" Name="BccEmail_Recipient" Nullable="true" />
+          <Property Type="Int32" Name="CHEKBKID" Nullable="true" />
+          <Property Type="Int32" Name="DEFCACTY" Nullable="true" />
+          <Property Type="Int32" Name="RMCSHACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMARACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMSLSACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMCOSACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMIVACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMTAKACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMAVACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMFCGACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMWRACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMSORACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="RMOvrpymtWrtoffACTNUMST" Nullable="true" />
+          <Property Type="Int32" Name="GPSFOINTEGRATIONID" Nullable="true" />
+          <Property Type="Int32" Name="INTEGRATIONSOURCE" Nullable="true" />
+          <Property Type="Int32" Name="INTEGRATIONID" Nullable="true" />
+          <Property Type="String" Name="INET1" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="SYSTEMCREATEDDATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="TRGCREATEDDATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="TRGMODIFIEDDATE" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Ubicacion" Nullable="true" />
+          <Property Type="Int32" Name="NCF_TYPE" Nullable="true" />
+          <Property Type="String" Name="ID" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="ID_TYPE" Nullable="true" MaxLength="9" />
+          <Property Type="DateTime" Name="DATEOFBIRTH" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="SYSFLEX_POLICY">
+          <Property Type="String" Name="LINE_OF_BUSINESS" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="ZONE" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="POLICY_TYPE" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="COUNT_VEHICLE" Nullable="false" />
+          <Property Type="DateTime" Name="INITAL_DATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="DUE_DATE" Nullable="true" Precision="23" />
+          <Property Type="Decimal" Name="CLIENT_ID" Nullable="true" Precision="18" Scale="0" />
+          <Property Type="String" Name="SUPERVISOR" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="AGENT_ID" Nullable="true" />
+          <Property Type="Int32" Name="AGENT_CODE" Nullable="true" />
+          <Property Type="String" Name="AGENT" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="CHANNEL" Nullable="true" MaxLength="50" />
+          <Property Type="Decimal" Name="MPV_total_bruto" Nullable="true" Precision="38" Scale="2" />
+          <Property Type="Decimal" Name="MPV_Descuento_flota" Nullable="false" Precision="2" Scale="2" />
+          <Property Type="Decimal" Name="MPV_Descuento_Experiencia" Nullable="true" Precision="38" Scale="2" />
+          <Property Type="Decimal" Name="MPV_ITBIS" Nullable="true" Precision="38" Scale="2" />
+          <Property Type="String" Name="POLICY_STATUS" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="CREATED_USER" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="MODIFIED_USER" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="4000" />
+          <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="CREATE_DATE" Nullable="true" Precision="23" />
+          <Property Type="String" Name="GpProductID" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="In_Coaseguro" Nullable="false" />
+          <Property Type="Int32" Name="Primary_Company" Nullable="false" />
+          <Property Type="Int32" Name="SUPERVISOR_CODE" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="RM00201">
+          <Key>
+            <PropertyRef Name="CLASSID" />
+          </Key>
+          <Property Name="CLASSID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CLASDSCR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="CRLMTTYP" Type="Int16" Nullable="false" />
+          <Property Name="CRLMTAMT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CRLMTPER" Type="Int16" Nullable="false" />
+          <Property Name="CRLMTPAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="DEFLTCLS" Type="Byte" Nullable="false" />
+          <Property Name="BALNCTYP" Type="Int16" Nullable="false" />
+          <Property Name="CHEKBKID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="BANKNAME" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="TAXSCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SHIPMTHD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="PYMTRMID" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="CUSTDISC" Type="Int16" Nullable="false" />
+          <Property Name="CSTPRLVL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="MINPYTYP" Type="Int16" Nullable="false" />
+          <Property Name="MINPYDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="MINPYPCT" Type="Int16" Nullable="false" />
+          <Property Name="MXWOFTYP" Type="Int16" Nullable="false" />
+          <Property Name="MXWROFAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="FINCHARG" Type="Byte" Nullable="false" />
+          <Property Name="FNCHATYP" Type="Int16" Nullable="false" />
+          <Property Name="FINCHDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="FNCHPCNT" Type="Int16" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="CURNCYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="RATETPID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="DEFCACTY" Type="Int16" Nullable="false" />
+          <Property Name="RMCSHACC" Type="Int32" Nullable="false" />
+          <Property Name="RMARACC" Type="Int32" Nullable="false" />
+          <Property Name="RMCOSACC" Type="Int32" Nullable="false" />
+          <Property Name="RMIVACC" Type="Int32" Nullable="false" />
+          <Property Name="RMSLSACC" Type="Int32" Nullable="false" />
+          <Property Name="RMAVACC" Type="Int32" Nullable="false" />
+          <Property Name="RMTAKACC" Type="Int32" Nullable="false" />
+          <Property Name="RMFCGACC" Type="Int32" Nullable="false" />
+          <Property Name="RMWRACC" Type="Int32" Nullable="false" />
+          <Property Name="RMSORACC" Type="Int32" Nullable="false" />
+          <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="STMTCYCL" Type="Int16" Nullable="false" />
+          <Property Name="SNDSTMNT" Type="Byte" Nullable="false" />
+          <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+          <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+          <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+          <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+          <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+          <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Revalue_Customer" Type="Byte" Nullable="false" />
+          <Property Name="Post_Results_To" Type="Int16" Nullable="false" />
+          <Property Name="DISGRPER" Type="Int16" Nullable="false" />
+          <Property Name="DUEGRPER" Type="Int16" Nullable="false" />
+          <Property Name="ORDERFULFILLDEFAULT" Type="Int16" Nullable="false" />
+          <Property Name="CUSTPRIORITY" Type="Int16" Nullable="false" />
+          <Property Name="RMOvrpymtWrtoffAcctIdx" Type="Int32" Nullable="false" />
+          <Property Name="CBVAT" Type="Byte" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+          <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <ComplexType Name="SYSFLEX_TRANSACTIONS">
+          <Property Type="String" Name="POLICYNUMBER" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="Type" Nullable="false" MaxLength="2" />
+          <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+          <Property Type="Decimal" Name="AMOUNT" Nullable="true" Precision="20" Scale="2" />
+          <Property Type="String" Name="DOCUMENT_NUMBER" Nullable="true" MaxLength="30" />
+          <Property Type="Int32" Name="DOCUMENT_TYPE" Nullable="false" />
+          <Property Type="String" Name="DOCUMENT_CANCELED" Nullable="false" MaxLength="5" />
+          <Property Type="Decimal" Name="ACTUAL_BALANCE" Nullable="true" Precision="18" Scale="2" />
+          <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="USER" Nullable="true" MaxLength="30" />
+          <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+          <Property Type="String" Name="NCF" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="NCF_GP_TYPE" Nullable="true" MaxLength="2" />
+          <Property Type="Byte" Name="NCF_SYSFLEX_TYPE" Nullable="true" />
+          <Property Type="String" Name="GP_DOCUMENT_NUMBER" Nullable="true" MaxLength="30" />
+          <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="TRANSACTION_BY_COVERAGE">
+          <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="30" />
+          <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+          <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="Trans_Tax_Amount" Nullable="true" Precision="18" Scale="2" />
+          <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="Product_type" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="Coverage_Desc" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="Coverage_Group" Nullable="true" MaxLength="50" />
+          <Property Type="Decimal" Name="Coverage_Amount" Nullable="true" Precision="38" Scale="8" />
+          <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="TRANSACTION_INVOICE">
+          <Property Type="Guid" Name="ROW_ID" Nullable="false" />
+          <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="TRANS_DESC" Nullable="true" MaxLength="75" />
+          <Property Type="DateTime" Name="TRANS_DATE" Nullable="true" Precision="23" />
+          <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="19" Scale="5" />
+          <Property Type="String" Name="DOCUMENT_NUMBER" Nullable="true" MaxLength="20" />
+          <Property Type="Decimal" Name="ACTUAL_BALANCE" Nullable="true" Precision="19" Scale="5" />
+          <Property Type="String" Name="COMMENT" Nullable="true" MaxLength="75" />
+          <Property Type="String" Name="TRANS_USER" Nullable="true" MaxLength="15" />
+          <Property Type="DateTime" Name="MODIFIED_DATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="SYNC_CREATE_DATE" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="GP_PROCESS_DATE" Nullable="true" Precision="23" />
+          <Property Type="String" Name="GP_PROCESS_USER" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="GP_MODULE" Nullable="true" MaxLength="3" />
+          <Property Type="Int32" Name="GP_DOCTYPE" Nullable="true" />
+          <Property Type="String" Name="GP_DOCNUMBR" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="RENEWAL_TYPE" Nullable="true" MaxLength="10" />
+          <Property Type="Int32" Name="DOCUMENT_TYPE" Nullable="true" />
+          <Property Type="Boolean" Name="DOCUMENT_CANCELLED" Nullable="true" />
+          <Property Type="String" Name="NCF" Nullable="true" MaxLength="19" />
+          <Property Type="String" Name="ASSIGNED_DOC_NUMBER" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="TRANSACTION_SEQUENCE" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="IV00101">
+          <Key>
+            <PropertyRef Name="ITEMNMBR" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="ITEMDESC" Type="String" Nullable="false" MaxLength="101" FixedLength="true" Unicode="false" />
+          <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="ITMSHNAM" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="ITEMTYPE" Type="Int16" Nullable="false" />
+          <Property Name="ITMGEDSC" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="STNDCOST" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CURRCOST" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="ITEMSHWT" Type="Int32" Nullable="false" />
+          <Property Name="DECPLQTY" Type="Int16" Nullable="false" />
+          <Property Name="DECPLCUR" Type="Int16" Nullable="false" />
+          <Property Name="ITMTSHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="TAXOPTNS" Type="Int16" Nullable="false" />
+          <Property Name="IVIVINDX" Type="Int32" Nullable="false" />
+          <Property Name="IVIVOFIX" Type="Int32" Nullable="false" />
+          <Property Name="IVCOGSIX" Type="Int32" Nullable="false" />
+          <Property Name="IVSLSIDX" Type="Int32" Nullable="false" />
+          <Property Name="IVSLDSIX" Type="Int32" Nullable="false" />
+          <Property Name="IVSLRNIX" Type="Int32" Nullable="false" />
+          <Property Name="IVINUSIX" Type="Int32" Nullable="false" />
+          <Property Name="IVINSVIX" Type="Int32" Nullable="false" />
+          <Property Name="IVDMGIDX" Type="Int32" Nullable="false" />
+          <Property Name="IVVARIDX" Type="Int32" Nullable="false" />
+          <Property Name="DPSHPIDX" Type="Int32" Nullable="false" />
+          <Property Name="PURPVIDX" Type="Int32" Nullable="false" />
+          <Property Name="UPPVIDX" Type="Int32" Nullable="false" />
+          <Property Name="IVRETIDX" Type="Int32" Nullable="false" />
+          <Property Name="ASMVRIDX" Type="Int32" Nullable="false" />
+          <Property Name="ITMCLSCD" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="ITMTRKOP" Type="Int16" Nullable="false" />
+          <Property Name="LOTTYPE" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+          <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+          <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+          <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+          <Property Name="ALWBKORD" Type="Byte" Nullable="false" />
+          <Property Name="VCTNMTHD" Type="Int16" Nullable="false" />
+          <Property Name="UOMSCHDL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="ALTITEM1" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="ALTITEM2" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_1" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_2" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_3" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_4" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_5" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="USCATVLS_6" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="MSTRCDTY" Type="Int16" Nullable="false" />
+          <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="WRNTYDYS" Type="Int16" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="LOCNCODE" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="PINFLIDX" Type="Int32" Nullable="false" />
+          <Property Name="PURMCIDX" Type="Int32" Nullable="false" />
+          <Property Name="IVINFIDX" Type="Int32" Nullable="false" />
+          <Property Name="INVMCIDX" Type="Int32" Nullable="false" />
+          <Property Name="CGSINFLX" Type="Int32" Nullable="false" />
+          <Property Name="CGSMCIDX" Type="Int32" Nullable="false" />
+          <Property Name="ITEMCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="TCC" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="PriceGroup" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="PRICMTHD" Type="Int16" Nullable="false" />
+          <Property Name="PRCHSUOM" Type="String" Nullable="false" MaxLength="9" FixedLength="true" Unicode="false" />
+          <Property Name="SELNGUOM" Type="String" Nullable="false" MaxLength="9" FixedLength="true" Unicode="false" />
+          <Property Name="KTACCTSR" Type="Int16" Nullable="false" />
+          <Property Name="LASTGENSN" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="ABCCODE" Type="Int16" Nullable="false" />
+          <Property Name="Revalue_Inventory" Type="Byte" Nullable="false" />
+          <Property Name="Tolerance_Percentage" Type="Int32" Nullable="false" />
+          <Property Name="Purchase_Item_Tax_Schedu" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="Purchase_Tax_Options" Type="Int16" Nullable="false" />
+          <Property Name="ITMPLNNNGTYP" Type="Int16" Nullable="false" />
+          <Property Name="STTSTCLVLPRCNTG" Type="Int16" Nullable="false" />
+          <Property Name="CNTRYORGN" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+          <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+          <Property Name="MINSHELF1" Type="Int16" Nullable="false" />
+          <Property Name="MINSHELF2" Type="Int16" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+          <Property Name="LOTEXPWARN" Type="Byte" Nullable="false" />
+          <Property Name="LOTEXPWARNDAYS" Type="Int16" Nullable="false" />
+          <Property Name="LASTGENLOT" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="Lot_Split_Quantity" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="UseQtyOverageTolerance" Type="Byte" Nullable="false" />
+          <Property Name="UseQtyShortageTolerance" Type="Byte" Nullable="false" />
+          <Property Name="QtyOverTolerancePercent" Type="Int32" Nullable="false" />
+          <Property Name="QtyShortTolerancePercent" Type="Int32" Nullable="false" />
+          <Property Name="IVSCRVIX" Type="Int32" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="RM00101">
+          <Key>
+            <PropertyRef Name="CUSTNMBR" />
+          </Key>
+          <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CUSTNAME" Type="String" Nullable="false" MaxLength="65" FixedLength="true" Unicode="false" />
+          <Property Name="CUSTCLAS" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CPRCSTNM" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CNTCPRSN" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="STMTNAME" Type="String" Nullable="false" MaxLength="65" FixedLength="true" Unicode="false" />
+          <Property Name="SHRTNAME" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="ADRSCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="UPSZONE" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="SHIPMTHD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="TAXSCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS1" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS2" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS3" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="COUNTRY" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="CITY" Type="String" Nullable="false" MaxLength="35" FixedLength="true" Unicode="false" />
+          <Property Name="STATE" Type="String" Nullable="false" MaxLength="29" FixedLength="true" Unicode="false" />
+          <Property Name="ZIP" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE3" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="FAX" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="PRBTADCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="PRSTADCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="STADDRCD" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CHEKBKID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="PYMTRMID" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="CRLMTTYP" Type="Int16" Nullable="false" />
+          <Property Name="CRLMTAMT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CRLMTPER" Type="Int16" Nullable="false" />
+          <Property Name="CRLMTPAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CURNCYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="RATETPID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CUSTDISC" Type="Int16" Nullable="false" />
+          <Property Name="PRCLEVEL" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="MINPYTYP" Type="Int16" Nullable="false" />
+          <Property Name="MINPYDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="MINPYPCT" Type="Int16" Nullable="false" />
+          <Property Name="FNCHATYP" Type="Int16" Nullable="false" />
+          <Property Name="FNCHPCNT" Type="Int16" Nullable="false" />
+          <Property Name="FINCHDLR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="MXWOFTYP" Type="Int16" Nullable="false" />
+          <Property Name="MXWROFAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="COMMENT1" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="COMMENT2" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="USERDEF1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="USERDEF2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="TAXEXMT1" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+          <Property Name="TAXEXMT2" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+          <Property Name="TXRGNNUM" Type="String" Nullable="false" MaxLength="25" FixedLength="true" Unicode="false" />
+          <Property Name="BALNCTYP" Type="Int16" Nullable="false" />
+          <Property Name="STMTCYCL" Type="Int16" Nullable="false" />
+          <Property Name="BANKNAME" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="BNKBRNCH" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="DEFCACTY" Type="Int16" Nullable="false" />
+          <Property Name="RMCSHACC" Type="Int32" Nullable="false" />
+          <Property Name="RMARACC" Type="Int32" Nullable="false" />
+          <Property Name="RMSLSACC" Type="Int32" Nullable="false" />
+          <Property Name="RMIVACC" Type="Int32" Nullable="false" />
+          <Property Name="RMCOSACC" Type="Int32" Nullable="false" />
+          <Property Name="RMTAKACC" Type="Int32" Nullable="false" />
+          <Property Name="RMAVACC" Type="Int32" Nullable="false" />
+          <Property Name="RMFCGACC" Type="Int32" Nullable="false" />
+          <Property Name="RMWRACC" Type="Int32" Nullable="false" />
+          <Property Name="RMSORACC" Type="Int32" Nullable="false" />
+          <Property Name="FRSTINDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+          <Property Name="HOLD" Type="Byte" Nullable="false" />
+          <Property Name="CRCARDID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="CRCRDNUM" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="CCRDXPDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="KPDSTHST" Type="Byte" Nullable="false" />
+          <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+          <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+          <Property Name="KPTRXHST" Type="Byte" Nullable="false" />
+          <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Revalue_Customer" Type="Byte" Nullable="false" />
+          <Property Name="Post_Results_To" Type="Int16" Nullable="false" />
+          <Property Name="FINCHID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="GOVCRPID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="GOVINDID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="DISGRPER" Type="Int16" Nullable="false" />
+          <Property Name="DUEGRPER" Type="Int16" Nullable="false" />
+          <Property Name="DOCFMTID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="Send_Email_Statements" Type="Byte" Nullable="false" />
+          <Property Name="USERLANG" Type="Int16" Nullable="false" />
+          <Property Name="GPSFOINTEGRATIONID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="INTEGRATIONSOURCE" Type="Int16" Nullable="false" />
+          <Property Name="INTEGRATIONID" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="ORDERFULFILLDEFAULT" Type="Int16" Nullable="false" />
+          <Property Name="CUSTPRIORITY" Type="Int16" Nullable="false" />
+          <Property Name="CCode" Type="String" Nullable="false" MaxLength="7" FixedLength="true" Unicode="false" />
+          <Property Name="DECLID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="RMOvrpymtWrtoffAcctIdx" Type="Int32" Nullable="false" />
+          <Property Name="SHIPCOMPLETE" Type="Byte" Nullable="false" />
+          <Property Name="CBVAT" Type="Byte" Nullable="false" />
+          <Property Name="INCLUDEINDP" Type="Byte" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <ComplexType Name="SYSFLEX_REINSURANCE_BY_COVERAGE">
+          <Property Type="String" Name="POLICY_NUMBER" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="TRANS_TYPE" Nullable="true" MaxLength="30" />
+          <Property Type="Int32" Name="Item_number" Nullable="true" />
+          <Property Type="Decimal" Name="TRANS_AMOUNT" Nullable="true" Precision="18" Scale="6" />
+          <Property Type="Decimal" Name="Trans_Tax_Amount" Nullable="true" Precision="18" Scale="6" />
+          <Property Type="String" Name="VEHICLE_TYPE" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="Product_type" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="Coverage_Desc" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="Coverage_ID" Nullable="true" />
+          <Property Type="Decimal" Name="Coverage_Limit" Nullable="true" Precision="18" Scale="6" />
+          <Property Type="String" Name="Coverage_Group" Nullable="true" MaxLength="150" />
+          <Property Type="Decimal" Name="Coverage_Amount" Nullable="true" Precision="18" Scale="6" />
+          <Property Type="Decimal" Name="Coverage_Percent" Nullable="true" Precision="18" Scale="6" />
+          <Property Type="Decimal" Name="Reinsurance_Percent_Commission" Nullable="false" Precision="18" Scale="6" />
+          <Property Type="Decimal" Name="Reinsurance_Amount_Commission" Nullable="true" Precision="38" Scale="13" />
+          <Property Type="Int32" Name="Policy_Transaction_secuence" Nullable="false" />
+          <Property Type="Int32" Name="Company" Nullable="false" />
+          <Property Type="String" Name="Name_Company" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Type_identifierr" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Number_Identifierr" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Number_Contrat" Nullable="false" MaxLength="150" />
+          <Property Type="String" Name="Type_Contrat" Nullable="false" MaxLength="150" />
+          <Property Type="Int32" Name="Company_is_Local" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="ST_GL_MAPPING_SUPERVISOR">
+          <Key>
+            <PropertyRef Name="SUPERVISOR" />
+          </Key>
+          <Property Name="SUPERVISOR_CODE" Type="Int32" />
+          <Property Name="SUPERVISOR" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="ZONE_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="CHANNEL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_REINSURANCE">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsLocal" Type="Boolean" Nullable="false" />
+          <Property Name="IsFacult" Type="Boolean" Nullable="false" />
+          <Property Name="SEGMENT1" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="SEGMENT2" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="SEGMENT1_COMM" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="SEGMENT2_COMM" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="UNIT_ACCOUNT" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="RM00301">
+          <Key>
+            <PropertyRef Name="SLPRSNID" />
+          </Key>
+          <Property Name="SLPRSNID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="EMPLOYID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="VENDORID" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SLPRSNFN" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SPRSNSMN" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="SPRSNSLN" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS1" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS2" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="ADDRESS3" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="CITY" Type="String" Nullable="false" MaxLength="35" FixedLength="true" Unicode="false" />
+          <Property Name="STATE" Type="String" Nullable="false" MaxLength="29" FixedLength="true" Unicode="false" />
+          <Property Name="ZIP" Type="String" Nullable="false" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="COUNTRY" Type="String" Nullable="false" MaxLength="61" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE1" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE2" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="PHONE3" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="FAX" Type="String" Nullable="false" MaxLength="21" FixedLength="true" Unicode="false" />
+          <Property Name="INACTIVE" Type="Byte" Nullable="false" />
+          <Property Name="SALSTERR" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="COMMCODE" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="COMPRCNT" Type="Int16" Nullable="false" />
+          <Property Name="STDCPRCT" Type="Int16" Nullable="false" />
+          <Property Name="COMAPPTO" Type="Int16" Nullable="false" />
+          <Property Name="COSTTODT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="CSTLSTYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="TTLCOMTD" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="TTLCOMLY" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="COMSLTDT" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="COMSLLYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="NCOMSLTD" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="NCOMSLYR" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="KPCALHST" Type="Byte" Nullable="false" />
+          <Property Name="KPERHIST" Type="Byte" Nullable="false" />
+          <Property Name="NOTEINDX" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+          <Property Name="MODIFDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CREATDDT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="COMMDEST" Type="Int16" Nullable="false" />
+          <Property Name="DEX_ROW_TS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DEX_ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="ST_SYSFLEX_POLICY_RENEW">
+          <Key>
+            <PropertyRef Name="ROWID" />
+          </Key>
+          <Property Name="ROWID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INITIAL_DATE" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="TRANSACTION_SEQ" Type="Int32" Nullable="false" />
+          <Property Name="DOCUMENT_NUMBER" Type="Decimal" Nullable="false" Precision="20" Scale="0" />
+          <Property Name="SOPNUMBE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DISTTYPE" Type="Int16" Nullable="false" />
+          <Property Name="DistRef" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ACTNUMST" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DEBITAMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CRDTAMNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PROCESS" Type="Boolean" Nullable="false" />
+          <Property Name="PROCESS_DATE" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="ST_GL_MAPPING_CHANNEL">
+          <Key>
+            <PropertyRef Name="CHANNEL" />
+          </Key>
+          <Property Name="CHANNEL" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="false" />
+          <Property Name="GL_MAPPING" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_ITEMNMBR_ACCOUNT_CODE">
+          <Key>
+            <PropertyRef Name="ITEMNMBR" />
+            <PropertyRef Name="ACCOUNT_CODE" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="ACCOUNT_CODE" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="false" />
+          <Property Name="ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="ST_ITEM_CHANNEL_COMMISSION">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ITEMNMBR" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="CHANNEL_GL_MAPPING" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="COMMISSION_PERCENT" Type="Decimal" Precision="19" Scale="5" />
+          <Property Name="ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <ComplexType Name="usp_SYSFLEX_GET_POSTING_DITRIBUTION_Result">
+          <Property Type="Int64" Name="ROWID" Nullable="false" />
+          <Property Type="DateTime" Name="INITIAL_DATE" Nullable="false" Precision="23" />
+          <Property Type="String" Name="CUSTNMBR" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="SOPNUMBE" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="DistRef" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="ACTNUMST" Nullable="false" MaxLength="50" />
+          <Property Type="Decimal" Name="DEBITAMT" Nullable="false" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="CRDTAMNT" Nullable="false" Precision="18" Scale="2" />
+        </ComplexType>
+        <ComplexType Name="usp_SYSFLEX_GET_UNIT_DISTRIBUTION_Result">
+          <Property Type="Int16" Name="SOPTYPE" Nullable="false" />
+          <Property Type="String" Name="CUSTNMBR" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="SOPNUMBE" Nullable="false" MaxLength="21" />
+          <Property Type="String" Name="CUSTNAME" Nullable="false" MaxLength="65" />
+          <Property Type="String" Name="ACTNUMST" Nullable="false" MaxLength="129" />
+          <Property Type="Decimal" Name="CRDTAMNT" Nullable="false" Precision="19" Scale="5" />
+          <Property Type="Decimal" Name="DEBITAMT" Nullable="false" Precision="19" Scale="5" />
+        </ComplexType>
+        <ComplexType Name="UNIT_DISTRIBUTION">
+          <Property Type="Int16" Name="SOPTYPE" Nullable="false" />
+          <Property Type="String" Name="CUSTNMBR" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="SOPNUMBE" Nullable="false" MaxLength="21" />
+          <Property Type="String" Name="CUSTNAME" Nullable="false" MaxLength="65" />
+          <Property Type="String" Name="ACTNUMST" Nullable="false" MaxLength="129" />
+          <Property Type="Decimal" Name="CRDTAMNT" Nullable="false" Precision="19" Scale="5" />
+          <Property Type="Decimal" Name="DEBITAMT" Nullable="false" Precision="19" Scale="5" />
+        </ComplexType>
+        <ComplexType Name="POSTING_DITRIBUTION">
+          <Property Type="Int64" Name="ROWID" Nullable="false" />
+          <Property Type="DateTime" Name="INITIAL_DATE" Nullable="false" Precision="23" />
+          <Property Type="String" Name="CUSTNMBR" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="SOPNUMBE" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="DistRef" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="ACTNUMST" Nullable="false" MaxLength="50" />
+          <Property Type="Decimal" Name="DEBITAMT" Nullable="false" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="CRDTAMNT" Nullable="false" Precision="18" Scale="2" />
+        </ComplexType>
+        <EntityType Name="ST_CHANNEL_NO_COMMISSION">
+          <Key>
+            <PropertyRef Name="ROW_ID" />
+          </Key>
+          <Property Name="ROW_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CHANNEL" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ST_SYSFLEX_POLICY_RENEW_NC">
+          <Key>
+            <PropertyRef Name="ROWID" />
+          </Key>
+          <Property Name="ROWID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INITIAL_DATE" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="TRANSACTION_SEQ" Type="Int32" Nullable="false" />
+          <Property Name="DOCUMENT_NUMBER" Type="Decimal" Nullable="false" Precision="20" Scale="0" />
+          <Property Name="NCNUMBER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DISTTYPE" Type="Int16" Nullable="false" />
+          <Property Name="DistRef" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ACTNUMST" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DEBITAMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CRDTAMNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CREATE_DATE" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PROCESS" Type="Boolean" Nullable="false" />
+          <Property Name="PROCESS_DATE" Type="DateTime" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ATLANModelStoreContainer" CdmEntityContainer="ATLANEntities">
+          <EntitySetMapping Name="ST_CLIENT_TABLE_SYNC">
+            <EntityTypeMapping TypeName="ATLANModel.ST_CLIENT_TABLE_SYNC">
+              <MappingFragment StoreEntitySet="ST_CLIENT_TABLE_SYNC">
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="LAST_GP_UPDATE" ColumnName="LAST_GP_UPDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_CUSTOMER_ADDITIONAL">
+            <EntityTypeMapping TypeName="ATLANModel.ST_CUSTOMER_ADDITIONAL">
+              <MappingFragment StoreEntitySet="ST_CUSTOMER_ADDITIONAL">
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+                <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+                <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+                <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+                <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+                <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+                <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+                <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+                <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+                <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+                <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+                <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+                <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+                <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+                <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+                <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+                <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+                <ScalarProperty Name="DATE_OF_BIRTH" ColumnName="DATE_OF_BIRTH" />
+                <ScalarProperty Name="CORE_CREATION_DATE" ColumnName="CORE_CREATION_DATE" />
+                <ScalarProperty Name="POLICY_CANCELLATION_DATE" ColumnName="POLICY_CANCELLATION_DATE" />
+                <ScalarProperty Name="INSURED_QUANTITY" ColumnName="INSURED_QUANTITY" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ACCOUNT_SETTINGS">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_ACCOUNT_SETTINGS">
+                <ScalarProperty Name="UNIT_ACCOUNT3" ColumnName="UNIT_ACCOUNT3" />
+                <ScalarProperty Name="UNIT_ACCOUNT2" ColumnName="UNIT_ACCOUNT2" />
+                <ScalarProperty Name="UNIT_ACCOUNT1" ColumnName="UNIT_ACCOUNT1" />
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="TYPEID" ColumnName="TYPEID" />
+                <ScalarProperty Name="SEGMENT1" ColumnName="SEGMENT1" />
+                <ScalarProperty Name="SEGMENT2" ColumnName="SEGMENT2" />
+                <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+                <ScalarProperty Name="PRODUCT" ColumnName="PRODUCT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_ACCOUNT_TYPE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ACCOUNT_TYPE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_ACCOUNT_TYPE">
+                <ScalarProperty Name="TYPEID" ColumnName="TYPEID" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_COUNTRY">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_COUNTRY">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_COUNTRY">
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_COVERAGE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_COVERAGE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_COVERAGE">
+                <ScalarProperty Name="COVERAGE" ColumnName="COVERAGE" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_LINE_OF_BUSINESS">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_LINE_OF_BUSINESS">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_LINE_OF_BUSINESS">
+                <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+                <ScalarProperty Name="CLASS_CODE" ColumnName="CLASS_CODE" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_POLICY_TYPE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_POLICY_TYPE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_POLICY_TYPE">
+                <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_VEHICLE_TYPE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_VEHICLE_TYPE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_VEHICLE_TYPE">
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_ZONE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_ZONE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_ZONE">
+                <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_ITEM_SALESPERSON_COMMISSION">
+            <EntityTypeMapping TypeName="ATLANModel.ST_ITEM_SALESPERSON_COMMISSION">
+              <MappingFragment StoreEntitySet="ST_ITEM_SALESPERSON_COMMISSION">
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+                <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+                <ScalarProperty Name="COMMISSION_PERCENT" ColumnName="COMMISSION_PERCENT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_POLICY_TABLE_SYNC">
+            <EntityTypeMapping TypeName="ATLANModel.ST_POLICY_TABLE_SYNC">
+              <MappingFragment StoreEntitySet="ST_POLICY_TABLE_SYNC">
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="LAST_GP_UPDATE" ColumnName="LAST_GP_UPDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_TRANSACTION_SYNC">
+            <EntityTypeMapping TypeName="ATLANModel.ST_TRANSACTION_SYNC">
+              <MappingFragment StoreEntitySet="ST_TRANSACTION_SYNC">
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+                <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+                <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+                <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+                <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+                <ScalarProperty Name="ACTUAL_BALANCE" ColumnName="ACTUAL_BALANCE" />
+                <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+                <ScalarProperty Name="TRANS_USER" ColumnName="TRANS_USER" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+                <ScalarProperty Name="SYNC_CREATE_DATE" ColumnName="SYNC_CREATE_DATE" />
+                <ScalarProperty Name="GP_PROCESS_DATE" ColumnName="GP_PROCESS_DATE" />
+                <ScalarProperty Name="GP_PROCESS_USER" ColumnName="GP_PROCESS_USER" />
+                <ScalarProperty Name="GP_MODULE" ColumnName="GP_MODULE" />
+                <ScalarProperty Name="GP_DOCTYPE" ColumnName="GP_DOCTYPE" />
+                <ScalarProperty Name="GP_DOCNUMBR" ColumnName="GP_DOCNUMBR" />
+                <ScalarProperty Name="RENEWAL_TYPE" ColumnName="RENEWAL_TYPE" />
+                <ScalarProperty Name="DOCUMENT_TYPE" ColumnName="DOCUMENT_TYPE" />
+                <ScalarProperty Name="DOCUMENT_CANCELLED" ColumnName="DOCUMENT_CANCELLED" />
+                <ScalarProperty Name="NCF" ColumnName="NCF" />
+                <ScalarProperty Name="ASSIGNED_DOC_NUMBER" ColumnName="ASSIGNED_DOC_NUMBER" />
+                <ScalarProperty Name="TRANSACTION_SEQUENCE" ColumnName="TRANSACTION_SEQUENCE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_CLASS" />
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_PARENTS">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_CUSTOMER">
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+                <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+                <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+                <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+                <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+                <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+                <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+                <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+                <ScalarProperty Name="CITY" ColumnName="CITY" />
+                <ScalarProperty Name="STATE" ColumnName="STATE" />
+                <ScalarProperty Name="ZIPCODE" ColumnName="ZIPCODE" />
+                <ScalarProperty Name="CCode" ColumnName="CCode" />
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="PHNUMBR1" ColumnName="PHNUMBR1" />
+                <ScalarProperty Name="PHNUMBR2" ColumnName="PHNUMBR2" />
+                <ScalarProperty Name="PHNUMBR3" ColumnName="PHNUMBR3" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+                <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+                <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+                <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+                <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+                <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+                <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+                <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+                <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+                <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+                <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+                <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+                <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+                <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+                <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+                <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+                <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+                <ScalarProperty Name="NOTETEXT" ColumnName="NOTETEXT" />
+                <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+                <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+                <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+                <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+                <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+                <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+                <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+                <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+                <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+                <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+                <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+                <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+                <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+                <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+                <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+                <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+                <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+                <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+                <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+                <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+                <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+                <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+                <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+                <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+                <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+                <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+                <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+                <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+                <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+                <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+                <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+                <ScalarProperty Name="ToEmail_Recipient" ColumnName="ToEmail_Recipient" />
+                <ScalarProperty Name="CcEmail_Recipient" ColumnName="CcEmail_Recipient" />
+                <ScalarProperty Name="BccEmail_Recipient" ColumnName="BccEmail_Recipient" />
+                <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+                <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+                <ScalarProperty Name="RMCSHACTNUMST" ColumnName="RMCSHACTNUMST" />
+                <ScalarProperty Name="RMARACTNUMST" ColumnName="RMARACTNUMST" />
+                <ScalarProperty Name="RMSLSACTNUMST" ColumnName="RMSLSACTNUMST" />
+                <ScalarProperty Name="RMCOSACTNUMST" ColumnName="RMCOSACTNUMST" />
+                <ScalarProperty Name="RMIVACTNUMST" ColumnName="RMIVACTNUMST" />
+                <ScalarProperty Name="RMTAKACTNUMST" ColumnName="RMTAKACTNUMST" />
+                <ScalarProperty Name="RMAVACTNUMST" ColumnName="RMAVACTNUMST" />
+                <ScalarProperty Name="RMFCGACTNUMST" ColumnName="RMFCGACTNUMST" />
+                <ScalarProperty Name="RMWRACTNUMST" ColumnName="RMWRACTNUMST" />
+                <ScalarProperty Name="RMSORACTNUMST" ColumnName="RMSORACTNUMST" />
+                <ScalarProperty Name="RMOvrpymtWrtoffACTNUMST" ColumnName="RMOvrpymtWrtoffACTNUMST" />
+                <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+                <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+                <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+                <ScalarProperty Name="INET1" ColumnName="INET1" />
+                <ScalarProperty Name="SYSTEMCREATEDDATE" ColumnName="SYSTEMCREATEDDATE" />
+                <ScalarProperty Name="TRGCREATEDDATE" ColumnName="TRGCREATEDDATE" />
+                <ScalarProperty Name="TRGMODIFIEDDATE" ColumnName="TRGMODIFIEDDATE" />
+                <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+                <ScalarProperty Name="NCF_TYPE" ColumnName="NCF_TYPE" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_TYPE" ColumnName="ID_TYPE" />
+                <ScalarProperty Name="DATEOFBIRTH" ColumnName="DATEOFBIRTH" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_POLICY">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_POLICY">
+                <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+                <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+                <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+                <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+                <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+                <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+                <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+                <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+                <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+                <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+                <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+                <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+                <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+                <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+                <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+                <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+                <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+                <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+                <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+                <ScalarProperty Name="GpProductID" ColumnName="GpProductID" />
+                <ScalarProperty Name="In_Coaseguro" ColumnName="In_Coaseguro" />
+                <ScalarProperty Name="Primary_Company" ColumnName="Primary_Company" />
+                <ScalarProperty Name="SUPERVISOR_CODE" ColumnName="SUPERVISOR_CODE" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_CUSTOMER_GET_POLICY_INFO">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_POLICY">
+                <ScalarProperty Name="LINE_OF_BUSINESS" ColumnName="LINE_OF_BUSINESS" />
+                <ScalarProperty Name="ZONE" ColumnName="ZONE" />
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="POLICY_TYPE" ColumnName="POLICY_TYPE" />
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="COUNT_VEHICLE" ColumnName="COUNT_VEHICLE" />
+                <ScalarProperty Name="INITAL_DATE" ColumnName="INITAL_DATE" />
+                <ScalarProperty Name="DUE_DATE" ColumnName="DUE_DATE" />
+                <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+                <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+                <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+                <ScalarProperty Name="AGENT_CODE" ColumnName="AGENT_CODE" />
+                <ScalarProperty Name="AGENT" ColumnName="AGENT" />
+                <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+                <ScalarProperty Name="MPV_total_bruto" ColumnName="MPV_total_bruto" />
+                <ScalarProperty Name="MPV_Descuento_flota" ColumnName="MPV_Descuento_flota" />
+                <ScalarProperty Name="MPV_Descuento_Experiencia" ColumnName="MPV_Descuento_Experiencia" />
+                <ScalarProperty Name="MPV_ITBIS" ColumnName="MPV_ITBIS" />
+                <ScalarProperty Name="POLICY_STATUS" ColumnName="POLICY_STATUS" />
+                <ScalarProperty Name="CREATED_USER" ColumnName="CREATED_USER" />
+                <ScalarProperty Name="MODIFIED_USER" ColumnName="MODIFIED_USER" />
+                <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+                <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+                <ScalarProperty Name="GpProductID" ColumnName="GpProductID" />
+                <ScalarProperty Name="In_Coaseguro" ColumnName="In_Coaseguro" />
+                <ScalarProperty Name="Primary_Company" ColumnName="Primary_Company" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_COVERAGE_DISTRIB">
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.TRANSACTION_BY_COVERAGE">
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+                <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+                <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+                <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+                <ScalarProperty Name="Trans_Tax_Amount" ColumnName="Trans_Tax_Amount" />
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="Product_type" ColumnName="Product_type" />
+                <ScalarProperty Name="Coverage_Desc" ColumnName="Coverage_Desc" />
+                <ScalarProperty Name="Coverage_Group" ColumnName="Coverage_Group" />
+                <ScalarProperty Name="Coverage_Amount" ColumnName="Coverage_Amount" />
+                <ScalarProperty Name="Policy_Transaction_secuence" ColumnName="Policy_Transaction_secuence" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_TRANSACTIONS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_TRANSACTIONS">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.TRANSACTION_INVOICE">
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+                <ScalarProperty Name="TRANS_DESC" ColumnName="TRANS_DESC" />
+                <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+                <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+                <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+                <ScalarProperty Name="ACTUAL_BALANCE" ColumnName="ACTUAL_BALANCE" />
+                <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+                <ScalarProperty Name="TRANS_USER" ColumnName="TRANS_USER" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+                <ScalarProperty Name="SYNC_CREATE_DATE" ColumnName="SYNC_CREATE_DATE" />
+                <ScalarProperty Name="GP_PROCESS_DATE" ColumnName="GP_PROCESS_DATE" />
+                <ScalarProperty Name="GP_PROCESS_USER" ColumnName="GP_PROCESS_USER" />
+                <ScalarProperty Name="GP_MODULE" ColumnName="GP_MODULE" />
+                <ScalarProperty Name="GP_DOCTYPE" ColumnName="GP_DOCTYPE" />
+                <ScalarProperty Name="GP_DOCNUMBR" ColumnName="GP_DOCNUMBR" />
+                <ScalarProperty Name="RENEWAL_TYPE" ColumnName="RENEWAL_TYPE" />
+                <ScalarProperty Name="DOCUMENT_TYPE" ColumnName="DOCUMENT_TYPE" />
+                <ScalarProperty Name="DOCUMENT_CANCELLED" ColumnName="DOCUMENT_CANCELLED" />
+                <ScalarProperty Name="NCF" ColumnName="NCF" />
+                <ScalarProperty Name="ASSIGNED_DOC_NUMBER" ColumnName="ASSIGNED_DOC_NUMBER" />
+                <ScalarProperty Name="TRANSACTION_SEQUENCE" ColumnName="TRANSACTION_SEQUENCE" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_POLICY_GET_PARENT" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_POLICY_GET_PARENT">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_CUSTOMER">
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+                <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+                <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+                <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+                <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+                <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+                <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+                <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+                <ScalarProperty Name="CITY" ColumnName="CITY" />
+                <ScalarProperty Name="STATE" ColumnName="STATE" />
+                <ScalarProperty Name="ZIPCODE" ColumnName="ZIPCODE" />
+                <ScalarProperty Name="CCode" ColumnName="CCode" />
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="PHNUMBR1" ColumnName="PHNUMBR1" />
+                <ScalarProperty Name="PHNUMBR2" ColumnName="PHNUMBR2" />
+                <ScalarProperty Name="PHNUMBR3" ColumnName="PHNUMBR3" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+                <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+                <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+                <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+                <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+                <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+                <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+                <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+                <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+                <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+                <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+                <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+                <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+                <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+                <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+                <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+                <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+                <ScalarProperty Name="NOTETEXT" ColumnName="NOTETEXT" />
+                <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+                <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+                <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+                <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+                <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+                <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+                <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+                <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+                <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+                <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+                <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+                <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+                <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+                <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+                <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+                <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+                <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+                <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+                <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+                <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+                <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+                <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+                <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+                <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+                <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+                <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+                <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+                <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+                <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+                <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+                <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+                <ScalarProperty Name="ToEmail_Recipient" ColumnName="ToEmail_Recipient" />
+                <ScalarProperty Name="CcEmail_Recipient" ColumnName="CcEmail_Recipient" />
+                <ScalarProperty Name="BccEmail_Recipient" ColumnName="BccEmail_Recipient" />
+                <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+                <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+                <ScalarProperty Name="RMCSHACTNUMST" ColumnName="RMCSHACTNUMST" />
+                <ScalarProperty Name="RMARACTNUMST" ColumnName="RMARACTNUMST" />
+                <ScalarProperty Name="RMSLSACTNUMST" ColumnName="RMSLSACTNUMST" />
+                <ScalarProperty Name="RMCOSACTNUMST" ColumnName="RMCOSACTNUMST" />
+                <ScalarProperty Name="RMIVACTNUMST" ColumnName="RMIVACTNUMST" />
+                <ScalarProperty Name="RMTAKACTNUMST" ColumnName="RMTAKACTNUMST" />
+                <ScalarProperty Name="RMAVACTNUMST" ColumnName="RMAVACTNUMST" />
+                <ScalarProperty Name="RMFCGACTNUMST" ColumnName="RMFCGACTNUMST" />
+                <ScalarProperty Name="RMWRACTNUMST" ColumnName="RMWRACTNUMST" />
+                <ScalarProperty Name="RMSORACTNUMST" ColumnName="RMSORACTNUMST" />
+                <ScalarProperty Name="RMOvrpymtWrtoffACTNUMST" ColumnName="RMOvrpymtWrtoffACTNUMST" />
+                <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+                <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+                <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+                <ScalarProperty Name="INET1" ColumnName="INET1" />
+                <ScalarProperty Name="SYSTEMCREATEDDATE" ColumnName="SYSTEMCREATEDDATE" />
+                <ScalarProperty Name="TRGCREATEDDATE" ColumnName="TRGCREATEDDATE" />
+                <ScalarProperty Name="TRGMODIFIEDDATE" ColumnName="TRGMODIFIEDDATE" />
+                <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+                <ScalarProperty Name="NCF_TYPE" ColumnName="NCF_TYPE" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_TYPE" ColumnName="ID_TYPE" />
+                <ScalarProperty Name="DATEOFBIRTH" ColumnName="DATEOFBIRTH" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="RM00201">
+            <EntityTypeMapping TypeName="ATLANModel.RM00201">
+              <MappingFragment StoreEntitySet="RM00201">
+                <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+                <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+                <ScalarProperty Name="CBVAT" ColumnName="CBVAT" />
+                <ScalarProperty Name="RMOvrpymtWrtoffAcctIdx" ColumnName="RMOvrpymtWrtoffAcctIdx" />
+                <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+                <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+                <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+                <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+                <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+                <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+                <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+                <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+                <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+                <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="SNDSTMNT" ColumnName="SNDSTMNT" />
+                <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+                <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+                <ScalarProperty Name="RMSORACC" ColumnName="RMSORACC" />
+                <ScalarProperty Name="RMWRACC" ColumnName="RMWRACC" />
+                <ScalarProperty Name="RMFCGACC" ColumnName="RMFCGACC" />
+                <ScalarProperty Name="RMTAKACC" ColumnName="RMTAKACC" />
+                <ScalarProperty Name="RMAVACC" ColumnName="RMAVACC" />
+                <ScalarProperty Name="RMSLSACC" ColumnName="RMSLSACC" />
+                <ScalarProperty Name="RMIVACC" ColumnName="RMIVACC" />
+                <ScalarProperty Name="RMCOSACC" ColumnName="RMCOSACC" />
+                <ScalarProperty Name="RMARACC" ColumnName="RMARACC" />
+                <ScalarProperty Name="RMCSHACC" ColumnName="RMCSHACC" />
+                <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+                <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+                <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+                <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+                <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+                <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+                <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+                <ScalarProperty Name="FINCHARG" ColumnName="FINCHARG" />
+                <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+                <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+                <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+                <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+                <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+                <ScalarProperty Name="CSTPRLVL" ColumnName="CSTPRLVL" />
+                <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+                <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+                <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+                <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+                <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+                <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+                <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+                <ScalarProperty Name="DEFLTCLS" ColumnName="DEFLTCLS" />
+                <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+                <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+                <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+                <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+                <ScalarProperty Name="CLASDSCR" ColumnName="CLASDSCR" />
+                <ScalarProperty Name="CLASSID" ColumnName="CLASSID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_INSERT_TRANSACTIONS" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_INSERT_TRANSACTIONS" />
+          <EntitySetMapping Name="IV00101">
+            <EntityTypeMapping TypeName="ATLANModel.IV00101">
+              <MappingFragment StoreEntitySet="IV00101">
+                <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+                <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+                <ScalarProperty Name="IVSCRVIX" ColumnName="IVSCRVIX" />
+                <ScalarProperty Name="QtyShortTolerancePercent" ColumnName="QtyShortTolerancePercent" />
+                <ScalarProperty Name="QtyOverTolerancePercent" ColumnName="QtyOverTolerancePercent" />
+                <ScalarProperty Name="UseQtyShortageTolerance" ColumnName="UseQtyShortageTolerance" />
+                <ScalarProperty Name="UseQtyOverageTolerance" ColumnName="UseQtyOverageTolerance" />
+                <ScalarProperty Name="Lot_Split_Quantity" ColumnName="Lot_Split_Quantity" />
+                <ScalarProperty Name="LASTGENLOT" ColumnName="LASTGENLOT" />
+                <ScalarProperty Name="LOTEXPWARNDAYS" ColumnName="LOTEXPWARNDAYS" />
+                <ScalarProperty Name="LOTEXPWARN" ColumnName="LOTEXPWARN" />
+                <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+                <ScalarProperty Name="MINSHELF2" ColumnName="MINSHELF2" />
+                <ScalarProperty Name="MINSHELF1" ColumnName="MINSHELF1" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="CNTRYORGN" ColumnName="CNTRYORGN" />
+                <ScalarProperty Name="STTSTCLVLPRCNTG" ColumnName="STTSTCLVLPRCNTG" />
+                <ScalarProperty Name="ITMPLNNNGTYP" ColumnName="ITMPLNNNGTYP" />
+                <ScalarProperty Name="Purchase_Tax_Options" ColumnName="Purchase_Tax_Options" />
+                <ScalarProperty Name="Purchase_Item_Tax_Schedu" ColumnName="Purchase_Item_Tax_Schedu" />
+                <ScalarProperty Name="Tolerance_Percentage" ColumnName="Tolerance_Percentage" />
+                <ScalarProperty Name="Revalue_Inventory" ColumnName="Revalue_Inventory" />
+                <ScalarProperty Name="ABCCODE" ColumnName="ABCCODE" />
+                <ScalarProperty Name="LASTGENSN" ColumnName="LASTGENSN" />
+                <ScalarProperty Name="KTACCTSR" ColumnName="KTACCTSR" />
+                <ScalarProperty Name="SELNGUOM" ColumnName="SELNGUOM" />
+                <ScalarProperty Name="PRCHSUOM" ColumnName="PRCHSUOM" />
+                <ScalarProperty Name="PRICMTHD" ColumnName="PRICMTHD" />
+                <ScalarProperty Name="PriceGroup" ColumnName="PriceGroup" />
+                <ScalarProperty Name="TCC" ColumnName="TCC" />
+                <ScalarProperty Name="ITEMCODE" ColumnName="ITEMCODE" />
+                <ScalarProperty Name="CGSMCIDX" ColumnName="CGSMCIDX" />
+                <ScalarProperty Name="CGSINFLX" ColumnName="CGSINFLX" />
+                <ScalarProperty Name="INVMCIDX" ColumnName="INVMCIDX" />
+                <ScalarProperty Name="IVINFIDX" ColumnName="IVINFIDX" />
+                <ScalarProperty Name="PURMCIDX" ColumnName="PURMCIDX" />
+                <ScalarProperty Name="PINFLIDX" ColumnName="PINFLIDX" />
+                <ScalarProperty Name="LOCNCODE" ColumnName="LOCNCODE" />
+                <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+                <ScalarProperty Name="WRNTYDYS" ColumnName="WRNTYDYS" />
+                <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+                <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+                <ScalarProperty Name="MSTRCDTY" ColumnName="MSTRCDTY" />
+                <ScalarProperty Name="USCATVLS_6" ColumnName="USCATVLS_6" />
+                <ScalarProperty Name="USCATVLS_5" ColumnName="USCATVLS_5" />
+                <ScalarProperty Name="USCATVLS_4" ColumnName="USCATVLS_4" />
+                <ScalarProperty Name="USCATVLS_3" ColumnName="USCATVLS_3" />
+                <ScalarProperty Name="USCATVLS_2" ColumnName="USCATVLS_2" />
+                <ScalarProperty Name="USCATVLS_1" ColumnName="USCATVLS_1" />
+                <ScalarProperty Name="ALTITEM2" ColumnName="ALTITEM2" />
+                <ScalarProperty Name="ALTITEM1" ColumnName="ALTITEM1" />
+                <ScalarProperty Name="UOMSCHDL" ColumnName="UOMSCHDL" />
+                <ScalarProperty Name="VCTNMTHD" ColumnName="VCTNMTHD" />
+                <ScalarProperty Name="ALWBKORD" ColumnName="ALWBKORD" />
+                <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="LOTTYPE" ColumnName="LOTTYPE" />
+                <ScalarProperty Name="ITMTRKOP" ColumnName="ITMTRKOP" />
+                <ScalarProperty Name="ITMCLSCD" ColumnName="ITMCLSCD" />
+                <ScalarProperty Name="ASMVRIDX" ColumnName="ASMVRIDX" />
+                <ScalarProperty Name="IVRETIDX" ColumnName="IVRETIDX" />
+                <ScalarProperty Name="UPPVIDX" ColumnName="UPPVIDX" />
+                <ScalarProperty Name="PURPVIDX" ColumnName="PURPVIDX" />
+                <ScalarProperty Name="DPSHPIDX" ColumnName="DPSHPIDX" />
+                <ScalarProperty Name="IVVARIDX" ColumnName="IVVARIDX" />
+                <ScalarProperty Name="IVDMGIDX" ColumnName="IVDMGIDX" />
+                <ScalarProperty Name="IVINSVIX" ColumnName="IVINSVIX" />
+                <ScalarProperty Name="IVINUSIX" ColumnName="IVINUSIX" />
+                <ScalarProperty Name="IVSLRNIX" ColumnName="IVSLRNIX" />
+                <ScalarProperty Name="IVSLDSIX" ColumnName="IVSLDSIX" />
+                <ScalarProperty Name="IVSLSIDX" ColumnName="IVSLSIDX" />
+                <ScalarProperty Name="IVCOGSIX" ColumnName="IVCOGSIX" />
+                <ScalarProperty Name="IVIVOFIX" ColumnName="IVIVOFIX" />
+                <ScalarProperty Name="IVIVINDX" ColumnName="IVIVINDX" />
+                <ScalarProperty Name="TAXOPTNS" ColumnName="TAXOPTNS" />
+                <ScalarProperty Name="ITMTSHID" ColumnName="ITMTSHID" />
+                <ScalarProperty Name="DECPLCUR" ColumnName="DECPLCUR" />
+                <ScalarProperty Name="DECPLQTY" ColumnName="DECPLQTY" />
+                <ScalarProperty Name="ITEMSHWT" ColumnName="ITEMSHWT" />
+                <ScalarProperty Name="CURRCOST" ColumnName="CURRCOST" />
+                <ScalarProperty Name="STNDCOST" ColumnName="STNDCOST" />
+                <ScalarProperty Name="ITMGEDSC" ColumnName="ITMGEDSC" />
+                <ScalarProperty Name="ITEMTYPE" ColumnName="ITEMTYPE" />
+                <ScalarProperty Name="ITMSHNAM" ColumnName="ITMSHNAM" />
+                <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+                <ScalarProperty Name="ITEMDESC" ColumnName="ITEMDESC" />
+                <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RM00101">
+            <EntityTypeMapping TypeName="ATLANModel.RM00101">
+              <MappingFragment StoreEntitySet="RM00101">
+                <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+                <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+                <ScalarProperty Name="INCLUDEINDP" ColumnName="INCLUDEINDP" />
+                <ScalarProperty Name="CBVAT" ColumnName="CBVAT" />
+                <ScalarProperty Name="SHIPCOMPLETE" ColumnName="SHIPCOMPLETE" />
+                <ScalarProperty Name="RMOvrpymtWrtoffAcctIdx" ColumnName="RMOvrpymtWrtoffAcctIdx" />
+                <ScalarProperty Name="DECLID" ColumnName="DECLID" />
+                <ScalarProperty Name="CCode" ColumnName="CCode" />
+                <ScalarProperty Name="CUSTPRIORITY" ColumnName="CUSTPRIORITY" />
+                <ScalarProperty Name="ORDERFULFILLDEFAULT" ColumnName="ORDERFULFILLDEFAULT" />
+                <ScalarProperty Name="INTEGRATIONID" ColumnName="INTEGRATIONID" />
+                <ScalarProperty Name="INTEGRATIONSOURCE" ColumnName="INTEGRATIONSOURCE" />
+                <ScalarProperty Name="GPSFOINTEGRATIONID" ColumnName="GPSFOINTEGRATIONID" />
+                <ScalarProperty Name="USERLANG" ColumnName="USERLANG" />
+                <ScalarProperty Name="Send_Email_Statements" ColumnName="Send_Email_Statements" />
+                <ScalarProperty Name="DOCFMTID" ColumnName="DOCFMTID" />
+                <ScalarProperty Name="DUEGRPER" ColumnName="DUEGRPER" />
+                <ScalarProperty Name="DISGRPER" ColumnName="DISGRPER" />
+                <ScalarProperty Name="GOVINDID" ColumnName="GOVINDID" />
+                <ScalarProperty Name="GOVCRPID" ColumnName="GOVCRPID" />
+                <ScalarProperty Name="FINCHID" ColumnName="FINCHID" />
+                <ScalarProperty Name="Post_Results_To" ColumnName="Post_Results_To" />
+                <ScalarProperty Name="Revalue_Customer" ColumnName="Revalue_Customer" />
+                <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+                <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+                <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+                <ScalarProperty Name="KPTRXHST" ColumnName="KPTRXHST" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="KPDSTHST" ColumnName="KPDSTHST" />
+                <ScalarProperty Name="CCRDXPDT" ColumnName="CCRDXPDT" />
+                <ScalarProperty Name="CRCRDNUM" ColumnName="CRCRDNUM" />
+                <ScalarProperty Name="CRCARDID" ColumnName="CRCARDID" />
+                <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="FRSTINDT" ColumnName="FRSTINDT" />
+                <ScalarProperty Name="RMSORACC" ColumnName="RMSORACC" />
+                <ScalarProperty Name="RMWRACC" ColumnName="RMWRACC" />
+                <ScalarProperty Name="RMFCGACC" ColumnName="RMFCGACC" />
+                <ScalarProperty Name="RMAVACC" ColumnName="RMAVACC" />
+                <ScalarProperty Name="RMTAKACC" ColumnName="RMTAKACC" />
+                <ScalarProperty Name="RMCOSACC" ColumnName="RMCOSACC" />
+                <ScalarProperty Name="RMIVACC" ColumnName="RMIVACC" />
+                <ScalarProperty Name="RMSLSACC" ColumnName="RMSLSACC" />
+                <ScalarProperty Name="RMARACC" ColumnName="RMARACC" />
+                <ScalarProperty Name="RMCSHACC" ColumnName="RMCSHACC" />
+                <ScalarProperty Name="DEFCACTY" ColumnName="DEFCACTY" />
+                <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+                <ScalarProperty Name="BNKBRNCH" ColumnName="BNKBRNCH" />
+                <ScalarProperty Name="BANKNAME" ColumnName="BANKNAME" />
+                <ScalarProperty Name="STMTCYCL" ColumnName="STMTCYCL" />
+                <ScalarProperty Name="BALNCTYP" ColumnName="BALNCTYP" />
+                <ScalarProperty Name="TXRGNNUM" ColumnName="TXRGNNUM" />
+                <ScalarProperty Name="TAXEXMT2" ColumnName="TAXEXMT2" />
+                <ScalarProperty Name="TAXEXMT1" ColumnName="TAXEXMT1" />
+                <ScalarProperty Name="USERDEF2" ColumnName="USERDEF2" />
+                <ScalarProperty Name="USERDEF1" ColumnName="USERDEF1" />
+                <ScalarProperty Name="COMMENT2" ColumnName="COMMENT2" />
+                <ScalarProperty Name="COMMENT1" ColumnName="COMMENT1" />
+                <ScalarProperty Name="MXWROFAM" ColumnName="MXWROFAM" />
+                <ScalarProperty Name="MXWOFTYP" ColumnName="MXWOFTYP" />
+                <ScalarProperty Name="FINCHDLR" ColumnName="FINCHDLR" />
+                <ScalarProperty Name="FNCHPCNT" ColumnName="FNCHPCNT" />
+                <ScalarProperty Name="FNCHATYP" ColumnName="FNCHATYP" />
+                <ScalarProperty Name="MINPYPCT" ColumnName="MINPYPCT" />
+                <ScalarProperty Name="MINPYDLR" ColumnName="MINPYDLR" />
+                <ScalarProperty Name="MINPYTYP" ColumnName="MINPYTYP" />
+                <ScalarProperty Name="PRCLEVEL" ColumnName="PRCLEVEL" />
+                <ScalarProperty Name="CUSTDISC" ColumnName="CUSTDISC" />
+                <ScalarProperty Name="RATETPID" ColumnName="RATETPID" />
+                <ScalarProperty Name="CURNCYID" ColumnName="CURNCYID" />
+                <ScalarProperty Name="CRLMTPAM" ColumnName="CRLMTPAM" />
+                <ScalarProperty Name="CRLMTPER" ColumnName="CRLMTPER" />
+                <ScalarProperty Name="CRLMTAMT" ColumnName="CRLMTAMT" />
+                <ScalarProperty Name="CRLMTTYP" ColumnName="CRLMTTYP" />
+                <ScalarProperty Name="PYMTRMID" ColumnName="PYMTRMID" />
+                <ScalarProperty Name="CHEKBKID" ColumnName="CHEKBKID" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+                <ScalarProperty Name="STADDRCD" ColumnName="STADDRCD" />
+                <ScalarProperty Name="PRSTADCD" ColumnName="PRSTADCD" />
+                <ScalarProperty Name="PRBTADCD" ColumnName="PRBTADCD" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="PHONE3" ColumnName="PHONE3" />
+                <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+                <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+                <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+                <ScalarProperty Name="STATE" ColumnName="STATE" />
+                <ScalarProperty Name="CITY" ColumnName="CITY" />
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="TAXSCHID" ColumnName="TAXSCHID" />
+                <ScalarProperty Name="SHIPMTHD" ColumnName="SHIPMTHD" />
+                <ScalarProperty Name="UPSZONE" ColumnName="UPSZONE" />
+                <ScalarProperty Name="ADRSCODE" ColumnName="ADRSCODE" />
+                <ScalarProperty Name="SHRTNAME" ColumnName="SHRTNAME" />
+                <ScalarProperty Name="STMTNAME" ColumnName="STMTNAME" />
+                <ScalarProperty Name="CNTCPRSN" ColumnName="CNTCPRSN" />
+                <ScalarProperty Name="CPRCSTNM" ColumnName="CPRCSTNM" />
+                <ScalarProperty Name="CUSTCLAS" ColumnName="CUSTCLAS" />
+                <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_REINSURANCE_BY_COVERAGE">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.SYSFLEX_REINSURANCE_BY_COVERAGE">
+                <ScalarProperty Name="POLICY_NUMBER" ColumnName="POLICY_NUMBER" />
+                <ScalarProperty Name="TRANS_TYPE" ColumnName="TRANS_TYPE" />
+                <ScalarProperty Name="Item_number" ColumnName="Item_number" />
+                <ScalarProperty Name="TRANS_AMOUNT" ColumnName="TRANS_AMOUNT" />
+                <ScalarProperty Name="Trans_Tax_Amount" ColumnName="Trans_Tax_Amount" />
+                <ScalarProperty Name="VEHICLE_TYPE" ColumnName="VEHICLE_TYPE" />
+                <ScalarProperty Name="Product_type" ColumnName="Product_type" />
+                <ScalarProperty Name="Coverage_Desc" ColumnName="Coverage_Desc" />
+                <ScalarProperty Name="Coverage_ID" ColumnName="Coverage_ID" />
+                <ScalarProperty Name="Coverage_Limit" ColumnName="Coverage_Limit" />
+                <ScalarProperty Name="Coverage_Group" ColumnName="Coverage_Group" />
+                <ScalarProperty Name="Coverage_Amount" ColumnName="Coverage_Amount" />
+                <ScalarProperty Name="Coverage_Percent" ColumnName="Coverage_Percent" />
+                <ScalarProperty Name="Reinsurance_Percent_Commission" ColumnName="Reinsurance_Percent_Commission" />
+                <ScalarProperty Name="Reinsurance_Amount_Commission" ColumnName="Reinsurance_Amount_Commission" />
+                <ScalarProperty Name="Policy_Transaction_secuence" ColumnName="Policy_Transaction_secuence" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="Name_Company" ColumnName="Name_Company" />
+                <ScalarProperty Name="Type_identifierr" ColumnName="Type_identifierr" />
+                <ScalarProperty Name="Number_Identifierr" ColumnName="Number_Identifierr" />
+                <ScalarProperty Name="Number_Contrat" ColumnName="Number_Contrat" />
+                <ScalarProperty Name="Type_Contrat" ColumnName="Type_Contrat" />
+                <ScalarProperty Name="Company_is_Local" ColumnName="Company_is_Local" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_UPDATE_TRANSACTION_SYNC" />
+          <EntitySetMapping Name="ST_GL_MAPPING_SUPERVISOR">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_SUPERVISOR">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_SUPERVISOR">
+                <ScalarProperty Name="CHANNEL_MAPPING" ColumnName="CHANNEL_MAPPING" />
+                <ScalarProperty Name="ZONE_MAPPING" ColumnName="ZONE_MAPPING" />
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+                <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+                <ScalarProperty Name="SUPERVISOR_CODE" ColumnName="SUPERVISOR_CODE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_GL_MAPPING_REINSURANCE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_REINSURANCE">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_REINSURANCE">
+                <ScalarProperty Name="UNIT_ACCOUNT" ColumnName="UNIT_ACCOUNT" />
+                <ScalarProperty Name="SEGMENT2_COMM" ColumnName="SEGMENT2_COMM" />
+                <ScalarProperty Name="SEGMENT1_COMM" ColumnName="SEGMENT1_COMM" />
+                <ScalarProperty Name="SEGMENT2" ColumnName="SEGMENT2" />
+                <ScalarProperty Name="SEGMENT1" ColumnName="SEGMENT1" />
+                <ScalarProperty Name="IsFacult" ColumnName="IsFacult" />
+                <ScalarProperty Name="IsLocal" ColumnName="IsLocal" />
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="pSP_CREAR_CUENTAS" FunctionName="ATLANModel.Store.pSP_CREAR_CUENTAS" />
+          <EntitySetMapping Name="RM00301">
+            <EntityTypeMapping TypeName="ATLANModel.RM00301">
+              <MappingFragment StoreEntitySet="RM00301">
+                <ScalarProperty Name="DEX_ROW_ID" ColumnName="DEX_ROW_ID" />
+                <ScalarProperty Name="DEX_ROW_TS" ColumnName="DEX_ROW_TS" />
+                <ScalarProperty Name="COMMDEST" ColumnName="COMMDEST" />
+                <ScalarProperty Name="CREATDDT" ColumnName="CREATDDT" />
+                <ScalarProperty Name="MODIFDT" ColumnName="MODIFDT" />
+                <ScalarProperty Name="NOTEINDX" ColumnName="NOTEINDX" />
+                <ScalarProperty Name="KPERHIST" ColumnName="KPERHIST" />
+                <ScalarProperty Name="KPCALHST" ColumnName="KPCALHST" />
+                <ScalarProperty Name="NCOMSLYR" ColumnName="NCOMSLYR" />
+                <ScalarProperty Name="NCOMSLTD" ColumnName="NCOMSLTD" />
+                <ScalarProperty Name="COMSLLYR" ColumnName="COMSLLYR" />
+                <ScalarProperty Name="COMSLTDT" ColumnName="COMSLTDT" />
+                <ScalarProperty Name="TTLCOMLY" ColumnName="TTLCOMLY" />
+                <ScalarProperty Name="TTLCOMTD" ColumnName="TTLCOMTD" />
+                <ScalarProperty Name="CSTLSTYR" ColumnName="CSTLSTYR" />
+                <ScalarProperty Name="COSTTODT" ColumnName="COSTTODT" />
+                <ScalarProperty Name="COMAPPTO" ColumnName="COMAPPTO" />
+                <ScalarProperty Name="STDCPRCT" ColumnName="STDCPRCT" />
+                <ScalarProperty Name="COMPRCNT" ColumnName="COMPRCNT" />
+                <ScalarProperty Name="COMMCODE" ColumnName="COMMCODE" />
+                <ScalarProperty Name="SALSTERR" ColumnName="SALSTERR" />
+                <ScalarProperty Name="INACTIVE" ColumnName="INACTIVE" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="PHONE3" ColumnName="PHONE3" />
+                <ScalarProperty Name="PHONE2" ColumnName="PHONE2" />
+                <ScalarProperty Name="PHONE1" ColumnName="PHONE1" />
+                <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+                <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+                <ScalarProperty Name="STATE" ColumnName="STATE" />
+                <ScalarProperty Name="CITY" ColumnName="CITY" />
+                <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="SPRSNSLN" ColumnName="SPRSNSLN" />
+                <ScalarProperty Name="SPRSNSMN" ColumnName="SPRSNSMN" />
+                <ScalarProperty Name="SLPRSNFN" ColumnName="SLPRSNFN" />
+                <ScalarProperty Name="VENDORID" ColumnName="VENDORID" />
+                <ScalarProperty Name="EMPLOYID" ColumnName="EMPLOYID" />
+                <ScalarProperty Name="SLPRSNID" ColumnName="SLPRSNID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_SYSFLEX_POLICY_RENEW">
+            <EntityTypeMapping TypeName="ATLANModel.ST_SYSFLEX_POLICY_RENEW">
+              <MappingFragment StoreEntitySet="ST_SYSFLEX_POLICY_RENEW">
+                <ScalarProperty Name="PROCESS_DATE" ColumnName="PROCESS_DATE" />
+                <ScalarProperty Name="PROCESS" ColumnName="PROCESS" />
+                <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+                <ScalarProperty Name="CRDTAMNT" ColumnName="CRDTAMNT" />
+                <ScalarProperty Name="DEBITAMT" ColumnName="DEBITAMT" />
+                <ScalarProperty Name="ACTNUMST" ColumnName="ACTNUMST" />
+                <ScalarProperty Name="DistRef" ColumnName="DistRef" />
+                <ScalarProperty Name="DISTTYPE" ColumnName="DISTTYPE" />
+                <ScalarProperty Name="SOPNUMBE" ColumnName="SOPNUMBE" />
+                <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+                <ScalarProperty Name="TRANSACTION_SEQ" ColumnName="TRANSACTION_SEQ" />
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="INITIAL_DATE" ColumnName="INITIAL_DATE" />
+                <ScalarProperty Name="ROWID" ColumnName="ROWID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_SYSFLEX_CHANGE_STATE_CUSTOMER" FunctionName="ATLANModel.Store.usp_SYSFLEX_CHANGE_STATE_CUSTOMER" />
+          <FunctionImportMapping FunctionImportName="usp_SYSFLEX_DELETE_RESERVE" FunctionName="ATLANModel.Store.usp_SYSFLEX_DELETE_RESERVE" />
+          <FunctionImportMapping FunctionImportName="usp_ST_GL_VERIFY_ACCOUNT_EXISTS" FunctionName="ATLANModel.Store.usp_ST_GL_VERIFY_ACCOUNT_EXISTS" />
+          <EntitySetMapping Name="ST_GL_MAPPING_CHANNEL">
+            <EntityTypeMapping TypeName="ATLANModel.ST_GL_MAPPING_CHANNEL">
+              <MappingFragment StoreEntitySet="ST_GL_MAPPING_CHANNEL">
+                <ScalarProperty Name="GL_MAPPING" ColumnName="GL_MAPPING" />
+                <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_ITEMNMBR_ACCOUNT_CODE">
+            <EntityTypeMapping TypeName="ATLANModel.ST_ITEMNMBR_ACCOUNT_CODE">
+              <MappingFragment StoreEntitySet="ST_ITEMNMBR_ACCOUNT_CODE">
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="ACCOUNT_CODE" ColumnName="ACCOUNT_CODE" />
+                <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ST_ITEM_CHANNEL_COMMISSION">
+            <EntityTypeMapping TypeName="ATLANModel.ST_ITEM_CHANNEL_COMMISSION">
+              <MappingFragment StoreEntitySet="ST_ITEM_CHANNEL_COMMISSION">
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+                <ScalarProperty Name="COMMISSION_PERCENT" ColumnName="COMMISSION_PERCENT" />
+                <ScalarProperty Name="CHANNEL_GL_MAPPING" ColumnName="CHANNEL_GL_MAPPING" />
+                <ScalarProperty Name="ITEMNMBR" ColumnName="ITEMNMBR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_RENEW_DATES" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_RENEW_DATES" />
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_GET_RENEW_INVOICES" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_GET_RENEW_INVOICES" />
+          <FunctionImportMapping FunctionImportName="usp_SYSFLEX_GET_POSTING_DITRIBUTION" FunctionName="ATLANModel.Store.usp_SYSFLEX_GET_POSTING_DITRIBUTION">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.POSTING_DITRIBUTION">
+                <ScalarProperty Name="ROWID" ColumnName="ROWID" />
+                <ScalarProperty Name="INITIAL_DATE" ColumnName="INITIAL_DATE" />
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="SOPNUMBE" ColumnName="SOPNUMBE" />
+                <ScalarProperty Name="DistRef" ColumnName="DistRef" />
+                <ScalarProperty Name="ACTNUMST" ColumnName="ACTNUMST" />
+                <ScalarProperty Name="DEBITAMT" ColumnName="DEBITAMT" />
+                <ScalarProperty Name="CRDTAMNT" ColumnName="CRDTAMNT" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_SYSFLEX_GET_UNIT_DISTRIBUTION" FunctionName="ATLANModel.Store.usp_SYSFLEX_GET_UNIT_DISTRIBUTION">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="ATLANModel.UNIT_DISTRIBUTION">
+                <ScalarProperty Name="SOPTYPE" ColumnName="SOPTYPE" />
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="SOPNUMBE" ColumnName="SOPNUMBE" />
+                <ScalarProperty Name="CUSTNAME" ColumnName="CUSTNAME" />
+                <ScalarProperty Name="ACTNUMST" ColumnName="ACTNUMST" />
+                <ScalarProperty Name="CRDTAMNT" ColumnName="CRDTAMNT" />
+                <ScalarProperty Name="DEBITAMT" ColumnName="DEBITAMT" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_SYSFLEX_RENEW_UPDATE_STATE" FunctionName="ATLANModel.Store.usp_SYSFLEX_RENEW_UPDATE_STATE" />
+          <EntitySetMapping Name="ST_CHANNEL_NO_COMMISSION">
+            <EntityTypeMapping TypeName="ATLANModel.ST_CHANNEL_NO_COMMISSION">
+              <MappingFragment StoreEntitySet="ST_CHANNEL_NO_COMMISSION">
+                <ScalarProperty Name="CHANNEL" ColumnName="CHANNEL" />
+                <ScalarProperty Name="ROW_ID" ColumnName="ROW_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_ST_SYSFLEX_UPDATE_COMMISSION" FunctionName="ATLANModel.Store.usp_ST_SYSFLEX_UPDATE_COMMISSION" />
+          <EntitySetMapping Name="ST_SYSFLEX_POLICY_RENEW_NC">
+            <EntityTypeMapping TypeName="ATLANModel.ST_SYSFLEX_POLICY_RENEW_NC">
+              <MappingFragment StoreEntitySet="ST_SYSFLEX_POLICY_RENEW_NC">
+                <ScalarProperty Name="PROCESS_DATE" ColumnName="PROCESS_DATE" />
+                <ScalarProperty Name="PROCESS" ColumnName="PROCESS" />
+                <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+                <ScalarProperty Name="CRDTAMNT" ColumnName="CRDTAMNT" />
+                <ScalarProperty Name="DEBITAMT" ColumnName="DEBITAMT" />
+                <ScalarProperty Name="ACTNUMST" ColumnName="ACTNUMST" />
+                <ScalarProperty Name="DistRef" ColumnName="DistRef" />
+                <ScalarProperty Name="DISTTYPE" ColumnName="DISTTYPE" />
+                <ScalarProperty Name="NCNUMBER" ColumnName="NCNUMBER" />
+                <ScalarProperty Name="DOCUMENT_NUMBER" ColumnName="DOCUMENT_NUMBER" />
+                <ScalarProperty Name="TRANSACTION_SEQ" ColumnName="TRANSACTION_SEQ" />
+                <ScalarProperty Name="CUSTNMBR" ColumnName="CUSTNMBR" />
+                <ScalarProperty Name="INITIAL_DATE" ColumnName="INITIAL_DATE" />
+                <ScalarProperty Name="ROWID" ColumnName="ROWID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

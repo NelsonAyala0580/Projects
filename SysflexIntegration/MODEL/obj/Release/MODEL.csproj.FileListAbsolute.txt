@@ -1,0 +1,32 @@
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\MODEL.dll.config
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\MODEL.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\MODEL.pdb
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\EntityFramework.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\Log4NetMR.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\log4net.dll
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\Log4NetMR.pdb
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\EntityFramework.xml
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects\SysflexIntegration\MODEL\bin\Release\log4net.xml
+C:\VSProjects\SysflexIntegration\MODEL\obj\Release\MODEL.csprojResolveAssemblyReference.cache
+C:\VSProjects\SysflexIntegration\MODEL\obj\Release\MODEL.dll
+C:\VSProjects\SysflexIntegration\MODEL\obj\Release\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\MODEL.dll.config
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\MODEL.pdb
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\EntityFramework.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\EntityFramework.SqlServer.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\Log4NetMR.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\SysflexIntegrationUTIL.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\log4net.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\Log4NetMR.pdb
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\SysflexIntegrationUTIL.pdb
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\EntityFramework.xml
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\EntityFramework.SqlServer.xml
+C:\VSProjects GP2018\SysflexIntegration\MODEL\bin\Release\log4net.xml
+C:\VSProjects GP2018\SysflexIntegration\MODEL\obj\Release\MODEL.csprojResolveAssemblyReference.cache
+C:\VSProjects GP2018\SysflexIntegration\MODEL\obj\Release\MODEL.dll
+C:\VSProjects GP2018\SysflexIntegration\MODEL\obj\Release\MODEL.pdb

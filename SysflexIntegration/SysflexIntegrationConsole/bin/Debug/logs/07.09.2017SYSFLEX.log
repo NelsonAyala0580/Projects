@@ -1,0 +1,725 @@
+2017-09-07 10:03:26,805 [10] DEBUG  - Total de Transacciones: 3
+2017-09-07 10:04:16,887 [10] DEBUG  - Contruyendo encabezado
+2017-09-07 10:04:18,953 [10] DEBUG  - Creacion de numero de batch SF79201710:4
+2017-09-07 10:05:09,429 [10] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 10:10:04,069 [10] WARN  - No se encontró configuracion para el canal INTERMEDIARIOS 2 e Itemnumbr: ULTRA
+2017-09-07 10:10:04,085 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 277
+2017-09-07 10:10:05,237 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 293
+   at InvoiceSync.BL.InvoiceBL.CreateCommissions(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, SOPHeader header, SOPDetail[] detail, List`1 transactionbyCoverage) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 659
+2017-09-07 10:10:45,371 [10] WARN  - No se encontró configuracion para el canal INTERMEDIARIOS 2 e Itemnumbr: ULTRA
+2017-09-07 10:10:45,371 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.DAL.InvoiceDAL.GetCommission(String salesperson, String itemnmbr, String channel, Decimal amount) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 277
+2017-09-07 10:18:27,503 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 10:18:35,982 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 10:18:49,898 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 10:19:39,540 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 10:21:21,199 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 10:21:48,069 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 10:21:54,986 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 10:22:06,134 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 10:22:12,504 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 10:22:20,538 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-11
+2017-09-07 10:22:56,896 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 10:43:40,425 [9] DEBUG  - Total de Transacciones: 3
+2017-09-07 10:43:54,305 [9] DEBUG  - Contruyendo encabezado
+2017-09-07 10:43:54,706 [9] DEBUG  - Creacion de numero de batch SF79201710:43
+2017-09-07 10:43:56,591 [9] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 10:47:01,568 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 10:49:24,333 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 10:49:28,405 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 10:49:32,071 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 10:49:35,375 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 10:49:39,163 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 10:49:45,036 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 10:49:45,036 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 10:49:45,036 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 10:49:45,036 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 10:50:18,925 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 10:50:36,120 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 10:50:51,107 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 10:51:09,126 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 10:51:22,472 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 10:51:38,586 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 10:51:55,522 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-11
+2017-09-07 10:52:11,054 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 10:58:35,326 [8] DEBUG  - Total de Transacciones: 3
+2017-09-07 11:00:47,476 [8] DEBUG  - Contruyendo encabezado
+2017-09-07 11:00:48,007 [8] DEBUG  - Creacion de numero de batch SF79201711:0
+2017-09-07 11:00:50,239 [8] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 11:05:15,371 [8] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 11:05:19,388 [8] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 11:05:44,164 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 11:06:04,926 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 11:06:15,559 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 11:06:19,775 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 11:06:24,159 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 11:06:28,728 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 11:06:33,161 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-11
+2017-09-07 11:06:38,917 [8] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 11:07:13,027 [8] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0302-00-04-174-10039-00
+2017-09-07 11:11:15,250 [9] DEBUG  - Total de Transacciones: 3
+2017-09-07 11:11:23,631 [9] DEBUG  - Contruyendo encabezado
+2017-09-07 11:11:24,075 [9] DEBUG  - Creacion de numero de batch SF79201711:11
+2017-09-07 11:11:26,076 [9] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 11:23:24,985 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 11:23:31,688 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 11:23:35,648 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 11:23:39,128 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 11:23:42,568 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 11:23:46,369 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 11:23:50,034 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 11:23:53,907 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 11:23:57,779 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 11:24:02,342 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 11:24:13,082 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 11:24:23,973 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 11:24:31,290 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 11:24:35,790 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 11:24:40,853 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 11:24:45,191 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 11:24:49,691 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-11
+2017-09-07 11:24:54,008 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 11:25:56,804 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0302-00-04-174-10039-00
+2017-09-07 11:25:59,522 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-09-07 11:26:08,274 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-65
+2017-09-07 11:26:16,409 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-02
+2017-09-07 11:26:35,893 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-13
+2017-09-07 11:26:42,967 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-09
+2017-09-07 11:26:49,672 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-10
+2017-09-07 11:26:56,891 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-12
+2017-09-07 11:27:05,798 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-11
+2017-09-07 11:27:14,272 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-66
+2017-09-07 11:27:44,103 [9] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0600-00-04-174-10039-00
+2017-09-07 11:27:59,730 [9] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>426.44</UNITPRCE>
+        <XTNDPRCE>426.44</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-65</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>2985.06</UNITPRCE>
+        <XTNDPRCE>2985.06</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-02</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>852.87</UNITPRCE>
+        <XTNDPRCE>852.87</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-13</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>3240.92</UNITPRCE>
+        <XTNDPRCE>3240.92</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-09</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-10</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-10</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-10</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>852.87</UNITPRCE>
+        <XTNDPRCE>852.87</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-12</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-11</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-11</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-11</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <DOCDATE>8/21/2017</DOCDATE>
+        <USERDATE>9/7/2017</USERDATE>
+        <ITEMNMBR>CAMION - LEY                   </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>170.57</UNITPRCE>
+        <XTNDPRCE>170.57</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Riesgo Peones (2)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0302-00-04-174-10039-66</INVINDX>
+        <CSLSINDX>4301-06-201-0302-00-04-174-10039-66</CSLSINDX>
+        <SLSINDX>4301-06-201-0302-00-04-174-10039-66</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>12639</SLPRSNID>
+        <SALSTERR>04             </SALSTERR>
+        <COMMAMNT>1791.02</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>1364.60</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0600-00-04-174-10039-00</ACTNUMST>
+        <DEBITAMT>9893.33</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-65</ACTNUMST>
+        <CRDTAMNT>426.44</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-02</ACTNUMST>
+        <CRDTAMNT>2985.06</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-13</ACTNUMST>
+        <CRDTAMNT>852.87</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-09</ACTNUMST>
+        <CRDTAMNT>3240.92</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-10</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-12</ACTNUMST>
+        <CRDTAMNT>852.87</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-11</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Riesgo Peones (2)</DistRef>
+        <ACTNUMST>4301-06-201-0302-00-04-174-10039-66</ACTNUMST>
+        <CRDTAMNT>170.57</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>1364.60</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-65</ACTNUMST>
+        <DEBITAMT>89.55</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-02</ACTNUMST>
+        <DEBITAMT>626.86</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-13</ACTNUMST>
+        <DEBITAMT>179.10</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-09</ACTNUMST>
+        <DEBITAMT>680.59</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-10</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-12</ACTNUMST>
+        <DEBITAMT>179.10</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-11</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0302-00-04-174-10039-66</ACTNUMST>
+        <DEBITAMT>35.82</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0302-00-04-174-10039-00</ACTNUMST>
+        <CRDTAMNT>1791.03</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-65</ACTNUMST>
+        <DEBITAMT>170.58</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-02</ACTNUMST>
+        <DEBITAMT>1194.02</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-13</ACTNUMST>
+        <DEBITAMT>341.15</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-09</ACTNUMST>
+        <DEBITAMT>1296.37</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-10</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-12</ACTNUMST>
+        <DEBITAMT>341.15</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-11</ACTNUMST>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0600-00-04-174-10039-66</ACTNUMST>
+        <DEBITAMT>68.23</DEBITAMT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2391279          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0600-00-04-174-10039-00</ACTNUMST>
+        <CRDTAMNT>3411.50</CRDTAMNT>
+        <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2391279          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>1364.60</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>8/21/2017</DOCDATE>
+      <CUSTNMBR>1-05-427317    </CUSTNMBR>
+      <CITY>SAN CRISTOBAL                      </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>8528.73</SUBTOTAL>
+      <DOCAMNT>9893.33</DOCAMNT>
+      <SLPRSNID>12639</SLPRSNID>
+      <BACHNUMB>SF79201711:11</BACHNUMB>
+      <DUEDATE>8/21/2017</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>1791.02</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>
+2017-09-07 11:28:07,755 [9] DEBUG  - Contruyendo encabezado
+2017-09-07 11:28:08,156 [9] DEBUG  - Creacion de numero de batch SF79201711:28
+2017-09-07 11:28:09,257 [9] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 11:29:51,162 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 11:30:06,671 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 11:30:16,723 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 11:30:25,803 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 11:30:35,211 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 11:30:44,449 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 11:30:53,761 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 11:31:02,893 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-11
+2017-09-07 11:31:12,366 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 11:32:23,267 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0302-00-04-174-10039-00
+2017-09-07 11:32:26,132 [9] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-09-07 11:32:33,692 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-65
+2017-09-07 11:32:42,486 [9] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-02
+2017-09-07 11:36:38,782 [9] DEBUG  - Total de Transacciones: 2
+2017-09-07 11:36:47,323 [9] DEBUG  - Contruyendo encabezado
+2017-09-07 11:36:47,677 [9] DEBUG  - Creacion de numero de batch SF79201711:36
+2017-09-07 11:37:01,157 [9] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 11:39:05,004 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 11:39:17,100 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 11:39:27,728 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 11:39:42,359 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 11:39:59,183 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 11:40:33,573 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-10
+2017-09-07 11:40:46,492 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 12:43:50,738 [8] DEBUG  - Total de Transacciones: 2
+2017-09-07 12:43:57,832 [8] DEBUG  - Contruyendo encabezado
+2017-09-07 12:43:58,217 [8] DEBUG  - Creacion de numero de batch SF79201712:43
+2017-09-07 12:44:02,505 [8] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 14:08:03,378 [10] DEBUG  - Total de Transacciones: 2
+2017-09-07 14:08:13,135 [10] DEBUG  - Contruyendo encabezado
+2017-09-07 14:08:13,588 [10] DEBUG  - Creacion de numero de batch SF79201714:8
+2017-09-07 14:08:17,101 [10] DEBUG  - Se obtiene el cliente de GP 1-05-427317
+2017-09-07 14:12:51,232 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-04-174-10039-00
+2017-09-07 14:12:54,819 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-65
+2017-09-07 14:12:58,771 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-02
+2017-09-07 14:13:04,395 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-13
+2017-09-07 14:13:10,416 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-09
+2017-09-07 14:13:15,268 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-10
+2017-09-07 14:13:23,428 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-12
+2017-09-07 14:13:23,428 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-11
+2017-09-07 14:13:23,428 [10] DEBUG  - Cuenta de producto: 4301-06-201-0302-00-04-174-10039-66
+2017-09-07 14:13:23,428 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 14:13:42,026 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-65
+2017-09-07 14:14:05,875 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-02
+2017-09-07 14:14:41,012 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-13
+2017-09-07 14:14:56,041 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-09
+2017-09-07 14:15:11,054 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-12
+2017-09-07 14:15:29,942 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0302-00-04-174-10039-66
+2017-09-07 14:16:29,289 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0302-00-04-174-10039-00
+2017-09-07 14:16:32,098 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-09-07 14:17:08,955 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-65
+2017-09-07 14:17:17,817 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0600-00-04-174-10039-02
+2017-09-07 14:49:50,991 [9] DEBUG  - Total de Transacciones: 2
+2017-09-07 14:51:12,163 [10] DEBUG  - Total de Transacciones: 2
+2017-09-07 14:52:31,745 [10] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at MODEL.ATLANEntities.usp_ST_SYSFLEX_GET_TRANSACTION_BY_COVERAGE(String pOLICY_NUMBER, Nullable`1 transaction_Secuence) in C:\VSProjects\SysflexIntegration\MODEL\ATLAN.Context.cs:line 134
+   at InvoiceSync.DAL.InvoiceDAL.GetCoverageDistribution(String policy, Int32 transaction_secuence) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 62
+2017-09-07 15:00:17,996 [10] DEBUG  - Total de Transacciones: 1
+2017-09-07 16:26:08,407 [9] DEBUG  - Total de Transacciones: 1
+2017-09-07 16:26:37,717 [9] DEBUG  - Contruyendo encabezado
+2017-09-07 16:26:38,233 [9] DEBUG  - Creacion de numero de batch SF79201716:26
+2017-09-07 16:26:40,119 [9] DEBUG  - Se obtiene el cliente de GP 05-276638-2012
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-08-179-10099-00
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-65
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-02
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-13
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-09
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-12
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-65
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-02
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-13
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-09
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-12
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-65
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-02
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-13
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-09
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0201-00-08-179-10099-12
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-65
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-02
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-13
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-09
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de producto: 4301-06-201-0401-00-08-179-10099-12
+2017-09-07 16:30:36,561 [9] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-09-07 16:30:53,703 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-65
+2017-09-07 16:30:59,785 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-02
+2017-09-07 16:31:06,505 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-13
+2017-09-07 16:31:13,903 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-09
+2017-09-07 16:31:20,771 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-12
+2017-09-07 16:31:27,361 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-65
+2017-09-07 16:31:34,315 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-02
+2017-09-07 16:31:41,146 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-13
+2017-09-07 16:31:48,114 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-09
+2017-09-07 16:31:53,782 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-12
+2017-09-07 16:31:59,652 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-65
+2017-09-07 16:32:06,153 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-02
+2017-09-07 16:32:11,520 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-13
+2017-09-07 16:32:17,782 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-09
+2017-09-07 16:32:24,466 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0201-00-08-179-10099-12
+2017-09-07 16:32:31,080 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-65
+2017-09-07 16:32:37,398 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-02
+2017-09-07 16:32:43,601 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-13
+2017-09-07 16:32:49,901 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-09
+2017-09-07 16:32:56,319 [9] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0401-00-08-179-10099-12
+2017-09-07 16:33:58,626 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0201-00-08-179-10099-00
+2017-09-07 16:35:09,672 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0401-00-08-179-10099-00
+2017-09-07 16:36:30,883 [9] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0201-00-08-179-10099-00

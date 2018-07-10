@@ -1,0 +1,788 @@
+2017-10-31 09:47:30,266 [8] DEBUG  - Total de Transacciones: 92
+2017-10-31 09:47:44,717 [8] DEBUG  - Contruyendo encabezado
+2017-10-31 09:47:45,107 [8] DEBUG  - Creacion de numero de batch SFNC311020179
+2017-10-31 09:47:47,971 [8] DEBUG  - Se obtiene el cliente de GP 1-05-431689
+2017-10-31 09:57:08,432 [9] DEBUG  - Total de Transacciones: 95
+2017-10-31 09:57:20,108 [9] DEBUG  - Contruyendo encabezado
+2017-10-31 09:57:21,217 [9] DEBUG  - Creacion de numero de batch SFFA311020179
+2017-10-31 09:57:23,761 [9] DEBUG  - Se obtiene el cliente de GP 1-05-436015
+2017-10-31 09:58:37,617 [9] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetItemSERVICIOS(String product) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 220
+2017-10-31 09:58:37,648 [9] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetItemSERVICIOS(String product) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 229
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 274
+2017-10-31 10:01:25,984 [9] ERROR  - Ocurrió un error: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at InvoiceSync.DAL.InvoiceDAL.GetItemSERVICIOS(String product) in C:\VSProjects\SysflexIntegration\InvoiceSync\DAL\InvoiceDAL.cs:line 220
+2017-10-31 10:07:43,551 [10] DEBUG  - Total de Transacciones: 95
+2017-10-31 10:07:54,944 [10] DEBUG  - Contruyendo encabezado
+2017-10-31 10:07:55,652 [10] DEBUG  - Creacion de numero de batch SFFA3110201710
+2017-10-31 10:08:33,655 [10] DEBUG  - Se obtiene el cliente de GP 1-05-436015
+2017-10-31 10:11:09,468 [10] DEBUG  - Cuenta por cobrar: 1302-06-201-0600-00-03-174-10052-00
+2017-10-31 10:11:13,190 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-65
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-04
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-02
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-13
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-06
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-09
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-12
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-05
+2017-10-31 10:11:15,761 [10] DEBUG  - Cuenta de producto: 4301-06-201-0403-00-03-174-10052-16
+2017-10-31 10:11:21,536 [10] DEBUG  - Cuenta de impuestos: 2901-00-000-0000-00-00-171-00001-00
+2017-10-31 10:11:34,505 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-65
+2017-10-31 10:11:50,546 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-04
+2017-10-31 10:11:56,407 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-02
+2017-10-31 10:11:57,626 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-13
+2017-10-31 10:11:58,845 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-06
+2017-10-31 10:12:00,126 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-09
+2017-10-31 10:12:01,361 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-12
+2017-10-31 10:12:02,580 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-05
+2017-10-31 10:12:03,845 [10] DEBUG  - Cuenta de comisiones GASTO 5302-06-201-0403-00-03-174-10052-16
+2017-10-31 10:13:06,949 [10] DEBUG  - Cuenta de comisiones PAGO 2902-00-201-0403-00-03-174-10052-00
+2017-10-31 10:13:08,840 [10] DEBUG  - Porcentaje Reserva Riesgos en curso: 40
+2017-10-31 10:13:15,109 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-65
+2017-10-31 10:13:20,987 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-04
+2017-10-31 10:13:26,494 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-02
+2017-10-31 10:13:32,771 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-13
+2017-10-31 10:13:38,201 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-06
+2017-10-31 10:13:49,545 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-09
+2017-10-31 10:13:50,436 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-12
+2017-10-31 10:13:51,342 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-05
+2017-10-31 10:13:52,358 [10] DEBUG  - Cuenta para RRC GASTO: 5311-06-201-0403-00-03-174-10052-16
+2017-10-31 10:13:53,186 [10] DEBUG  - Cuenta para RRC PASIVO: 2206-00-201-0403-00-03-174-10052-00
+2017-10-31 10:13:54,092 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0403-00-03-174-10052-04
+2017-10-31 10:13:55,015 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0403-00-03-174-10052-04
+2017-10-31 10:13:56,546 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0403-00-03-174-10052-06
+2017-10-31 10:13:57,968 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0403-00-03-174-10052-06
+2017-10-31 10:13:59,202 [10] DEBUG  - Reaseguro Contractual: 5306-06-201-0403-00-03-174-10052-05
+2017-10-31 10:14:00,546 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 4302-06-201-0403-00-03-174-10052-05
+2017-10-31 10:14:01,375 [10] DEBUG  - Reaseguradores - cuenta corriente: 2402-00-201-0403-00-03-174-10052-00
+2017-10-31 10:14:02,187 [10] DEBUG  - Reaseguradores Comision por Reaseguro: 2402-00-201-0403-00-03-174-10052-00
+2017-10-31 10:14:03,125 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0403-00-03-174-10052-04
+2017-10-31 10:14:04,594 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0403-00-03-174-10052-06
+2017-10-31 10:14:05,984 [10] DEBUG  - RRC para reaseguro INGRESO: 4311-06-201-0403-00-03-174-10052-05
+2017-10-31 10:14:06,906 [10] DEBUG  - RRC para reaseguro PASIVO: 2206-00-201-0403-00-03-174-10052-00
+2017-10-31 10:14:20,356 [10] DEBUG  - Invoice Creado:<eConnect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOPTransactionType>
+    <taSopLineIvcInsert_Items>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>176.00</UNITPRCE>
+        <XTNDPRCE>176.00</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Accidentes Personales Para El Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-65</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-65</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-65</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1406.10</UNITPRCE>
+        <XTNDPRCE>1406.10</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Colision y Vuelco</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-04</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-04</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-04</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>739.18</UNITPRCE>
+        <XTNDPRCE>739.18</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Daños a La Propiedad Ajena</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-02</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-02</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-02</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>211.19</UNITPRCE>
+        <XTNDPRCE>211.19</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Fianza Judicial Al Conductor</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-13</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-13</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-13</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>1125.00</UNITPRCE>
+        <XTNDPRCE>1125.00</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Incendio y Robo</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-06</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-06</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-06</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>844.78</UNITPRCE>
+        <XTNDPRCE>844.78</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Lesiones o Muerte a Más De Una Persona</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-09</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-09</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-09</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - LEY                     </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>211.19</UNITPRCE>
+        <XTNDPRCE>211.19</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-12</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-12</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-12</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - PROPIOS                 </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>468.60</UNITPRCE>
+        <XTNDPRCE>468.60</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Rotura de Cristales</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-05</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-05</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-05</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+      <taSopLineIvcInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <DOCDATE>2017-10-09</DOCDATE>
+        <USERDATE>2017-10-31</USERDATE>
+        <ITEMNMBR>JEEP - SERVICIO                </ITEMNMBR>
+        <AutoAssignBin>0</AutoAssignBin>
+        <UNITPRCE>448.27</UNITPRCE>
+        <XTNDPRCE>448.27</XTNDPRCE>
+        <QUANTITY>1</QUANTITY>
+        <ITEMDESC>Servicio de Grua</ITEMDESC>
+        <DOCID>INV</DOCID>
+        <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+        <INVINDX>4301-06-201-0403-00-03-174-10052-16</INVINDX>
+        <CSLSINDX>4301-06-201-0403-00-03-174-10052-16</CSLSINDX>
+        <SLSINDX>4301-06-201-0403-00-03-174-10052-16</SLSINDX>
+        <QtyShrtOpt>1</QtyShrtOpt>
+      </taSopLineIvcInsert>
+    </taSopLineIvcInsert_Items>
+    <taSopCommissions_Items>
+      <taSopCommissions>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <LNITMSEQ>16384</LNITMSEQ>
+        <SLPRSNID>3002</SLPRSNID>
+        <SALSTERR>03             </SALSTERR>
+        <COMMAMNT>985.32</COMMAMNT>
+        <PRCTOSAL>0</PRCTOSAL>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopCommissions>
+    </taSopCommissions_Items>
+    <taSopLineIvcTaxInsert_Items>
+      <taSopLineIvcTaxInsert>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+        <TAXDTLID>DR</TAXDTLID>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <STAXAMNT>900.90</STAXAMNT>
+      </taSopLineIvcTaxInsert>
+    </taSopLineIvcTaxInsert_Items>
+    <taSopDistribution_Items>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>2</DISTTYPE>
+        <DistRef>Primas por Cobrar</DistRef>
+        <ACTNUMST>1302-06-201-0600-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>6531.21</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Accidentes Personales Para El Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-65</ACTNUMST>
+        <CRDTAMNT>176.00</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Colision y Vuelco</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <CRDTAMNT>1406.10</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Daños a La Propiedad Ajena</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-02</ACTNUMST>
+        <CRDTAMNT>739.18</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Fianza Judicial Al Conductor</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-13</ACTNUMST>
+        <CRDTAMNT>211.19</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Incendio y Robo</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <CRDTAMNT>1125.00</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Lesiones o Muerte a Más De Una Persona</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-09</ACTNUMST>
+        <CRDTAMNT>844.78</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Responsabilidad Civil a Más De Un Pasajero (Incluye Pasajero)</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-12</ACTNUMST>
+        <CRDTAMNT>211.19</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Rotura de Cristales</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <CRDTAMNT>468.60</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>1</DISTTYPE>
+        <DistRef>Servicio de Grua</DistRef>
+        <ACTNUMST>4301-06-201-0403-00-03-174-10052-16</ACTNUMST>
+        <CRDTAMNT>448.27</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>9</DISTTYPE>
+        <DistRef>ISC sobre prima pendiente de cobro</DistRef>
+        <ACTNUMST>2901-00-000-0000-00-00-171-00001-00</ACTNUMST>
+        <CRDTAMNT>900.90</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>30.80</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <DEBITAMT>246.07</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>129.36</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>36.96</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <DEBITAMT>196.88</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>147.84</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>36.96</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <DEBITAMT>82.00</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>11</DISTTYPE>
+        <DistRef>Comisiones intermediarios</DistRef>
+        <ACTNUMST>5302-06-201-0403-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>78.45</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>12</DISTTYPE>
+        <DistRef>Comisiones a intermediarios pendientes de cobro</DistRef>
+        <ACTNUMST>2902-00-201-0403-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>985.32</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-65</ACTNUMST>
+        <DEBITAMT>70.40</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <DEBITAMT>562.44</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-02</ACTNUMST>
+        <DEBITAMT>295.67</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-13</ACTNUMST>
+        <DEBITAMT>84.48</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <DEBITAMT>450.00</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-09</ACTNUMST>
+        <DEBITAMT>337.91</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-12</ACTNUMST>
+        <DEBITAMT>84.48</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <DEBITAMT>187.44</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC presente ejercicio</DistRef>
+        <ACTNUMST>5311-06-201-0403-00-03-174-10052-16</ACTNUMST>
+        <DEBITAMT>179.31</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC </DistRef>
+        <ACTNUMST>2206-00-201-0403-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>2252.13</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <DEBITAMT>703.05000000</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <CRDTAMNT>210.920000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <DEBITAMT>562.50000000</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <CRDTAMNT>168.750000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Primas de reaseguro contractuales</DistRef>
+        <ACTNUMST>5306-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <DEBITAMT>234.30000000</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>4302-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <CRDTAMNT>70.290000000000000</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reaseguradores del exterior – cuenta corriente</DistRef>
+        <ACTNUMST>2402-00-201-0403-00-03-174-10052-00</ACTNUMST>
+        <CRDTAMNT>1499.85000000</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Comision sobre prima cedida</DistRef>
+        <ACTNUMST>2402-00-201-0403-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>449.960000000000000</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0403-00-03-174-10052-04</ACTNUMST>
+        <CRDTAMNT>281.22</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0403-00-03-174-10052-06</ACTNUMST>
+        <CRDTAMNT>225.00</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo reaseguro presente ejercicio</DistRef>
+        <ACTNUMST>4311-06-201-0403-00-03-174-10052-05</ACTNUMST>
+        <CRDTAMNT>93.72</CRDTAMNT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+      <taSopDistribution>
+        <SOPTYPE>3</SOPTYPE>
+        <SOPNUMBE>INV2404201          </SOPNUMBE>
+        <DISTTYPE>13</DISTTYPE>
+        <DistRef>Reservas para RRC a cargo de reaseguro </DistRef>
+        <ACTNUMST>2206-00-201-0403-00-03-174-10052-00</ACTNUMST>
+        <DEBITAMT>599.94</DEBITAMT>
+        <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      </taSopDistribution>
+    </taSopDistribution_Items>
+    <taSopHdrIvcInsert>
+      <SOPTYPE>3</SOPTYPE>
+      <DOCID>INV</DOCID>
+      <SOPNUMBE>INV2404201          </SOPNUMBE>
+      <TAXSCHID>DR</TAXSCHID>
+      <TAXAMNT>900.90</TAXAMNT>
+      <LOCNCODE>PRIMARY</LOCNCODE>
+      <DOCDATE>2017-10-09</DOCDATE>
+      <CUSTNMBR>1-05-436015    </CUSTNMBR>
+      <CITY>CABRERA                            </CITY>
+      <COUNTRY>REPUBLICA DOMINICANA                                         </COUNTRY>
+      <Print_Phone_NumberGB>0</Print_Phone_NumberGB>
+      <SUBTOTAL>5630.31</SUBTOTAL>
+      <DOCAMNT>6531.21</DOCAMNT>
+      <SLPRSNID>3002</SLPRSNID>
+      <BACHNUMB>SFFA3110201710</BACHNUMB>
+      <DUEDATE>2017-10-09</DUEDATE>
+      <USINGHEADERLEVELTAXES>1</USINGHEADERLEVELTAXES>
+      <COMMAMNT>985.32</COMMAMNT>
+      <CREATEDIST>0</CREATEDIST>
+      <RATEEXPR>0</RATEEXPR>
+      <DYSTINCR>0</DYSTINCR>
+      <TRXDTDEF>0</TRXDTDEF>
+      <RTCLCMTD>0</RTCLCMTD>
+      <INTEGRATIONID>SYSFLEX</INTEGRATIONID>
+    </taSopHdrIvcInsert>
+  </SOPTransactionType>
+</eConnect>

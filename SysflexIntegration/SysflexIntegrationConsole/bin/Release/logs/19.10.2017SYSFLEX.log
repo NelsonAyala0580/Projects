@@ -1,0 +1,7 @@
+2017-10-19 16:11:51,239 [10] DEBUG  - Total de Transacciones: 2
+2017-10-19 16:12:05,156 [10] DEBUG  - Contruyendo encabezado
+2017-10-19 16:12:48,395 [10] DEBUG  - Creacion de numero de batch SFFA1910201716
+2017-10-19 16:12:50,261 [10] DEBUG  - Se obtiene el cliente de GP 1-05-495575
+2017-10-19 16:13:01,038 [10] ERROR  - Ocurrió un error: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvoiceSync.BL.InvoiceBL.CreateDetail(SYSFLEX_POLICY policyInfo, TRANSACTION_INVOICE policyTransaction, List`1 transactionbyCoverage, SOPHeader header) in C:\VSProjects\SysflexIntegration\InvoiceSync\BL\InvoiceBL.cs:line 315
